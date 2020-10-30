@@ -9,37 +9,36 @@ En ERPNext, las operaciones contables consisten en 3 transacciones principales:
   * **Facturas de compra**: recibos que los proveedores generan por sus procutos o servicios.
   * **Asientos contables**: para entradas contables como pagos y créditos, entro otros.
 
-En este [video](https://www.youtube.com/watch?v=5wjollWN0OA) se muestran los módulos de contabilidad de ERPNext.
+En el siguiente [video](https://www.youtube.com/watch?v=5wjollWN0OA) se muestran los módulos de contabilidad de ERPNext.
 
 ## 1. Temas
 
 ### 1.1 Introducción y configuración
-1. [Entradas contables](/docs/user/manual/en/accounts/accounting-entries)
-1. [Configuración de cuentas](/docs/user/manual/en/accounts/accounts-settings)
-1. [Compañía](/docs/user/manual/en/setting-up/company-setup)
-1. [Plan de cuentas](/docs/user/manual/en/accounts/chart-of-accounts)
-1. [Apertura de cuentas](/docs/user/manual/en/accounts/opening-balance)
-1. [Centro de costos](/docs/user/manual/en/accounts/cost-center)
-1. [Centro de costos distribuídos](/docs/user/manual/en/accounts/distributed-cost-center)
-1. [Año fiscal](/docs/user/manual/en/accounts/fiscal-year)
-1. [Accounting Period](/docs/user/manual/en/accounts/accounting-period)
-1. [Finance Book](/docs/user/manual/en/accounts/finance-book)
-1. [Accounting Dimensions](/docs/user/manual/en/accounts/accounting-dimensions)
-1. [Bank](/docs/user/manual/en/accounts/bank)
-1. [Bank Account](/docs/user/manual/en/accounts/bank-account)
-<!-- (in development) 1. [Bank Transaction](/docs/user/manual/en/accounts/bank-transaction) -->
+1. [Entradas contables](/docs/user/manual/es/accounts/accounting-entries)
+1. [Configuración de cuentas](/docs/user/manual/es/accounts/accounts-settings)
+1. [Compañía](/docs/user/manual/es/setting-up/company-setup)
+1. [Plan de cuentas](/docs/user/manual/es/accounts/chart-of-accounts)
+1. [Apertura de cuentas](/docs/user/manual/es/accounts/opening-balance)
+1. [Centro de costos](/docs/user/manual/es/accounts/cost-center)
+1. [Centro de costos distribuídos](/docs/user/manual/es/accounts/distributed-cost-center)
+1. [Año fiscal](/docs/user/manual/es/accounts/fiscal-year)
+1. [Período contable](/docs/user/manual/es/accounts/accounting-period)
+1. [Libro de finanzas](/docs/user/manual/es/accounts/finance-book)
+1. [Dimensiones contables](/docs/user/manual/es/accounts/accounting-dimensions)
+1. [Banco](/docs/user/manual/es/accounts/bank)
+1. [Cuenta bancaria](/docs/user/manual/es/accounts/bank-account)
+<!-- (in development) 1. [Transacción bancaria](/docs/user/manual/es/accounts/bank-transaction) -->
 
 ### 1.2 Asientos contables y pagos
-1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
-1. [Journal Entry Template](/docs/user/manual/en/accounts/journal-entry-template)
-1. [Payment Entry](/docs/user/manual/en/accounts/payment-entry)
-1. [Dunning](/docs/user/manual/en/accounts/dunning)
-1. [Payment Request](/docs/user/manual/en/accounts/payment-request)
-1. [Mode of Payment](/docs/user/manual/en/accounts/mode-of-payment)
-1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
-1. [Payment Terms Template](/docs/user/manual/en/accounts/payment-terms-template)
-1. [Advance Payment Entry](/docs/user/manual/en/accounts/advance-payment-entry)
-1. [Inter Company Journal Entry](/docs/user/manual/en/accounts/inter-company-journal-entry)
+1. [Asiento contable](/docs/user/manual/es/accounts/journal-entry)
+1. [Plantilla de asientos contables](/docs/user/manual/es/accounts/journal-entry-template)
+1. [Entrada de pago](/docs/user/manual/es/accounts/payment-entry)
+1. [Solicitud de pago](/docs/user/manual/es/accounts/payment-request)
+1. [Método de pago](/docs/user/manual/es/accounts/mode-of-payment)
+1. [Plazo de pago](/docs/user/manual/es/accounts/payment-terms)
+1. [Plantilla de términos de Pago](/docs/user/manual/es/accounts/payment-terms-template)
+1. [Pagos adelantados](/docs/user/manual/es/accounts/advance-payment-entry)
+1. [Asiento contable entre compañías](/docs/user/manual/en/accounts/inter-company-journal-entry)
 
 ### 1.3 Billing
 1. [Sales Invoice](/docs/user/manual/en/accounts/sales-invoice)
