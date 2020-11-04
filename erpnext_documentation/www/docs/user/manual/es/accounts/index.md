@@ -58,8 +58,8 @@ En el siguiente [video](https://www.youtube.com/watch?v=5wjollWN0OA) se muestran
 1. [Regla de precios](/docs/user/manual/en/accounts/pricing-rule)
 1. [Esquema promocional](/docs/user/manual/en/accounts/promotional-scheme)
 1. [Revalorización del tipo de cambio](/docs/user/manual/en/accounts/exchange-rate-revaluation)
-1. [Cambio de Divisas](/docs/user/manual/en/accounts/currency-exchange)
-1. [Divisa / Moneda](/docs/user/manual/en/accounts/currency)
+1. [Cambio de divisas](/docs/user/manual/en/accounts/currency-exchange)
+1. [Divisa/Moneda](/docs/user/manual/en/accounts/currency)
 
 ### 1.6 Operaciones Retail
 1. [Perfil de POS](/docs/user/manual/en/accounts/pos-profile)
@@ -67,33 +67,33 @@ En el siguiente [video](https://www.youtube.com/watch?v=5wjollWN0OA) se muestran
 1. [Cierre de cajero](/docs/user/manual/en/accounts/pos-cashier-closing)
 
 ### 1.7 Herramientas
-1. [Bank Reconciliation](/docs/user/manual/en/accounts/bank-reconciliation)
-1. [Payment Reconciliation](/docs/user/manual/en/accounts/payment-reconciliation)
-1. [Period Closing Voucher](/docs/user/manual/en/accounts/period-closing-voucher)
-1. [Payment Order](/docs/user/manual/en/accounts/payment-order)
+1. [Conciliación bancaria](/docs/user/manual/en/accounts/bank-reconciliation)
+1. [Conciliación de pagos](/docs/user/manual/en/accounts/payment-reconciliation)
+1. [Cierre de período](/docs/user/manual/en/accounts/period-closing-voucher)
+1. [Orden de pago](/docs/user/manual/en/accounts/payment-order)
 1. [Quickbooks Migrator](/docs/user/manual/en/accounts/quickbooks-migrator)
 1. [Process Statement Of Accounts](/docs/user/manual/en/accounts/process-statement-of-accounts)
 
 ### 1.8 Reportes
-1. [Accounting Reports](/docs/user/manual/en/accounts/accounting-reports)
+1. [Reportes contables](/docs/user/manual/en/accounts/accounting-reports)
 
 ### 1.9 Avanzado
-1. [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting)
-1. [Deferred Revenue](/docs/user/manual/en/accounts/deferred-revenue)
-1. [Deferred Expense](/docs/user/manual/en/accounts/deferred-expense)
+1. [Contabilidad con múltiples divisas](/docs/user/manual/en/accounts/multi-currency-accounting)
+1. [Ingresos diferidos](/docs/user/manual/en/accounts/deferred-revenue)
+1. [Gastos diferidos](/docs/user/manual/en/accounts/deferred-expense)
 1. [Process Deferred Accounting](/docs/user/manual/en/accounts/process-deferred-accounting)
-1. [Bank Guarantee](/docs/user/manual/en/accounts/bank-guarantee)
-1. [Loyalty Program](/docs/user/manual/en/accounts/loyalty-program)
-1. [Budgeting](/docs/user/manual/en/accounts/budgeting)
-1. [Auto Repeat](/docs/user/manual/en/automation/auto-repeat)
+1. [Garantía bancaria](/docs/user/manual/en/accounts/bank-guarantee)
+1. [Programa de fidelidad](/docs/user/manual/en/accounts/loyalty-program)
+1. [Presupuesto](/docs/user/manual/en/accounts/budgeting)
+1. [Repetición automática](/docs/user/manual/en/automation/auto-repeat)
 1. [Invoice Discounting](/docs/user/manual/en/accounts/invoice_discounting)
 
 ### 1.10 Suscripciones
-1. [Subscription](/docs/user/manual/en/accounts/subscription)
-1. [Subscription Plan](/docs/user/manual/en/accounts/subscription-plan)
-1. [Subscription Settings](/docs/user/manual/en/accounts/subscription-settings)
+1. [Suscripción](/docs/user/manual/en/accounts/subscription)
+1. [Plan de suscripción](/docs/user/manual/en/accounts/subscription-plan)
+1. [Configuración de suscripción](/docs/user/manual/en/accounts/subscription-settings)
 
 ### 1.11 Gestión de accionistas
-1. [Shareholder](/docs/user/manual/en/accounts/shareholder)
-1. [Share Transfer](/docs/user/manual/en/accounts/share-transfer)
-1. [Share Reports](/docs/user/manual/en/accounts/share-reports)
+1. [Accionista](/docs/user/manual/en/accounts/shareholder)
+1. [Transferencia de acciones](/docs/user/manual/en/accounts/share-transfer)
+1. [Reportes de acciones](/docs/user/manual/en/accounts/share-reports)
