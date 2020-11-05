@@ -9,8 +9,6 @@ En ERPNext, las operaciones contables consisten en 3 transacciones principales:
   * **Facturas de compra**: recibos que los proveedores generan por sus procutos o servicios.
   * **Asientos contables**: para entradas contables como pagos y créditos, entro otros.
 
-En el siguiente [video](https://www.youtube.com/watch?v=5wjollWN0OA) se muestran los módulos de contabilidad de ERPNext.
-
 ## 1. Temas
 
 ### 1.1 Introducción y configuración
@@ -27,7 +25,7 @@ En el siguiente [video](https://www.youtube.com/watch?v=5wjollWN0OA) se muestran
 1. [Dimensiones contables](/docs/user/manual/es/accounts/accounting-dimensions)
 1. [Banco](/docs/user/manual/es/accounts/bank)
 1. [Cuenta bancaria](/docs/user/manual/es/accounts/bank-account)
-<!-- (in development) 1. [Transacción bancaria](/docs/user/manual/es/accounts/bank-transaction) -->
+1. [Transacción bancaria](/docs/user/manual/es/accounts/bank-transaction)
 
 ### 1.2 Asientos contables y pagos
 1. [Asiento contable](/docs/user/manual/es/accounts/journal-entry)
@@ -71,8 +69,7 @@ En el siguiente [video](https://www.youtube.com/watch?v=5wjollWN0OA) se muestran
 1. [Conciliación de pagos](/docs/user/manual/en/accounts/payment-reconciliation)
 1. [Cierre de período](/docs/user/manual/en/accounts/period-closing-voucher)
 1. [Orden de pago](/docs/user/manual/en/accounts/payment-order)
-1. [Quickbooks Migrator](/docs/user/manual/en/accounts/quickbooks-migrator)
-1. [Process Statement Of Accounts](/docs/user/manual/en/accounts/process-statement-of-accounts)
+1. [Procesamiento de estado de cuentas](/docs/user/manual/en/accounts/process-statement-of-accounts)
 
 ### 1.8 Reportes
 1. [Reportes contables](/docs/user/manual/en/accounts/accounting-reports)
@@ -81,7 +78,7 @@ En el siguiente [video](https://www.youtube.com/watch?v=5wjollWN0OA) se muestran
 1. [Contabilidad con múltiples divisas](/docs/user/manual/en/accounts/multi-currency-accounting)
 1. [Ingresos diferidos](/docs/user/manual/en/accounts/deferred-revenue)
 1. [Gastos diferidos](/docs/user/manual/en/accounts/deferred-expense)
-1. [Process Deferred Accounting](/docs/user/manual/en/accounts/process-deferred-accounting)
+1. [Procesamiento de contabilidad diferida](/docs/user/manual/en/accounts/process-deferred-accounting)
 1. [Garantía bancaria](/docs/user/manual/en/accounts/bank-guarantee)
 1. [Programa de fidelidad](/docs/user/manual/en/accounts/loyalty-program)
 1. [Presupuesto](/docs/user/manual/en/accounts/budgeting)
