@@ -5,14 +5,14 @@ El concepto de contabilidad se explica con el siguiente ejemplo: Se toma a
 "Tea Stall" como compañía y se observa cómo registrar entradas contables
 para el negocio. 
 
- Mama (El propietario de Tea-stall) invierte $25000 para iniciar el negocio.
+ Juan (propietario de Tea Stall) invierte $25000 para iniciar el negocio.
 
 ![A&L](/docs/assets/old_images/erpnext/assets-1.png)
 
 ## 1. Inversión
-Mama invierte $25000 en la compañía, con la esperanza de obtener alguna
-ganancia. En otras palabras, la compañía es responsable del pago de $25000 a Mama en 
-el futuro. Así, la cuenta "Mama" es una cuenta de pasivo y es un crédito. El balance de
+Juan invierte $25000 en la compañía, con la esperanza de obtener alguna
+ganancia. En otras palabras, la compañía es responsable del pago de $25000 a Juan en 
+el futuro. Así, la cuenta "Juan" es una cuenta de pasivo y es un crédito. El balance de
 efectivo de la compañía incrementará debido a la inversión. "Caja" es un activo de
 la compañía y será debitado.
 
@@ -31,7 +31,7 @@ ser debitadas para incrementar su valor. La compañía pagó $2000, entonces la 
 compañía tiene la obligación de pagar $3000 a "Super Bazaar", dicha cuenta debe tener
 un crédito de $3000.
 
-Mama (quien está pendiente de todas las entradas) decide anotar las ventas al finalizar
+Juan (quien está pendiente de todas las entradas) decide anotar las ventas al finalizar
 cada día, de tal manera que pueda analizar las ventas diarias. Al finaliza el primer
 día, Tea Stall vende 325 tazas de té, lo cual da una venta neta de $1625. El propietario
 registra feliz su primer día de ventas.
@@ -53,9 +53,9 @@ un empleado ($8000), quien trabajó desde el primer día.
 ## 4. Registro de ganancias
 
 A medida que avanza el mes, la compañía compra más materia prima para el negocio.
-Después de un mes se anotan las ganancias en el "Libro de Balance" y en el "Estado de Pérdidas y Ganancias". Ya que las ganancias pertenecen a Mama y no a
+Después de un mes se anotan las ganancias en el "Libro de Balance" y en el "Estado de Pérdidas y Ganancias". Ya que las ganancias pertenecen a Juan y no a
 la compañía, se considera que son una obligación (la compañía tiene
-que pagárselas a Mama). Cuando el Libro de Balance no está balanceado, por ejemplo: el
+que pagárselas a Juan). Cuando el Libro de Balance no está balanceado, por ejemplo: el
 débito no es igual al crédito, la ganancia aún no ha sido registrada. Para hacerlo, las cuentas de ganancia y pérdidas deben ser reinicializadas. La ganancia/pérdida es tranferida a la cuenta de activo y el estado de pérdidas y ganancias comienza de cero. Esto se realiza creando un [Cierre de período](/docs/user/manual/es/accounts/period-closing-voucher).
 
 ![A&L](/docs/assets/old_images/erpnext/assets-5.png)
