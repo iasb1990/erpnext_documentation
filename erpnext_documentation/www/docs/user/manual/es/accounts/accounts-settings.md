@@ -14,27 +14,27 @@ Los usuarios con este rol tienen permiso para congelar cuentas y crear/modificar
 ## 3. Determine Address Tax Category From
 [Tax category](/docs/user/manual/en/accounts/tax-category) can be set on Addresses. An address can be Shipping or Billing address. Set which addres to select when applying Tax Category.
 
-## 4. Over Billing Allowance Percentage
-The percentage by which you can overbill transactions. For example, if the order value is $100 for an Item and percentage here is set as 10% then you are allowed to bill for $110.
+## 4. Porcentaje permitido de sobrefacturaión
+Porcentaje por el cual se puede sobrefacturar transacciones. Por ejemplo, si el valor de la orden es de $100 por un producto y el porcentaje especificado en este campo es de 10%, entonces está permitido facturar con un precio de $110.
 
-## 5. Credit Controller
-Select the role that is allowed to submit transactions that exceed credit limits set. The credit limit can be set in the Customer form.
+## 5. Controlador de créditos
+Aquí se selecciona el rol que tiene permitido crear transacciones que exceden el límite de crédito establecido. El límite de crédito puede determinarse por cliente.
 
-## 6. Check Supplier Invoice Number Uniqueness
-When checked, Purchase Invoices with same 'Supplier Invoice No' will not be allowed. This is useful to avoid duplicate entries. 
+## 6. Comprobar número de factura único por proveedor
+Al tildar esta opción no se permitirá la creación de facturas de compra con el mismo 'Factura de proveedor No.'. Esto es útil para evitar entradas duplicadas. 
 
-## 7. Make Payment via Journal Entry
-When checked, if user proceeds to make payment from an invoice, the system will open a Journal Entry instead of a Payment Entry.
+## 7. Realizar pago mediante asiento contable
+Al tildar esta opción, si un usuario realiza un pago desde una factura, el sistema generará un asiento contable en lugar de una entrada de pago.
 
-## 8. Unlink Payment on Cancellation of Invoice
-If checked, system will unlink the payment against the respective invoice. By default, if a Payment Entry is submitted, the linked invoice cannot be canceled until the Payment Entry is also canceled. On unlinking, you can now cancel and amend the invoices. But the payments not be linked and considered as advance payments.
+## 8. Desvinculación de pago en la cancelación de la factura
+Al tildar esta opción, el sistema desvinculará el pago contra la factura cancelada. Por defecto, si una entrada de pago es validada, la factura vinculada no puede ser cancelada hasta que la entrada de pago sea igualmente cancelada. Al desvincularse, es posible cancelar y corregir las facturas. Por su parte, los pagos quedan desvinculados y son considerados pagos adelantados.
 
-## 9. Unlink Advance Payment on Cancellation of Order
-Similar to the previous option, this unlinks any advance payments made against Purchase/Sales Orders. 
+## 9. Desvinculación de pago adelantado en la cancelación de la orden
+Similar a la opción anterior,esta configuración desvincula cualquier pago adelantado hecho sobre ordenes de venta o de compra. 
 
 
-## 10. Book Asset Depreciation Entry Automatically
-When checked, an automatic entry for an asset depreciation will be created based on the first date set. For example, yearly depreciation for an item will be scheduled for the next 3/4 years based on the Number of Depreciations Booked set in the Asset master. For more details, visit the [Asset Depreciation](/docs/user/manual/en/asset/asset-depreciation) page.
+## 10. Entrada automática de depreciación de bienes
+Cuando esta opción está tildada, se creará automáticamente una entrada contable por depreciación de bienes en la primera fecha especificada. Por ejemplo, se puede programar la creación de una entrada de depreciación anual por los próximos 3 o 4 años dependiendo del Number of Depreciations Booked especificado en el master de bienes. Para más detalles, visitar la página [Depreciación de bienes](/docs/user/manual/en/asset/asset-depreciation).
 
 ## 11. Allow Cost Center in Entry of Balance Sheet Account
 If checked, system will allow user to tag entries in Balance Sheet Accounts against a Cost Center. By default Cost Center is available only for Profit/Loss account.
