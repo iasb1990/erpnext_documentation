@@ -36,24 +36,24 @@ Similar a la opción anterior,esta configuración desvincula cualquier pago adel
 ## 10. Entrada automática de depreciación de bienes
 Cuando esta opción está tildada, se creará automáticamente una entrada contable por depreciación de bienes en la primera fecha especificada. Por ejemplo, se puede programar la creación de una entrada de depreciación anual por los próximos 3 o 4 años dependiendo del Number of Depreciations Booked especificado en el master de bienes. Para más detalles, visitar la página [Depreciación de bienes](/docs/user/manual/en/asset/asset-depreciation).
 
-## 11. Allow Cost Center in Entry of Balance Sheet Account
-If checked, system will allow user to tag entries in Balance Sheet Accounts against a Cost Center. By default Cost Center is available only for Profit/Loss account.
+## 11. Permitir centro de costo en entrada de cuenta de balance
+Si esta opción está tildada, se podrá etiquetar en la Hoja de balance entradas hechas contra Centro de costos. Por defecto el Centro de costos está sólo disponible para cuentas de ganancia o pérdida.
 
-## 12. Automatically Add Taxes and Charges from Item Tax Template
-Enabling this will populate the Taxes table in transactions if an [Item Tax Template](/docs/user/manual/en/accounts/item-tax-template) is set for an Item and that Item is selected in the transaction.
+## 12. Añadir automáticamente Impuestos y cargos desde la Plantilla de impuestos
+Habilitando esta opción se completará automáticamente la tabla de Impuestos de las transacciones con los valores correspondientes según la [Plantilla de impuestos](/docs/user/manual/es/accounts/item-tax-template) del Producto seleccionado.
 
-## 13. Automatically Fetch Payment Terms
-Enabling this will automatically fetch the Payment Terms based on the Supplier. 
+## 13. Traer automáticamente Términos de pago
+Habilitar esta configuración hará que se traigan automáticamente los Términos de pago del Proveedor. 
 
-## 14. Print Settings
+## 14. Ajustes de impresión
 
 ![Account Settings]({{docs_base_url}}/assets/img/accounts/account-settings-1.png)
 
-* **Show Inclusive Tax In Print**: The applied taxes will be shown in the print view.
-* **Show Payment Schedule in Print**: The Payment Schedule table is visible on using [Payment Terms](/docs/user/manual/en/accounts/payment-terms). Enabling this will show this table in print view.
+* **Mostrar impuesto inclusivo en la impresión**: Los impuestos aplicados serán mostrados en la vista de impresión.
+* **Mostrar cronograma de pago en la impresión**: El cronograma de pagos generado por los [Términos de pago](/docs/user/manual/en/accounts/payment-terms) será visible en la impresión.
 
-## 15. Allow Stale Exchange Rate
-This should be unchecked if you want ERPNext to check the age of records fetched from Currency Exchange in foreign currency transactions. If it is unchecked, the exchange rate field will be read-only in documents.
+## 15. Permitir Tipos de Cambio Obsoletos
+Esta opción debería estar destildada si se desea verificar la validez del tipo de cambio en transacciones de exportación. Si no está tildada, el campo Tipo de cambio será de sólo lectura.
 
 Stale Days is the number of days to use when deciding if a Currency Exchange record is stale. This is valid when 'Allow Stale Rates' is **disabled**. So, if the Stale Days is set as 10, stale rates that are 10 days will be allowed. If Allow Stale Rates is enabled, there is no time limit on the age of stale rates.
 
