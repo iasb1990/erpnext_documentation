@@ -14,24 +14,23 @@ Los usuarios con este rol tienen permiso para congelar cuentas y crear/modificar
 ## 3. Determine Address Tax Category From
 [Tax category](/docs/user/manual/en/accounts/tax-category) can be set on Addresses. An address can be Shipping or Billing address. Set which addres to select when applying Tax Category.
 
-## 4. Porcentaje permitido de sobrefacturaión
+## 4. Porcentaje permitido de sobrefacturación
 Porcentaje por el cual se puede sobrefacturar transacciones. Por ejemplo, si el valor de la orden es de $100 por un producto y el porcentaje especificado en este campo es de 10%, entonces está permitido facturar con un precio de $110.
 
 ## 5. Controlador de créditos
 Aquí se selecciona el rol que tiene permitido crear transacciones que exceden el límite de crédito establecido. El límite de crédito puede determinarse por cliente.
 
 ## 6. Comprobar número de factura único por proveedor
-Al tildar esta opción no se permitirá la creación de facturas de compra con el mismo 'Factura de proveedor No.'. Esto es útil para evitar entradas duplicadas. 
+Al tildar esta opción no se permitirá la creación de Facturas de compra con el mismo 'Factura de proveedor No.'. Esto es útil para evitar entradas duplicadas. 
 
 ## 7. Realizar pago mediante asiento contable
-Al tildar esta opción, si un usuario realiza un pago desde una factura, el sistema generará un asiento contable en lugar de una entrada de pago.
+Al tildar esta opción, si un usuario realiza un pago desde una factura, el sistema generará un Asiento contable en lugar de una Entrada de pago.
 
 ## 8. Desvinculación de pago en la cancelación de la factura
-Al tildar esta opción, el sistema desvinculará el pago contra la factura cancelada. Por defecto, si una entrada de pago es validada, la factura vinculada no puede ser cancelada hasta que la entrada de pago sea igualmente cancelada. Al desvincularse, es posible cancelar y corregir las facturas. Por su parte, los pagos quedan desvinculados y son considerados pagos adelantados.
+Al tildar esta opción, el sistema desvinculará el pago contra la Factura cancelada. Por defecto, si una Entrada de pago está validada, la Factura vinculada no puede ser cancelada hasta que la Entrada de pago sea igualmente cancelada. Al desvincularse, es posible cancelar y corregir las Facturas. Por su parte, los pagos quedan desvinculados y son considerados pagos adelantados.
 
 ## 9. Desvinculación de pago adelantado en la cancelación de la orden
-Similar a la opción anterior,esta configuración desvincula cualquier pago adelantado hecho sobre ordenes de venta o de compra. 
-
+Similar a la opción anterior, esta configuración desvincula cualquier pago adelantado hecho sobre Ordenes de venta o de compra. 
 
 ## 10. Entrada automática de depreciación de bienes
 Cuando esta opción está tildada, se creará automáticamente una entrada contable por depreciación de bienes en la primera fecha especificada. Por ejemplo, se puede programar la creación de una entrada de depreciación anual por los próximos 3 o 4 años dependiendo del Number of Depreciations Booked especificado en el master de bienes. Para más detalles, visitar la página [Depreciación de bienes](/docs/user/manual/en/asset/asset-depreciation).
@@ -49,24 +48,24 @@ Habilitar esta configuración hará que se traigan automáticamente los Término
 
 ![Account Settings]({{docs_base_url}}/assets/img/accounts/account-settings-1.png)
 
-* **Mostrar impuesto inclusivo en la impresión**: Los impuestos aplicados serán mostrados en la vista de impresión.
-* **Mostrar cronograma de pago en la impresión**: El cronograma de pagos generado por los [Términos de pago](/docs/user/manual/en/accounts/payment-terms) será visible en la impresión.
+* **Mostrar impuesto incluído en la impresión**: los impuestos incluídos serán mostrados en la vista de impresión.
+* **Mostrar cronograma de pago en la impresión**: el cronograma de pagos generado por los [Términos de pago](/docs/user/manual/es/accounts/payment-terms) estará visible en la impresión.
 
-## 15. Permitir Tipos de Cambio Obsoletos
-Esta opción debería estar destildada si se desea verificar la validez del tipo de cambio en transacciones de exportación. Si no está tildada, el campo Tipo de cambio será de sólo lectura.
+## 15. Permitir Tipos de cambio obsoletos
+Esta opción debería estar destildada si se desea validar la vigencia del Tipo de cambio en transacciones de exportación. En ese caso, el campo Tipo de cambio será de sólo lectura.
 
-Stale Days is the number of days to use when deciding if a Currency Exchange record is stale. This is valid when 'Allow Stale Rates' is **disabled**. So, if the Stale Days is set as 10, stale rates that are 10 days will be allowed. If Allow Stale Rates is enabled, there is no time limit on the age of stale rates.
+Días Pasados es el número de días usado para decidir si un Cambio de divisas ya no es válido. Este campo se muestra sólo cuando 'Permitir Tipos de Cambio Obsoletos' está **deshabilitado**. Entonces, si Días Pasados es igual a 10, se considerarán válidos tipos de cambio de hasta 10 días de antigüedad. Si 'Permitir Tipos de Cambio Obsoletos' está tildado, no hay límite de antigüedad para los Tipos de cambio.
 
-If stale rates are enabled, the order of fetching is:
+Si la opción está tildada, los Tipos de cambio serán traídos en el siguiente orden:
 
-* Latest rate from Currency Exchange form
-* If no Currency Exchange is found latest rate as per market is fetched automatically
+* Último Tipo de cambio entre los Cambios de divisa
+* Si no se encuentra ningún Cambio de divisa será tomado el último Tipo de cambio del mercado
 
-If stale rates are disabled, the order of fetching is:
+Si la opción está destildada, los Tipos de cambio serán traídos en el siguiente orden:
 
-* Latest rate from Currency Exchange form upto number of days set in 'Stale Days'
-* If no Currency Exchange is found Latest rate as per market is fetched automatically
+* Último Tipo de cambio entre los Cambios de divisa con antigüedad menor a "Días Pasados"
+* Si no se encuentra ningún Cambio de divisa será tomado el último Tipo de cambio del mercado
 
 
-## 16. Use Custom Cash Flow Format
-You may choose to use Custom Cash Flow Formats to customize what the Cash Flow report looks like. To know more, [visit this page](/docs/user/manual/en/accounts/articles/how-to-customise-cash-flow-report).
+## 16. Utilice el formato de Flujo de efectivo personalizado
+Seleccionando esta opción se podrá personalizar la información presentada en el reporte de Flujo de fondos. Para saber más, [visitar esta página](/docs/user/manual/en/accounts/articles/how-to-customise-cash-flow-report).
