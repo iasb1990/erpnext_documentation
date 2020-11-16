@@ -11,7 +11,7 @@ Si se tiene más de una compañía, es posible crearlas desde:
 
 ## 1. Cómo crear una nueva compañía
 1. Ir al listado de Compañías, hacer click en Nuevo.
-1. Ingresar el nombre, abreviación y divisa/modena predeterminada de la compañía.
+1. Ingresar el nombre, abreviación y divisa/moneda predeterminada de la compañía.
 1. Guardar.
 
 La abreviación de la compañía es generada automáticamente, por ejemplo, FT para Frappe Technologies. Esta abreviación ayuda a diferenciar cuentas, centros de costo, plantillas de impuestos, almacenes, etc. de una compañía de los de otra. 
@@ -55,18 +55,18 @@ ERPNext posee Planes de cuentas disponibles para ciertos países. Cuando se crea
 Nótese que, si se seleccionó una compañía padre, el Plan de cuentas será creado en base al de esa compañía.
 
 ### 1.4 Predeterminados
-En la compañía se puede especificar una gran cantidad de valores por defecto para otros documentos y cuentas. Estas configuraciones por defecto son de gran ayuda en las entradas rápidas de transacciones contables, donde el valor para la cuenta será tomado de la compañía (si ese campo está definido). Tan pronto como la compañía es creada, se crea un Plan de cuentas y Centro de costos de forma automática.
+En la compañía se puede especificar una gran cantidad de valores por defecto para otros documentos y cuentas. Estas configuraciones por defecto son de ayuda en las entradas rápidas de transacciones contables, donde el valor para la cuenta será tomado de la compañía (si ese campo está definido). Tan pronto como la compañía es creada, se crea un Plan de cuentas y Centro de costos de forma automática.
 
-The following defaults can be set for a company:
+Es posible especificar por defecto los siguientes datos:
 
-* Default Finance Book
-* Default Letter Head
-* Default Holiday List
-* Standard Working Hours
-* Default Terms and Conditions
-* Country
-* Tax ID
-* Date of Establishment
+* Libro de Finanzas Predeterminado
+* Encabezado predeterminado
+* Lista de vacaciones / festividades predeterminadas
+* Horas de trabajo estándar
+* Términos / Condiciones predeterminados
+* País
+* ID de impuesto
+* Fecha de Fundación
 
 ## 2. Features
 ### 2.1 Monthly Sales Target
