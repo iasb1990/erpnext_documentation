@@ -68,56 +68,56 @@ Es posible especificar por defecto los siguientes datos:
 * ID de impuesto
 * Fecha de Fundación
 
-## 2. Features
-### 2.1 Monthly Sales Target
-Set the monthly sales target number in the company currency, for example, $10,000. Total monthly sales will be visible once transactions are made. To know more [click here](/docs/user/manual/en/setting-up/setting-company-sales-goal).
+## 2. Características
+### 2.1 Objetivo Mensual de Ventas
+Es posible establecer un objetivo de ventas mensuales para la empresa, por ejemplo, $10,000. El total de ventas mensuales estará visible una vez se realicen las transacciones. Para más información consulte el siguiente [artículo](/docs/user/manual/en/setting-up/setting-company-sales-goal).
 
-### 2.2 Account Settings
-Some of the following accounts will be set by default when you create a new company, others can be created. The accounts can be seen in the [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts). These values can be changed later on if needed.
+### 2.2 Configuración de Cuentas
+Algunas de las siguientes cuentas serán creadas junto con la compañía, otras pueden ser agregadas luego. Las cuentas existentes se pueden ver en el [Plan de cuentas](/docs/user/manual/es/accounts/chart-of-accounts). Estos valores pueden ser modificados luego de ser necesario.
 
-* Default Bank Account
-* Default Cash Account
-* Default Receivable Account
-* Round Off Account
-* Round Off Cost Center
-* Write Off Account
-* Discount Allowed Account
-* Discount Received Account
-* Exchange Gain / Loss Account
-* Unrealized Exchange Gain/Loss Account
-* Default Payable Account
-* Default Employee Advance Account
-* Default Cost of Goods Sold Account
-* Default Income Account
-* Default Deferred Revenue Account
-* Default Deferred Expense Account
-* Default Payroll Payable Account
-* Default Expense Claim Payable Account
-* Default Cost Center
-* Credit Limit
-* Default Payment Terms Template
+* Cuenta bancaria por defecto
+* Cuenta de efectivo por defecto
+* Cuenta por cobrar por defecto
+* Cuenta de redondeo por defecto
+* Centro de costos por defecto (redondeo)
+* Cuenta de Desajuste
+* Cuenta de Descuento Permitido
+* Cuenta de Descuento Recibido
+* Cuenta de Ganancias/Pérdidas de Canje
+* Cuenta de Ganancias/Pérdidas de Canje no realizado
+* Cuenta por pagar por defecto
+* Cuenta Predeterminada de Anticipo de Empleado
+* Cuenta de costos (venta) por defecto
+* Cuenta de ingresos por defecto
+* Cuenta de ingresos diferidos predeterminada
+* Cuenta de gastos diferidos predeterminada
+* Cuenta de pago de nómina predeterminada
+* Cuenta de pago por reclamación de gastos predeterminada
+* Centro de costos por defecto
+* Límite de Crédito
+* Plantilla de Términos de Pago Predeterminados
 
-### 2.3 Stock Settings
-Perpetual Inventory feature would lead to Stock transactions impacting the company's books of accounts. Know more [here](/docs/user/manual/en/stock/perpetual-inventory). It is enabled by default.
+### 2.3 Configuración de inventarios
+La funcionalidad de Inventario Perpetuo hará que las transacciones de stock impacten en los libros contables de la empresa. Más información en este [artículo](/docs/user/manual/en/stock/perpetual-inventory). Esta opción se encuentra habilitada por defecto.
 
-* Default Inventory Account
-* Stock Adjustment Account
-* Stock Received But Not Billed
-* Expenses Included In Valuation
+* Cuenta de Inventario Predeterminada
+* Cuenta de ajuste de existencias
+* Inventario entrante no facturado
+* Gastos de valoración
 
     ![Stock Settings in Company](/docs/assets/img/setup/company-stock-settings.png)
 
-### 2.4 Fixed Asset Depreciation Settings
-For managing fixed assets in a company, the following accounts are needed. Most of them will be created by default. They can be seen in the [Chart of Accounts](/docs/user/manual/en/accounts/chart-of-accounts).
+### 2.4 Configuración de depreciación de los activos fijos
+Para gestionar activos fijos en una compañía, son necesarias las siguientes cuentas. La mayoría es creada por defecto. Estas cuentas se encuentran también en el [Plan de cuentas](/docs/user/manual/es/accounts/chart-of-accounts).
 
-* Accumulated Depreciation Account
-* Depreciation Expense Account
-* Series for Asset Depreciation Entry (Journal Entry)
-* Expenses Included In Asset Valuation
-* Gain/Loss Account on Asset Disposal
-* Asset Depreciation Cost Center
-* Capital Work In Progress Account
-* Asset Received But Not Billed
+* Cuenta de depreciación acumulada
+* Cuenta de gastos de depreciación
+* Series para la Entrada de Depreciación de Activos (Entrada de Diario)
+* Gastos incluidos en la valoración de activos
+* Cuenta de ganancias/pérdidas por enajenación de activos fijos
+* Centro de costos de depreciación de activos
+* Cuenta de capital de trabajo en progreso
+* Activo recibido pero no facturado
 
     ![Fixed Asset Depreciation](/docs/assets/img/setup/company-asset-depreciation.png)
 
