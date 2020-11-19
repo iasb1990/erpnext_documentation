@@ -55,7 +55,7 @@ ERPNext posee Planes de cuentas disponibles para ciertos países. Cuando se crea
 Nótese que, si se seleccionó una compañía padre, el Plan de cuentas será creado en base al de esa compañía.
 
 ### 1.4 Predeterminados
-En la compañía se puede especificar una gran cantidad de valores por defecto para otros documentos y cuentas. Estas configuraciones por defecto son de ayuda en las entradas rápidas de transacciones contables, donde el valor para la cuenta será tomado de la compañía (si ese campo está definido). Tan pronto como la compañía es creada, se crea un Plan de cuentas y Centro de costos de forma automática.
+En la compañía se puede especificar una gran cantidad de valores predeterminados para otros documentos y cuentas. Estas configuraciones por defecto son de ayuda en las entradas rápidas de transacciones contables, donde el valor para la cuenta será tomado de la compañía (si ese campo está definido). Tan pronto como la compañía es creada, se crea un Plan de cuentas y Centro de costos de forma automática.
 
 Es posible especificar por defecto los siguientes datos:
 
@@ -75,25 +75,25 @@ Es posible establecer un objetivo de ventas mensuales para la empresa, por ejemp
 ### 2.2 Configuración de Cuentas
 Algunas de las siguientes cuentas serán creadas junto con la compañía, otras pueden ser agregadas luego. Las cuentas existentes se pueden ver en el [Plan de cuentas](/docs/user/manual/es/accounts/chart-of-accounts). Estos valores pueden ser modificados luego de ser necesario.
 
-* Cuenta bancaria por defecto
-* Cuenta de efectivo por defecto
-* Cuenta por cobrar por defecto
-* Cuenta de redondeo por defecto
-* Centro de costos por defecto (redondeo)
+* Cuenta bancaria predeterminada
+* Cuenta de efectivo predeterminada
+* Cuenta por cobrar predeterminada
+* Cuenta de redondeo predeterminada
+* Centro de costos predeterminado (redondeo)
 * Cuenta de Desajuste
 * Cuenta de Descuento Permitido
 * Cuenta de Descuento Recibido
-* Cuenta de Ganancias/Pérdidas de Canje
-* Cuenta de Ganancias/Pérdidas de Canje no realizado
-* Cuenta por pagar por defecto
+* Cuenta de Ganancias/Pérdidas para cambio
+* Cuenta de Ganancias/Pérdidas para cambio no realizado
+* Cuenta por pagar predeterminada
 * Cuenta Predeterminada de Anticipo de Empleado
-* Cuenta de costos (venta) por defecto
-* Cuenta de ingresos por defecto
+* Cuenta de costos (venta) predeterminada
+* Cuenta de ingresos predeterminada
 * Cuenta de ingresos diferidos predeterminada
 * Cuenta de gastos diferidos predeterminada
 * Cuenta de pago de nómina predeterminada
 * Cuenta de pago por reclamación de gastos predeterminada
-* Centro de costos por defecto
+* Centro de costos predeterminado
 * Límite de Crédito
 * Plantilla de Términos de Pago Predeterminados
 
@@ -121,84 +121,61 @@ Para gestionar activos fijos en una compañía, son necesarias las siguientes cu
 
     ![Fixed Asset Depreciation](/docs/assets/img/setup/company-asset-depreciation.png)
 
-### 2.5 HRA Settings
 
-Set the default Component for the following Salary Components.
+### 2.5 Detalle del presupuesto
+Rol de aprobación de presupuesto de excepción: los usuarios con este rol tienen permitido sobrepasar el presupuesto establecido.
 
-> For the Indian user, setting the default value in this section will help in Employee Tax Declaration calculations, especially for HRA exemption amount.
+### 2.6 Información de la compañía
+Sólo de forma informativa, los siguientes datos pueden ser definidos en ERPNext:
 
-* Basic Component
-* HRA Component
-* Arrear Component
-
-### 2.6 Bank Remittance Settings
-
-*Only for India.*
-
-Using the Payment Order feature (in Accounts), you can give a single document of transfer for multiple bank transfers. Updating value in the following fields will help you generate Bank Remittance in a format which can be accepted and can be also uploaded on the bank's portal.
-
-Payment order allows a user to combine several payment entries/payment requests into a single document. Bank Remittance allows a user to send **that** single document to the bank as text format, this text format can be manually uploaded to Kotak bank payments platform.
-
-Client Code and Product Code are codes given by the bank to you. This is required to be added in the text file as per the format specified by Kotak bank.
-
-
-### 2.7 Budget
-Exception Budget Approver Role: The role selected here can bypass the set budget to approve expenses.
-
-### 2.8 Company Info
-For reference, the following details of your company can be saved in ERPNext:
-
-* Date of Incorporation
-* Phone No
+* Fecha de Incorporación
+* Teléfono No.
 * Fax
-* Email
-* Website
-* Address
-* Registration Details
+* Correo electrónico (Email)
+* Sitio Web
+* Dirección
+* Detalles de registro: aquí se pueden guardar distintos números fiscales como referencia.
 
-> Note: When setting the address here, it is important to tick the 'Is Your Company Address' checkbox.
+> Nota: al agregar aquí la dirección, es importante tildar el campo " Es la Dirección de su Compañia".
 
 ![Company Address](/docs/assets/img/setup/company-address.png)
 
-**For India**, different addresses can be added with different GSTIN numbers if the company has multiple locations. For example, if your company has offices in Mumbai, Delhi, and Bangalore, you'll have to add different addresses with different GSTIN numbers.
-
-On saving a company, the following details/actions will be visible in the dashboard:
+Al guardar la compañía, se verán los siguientes detalles/acciones en el tablero:
 ![Company after Save](/docs/assets/img/setup/company-after-save.png)
 
-**Registration Details**: Here you can save various tax/cheque/bank number for reference.
 
-### 2.9 Deleting all Company Transactions
-You can delete all transactions (Orders, Invoices) of a Company. *Use with caution*, transactions once deleted cannot be recovered.
+### 2.7 Eliminar las transacciones de la compañía
+Con este botón se eliminarán todas las transacciones de la compañía. *Usar con precaución* ya que las transacciones eliminadas no podrán ser recuperadas.
 
-#### Requirements
+#### Requerimientos
 
-* The User has to be a System Manager
-* The User has to be the creator of the Company
+* el usuario debe tener el rol de administrador de sistema
+* el usuario debe ser el creador de la compañía
 
-#### Steps
-1. Click on the **Delete Company Transactions** button
-1. Verify your password
-1. Enter Company name for confirmation
+#### Pasos
+1. Clickear el botón **Eliminar las transacciones de la compañía**
+1. Verificar la contraseña
+1. Ingresar nombre de la compañía para confirmar
     ![Company after Save](/docs/assets/img/setup/company-delete-transactions.png)
 
-And you're done. The master data like Item, Account, Employee, BOM etc. will remain as it is.
+Información como productos, cuentas, empleados, etc no es borrada.
 
-#### What is affected?
+#### Qué se ve afectado?
 
-* Sales/Purchase Orders/Invoices Receipts/Notes will be deleted
-* The monthly sales and sales history will be cleared
-* All notifications will be cleared
-* Lead Addresses to which the Company is linked will be deleted
-* All communications linked to the Company will be deleted
-* All naming series will be reset
-* Stock Entries linked to a Warehouse of this Company will be deleted
+* Ordenes de compra/venta, facturas, notas serán eliminadas
+* El historial de ventas y las ventas mensuales serán limpiados
+* Todas las notificaciones serán borradas
+* Direcciones con las cuales se relaciona la compañía serán eliminadas
+* Toda comunicación relacionada con la compañía será borrada
+* Todas las secuencias serán reiniciadas
+* Entradas de inventario relacionadas a un almacén de la compañía serán eliminadas
 
-### 3. Related Topics
-1. [Setting Up Taxes](/docs/user/manual/en/setting-up/setting-up-taxes)
-1. [System Settings](/docs/user/manual/en/setting-up/settings/system-settings)
-1. [Charts Of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer)
-1. [Users and Permissions](/docs/user/manual/en/setting-up/users-and-permissions)
-1. [Adding Users](/docs/user/manual/en/setting-up/users-and-permissions/adding-users)
-1. [Letter Head](/docs/user/manual/en/setting-up/print/letter-head)
-1. [Email Account](/docs/user/manual/en/setting-up/email/email-account)
-1. [Administrator](/docs/user/manual/en/setting-up/users-and-permissions/administrator)
+### 3. Temas relacionados
+1. [Configuración de impuestos](/docs/user/manual/en/setting-up/setting-up-taxes)
+1. [Configuración del sistema](/docs/user/manual/en/setting-up/settings/system-settings)
+1. [Importador de Plan de cuentas](/docs/user/manual/en/setting-up/chart-of-accounts-importer)
+1. [Usuarios y permisos](/docs/user/manual/en/setting-up/users-and-permissions)
+1. [Agregar usuarios](/docs/user/manual/en/setting-up/users-and-permissions/adding-users)
+1. [Encabezado](/docs/user/manual/en/setting-up/print/letter-head)
+1. [Cuenta de correo](/docs/user/manual/en/setting-up/email/email-account)
+1. [Administrador](/docs/user/manual/en/setting-up/users-and-permissions/administrator)
