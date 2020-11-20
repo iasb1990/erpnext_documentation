@@ -19,99 +19,78 @@ El Plan de cuentas ayuda a responder preguntas como:
  * ¿De cuánto son las ventas?
  * ¿Cuales son los gastos?
 
-Para quienes están a cargo de un negocio, es muy importante sabér cuán bien la está yendo económicamente.
+Para quienes están a cargo de un negocio, es muy importante saber cuán bien le está yendo económicamente.
 
 > **Tip**: If you can’t read a Balance Sheet it's a good opportunity to start learning about this. It will be worth the effort. You can also take the help of your accountant to set up your Chart of Accounts.
 
 Para acceder al Plan de cuentas, ingresar a:
-> Home > Accounting > Accounting Masters > Chart of Accounts
+> Inicio > Cuentas > Maestros > Plan de cuentas
 
-## 1. How to Create/Edit Accounts
-ERPNext comes with a standard set Chart of Accounts. Instead of creating/modifying, you can also use the [Chart of Accounts Importer](/docs/user/manual/en/setting-up/chart-of-accounts-importer) tool. Note that the existing Chart of Accounts will be overwritten when this tool is used.
+## 1. Creación y edición de cuentas
+ERPNext cuenta con un Plan de cuentas estándar por defecto. En lugar de crear/modificar cuentas, se puede utilizar el [Importador de Plan de cuentas](/docs/user/manual/en/setting-up/chart-of-accounts-importer). Tener en cuenta que el Plan de cuentas existente será sobrescrito al usar esta herramienta.
 
-1. Go to the Chart of Accounts list.
+1. Ingresar al Plan de cuentas.
  
- Here you can open group accounts which contain other accounts. There are options to “Add Child” in an account, Edit or Delete the account.
+ Aquí se puede desplegar grupos de cuentas que contienen otras cuentas. Las opciones son "Agregar hijo" a un grupo, "Editar" o "Eliminar" la cuenta.
 
  <img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/chart-of-accounts-add.gif">
 
-1. The option to create a child account will only appear if you click on a Group (folder) type
-Account. 
-1. Enter a name for the account.
-1. Enter a number for the account.
-1. Tick 'Is Group' if you want this to be a group account which can contain other accounts.
-1. Select the Account Type. Selecting this is important as some fields allow selecting only specific type of accounts.
-1. Change the currency if this account will be used for transactions with different currency. By default, it's the Company's currency. To know more, visit the [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting) page.
-1. Click on **Create New**.
+1. La opción de crear una cuenta hija sólo aparece al clickear una cuenta de tipo grupo (carpeta). 
+1. Ingresar el nombre para la nueva cuenta.
+1. Ingresar un número para la cuenta.
+1. Tildar "Es un grupo" si se desea que la cuenta se cree como tal y pueda contener otras cuentas.
+1. Determinar el tipo de cuenta. Este dato es importante ya que algunos campos admiten sólo cierto tipo de cuentas.
+1. Cambiar la divisa/moneda en caso de que esta cuenta vaya a ser usada para transacciones con determinada moneda. Por defecto se autocompleta este campo con la moneda de la compañía. Para más información, visitar la página [Contabilidad con múltiples divisas](/docs/user/manual/es/accounts/multi-currency-accounting).
+1. Click en **Crear**.
 
-Typically, you might want to create Accounts for:
+Generalmente se deben crear cuentas para:
 
- * Travel, salaries, telephone, etc. under **Expenses**.
- * Value Added Tax (VAT), Sales Tax, Equity, etc. under **Current Liabilities**.
- * Product Sales, Service Sales, etc. under **Income**.
- * Building, machinery, furniture, etc. under **Fixed Assets**.
+ * Viajes, salarios, teléfono, etc. dentro de **Egresos**.
+ * Impuesto sobre el Valor Añadido (IVA), Impuestos de ventas, Capital, etc. dentro de **Pasivos**.
+ * Ventas de productos, ventas de servicios, etc. dentro de **Ingresos**.
+ * Inmueble, maquinaria, muebles, etc. dentro de **Activos**.
 
 <img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/chart-of-accounts-1.png">
 
-> Tip: Accounts with different currencies are created when you receive or make payments to or from different currencies. For example if you are based in India and transact with USA, you may need to create accounts like 'Debtors US', 'Creditors US', etc.
+> Tip: cuentas con divisas diferentes son creadas cuando se reciben o realizan pagos desde o hacia paises con distinta moneda. Por ejemplo, si se encuentra en Argentina y se realiza una transacción con Estados Unidos, se deberán crear cuentas como "Deudores US", "Acreedores US", etc.
 
-Let us understand the main groups of the Chart of Accounts.
+Estos son los grupos principales de en plan de cuentas:
 
-## 2. Account Types
-Account types are mainly classified as income, expense, asset, or liability.
+## 2. Tipos de cuentas
+A grandes rasgos las cuentas se clasifican en ingresos, egresos (gastos), activos y pasivos.
 
-### 2.1 Balance Sheet Accounts
+### 2.1 Cuentas de la Hoja de balance
 
-Balance Sheet accounts are 'Application of Funds (Assets)' and 'Sources of Funds
-(Liabilities)' that signifies the net-worth of your company at any given time.
-When you begin or end a financial period, all the Assets are equal to the
-Liabilities.
+Las cuentas de la Hoja de balance son "Aplicación de fondos (Activos)" y "Fuentes de fondos (Pasivos)", lo cual representa el valor neto de la compañia en un momento determinado.
+Cuando se inicia o finaliza un período financiero, la suma de los Activos debe ser igual a la suma de los asivos.
 
-> **A note on Accounting**: If you are new to accounting, you might be wondering, how can
-Assets be equal to Liabilities? That would mean the company has nothing of its
-own. That's correct! All the “investments” made in the company to buy assets (like
-land, furniture, machines) is made by the owners. The owners are a liability to the
-company since the profits belong to the owners.
+> **Una nota de contabilidad**: si uno es nuevo en el tema, se puede llegar a preguntar "¿cómo pueden ser los Activos iguales a los Pasivos? Eso significaría que la compañía no posee nada." Bueno, eso es correcto. Toda la "inversión" hecha en la compañía para comprar activos (como terreno, mebles, máquinas) es realizada por los dueños. Los dueños son una "obligación" de la compañía ya que las ganancias les pertenencen.
 
-> If a company were to shut down, it would need to sell all the
-assets and pay back all the liabilities (including profits) to the owners,
-leaving itself with nothing.
+> Si una empresa estuviera por cerrar, se necesitaría vender todos los activos y pagar todas las obligaciones (incluyendo ganancias) a los dueños, dejando la compañía en sí con nada.
 
-All the accounts under Balance Sheet accounts represent an asset owned by the company like "Bank
-Account", "Land and Property", "Furniture" or a liability (funds that the
-company owes to others) like "Owners funds", "Debt" etc.
+Todas las cuentas dentro de la Hoja de balance representan un activo que espropiedad de la compañía como "Cuenta bancaria", "Terreno e inmueble", "Muebles" o un pasivo (fondos que la compañía la debe a otros) como "Aporte de los propietarios", "Deuda" etc.
 
-Two special accounts to note here are Accounts Receivable (money you have to
-collect from your Customers) and Accounts Payable (money you have to pay to
-your Suppliers) under Assets and Liabilities respectively.
+Dos cuentas especiales para tener en consideración son Cuentas por cobrar (dinero que se espera recibir de los Clientes) y Cuentas por pagar (dinero que se debe pagar a los Proveedores) dentro de Activos y Pasivos respectivamente.
 
 
-### 2.2 Profit and Loss Accounts
+### 2.2 Cuentas de pérdida y ganancia
 
-Profit and Loss is the group of 'Income' and 'Expense' accounts that represent
-your accounting transactions over a period.
+Pérdida y ganancia es el grupo de cuentas dentro de "Ingresos" y "Egresos" que representa las transacciones contables de un determinado período.
 
-Unlike Balance Sheet accounts, Profit and Loss accounts (or PL accounts) do
-not represent net worth (Assets), but rather represent the amount of money
-spent and collected in servicing customers during the period. Hence, at the
-beginning and end of your Fiscal Year, they become zero.
+A diferencia de las cuentas de la Hoja de balance, las cuentas de pérdida y ganancia no representan el valor neto (activos), sino más bien la cantidad de dinero gastado y obtenido por servicios al cliente durante cierto período. Por lo tanto, el inicio y al final del año fiscal, pasan a ser cero.
 
-In ERPNext it is easy to keep track of Profit and Loss via the Profit and Loss chart.
+En ERPNext es sencillo llevar la cuenta de las pérdidas y ganancias gracias al reporte de Estado de pérdidas y ganancias.
 
 ![Profit and Loss Report]({{docs_base_url}}/assets/img/accounts/profit_n_loss_report_1.png)
 
 
-Note that, on the first day of the year you have not made any profit or loss, but you
-still have assets, hence balance sheet accounts never become zero at the
-beginning or end of a period.
+Nótese que, en el primer día del año no se has registrado pérdidas o ganancias; pero de cualquier forma hay activos, por lo que las cuentas de la hoja de balance nunca vuelven a cero al inicio o final del período.
 
-### 2.3 Groups and Ledgers
+### 2.3 Grupos y cuentas
 
-There are two main kinds of Accounts in ERPNext - Group and Ledger. Groups can
-have sub-groups and ledgers within them, whereas ledgers are the leaf nodes of
-your chart and cannot contain more accounts in them.
+Existen dos tipos principales de cuentas en ERPNext: grupos y cuentas. Los grupos pueden tener subgrupos y cuentas dentro de ellos; mientras que las cuentas son nodos hoja del Plan de cuentas y no pueden contener otras.
 
-Accounting Transactions can only be made against Ledger Accounts (not Groups)
+Las transacciones contables sólo pueden realizarse contra cuentas (no grupos).
 
 > Info: The term "Ledger" means a page in an accounting book where entries are
 made. There is usually one ledger for each account (like a Customer or a
@@ -122,13 +101,11 @@ Supplier).
 <img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/chart-of-accounts-2.png">
 
 
-### 2.4 Other Account Types
+### 2.4 Otros tipos de cuentas
 
-In ERPNext, you can also specify more information when you create a new
-Account, this is there to help you select that particular account in a scenario like 'Bank Account' or a 'Tax Account' and has no effect on the Chart
-itself.
+En ERPNext, también es posible especificar más información al crear una nueva cuenta, con el objetivo de poder situarla en un escenario como una "Cuenta bancaria" o una "Cuenta de impuestos" sin afectar la estructura del plan de cuentas.
 
-Explanation of account types:
+Explicación de los tipos de cuentas:
 
 * **Accumulated Depreciation**: To store the total accumulated depreciation information of the Company Assets. Accumulated depreciation appears on the balance sheet.
 * **Asset Received But Not Billed**: A temporary liability account which holds the value of Asset received but not billed yet.
