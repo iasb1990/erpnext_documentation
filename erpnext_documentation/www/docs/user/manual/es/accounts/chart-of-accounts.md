@@ -107,70 +107,60 @@ En ERPNext, también es posible especificar más información al crear una nueva
 
 Explicación de los tipos de cuentas:
 
-* **Accumulated Depreciation**: To store the total accumulated depreciation information of the Company Assets. Accumulated depreciation appears on the balance sheet.
-* **Asset Received But Not Billed**: A temporary liability account which holds the value of Asset received but not billed yet.
-* **Bank**: The account type under which bank accounts will be created. There must be at least one group account of type "Bank" in the CoA.
-* **Cash**: The account type under which cash account will be created. There must be at least one group account of type "Cash" in the CoA.
-* **Chargeable**: Additional charges applied to Items can be stored in accounts of this type. For example, "Freight and Forwarding Charges".
-* **Capital Work in Progress**: Current charges when creating Fixed Assets are stored in CWIP accounts. For example, construction costs when constructing a building. In ERPNext Assets are booked against CWIP accounts when they are not yet being used. 
-* **Cost of Goods Sold**: An account under this type is used to book the accumulated total of all costs incurred while manufacturing/purchasing a product or service, sold by a Company.
-* **Depreciation**: The expense account to book the depreciation of the fixed assets. This appears on the Income statement.
-* **Equity**: These type of accounts represent transactions with people that own the business, i.e. the shareholders/owners.
-* **Expenses Included In Asset Valuation**: The account to book the expenses (apart from the direct material costs of Assets) included in the landed cost of an Asset.
-* **Expenses Included In Valuation**: The account to book the expenses (apart from direct material costs) included in the landed cost of an item/product, used in Perpetual Inventory.
-* **Fixed Asset**: The account to maintain the costs of fixed assets.
-* **Income Account**: This type of accounts represents any source of income or revenue booked for the Company.
-* **Payable**: The account type represents the amount owed by a company to its creditors (Suppliers).
-* **Receivable**: The account type represents the amount owed to a company by its debtors (Customers).
-* **Round Off**: In many Invoices there can be some [rounding off](/docs/user/manual/en/accounts/articles/round-off-account-validation) in the final amount. For accurate tracking, those amounts can be booked to accounts of this type.
-* **Stock**: The account group under which [Warehouse accounts](/docs/user/manual/en/accounts/articles/round-off-account-validation) will be created. 
-* **Stock Adjustment**: An expense account to book any adjustment entry of stock/inventory. Generally comes at the same level of Cost of Goods Sold.
-* **Stock Received But Not Billed**: A temporary liability account which holds the value of stock received but not billed yet and used in Perpetual Inventory.
-* **Tax**: All tax accounts like VAT, TDS, GST, etc. come under this type.
-* **Temporary**: A Temporary account is useful for balancing incomes, expenses and nullifying them when shifting to ERPNext mid-year with outstanding accounting entries.
+* **Depreciación acumulada**: en esta cuenta se almacenará el acumulado de depreciaciones de la compañía. Esta cuenta aparece en la Hoja de balance.
+* **Activo recibido pero no facturado**: cuenta temporal de pasivo que almacena el valor de los activos recibidos pero todavía no facturados.
+* **Banco**: tipo de cuenta debajo de la cual se crearán las demás cuentas de banco. Debe haber al menos un grupo de cuentas de tipo Banco dentro del Plan de cuentas.
+* **Efectivo**: tipo de cuenta debajo de la cual se crearán las demás duentas de efectivo. Debe haber al menos un grupo de cuentas de Efectivo en el Plan de cuentas.
+* **Devengable**: cargos adicionales aplicados de Productos pueden ser almacenados en cuentas de este tipo. Por ejemplo, "Cargos por flete y envío".
+* **Capital de trabajo en progreso**: cargos generados al crear activos fijos son almacenados en estas cuentas. Por ejemplo, costos de construcción de un edificio. En ERPNext los activos son registrados contra este tipo de cuentas cuando todavía no están en uso. 
+* **Costo sobre ventas**: una cuenta de este tipo es utilizada para registrar el total acumulado de costos de manufactura/compra de un producto o servicio vendido por la compañía.
+* **Depreciaciones**: cuenta de gastos donde se registra la depreciación de activos fijos. Estas cuentas aparecen en el estado de ingresos.
+* **Patrimonio**: este tipo de cuentas representan transacciones con personas que son dueñas del negocio, por ejemplo, accionistas o los mismos dueños.
+* **Gastos incluidos en la valoración de activos**: cuenta para registrar los gastos (aparte del costo directo de material de los activos) incluídos en el costo de un activo.
+* **Gastos de valoración**: cuenta donde se registran los gastos (aparte del costo directo de material) incluídos en el costo de un producto usado en el inventario perpetuo.
+* **Activo Fijo**: cuenta para guardar los costos de activos fijos.
+* **Cuenta de ingresos**: esta tipo de cuenta representa cualquier fuente de ingresos o recaudación registrados por la compañía.
+* **Pagadero**: tipo de cuenta que representa el monto que la compañía debe a sus proveedores.
+* **A cobrar**: tipo de cuenta que representa el monto que los clientes deben a la compañía.
+* **Redondeos**: en muchas facturas puede haber un [redondeo](/docs/user/manual/en/accounts/articles/round-off-account-validation) aplicado al importe final. Para un seguimiento preciso, estos valores pueden ser registrados en este tipo de cuentas.
+* **Almacén**: grupo de cuentas dentro del cual serán creadas las [cuentas de almacén](/docs/user/manual/en/accounts/articles/warehouse-ledger-link). 
+* **Ajuste de existencias**: cuenta de gastos para registrar cualquier asiento de ajuste de stock/inventario. Generalmente se encuentra en el mismo nivel que Costo sobre ventas.
+* **Inventario entrante no facturado**: cuenta temporal de pasivo que almacena el valor de stock recibio pero no facturado aún usado en el inventario perpetuo.
+* **Impuesto**: todas las cuentas de impuestos como IVA, entre otros.
+* **Temporal**: una cuenta temporal es útil para balancear ingresos y gastos.
 
-> **Note**: When making Payment Entries, the default bank account will be fetched in the following order if set:
+> **Nota**: al realizar Entradas de pago, la cuenta de banco predeterminada (si está especificada) será tomada en el siguiente orden:
     
->       * Company form
->       * Mode of Payment default account
->       * Customer/Supplier default bank account
->       * Select manually in Payment Entry
+>       * de la Compañía
+>       * del Método de pago
+>       * del Cliente/Proveedor
+>       * seleccionando manualmente una
 
-### 2.5 Financial statements
-Financial statements for your company are easily viewable in ERPNext. You can view financial statements
-such as Balance Sheet, Profit and Loss statement, and Cash flow statement.
+### 2.5 Estados financieros
+En ERPNext es posible visualizar facilmente estados financieros como Hoja de balance, Cuenta de pérdidas y ganancias y Flujo de fondos.
 
-An Example of various financial statement are given below:
+A continuación se dan ejemplos de estos reportes financieros.:
 
-1. Cash Flow Report:
+1. Reporte de Flujo de fondos:
  <img class="screenshot" alt="Cash Flow Report" src="{{docs_base_url}}/assets/img/accounts/cash_flow_report.png">
 
-1. Profit and Loss Report:
+1. Reporte de Cuenta de pérdidas y ganancias:
  <img class="screenshot" alt="Profit and Loss Report" src="{{docs_base_url}}/assets/img/accounts/profit_n_loss_report.png">
  
-1. Balance Sheet Report:
+1. Reporte de Hoja de balance:
  <img class="screenshot" alt="Balance Sheet Report" src="{{docs_base_url}}/assets/img/accounts/balance_sheet_report.png">
 
-### 2.6 Account Number
-A standard Chart of Accounts is organized according to a numerical system. Each major category will begin with a certain number, and then the sub-categories within that major category will all begin with the same number. For example, if assets are classified by numbers starting with the digit 1000, then cash accounts might be labeled 1100, bank accounts might be labeled 1200, accounts receivable might be labeled 1300, and so on. A gap between account numbers is generally maintained for adding accounts in the future.
+### 2.6 Numeración de cuentas
+Un Plan de cuentas estándar está organizado siguiendo un sistema numérico. Cada categoría principal empieza con cierto número, después las sub-categorías comenzarán también con ese número. Por ejemplo, si activos estuvieran clasificados por número comenzando con 1, entonces las cuentas de efectivo serán las 1.1, las cuentas de banco 1.2, cuentas a cobrar 1.3 y así sucesivamente. Esto permite tener espacio para agregar cuentas en el futuro.
 
-You can assign a number while creating an account from Chart of Accounts page. You can also edit a number from account record, by clicking **Update Account Name / Number** button. On updating account number, the system renames the account name automatically to embed the number in the account name.
+Se puede asignar un número durante la creación de la cuenta. También se puede editar un número haciendo click en **Actualizar el nombre / número de la cuenta**. Al hacer esto, el sistema cambia automáticamente el nombre de la cuenta para que contenga el nuevo número.
 
 ![Account Number]({{docs_base_url}}/assets/img/accounts/acc-no.png)
 
-## 3. Video
-
-<div>
- <div class="embed-container">
- <iframe src='https://www.youtube.com/embed//AcfMCT7wLLo' frameborder='0' allowfullscreen>
- </iframe>
- </div>
-</div>
-
-### 4. Related Topics
-1. [Opening Balance](/docs/user/manual/en/accounts/opening-balance)
-1. [Accounts Settings](/docs/user/manual/en/accounts/accounts-settings)
-1. [Journal Entry](/docs/user/manual/en/accounts/journal-entry)
-1. [Inter Company Journal Entry](/docs/user/manual/en/accounts/inter-company-journal-entry)
-1. [Accounting Reports](/docs/user/manual/en/accounts/accounting-reports)
-1. [Multi Currency Accounting](/docs/user/manual/en/accounts/multi-currency-accounting)
+### 3. Temas relacionados
+1. [Apertura de cuentas](/docs/user/manual/es/accounts/opening-balance)
+1. [Configuración de cuentas](/docs/user/manual/es/accounts/accounts-settings)
+1. [Asiento contable](/docs/user/manual/es/accounts/journal-entry)
+1. [Asiento contable entre compañías](/docs/user/manual/es/accounts/inter-company-journal-entry)
+1. [Reportes contables](/docs/user/manual/es/accounts/accounting-reports)
+1. [Contabilidad con múltiples divisas](/docs/user/manual/es/accounts/multi-currency-accounting)
