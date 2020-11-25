@@ -21,8 +21,6 @@ El Plan de cuentas ayuda a responder preguntas como:
 
 Para quienes están a cargo de un negocio, es muy importante saber cuán bien le está yendo económicamente.
 
-> **Tip**: If you can’t read a Balance Sheet it's a good opportunity to start learning about this. It will be worth the effort. You can also take the help of your accountant to set up your Chart of Accounts.
-
 Para acceder al Plan de cuentas, ingresar a:
 > Inicio > Cuentas > Maestros > Plan de cuentas
 
@@ -92,12 +90,6 @@ Existen dos tipos principales de cuentas en ERPNext: grupos y cuentas. Los grupo
 
 Las transacciones contables sólo pueden realizarse contra cuentas (no grupos).
 
-> Info: The term "Ledger" means a page in an accounting book where entries are
-made. There is usually one ledger for each account (like a Customer or a
-Supplier).
-
-> Note: An Account “Ledger” is also sometimes called as Account “Head”.
-
 <img class="screenshot" alt="Chart of Accounts" src="{{docs_base_url}}/assets/img/accounts/chart-of-accounts-2.png">
 
 
@@ -114,7 +106,7 @@ Explicación de los tipos de cuentas:
 * **Devengable**: cargos adicionales aplicados de Productos pueden ser almacenados en cuentas de este tipo. Por ejemplo, "Cargos por flete y envío".
 * **Capital de trabajo en progreso**: cargos generados al crear activos fijos son almacenados en estas cuentas. Por ejemplo, costos de construcción de un edificio. En ERPNext los activos son registrados contra este tipo de cuentas cuando todavía no están en uso. 
 * **Costo sobre ventas**: una cuenta de este tipo es utilizada para registrar el total acumulado de costos de manufactura/compra de un producto o servicio vendido por la compañía.
-* **Depreciaciones**: cuenta de gastos donde se registra la depreciación de activos fijos. Estas cuentas aparecen en el estado de ingresos.
+* **Depreciaciones**: cuenta de gastos donde se registra la depreciación de activos fijos. Estas cuentas aparecen en el Estado de resultados.
 * **Patrimonio**: este tipo de cuentas representan transacciones con personas que son dueñas del negocio, por ejemplo, accionistas o los mismos dueños.
 * **Gastos incluidos en la valoración de activos**: cuenta para registrar los gastos (aparte del costo directo de material de los activos) incluídos en el costo de un activo.
 * **Gastos de valoración**: cuenta donde se registran los gastos (aparte del costo directo de material) incluídos en el costo de un producto usado en el inventario perpetuo.
