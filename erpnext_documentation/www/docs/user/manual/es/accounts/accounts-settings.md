@@ -67,5 +67,5 @@ Si la opción está destildada, los Tipos de cambio serán traídos en el siguie
 * Si no se encuentra ningún Cambio de divisa será tomado el último Tipo de cambio del mercado
 
 
-## 16. Utilice el formato de Flujo de efectivo personalizado
+## 16. Utilice el formato de Flujo de fondos personalizado
 Seleccionando esta opción se podrá personalizar la información presentada en el reporte de Flujo de fondos. Para saber más, [visitar esta página](/docs/user/manual/en/accounts/articles/how-to-customise-cash-flow-report).
