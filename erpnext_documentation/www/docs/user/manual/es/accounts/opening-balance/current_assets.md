@@ -3,7 +3,7 @@
 
 Antes de importar los activos corrientes, hay que asegurarse de que estén creadas las cuentas necesarias dentro de **Plan de cuentas > Activos > Activos corrientes**.
 
-## 1. Importación de activos corrientes
+## Importación de activos corrientes
 
 1. Ir a: **Cuentas > Empresa y Contabilidad > Asiento contable > Nuevo**.
 1. Ingresar la Fecha de Contabilización.
