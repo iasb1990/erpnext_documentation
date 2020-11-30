@@ -6,7 +6,7 @@
 Los detalles de estas cuentas se pueden importar mediante la Herramienta de Apertura de Creación de Facturas. Para acceder a ella ingresar a:
 > Inicio > Cuentas > Apertura y cierre > Herramienta de Apertura de Creación de Facturas
 
-## 1. Importación de facturas pendientes
+## Importación de facturas pendientes
 
 1. Ir a la Herramienta de Apertura de Creación de Facturas.
 1. Seleccionar la Compañía.
