@@ -3,7 +3,7 @@
 
 Antes de importar las cuentas de capital, hay que asegurarse de que estén creadas las cuentas necesarias dentro de Plan de cuentas > Pasivos > Capital.
 
-Importación del detalle de cuentas de capital:
+## Importación del detalle de cuentas de capital:
 
 1. Ir a: **Cuentas > Maestros y cuentas > Asiento contable > Nuevo**.
 1. Ingresar Fecha de Contabilización.
