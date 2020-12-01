@@ -35,7 +35,7 @@ Similar a la opción anterior, esta configuración desvincula cualquier pago ade
 ## 10. Entrada automática de depreciación de bienes
 Cuando esta opción está tildada, se creará automáticamente una entrada contable por depreciación de bienes en la primera fecha especificada. Por ejemplo, se puede programar la creación de una entrada de depreciación anual por los próximos 3 o 4 años dependiendo del Number of Depreciations Booked especificado en el master de bienes. Para más detalles, visitar la página [Depreciación de bienes](/docs/user/manual/en/asset/asset-depreciation).
 
-## 11. Permitir centro de costo en entrada de cuentas de Hoja de balance
+## 11. Permitir centro de costo en entrada de cuenta de balance
 Si esta opción está tildada, se podrá registrar entradas en cuentas de la Hoja de balance hechas contra Centro de costos. Por defecto el Centro de costos está sólo disponible para cuentas de ganancia o pérdida.
 
 ## 12. Añadir automáticamente Impuestos y cargos desde la Plantilla de impuestos
