@@ -18,7 +18,7 @@ En ERPNext, las operaciones contables consisten en 3 transacciones principales:
 1. [Plan de cuentas](/docs/user/manual/es/accounts/chart-of-accounts)
 1. [Apertura de cuentas](/docs/user/manual/es/accounts/opening-balance)
 1. [Centro de costos](/docs/user/manual/es/accounts/cost-center)
-1. [Centro de costos distribuídos](/docs/user/manual/es/accounts/distributed-cost-center)
+1. [Centro de costos distribuidos](/docs/user/manual/es/accounts/distributed-cost-center)
 1. [Año fiscal](/docs/user/manual/es/accounts/fiscal-year)
 1. [Período contable](/docs/user/manual/es/accounts/accounting-period)
 1. [Libro de finanzas](/docs/user/manual/es/accounts/finance-book)
