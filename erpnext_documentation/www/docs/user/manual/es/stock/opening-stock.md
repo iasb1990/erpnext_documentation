@@ -12,7 +12,7 @@ El cierre de stock del período contable anterior se transforma en el stock de a
 
 ## 2. Apertura de stock para productos no serializados
 
-Para realizar aperturas de stock visite el artículo de [Reconciliación de inventarios](/docs/user/manual/en/stock/stock-reconciliation).
+Para realizar aperturas de stock visitar el artículo de [Reconciliación de inventarios](/docs/user/manual/en/stock/stock-reconciliation).
 
 
 ## 3. Apertura de stock para productos serializados y por lote
