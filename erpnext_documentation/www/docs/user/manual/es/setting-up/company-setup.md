@@ -3,7 +3,7 @@
 
 **Una compañía es una entidad legal conformada por un grupo de personas con el objetivo de llevar adelante una iniciativa comercial o industrial.**
 
-En ERPNext, la primera compañia es creada junto con la cuenta de ERPNext. Por cada compañía, se puede determinar una actividad principal como manfactura, ventas minoristas o servicios, entre otros.
+En ERPNext, la primera compañia es creada junto con la cuenta de ERPNext. Por cada compañía, se puede determinar una actividad principal como manufactura, ventas minoristas o servicios, entre otros.
 
 Si se tiene más de una compañía, es posible crearlas desde:
 
