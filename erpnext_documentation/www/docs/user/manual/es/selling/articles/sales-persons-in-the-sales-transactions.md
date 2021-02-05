@@ -21,7 +21,7 @@ Al guardar la transacción, de acuerdo al Total Neto y la Contribución (%) se c
 
 Para ver este informe ir a:
 
-`Comercialización > Informes Principales > Resumen de Transacciones del Vendedor
+> Comercialización > Informes Principales > Resumen de Transacciones del Vendedor
 
 Este informe puede generarse basado en Orden de Venta, Nota de Envío y Factura de Venta. Mostrará el monto toal de venta realizado por un empleado. 
 
@@ -31,4 +31,4 @@ Este informe puede generarse basado en Orden de Venta, Nota de Envío y Factura 
 
 ERPNext solo muestra el total de venta realizado por un Vendedor. Si se le ofrece comisión a dicho Vendedor debería añadirse a los Vendedores como Socios Comerciales en ERPNext. Para Socios Comerciales se puede definir la Comisión (%). Al seleccionar Socios Comerciales en Operaciones de Venta, de acuerdo al Total Neto, también se calcula el Monto de la Comisión. Se pueden ver los informes de comisión de Socios Comerciales en:
 
-`Cuentas > Informes Principales > Comisiones de Socios Comerciales
+> Cuentas > Informes Principales > Comisiones de Socios Comerciales
