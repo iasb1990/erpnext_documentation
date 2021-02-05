@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Envío Directo
+# Envío Directo
 
 El **Envío Directo** es una técnica de administración de la cadena de suministro en la cual el vendedor no mantiene existencias de los productos. En cambio, transfiere los pedidos de los clientes y los detalles de envío al fabricante, a otro vendedor o a un mayorista, quien se encarga de enviar directamente los bienes al cliente. 
 
@@ -37,16 +37,10 @@ Luego de enviar la Orden de Venta, para actualizar el estado de envío, utiizar 
 
 <img class="screenshot" alt="Close Sales Order" src="{{docs_base_url}}/assets/img/selling/close-sales-order.png">
 
-###Envío Directo en Formato de Impresión
+### Envío Directo en Formato de Impresión
 Se puede notificar a los Proveedores enviándoles un mail luego de enviar la Orden de Compra adjuntando el Envío Directo en formato de impresión. 
 
 <img class="screenshot" alt="Drop Dhip Print Format" src="{{docs_base_url}}/assets/img/selling/drop-ship-print-format.png">
 
-###Video Explicativo de Envío Directo
-
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/hUc0hu_XLdo?rel=0" frameborder="0" allowfullscreen>
-    </iframe>
-</div>
 
 {siguiente}    
