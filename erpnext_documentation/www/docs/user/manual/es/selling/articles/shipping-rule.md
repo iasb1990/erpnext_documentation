@@ -32,6 +32,3 @@ Si los gastos de envío son aplicados de acuerdo a una Pauta de Envío, entonces
 A continuación hay un ejemplo de cómo se aplican automáticamente los gastos de envío en la Orden de Venta de acuerdo a una Pauta de Envío. 
 
 <img alt="Shipping Rule Application" class="screenshot"  src="{{docs_base_url}}/assets/img/articles/shipping-charges-4.gif">
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODc1NjIxMF19
--->
