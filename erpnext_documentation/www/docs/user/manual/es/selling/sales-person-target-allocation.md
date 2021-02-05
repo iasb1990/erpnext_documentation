@@ -5,15 +5,15 @@
 
 Además de administrar a los Vendedores, ERPNext también permite asignar objetivos a Vendedores de acuerdo con Grupos de Productos y Territorio. De acuerdo al objetivo asignado y a las ventas efectivamente realizadas por el Vendedor, se obtiene el Informe de Cumplimiento de Objetivo para el Vendedor. 
 
-##1. Vendedor- Asignación de Objetivos por Grupo de Productos 
+## 1. Vendedor- Asignación de Objetivos por Grupo de Productos 
 
-###1.1 Abrir la Ventana de Vendedor 
+### 1.1 Abrir la Ventana de Vendedor 
 
 Para asignar un objetivo se debe abrir el perfil del Vendedor. 
 
 **Comercialización > Socios Comerciales y Territorio > Vendedor > Editar**
 
-###1.2 Asignación de Objetivo por Grupo de Productos
+### 1.2 Asignación de Objetivo por Grupo de Productos
 
 En el perfil de Vendedor, se encuentra una tabla denominada Objetivo del Vendedor. 
 
@@ -29,7 +29,7 @@ Se puede distribuir el objetivo en meses. En este caso, es necesario crear una n
 
 <img class="screenshot" alt="Target Distribution" src="{{docs_base_url}}/assets/img/selling/sales-person-target-distribution.png">
 
-###1.3 Informe - Cumplimiento de Objetivos del Vendedor por Grupo de Productos
+### 1.3 Informe - Cumplimiento de Objetivos del Vendedor por Grupo de Productos
 
 Para ver este informe ir a: 
 
@@ -45,11 +45,11 @@ En este informe, el objetivo asignado al Vendedor era una cantidad de aproximada
 
 ---
 
-##2. Vendedor - Asignación de Objetivo por Territorio 
+## 2. Vendedor - Asignación de Objetivo por Territorio 
 
 Para asignar a un Vendedor objetivos de acuerdo a un Territorio, es necesario seleccionar al Vendedor en la función Territorio. Este Vendedor es ingresado allí solo para tener la referencia. Los detalles del Vendedor no se actualizarán en el Informe de Cumplimiento de Objetivos por Territorio.
 
-###2.1 Ir a la función Territorio
+### 2.1 Ir a la función Territorio
 
 **Comercialización > Configuración > Territorio > (Editar territorio específico)**
 
@@ -57,11 +57,11 @@ En el Territorio seleccionado, se encontrará un campo para elegir al Administra
 
 <img class="screenshot" alt="Sales Person Territory Manager" src="{{docs_base_url}}/assets/img/selling/sales-person-territory-manager.png">
 
-###2.2 Asignar objetivo
+### 2.2 Asignar objetivo
 
 La Asignación de Objetivo en la función Territorio es Similar a la de Vendedor. Se pueden seguir los mismos pasos explicados en la sección  _1.2 Asignación de Objetivo por Grupo de Productos_ para especificar el objetivo en la función Territorio. 
 
-###2.3 Informe - Cumplimiento de Objetivos en Territorio de acuerdo a Grupo de Productos 
+### 2.3 Informe - Cumplimiento de Objetivos en Territorio de acuerdo a Grupo de Productos 
 
 Este informe mostrará la diferencia entre el objetivo y el desempeño de las Ventas en un territorio específico. Este informe se basa en el infome de Orden de Venta. Aunque se puede seleccionar un Vendedor en la función Territorio, sus detalles no serán incluidos en el informe. 
 
@@ -71,7 +71,7 @@ Este informe mostrará la diferencia entre el objetivo y el desempeño de las Ve
 
 ---
 
-##3. Distribución de Objetivo
+## 3. Distribución de Objetivo
 
 Para crear una nueva Distribución Mensual ir a: 
 **Contabilidad > Distribución Mensual**
