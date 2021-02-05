@@ -1,11 +1,11 @@
 <!-- add-breadcrumbs -->
-#Cerrar Orden de Venta
+# Cerrar Orden de Venta
 
 En la Orden de Venta enviada se encuentra la opción **Cerrar**. Cerrar la Orden de Venta impide a los usuarios crear una Nota de Envío y Factura de Venta desde la misma. 
 
 <img alt="Close SO" class="screenshot"  src="{{docs_base_url}}/assets/img/articles/close-1.png">
 
-####Ejemplo
+#### Ejemplo
 
 Se recibe una orden por diez Turbinas de Viento. La Orden de Venta también se crea por diez unidades. Debido a una falta de existencias, solo se envían siete unidades al cliente. Las tres unidades restantes serán entregadas prontamente. Sin embargo, el cliente informa que no quiere las unidades faltantes porque las ha comprado de otro proveedor. 
 
