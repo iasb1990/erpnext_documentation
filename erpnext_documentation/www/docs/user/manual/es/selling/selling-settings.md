@@ -1,6 +1,6 @@
 # Configuración de Ventas
 
-La Configuración de Ventas es donde se pueden definir las propiedades y validaciones que luego serán aplicadas a las transacciones involucradas en el ciclo de ventas. .
+La Configuración de Ventas es donde se pueden definir las propiedades y validaciones que luego serán aplicadas a las transacciones involucradas en el ciclo de ventas.
 
 Veamos las opciones disponibles dentro de la Configuración de Ventas en ERPNext.
 
@@ -10,7 +10,7 @@ Para acceder a la Configuración de Ventas ir a:
 > Inicio > Comercialización > Configuraciones > Configuración de Ventas
 
 ## 1. Nomenclatura
-###1.1 Denominación de clientes
+### 1.1 Denominación de clientes
 
 Cuando un cliente es guardado, se genera una identificación única para ese cliente.
 
