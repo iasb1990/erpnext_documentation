@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Aplicar un Descuento
+# Aplicar un Descuento
 
 Hay muchas formas de aplicar un Descuento a un producto en operaciones de venta. Esto puede realizarse en todas las transacciones de compra y venta.
 
