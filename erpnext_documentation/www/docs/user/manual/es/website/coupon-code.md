@@ -48,9 +48,9 @@ Para acceder al listado de Cupón de Descuento ir a:
 
     Puede ser utilizado en la página del carrito de compras, antes de realizar el pedido, para acceder al descuento. 
   
-4. Seleccionar la [Pauta de Tarifa](/docs/user/manual/en/accounts/pricing-rule)  activando la función **cupón de descuento**. 
+5. Seleccionar la [Pauta de Tarifa](/docs/user/manual/en/accounts/pricing-rule)  activando la función **cupón de descuento**. 
 
-5.Hacer click en Guardar.
+6. Hacer click en Guardar.
 
 	<img class="screenshot" alt="Coupon Code Doctype" src="{{docs_base_url}}/assets/img/selling/coupon-code.png">
 
