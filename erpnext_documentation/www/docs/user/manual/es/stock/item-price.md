@@ -35,30 +35,20 @@ Visitar la página [Listado de Precios](/docs/user/manual/en/stock/price-lists) 
 ###2.1 Unidad de embalaje
 Esta es la cantidad que debe ser comprada o vendida por unidad de medida. Por ejemplo si la Unidad de Embalaje es dos, y la unidad de medida es uno, la cantidad de productos transferidos serán dos. La unidad preestablecida es 0, se puede usar una unidad de medida no entera como por ejemplo 1,5 Kg de Avena para 1 Unidad de Embalaje. Si se deja en 0 no afectará a ninguna transacción.
 
-###2.2 Cantidad mínima
+### 2.2 Cantidad mínima
 Esta es la cantidad mínima de productos a ser transferidos para que este precio sea aplicable y actualizado en el Listado de Precios de Productos. 
 
 ### 2.3 Aplicar Listado de Precios a un Cliente/Proveedor específico 
 Si se selecciona un listado de Precio de Venta, aparecerá un campo de cliente donde se puede asignar ese precio de producto a un cliente específico. De la misma forma, si se selecciona un listado de Precio de Compra, aparecerá un campo de Proveedor para que se puede seleccionar un Proveedor específico. 
 
-###2.4 Validez
+### 2.4 Validez
 Hay dos campos "Válido desde" y "Válido hasta". Válido desde, se configura en la fecha en que se creó el Precio del Producto, también se puede seleccionar la fecha "Válido hasta" después de la cuál el Precio de Producto dejará de tener validez. 
 
-###2.5 Tiempo de entrega en días
+### 2.5 Tiempo de entrega en días
 El número aproximado de días que el producto tardará en llegar al depósito. Se pueden establecer diferentes Precios de Producto de acuerdo a la cantidad de tiempo que un mismo producto tardará en llegar desde diferentes vendedores. 
 
-###2.6 Observaciones
+### 2.6 Observaciones
 En este campo se puede añadir cualquier obsevación respecto al Precio de Producto. 
-
-## 3. Video 
-
-<div>
-    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
-    <div class='embed-container'>
-        <iframe src='https://www.youtube.com/embed/FcOsV-e8ymE?start=193' frameborder='0' allowfullscreen>
-        </iframe>
-    </div>
-</div>
 
 ### 4. Temas relacionados
 1. [Producto](/docs/user/manual/en/stock/item)
