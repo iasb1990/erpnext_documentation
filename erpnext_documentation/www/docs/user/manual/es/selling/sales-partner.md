@@ -70,4 +70,4 @@ Este informe permite analizar la diferencia entre el objetivo del Socio Comercia
 1. [Asignación de objetivos a Vendedores](/docs/user/manual/en/selling/sales-person-target-allocation)
 2. [¿Cómo registrar comisiones de Socios Comerciales en ERPNext?](https://support.erpnext.com/kb/selling/how-to-give-commission-to-sales-partner)
 
-{Siguiente}
+{next}
