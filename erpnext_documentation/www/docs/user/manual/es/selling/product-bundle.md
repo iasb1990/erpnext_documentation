@@ -57,4 +57,4 @@ Esto fue descubierto cuando un cliente, que se dedicaba a la venta de productos 
 ### 4. Temas relacionados
 1. [Producto](/docs/user/manual/en/stock/item)
 
-{siguiente}
+{next}
