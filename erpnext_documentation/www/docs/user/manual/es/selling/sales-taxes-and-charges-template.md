@@ -53,7 +53,4 @@ Las tasas impositivas que se defininan en la planitlla serán la tasa común par
 1. [Orden de Venta](/docs/user/manual/en/selling/sales-order)
 1. [Configuración de Venta](/docs/user/manual/en/selling/selling-settings)
 
-{siguiente}
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTU5NzQ1M119
--->
+{next}
