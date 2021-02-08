@@ -23,16 +23,17 @@ En la captura de pantalla mostrada a continuación, la columna de datos de la de
 
    <img class="screenshot" alt="Sales Analytics Result" src="/docs/assets/img/selling/sales-analytics-result.png">
 
-Utilizando el botón "Configurar Gráfico", se pueden establecer valores para los campos X e Y, utilizar distintos tipos de gráficos y seleccionar su color. 
+Utilizando el botón "Configurar Gráfico", se pueden establecer valores para los campos X e Y, utilizar distintos tipos de gráficos y seleccionar su color.
+
 ## 2. Informe de Flujo de Ventas
 Ir a **Comercialización > Estadísticas**. El informe de flujo de ventas permite analizar la generación de la mismas. Muestra la progresión de etapas en el proceso de ventas. Hay cuatro estapas que llevan a una Orden de Venta: Clientes Potenciales Activos/Clientes, Oportunidades, Cotizaciones y Convertidos (Se convirtieron en clientes)
 
-Potenciales Activos, muestra el número de todos los Clientes Potenciales, incluyendo todas las otras etapas. 
-Oportunidades, muestra el número de Clientes Potenciales para los cuáles se han creado Oportunidades. 
-Cotización muestra el  número de clientes potenciales a los cuáles se ha enviado una Cotización.
-Convertidos, muestra el número de clientes potenciales para los cuáles se envió una Cotización y Orden de Venta.
+* Potenciales Activos, muestra el número de todos los **Clientes Potenciales**, incluyendo todas las otras etapas. 
+* Oportunidades, muestra el número de Clientes Potenciales para los cuáles se han creado **Oportunidades**. 
+* Cotización muestra el  número de clientes potenciales a los cuáles se ha validado una **Cotización**.
+* Convertidos, muestra el número de clientes potenciales para los cuáles se envió una **Cotización** y **Orden de Venta**.
 
-Las etapas anteriores generalmente incluyen a las etapas posteriores. Sin embargo, si una etapa anterior fue salteada, se pueden ver resultados contradictorios como dos Cotizaciones derivadas de una Oportunidad (porque no es obligatorio crear primero una Oportunidad).
+Las etapas anteriores generalmente incluyen a las etapas posteriores. Sin embargo, si una etapa anterior fue salteada, se pueden ver resultados contradictorios como dos **Cotizaciones** derivadas de una misma **Oportunidad** (porque no es obligatorio crear primero una **Oportunidad**).
 
 <img alt="Sales Funnel" class="screenshot" src="/docs/assets/img/crm/sales_funnel.png">
 
