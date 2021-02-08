@@ -86,4 +86,4 @@ Al realizar una venta es importante saber que no esta incurriendo en pérdidas. 
 ### 4.6 No Mostrar la Identificación Fiscal del Cliente en las Transacciones de Venta
 Debido a las reglamentaciones, la mayoría de los clientes poseen una Identificación Fiscal única. A su vez, la misma debe ser utilizada en las transacciones de venta. Sin embargo, si no se desea utilizar esta función, se puede deshabilitar al hacer click en esta casilla. 
 
-{siguiente}
+{next}
