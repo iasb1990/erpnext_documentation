@@ -5,7 +5,7 @@
 
 Además de administrar a los Vendedores, ERPNext también permite asignar objetivos a Vendedores de acuerdo con Grupos de Productos y Territorio. De acuerdo al objetivo asignado y a las ventas efectivamente realizadas por el Vendedor, se obtiene el Informe de Cumplimiento de Objetivo para el Vendedor. 
 
-## 1. Vendedor- Asignación de Objetivos por Grupo de Productos 
+## 1. Vendedor - Asignación de Objetivos por Grupo de Productos 
 
 ### 1.1 Abrir la Ventana de Vendedor 
 
@@ -86,4 +86,4 @@ Se puede utilizar la Distribución Mensual al asignar objetivos a Vendedores y T
 1. [Vendedores en Operaciones de Venta](/docs/user/manual/en/selling/articles/sales-persons-in-the-sales-transactions)
 1. [Utilizando Vendedores en transacciones](/docs/user/manual/en/selling/articles/sales-persons-in-the-sales-transactions)
 
-{siguiente}
+{next}
