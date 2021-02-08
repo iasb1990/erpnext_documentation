@@ -28,4 +28,4 @@ Se puede restringir la Pauta de Envío a ciertos países, los mismos deben ser i
 1. [Envío Directo](/docs/user/manual/en/selling/articles/drop-shipping)
 1. [Cliente](/docs/user/manual/en/CRM/customer)
 
-{siguiente}
+{next}
