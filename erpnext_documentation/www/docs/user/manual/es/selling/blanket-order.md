@@ -52,4 +52,4 @@ A través del Panel, se pueden ver las Órdenes de Compra, de Venta y Cotizacion
 * [Orden de Venta](/docs/user/manual/en/selling/sales-order)
 * [Orden de Compra](/docs/user/manual/en/buying/purchase-order)
 
-{siguiente}
+{next}
