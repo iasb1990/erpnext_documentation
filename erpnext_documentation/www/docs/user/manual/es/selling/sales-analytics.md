@@ -69,4 +69,4 @@ En la sección "Otros Informes" se pueden encontrar informes de lo siguiente:
 * Clientes sin transacciones de venta
 * Comisiones de socios comerciales
 
-{siguiente}
+{next}
