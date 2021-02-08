@@ -32,7 +32,7 @@ Visitar la página [Listado de Precios](/docs/user/manual/en/stock/price-lists) 
 
 ## 2. Características
 
-###2.1 Unidad de embalaje
+### 2.1 Unidad de embalaje
 Esta es la cantidad que debe ser comprada o vendida por unidad de medida. Por ejemplo si la Unidad de Embalaje es dos, y la unidad de medida es uno, la cantidad de productos transferidos serán dos. La unidad preestablecida es 0, se puede usar una unidad de medida no entera como por ejemplo 1,5 Kg de Avena para 1 Unidad de Embalaje. Si se deja en 0 no afectará a ninguna transacción.
 
 ### 2.2 Cantidad mínima
