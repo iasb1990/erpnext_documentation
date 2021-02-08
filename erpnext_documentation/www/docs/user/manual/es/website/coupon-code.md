@@ -8,10 +8,9 @@ Hay revendedores u otros sitios que generan potenciales clientes para el sitio w
 
 Cuando el cliente potencial viene a realizar una compra desde otro sitio o desde campañas de e-mail hacia el sitio web de ERPNext se puede:
 	
-	a) Rastrear desde que afiliado o Socio Comercial proviene el cliente potencial [código de referencia]
-	(/docs/user/manual/en/selling/sales-partner)
+a) Rastrear desde que afiliado o Socio Comercial proviene el cliente potencial (ej: [código de referencia](/docs/user/manual/en/selling/sales-partner))
 
-	b) Otorgar descuentos (de acuerdo con la Pautas de Tarifas) sobre la totalidad de la compra, es decir, cupón de descuento
+b) Otorgar descuentos (de acuerdo con la Pautas de Tarifas) sobre la totalidad de la compra, es decir, cupón de descuento
 
 Para acceder al listado de Cupón de Descuento ir a:
 
