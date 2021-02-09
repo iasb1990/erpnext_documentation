@@ -32,7 +32,7 @@ Antes de crear una nueva plantilla, es importante saber que ya hay plantillas cr
 * **Considerar el Impuesto o Gasto para**: Total - por el total de todos los productos. Valuación - por cada producto. Valuación y total - se aplica el impuesto/gasto a los dos [Ver este artículo](/docs/user/manual/en/accounts/articles/what-is-the-differences-of-total-and-valuation-in-tax-and-charges) para entender la diferencia.
 * **Add or Deduct:** Whether you want to add or deduct the tax from the item.
 
-* **Fila de Referencia #**: Si el impuesto esta basado en el "Total de la Fila Anterior" se puede seleccionar el número de fila que será usado de base para este cálculo (la configuración predeterminada es la fila anterior).
+* **Fila de Referencia**: Si el impuesto esta basado en el "Total de la Fila Anterior" se puede seleccionar el número de fila que será usado de base para este cálculo (la configuración predeterminada es la fila anterior).
    <img class="screenshot" alt="Purchase taxes table" src="{{docs_base_url}}/assets/img/buying/purchase-taxes-table.png">
 
 * **¿Está el impuesto incluido en la tarifa básica?**: Si esta casilla está seleccionada, se considerará que el importe del impuesto ya está incluido Precio Impreso/Monto Impreso.
@@ -44,7 +44,7 @@ Antes de crear una nueva plantilla, es importante saber que ya hay plantillas cr
 
 
 ### 3. Temas relacionados
-1. [Orden de Compmra](/docs/user/manual/en/buying/purchase-order)
+1. [Orden de Compra](/docs/user/manual/en/buying/purchase-order)
 1. [Configuraciones de Compra](/docs/user/manual/en/buying/buying-settings)
 
-{siguiente}
+{next}
