@@ -192,4 +192,4 @@ Una vez que se "Envía" la Orden de Compra, se pueden generar acciones como esta
 1. [Comprar en Diferentes Unidades](/docs/user/manual/en/buying/articles/purchasing-in-different-unit)
 1. [Enmendar Orden de Compra luego de Envío](/docs/user/manual/en/buying/articles/amending-purchase-order-after-submit)
 
-{siguiente}
+{next}
