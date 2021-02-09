@@ -43,4 +43,4 @@ Se puede notificar a los Proveedores enviándoles un mail luego de enviar la Ord
 <img class="screenshot" alt="Drop Dhip Print Format" src="{{docs_base_url}}/assets/img/selling/drop-ship-print-format.png">
 
 
-{siguiente}    
+{next}    
