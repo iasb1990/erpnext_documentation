@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Voucher de Costo en Destino
+# Comprobante de Costo de Destino
 
 **Costo en Destino es el costo final total que requiere un producto para llegar hasta la puerta del comprador.**
 
@@ -13,11 +13,11 @@ De forma similar, al hacer negocios, es crucial identificar el costo en destino 
 
 De acuerdo con un estudio realizado por [Third-Party Logistics](http://www.3plstudy.com/), solo un 45% de los encuestados utilizan el Costo en Destino minuciosamente. Los principales motivos para no utilizar el Costo en Destino son: falta de información necesaria (49%), falta de herramientas adecuadas (48%), tiempo insuficiente (31%), y desconocimiento respecto a cómo aplicar costo en destino (27%).
 
-Para acceder al listado de Voucher de Costo en Destino ir a:
-> Inicio > Inventario > Herramientas > Voucher de Costo en Destino
+Para acceder al listado de Comprobante de Costo en Destino ir a:
+> Inicio > Inventario > Herramientas > Comprobante de Costo en Destino
 
 ## 1. Prerrequisitos
-Antes de crear y utilizar un Voucher de Costo en Destino, se recomienda crear lo siguiente: 
+Antes de crear y utilizar un Comprobante de Costo en Destino, se recomienda crear lo siguiente: 
 
 * [Recibo de Compra](/docs/user/manual/en/stock/purchase-receipt)
 
@@ -26,9 +26,9 @@ Antes de crear y utilizar un Voucher de Costo en Destino, se recomienda crear lo
 * [Factura de Compra](/docs/user/manual/en/accounts/purchase-invoice)
 
 
-## 2. Cómo Crear un Voucher de Costo en Destino
+## 2. Cómo Crear un Comprobante de Costo en Destino
 
-1. Ir al listado de Voucher de Costo en Destino y hacer click en Nuevo.
+1. Ir al listado de Comprobante de Costo en Destino y hacer click en Nuevo.
 1. Seleccionar el tipo de Documento Comprobante, sea Factura de Compra o Recibo. Se pueden seleccionar muchos documentos. 
 1. Seleccionar la Factura o Recibo específico. El nombre del proveedor y el Total General se obtendrán automáticamente. 
 1. Hacer click en el botón Obtener Productos desde Recibo de Compra para tomar los detalles de producto desde la Factura o Recibo de Compra. 
@@ -50,7 +50,7 @@ Los gastos sumados son distribuidos de forma proporcional entre todos los produc
 
 En ERPNext, al crear el Recibo de Compra (PR), se pueden sumar gastos relacionados al costo en destino en la tabla de "Impuestos y Gastos". Esos gastos deberían ser ingresados como "Total y Valoración" o "Valoración", en el campo "Tomar Impuesto o Gasto para". Aquellos gastos que son pagaderos al mismo Proveedor del cuál se obtienen los productos deberían ser catalogados como "Total y Valoración". En cambio, si los gastos son a pagar a un tercero, deberían ser catalogados como "Valoración". Al enviar el Recibo de Compra, el sistema calculará el costo en destino de todos los productos, teniendo en cuenta esos gastos. El costo en destino será considerado al calcular la Tarifa de Valoración del producto (de acuerdo con los métodos FIFO o Promedio Móvil). 
 
-Pero, en realidad, al crear un Recibo de Compra puede que no conozcamos todos los gastos que se aplicarán para el costo en destino. El transportista puede enviar su factura luego de 1 mes, pero no tiene sentido esperar tanto para generar el Recibo de Compra. Las empresas que importan productos o partes, pagan grandes montos en Derechos Aduaneros. Y, generalmente, la factura del Departamento de Aduana llega despúes de un tiempo. Es en estos casos en que el Voucher de Costo en Destino es de gran utilidad, ya que permite añadir esos gastos adicionales en una fecha posterior y actualizar el costo en destino de los productos comprados. 
+Pero, en realidad, al crear un Recibo de Compra puede que no conozcamos todos los gastos que se aplicarán para el costo en destino. El transportista puede enviar su factura luego de 1 mes, pero no tiene sentido esperar tanto para generar el Recibo de Compra. Las empresas que importan productos o partes, pagan grandes montos en Derechos Aduaneros. Y, generalmente, la factura del Departamento de Aduana llega despúes de un tiempo. Es en estos casos en que el Comprobante de Costo en Destino es de gran utilidad, ya que permite añadir esos gastos adicionales en una fecha posterior y actualizar el costo en destino de los productos comprados. 
 
 ### 3.2 ¿Qué sucede al enviar?
 
