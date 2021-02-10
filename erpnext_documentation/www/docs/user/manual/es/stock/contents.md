@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Existencias
+# Inventario
 El módulo de Existencias o Inventario de ERPNext permite:
 
 * Poseer detalles de todos los productos y depósitos.
@@ -67,7 +67,7 @@ El módulo de Existencias está profundamente integrado con los módulos de Comp
 
 ## 2. Artículos
 ### 2.1 Transacciones de Existencias
-1. [Permitir Sobre Facturación/Env´´io sobre Orden de Venta hasta un Cierto Límite](/docs/user/manual/en/stock/articles/allow-over-delivery-billing-against-sales-order-upto-certain-limit)
+1. [Permitir Sobre Facturación/Envío sobre Orden de Venta hasta un Cierto Límite](/docs/user/manual/en/stock/articles/allow-over-delivery-billing-against-sales-order-upto-certain-limit)
 1. [Creación Automática de Pedido de Material](/docs/user/manual/en/stock/articles/auto-creation-of-material-request)
 1. [Error de Existencias en Nota de Envío](/docs/user/manual/en/stock/articles/delivery-note-stock-error)
 1. [Objetivo del Registro de Inventario](/docs/user/manual/en/stock/articles/stock-entry-purpose)
