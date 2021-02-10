@@ -1,6 +1,6 @@
 # Producto
 
-**Un Producto es un producto o servicio ofrecido por una empresa**
+**Un Producto es un bien o servicio ofrecido por una empresa**
 
 El término Producto también se aplica a materias primas o componentes de productos que todavía deben ser manufacturados (antes de poder ser vendidos a los clientes). ERPNext permite administrar todo tipo de productos como materias primas, sub-productos, productos finales, variantes de productos y servicios. 
 
@@ -37,7 +37,7 @@ Antes de crear y utilizar un Producto, se recomienda crear lo siguiente:
 ### 2.2 Opciones al crear un Producto
 * **Desactivar**: Si se desactiva un Producto, este no podrá ser seleccionado en ninguna transacción.
 
-* **Permitir Producto Alternativo*: A veces, al fabricar un producto final, puede suceder que algunos materiales específicos no estén disponibles. Si se habilita esta opción, se puede crear y seleccionar un producto alternativo del listado de Productos Alternativos. Para saber más, visitar la página [Producto Alternativo](/docs/user/manual/en/manufacturing/item-alternative) page.
+* **Permitir Producto Alternativo**: A veces, al fabricar un producto final, puede suceder que algunos materiales específicos no estén disponibles. Si se habilita esta opción, se puede crear y seleccionar un producto alternativo del listado de Productos Alternativos. Para saber más, visitar la página [Producto Alternativo](/docs/user/manual/en/manufacturing/item-alternative) page.
 
 * **Mantener Existencias:** Si se mantienen existencias de este Producto en el Inventario, ERPNext realizará una entrada en el Inventario de Existencias para cada transacción de este producto. Asegurarse de no seleccionar esta opción cuando se crea un Producto sin Existencias (fabricación contra pedido/contruir) o un servicio.
 
@@ -54,12 +54,6 @@ Antes de crear y utilizar un Producto, se recomienda crear lo siguiente:
 * **Porcentaje de Tolerancia**: Esta opción sólo estará disponible luego de crear y guardar el Producto. Este el porcentaje en el cuál se permitirá sobre facturar y sobre entregar este Producto. Si no es configurado, se seleccionará desde [Configuraciones de Existencias](/docs/user/manual/en/stock/stock-settings#3-limit-percent).
 
 * **Subir una Imagen**: Para subir una imagen al ícono que aparecerá en todas las transacciones, guardar el formulario completado parcialmente. Luego de guardar el archivo, aparecerá el botón "Cambiar" en el ícono de Imagen. Hacer click allí, luego hacer click en Subir y cargar la imagen.  
-
-Para India:
-
-* **HSN/SAC**: El Sistema Armonizado de Nomenclatura (HSN) y el Código de Servicio Contable (SAC) para GST. Estos números son definidos por el gobierno y distintos productos caen bajo distintos códigos. Los nuevos códigos HSN pueden ser añadidos sino están presentes en el listado.  
-* **No está clasificada o está exenta**: Para un Producto que está bajo el régimen GST, pero no se le aplican impuestos. Por ejemplo: Cereales.
-* **No es GST**: Para un Producto que no está incluído en el régimen. Por ejemplo: petróleo.
 
 ## 3. Características
 
@@ -283,16 +277,8 @@ Hub es un mercado gratuito en línea donde los Clientes y Proveedores pueden rea
 * **Depósito Hub**: Este es un Depósito separado donde guardar las existencias para las transacciones realizadas en hub.
 * **Sincronizar con Hub**: Sincronizar el producto y otros detalles con hub cuando se realizan transacciones.
 
-## 4. Video
 
-<div>
-  <div class='embed-container'>
-    <iframe src='https://www.youtube.com/embed/FcOsV-e8ymE?end=192' frameborder='0' allowfullscreen>
-    </iframe>
-  </div>
-</div>
-
-### 5. Temas relacionados
+### 4. Temas relacionados
 1. [Precio de Producto](/docs/user/manual/en/stock/item-price)
 2. [Codificación de Producto](/docs/user/manual/en/stock/articles/item-codification)
 3. [Variantes de Producto](/docs/user/manual/en/stock/item-variants)
