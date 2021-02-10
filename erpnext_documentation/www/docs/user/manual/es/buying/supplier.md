@@ -81,7 +81,7 @@ En ERPNext Los Contactos y Direcciones son almacenados de forma separada a fin d
 
 <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-new-address-contact.png">
 
-> Tip: When you select a Supplier in any transaction, Contact for which "Is Primary" field id checked, it will auto-fetch with the Supplier details.
+> Consejo: al seleccionar un Proveedor en una transacción, serán traídos los datos del contecto vinculado al mismo que tenga tildada la opción "Es el contacto principal".
 
 ### 2.8 Luego de Guardar
 Una vez completados todos los detalles necesarios, guardar el documento. Luego de guardar, aparecerán en el Tablero opciones para crear lo siguiente: 
@@ -100,16 +100,10 @@ Al hacer click en el botón Ver, se pueden ver directamente el Libro Contable o 
 
 Hay un botón para "Enviar Recordatorio de Actualización GST" al proveedor. Pero primero se debe haber configurado una [cuenta de mail](/docs/user/manual/en/setting-up/email/email-account) predeterminada.
 
-## 3. Video
-<div>
-    <div class='embed-container'>
-        <iframe src='https://www.youtube.com/embed//zsrrVDk6VBs?start=213' frameborder='0' allowfullscreen>
-        </iframe>
-    </div>
-</div>
 
-### 4. Temas Relacionados
+### 3. Temas Relacionados
 1. [Cotización de Proveedor](/docs/user/manual/en/buying/supplier-quotation)
 1. [Sistema de Puntuación de Proveedores](/docs/user/manual/en/buying/supplier-scorecard)
 1. [Mantener el Código de Producto del Proveedor en la Función Producto](/docs/user/manual/en/buying/articles/maintaining-suppliers-part-no-in-item)
-{siguiente}
+
+{next}
