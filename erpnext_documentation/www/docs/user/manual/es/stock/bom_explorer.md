@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Explorador de Lista de Materiales
+# Explorador de Lista de Materiales
 
 El Informe Explorador de Lista de Materiales muestra la jerarquía completa de la Lista de Materiales (BOM) con sus materias primas, en forma de vista de árbol.
 
