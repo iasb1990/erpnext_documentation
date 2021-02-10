@@ -95,4 +95,4 @@ Se genera una evaluación por cada Período del Sistema de Puntuación de Provee
 1. [Proveedor](/docs/user/manual/en/buying/supplier)
 1. [Cotización del Proveedor](/docs/user/manual/en/buying/supplier-quotation)
 
-{siguiente}
+{next}
