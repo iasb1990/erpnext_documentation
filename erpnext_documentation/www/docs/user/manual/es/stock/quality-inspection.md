@@ -27,13 +27,7 @@ Antes de crear y utilizar una Inspección de Calidad, se recomienda crear lo sig
 
 <img class="screenshot" alt="Quality Inspection" src="{{docs_base_url}}/assets/img/stock/quality-inspection.png">
 
-## 3. Video
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/WmtcF3Y40Fs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
-
-### 4. Temas Relacionados
+## 3. Temas Relacionados
 1. [Recibo de Compra](/docs/user/manual/en/stock/purchase-receipt)
 1. [Nota de Envío](/docs/user/manual/en/stock/delivery-note)
 1. [Registro de Inventario](/docs/user/manual/en/stock/stock-entry)
