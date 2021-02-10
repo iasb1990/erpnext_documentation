@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Comprar en Unidades de Medida (UdM) Diferentes
+# Comprar en Unidades de Medida (UdM) Diferentes
 
 Cada producto tiene su propia Unidad de Medida (UdM) de almacenamiento asociada. Por ejemplo, la UdM de lapiceras puede ser Unidades y la arena puede ser guardada en kilos. Sin embargo, cuando realizamos un pedido a un Proveedor, la UdM de un producto puede cambiar. Por ejemplo, podemos pedirle al Proveedor 1 kit/caja de Lapiceras, o, un camión de arena. Al crear la transacciónd e compra, se puede cambiar la UdM de Compra para un producto. 
 
