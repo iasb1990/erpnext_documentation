@@ -52,21 +52,7 @@ El nombre de la variante se basará en el nombre (ID) del Producto que conforma 
 ## 2. Actualizar las Variantes de Producto en base a la Plantilla
 Ir a: **Inicio > Existencias > Productos y Precios > Configuraciones de Variantes de Producto**. Los campos mostrados aquí serán copiados también en las variantes. De forma predeterminada, se mostrarán todos los campos, borrar cualquier fila que no se quiera actualizar desde la plantilla del producto hacia las variantes. 
 
-## 3. Video
-
-### 3.1 Crear Variantes de Producto una por una
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/kogIricF40I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
-
-### 3.2 Crear Variantes de Producto en grupo
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/SngZtDIMdiQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
-
-### 4. Temas Relacionados
+## 3. Temas Relacionados
 1. [Grupos de Producto](/docs/user/manual/en/stock/item-group)
 1. [Atributos de Productos](/docs/user/manual/en/stock/item-attribute)
 1. [Precio de Producto](/docs/user/manual/en/stock/item-price)
