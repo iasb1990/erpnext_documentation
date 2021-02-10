@@ -98,15 +98,7 @@ Se pueden crear los siguientes documentos:
 
 Los Pedidos de Materiales pueden ser generados automáticamente al habilitar la configuración en [Configuraciones de Existencias](/docs/user/manual/en/stock/stock-settings#9-automatic-material-request) y establecer el nivel en el [Formulario de Producto](/docs/user/manual/en/stock/item#34-automatic-reordering). Cuando el nivel de existencias caiga por debajo de una cierta cantidad, al configurar un pedido automático, se generará automáticamente un pedido de materiales para el Producto.
 
-## 3. Video
-<div>
-  <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/55Gk2j7Q8Zw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-  </div>
-</div>
-
-### 4. Temas Relacionados
+## 3. Temas Relacionados
 1. [Producto](/docs/user/manual/en/stock/item)
 1. [Creación Automática de Pedido de Materiales](/docs/user/manual/en/stock/articles/auto-creation-of-material-request)
 1. [Lista de Selección](/docs/user/manual/en/stock/pick-list#23-create-pick-list-from-material-request)
