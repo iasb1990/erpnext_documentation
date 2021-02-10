@@ -132,8 +132,8 @@ Para añadir impuestos de forma automática a través de una Categoría Impositi
 
 Asegurarse de anotar correctamente todos los impuestos en la tabla de Impuestos y Gastos para una valoración precisa. 
 
-#### Pauta de Envío
-Una Pauta de Envío ayuda a determinar el costo de enviar un producto. El costo tenderá a aumentar a medida que la distancia de envío sea mayor. Para saber más, vistar la sección [Pauta de Envío](/docs/user/manual/en/selling/shipping-rule).
+#### Regla de Envío
+Una Regla de Envío ayuda a determinar el costo de enviar un producto. El costo tenderá a aumentar a medida que la distancia de envío sea mayor. Para saber más, vistar la sección [Regla de Envío](/docs/user/manual/en/selling/shipping-rule).
 
 
 ### 3.7 Descuentos Adicionales
@@ -184,11 +184,11 @@ A veces algunos gastos que suman al total de los Productos comprados se conocen
 luego de un tiempo. Un ejemplo común de esto es, si los Productos son Importados, solo se 
 conocerán los Aranceles Aduaneros y otros gastos cuando el "Despachante de Aduana" envíe
 su factura. Si se quiere sumar estos costos a los bienes Compradas se debe 
-utilizar el [Voucher de Costo en Destino](/docs/user/manual/en/stock/landed-cost-voucher) ¿Por qué "Costo en Destino"? Porque representa los gastos que se pagan cuando los Productos llegan a su destino. 
+utilizar el [Comprobante de Costo en Destino](/docs/user/manual/en/stock/landed-cost-voucher) ¿Por qué "Costo en Destino"? Porque representa los gastos que se pagan cuando los Productos llegan a su destino. 
 
 ## 4. Temas Relacionados
-1. [Nota de Envío](/docs/user/manual/en/stock/delivery-note)
+1. [Nota de Entrega](/docs/user/manual/en/stock/delivery-note)
 1. [Orden de Compra](/docs/user/manual/en/buying/purchase-order)
 1. [Factura de Compra](/docs/user/manual/en/accounts/purchase-invoice)
 1. [Proveedor](/docs/user/manual/en/buying/supplier)
-1. [Voucher de Coste en Destino](/docs/user/manual/en/stock/landed-cost-voucher)
+1. [Comprobante de Costo en Destino](/docs/user/manual/en/stock/landed-cost-voucher)
