@@ -1,13 +1,3 @@
----
-title: Pick List
-add_breadcrumbs: 1
-show_sidebar: 0
-
-metatags:
- description: A Pick List is a document that indicates which items should be taken from your inventory to fulfill orders. This is particularly useful for shippers with a large amount of inventory, volume of orders, or customers ordering many Stock Keeping Unit(SKU).
- keywords: Pick List, Picking Slip, frappe, Pick Ticket, erpnext new features, erp, open source erp, free erp, stock
----
-
 # Lista de Selección de Productos
 
 **Una Lista de Selección de Productos es un documento que indica qué productos deben ser quitados del inventario para completar órdenes.**
