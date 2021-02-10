@@ -115,18 +115,12 @@ Si un Proveedor indica que no enviará una cotización para los productos, esto 
 
 Para saber respecto a crear una Cotización de Proveedor hacer [click aquí](/docs/user/manual/en/buying/supplier-quotation).
 
-## 6. Video
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/q85GFvWfZGI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
 
-
-### 7. Temas Relacionados
+### 6. Temas Relacionados
 1. [Orden de Compra](/docs/user/manual/en/buying/purchase-order)
 1. [Proveedor](/docs/user/manual/en/buying/supplier)
 1. [Cotización del Proveedor](/docs/user/manual/en/buying/supplier-quotation)
 1. [Cotización](/docs/user/manual/en/selling/quotation)
 1. [Pedido de Material](/docs/user/manual/en/stock/material-request)
 
-{siguiente}
+{next}
