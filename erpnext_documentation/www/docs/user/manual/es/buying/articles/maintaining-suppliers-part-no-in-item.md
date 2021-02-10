@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Conservar el Código de Producto del Proveedor en la función Producto 
+# Conservar el Código de Producto del Proveedor en la función Producto 
 
 Para cada producto, el código asignado puede ser diferente de aquel que el proveedor le dio a ese mismo producto. ERPNext permite rastrear el Código de Producto del Proveedor en la función producto. A su vez, se puede obtener el Código de Producto del Proveedor en las transacciones de compra, de forma que el mismo reconozca fácilmente los productos de acuerdo con su Código de Producto. 
 
