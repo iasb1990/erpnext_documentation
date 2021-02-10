@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Informe de Control de Adquisiciones 
+# Informe de Control de Adquisiciones 
 
 Este informe enumera todas las transacciones relacionadas a productos que estรกn en proceso de ser adquiridos.
 
