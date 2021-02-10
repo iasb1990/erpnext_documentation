@@ -48,7 +48,9 @@ La mayoría de estos detalles se obtendrán automáticamente si se genera la Not
 Estos detalles se verán al imprimir la Nota de Embalaje.
 
 **Peso Neto**: Se calcula como la suma del peso de todos los Productos en la tabla.
+
 **Peso Bruto**: Este es el peso final total, incluye el peso de los materiales de embalaje utilizados. 
+
 **Peso Bruto UdM**: Aquí puede configurarse una UdM para el peso final del producto.
 
 ### 3.3 Papel membretado
