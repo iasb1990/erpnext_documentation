@@ -18,7 +18,7 @@ Para acceder a Grupos de Proveedores ir a:
 ## 1. Prerrequisitos
 Antes de crear y utilizar un Grupo de Proveedores, es aconsejable crear lo siguiente: 
 
-* [Supplier](/docs/user/manual/en/buying/supplier)
+* [Proveedor](/docs/user/manual/en/buying/supplier)
 
 ## 2. Cómo Crear un Grupo de Proveedores
 1. Ir al listado de Grupo de Proveedores y hacer click en Nuevo
@@ -54,4 +54,4 @@ ver sus nodos secundarios como "Distribuidor de Libros", "Distribuidor Electrón
 ### 4. Temas Relacionados
 1. [Proveedor](/docs/user/manual/en/buying/supplier)
 
-{siguiente}
+{next}
