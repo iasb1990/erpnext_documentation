@@ -9,10 +9,10 @@ Para acceder al listado de Nota de Instalación ir a:
 > Inicio > Inventario > Número de Serie y Lote > Nota de Instalación
 
 ## 1. Cómo Crear una Nota de Instalación
-Una Nota de Instalación generalmente se crea desde una Nota de Envío. También se puede crear manualmente y hacer click en el botón "Desde Nota de Envío" para obtener los detalles desde una Nota de Envío. 
+Una Nota de Instalación generalmente se crea desde una Nota de Envío. También se puede crear manualmente y hacer click en el botón "Desde Nota de Entrega" para obtener los detalles desde una Nota de Entrega. 
 
 1. Ir al listado de Nota de Instalación y hacer click en Nueva. 
-1. El Cliente, Producto y cantidad se obtendrán de la Nota de Envío.
+1. El Cliente, Producto y cantidad se obtendrán de la Nota de Entrega.
 1. La fecha y hora se configuran a cuando la nota es creada.
 1. Guardar y Enviar. 
 
@@ -21,5 +21,5 @@ Una Nota de Instalación generalmente se crea desde una Nota de Envío. También
 Cualquier otra observación respecto a la nota de instalación puede ser agregada. Si el Producto es seriado, los números de serie pueden añadirse en la tabla de Productos. 
 
 ### 2. Temas Relacionados
-1. [Nota de Envío](/docs/user/manual/en/stock/delivery-note)
-1. [Viaje de Envío](/docs/user/manual/en/stock/delivery-trip)
+1. [Nota de Entrega](/docs/user/manual/en/stock/delivery-note)
+1. [Viaje de Entrega](/docs/user/manual/en/stock/delivery-trip)
