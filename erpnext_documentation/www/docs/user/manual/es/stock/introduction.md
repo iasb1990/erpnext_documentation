@@ -14,14 +14,3 @@ Mas allá de estas transacciones principales, también hay otros documentos disp
 A continuación una vista del Resumen de Existencias de Productos en ERPNext.
 
 <img class="screenshot" alt="ERPNext Stock" src="{{docs_base_url}}/assets/img/stock/stock-hero.png">
-
-## 2. Un distribuidor habla respecto a la implementación de ERPNext 
-
-Cuando la empresa de servicios de seguridad de Tarun Gupta, Neural Integrated Services, comenzó a crecer, su ERP no podía cumplir sus funciones, y a pesar de los gastos de dinero, se encontraba lleno de fallas. Allí fue que Tarun decidió utilizar algo mejor y descubrió ERPNext.
-
-<div>
-    <div class='embed-container'>
-        <iframe src='https://www.youtube.com/embed/7tPifRTfbGo' frameborder='0' allowfullscreen>
-        </iframe>
-    </div>
-</div>
