@@ -21,7 +21,7 @@ Antes de crear y utilizar un Lote, es recomendable crear lo siguiente:
 
 Para configurar un producto como en lote, debe habilitarse el campo "Tiene Número de Lote" en la función Producto. Si no se seleccionó "Crear Nuevo Lote Automáticamente" al crear un producto, se deberán crear los Lotes de forma Manual. 
 
-To create new Batch No. master for an item, go to:
+Para crear un nuevo lote ir a:
 
 1. Ir al listado de Lote y hacer click en Nuevo.
 1. Configurar la ID del Lote.
