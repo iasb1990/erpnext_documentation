@@ -9,13 +9,13 @@ Desde una Nota de Envío pueden crearse muchas Notas de Embalaje. Esto es útil 
 
 Para acceder al listado de Nota de Embalaje ir a::
 > Inicio > Inventario > Herramientas > Nota de Embalaje
-<p></p>
+
 > Observación: Para crear Notas de Embalaje desde una Nota de Envio, la Nota de Envío debe estar en etapa de Borrador.  
 
 ## 1. Prerrequisitos
 Antes de crear y utilizar una Nota de Embalaje se recomienda crear primero lo siguiente:
 
-* [Nota de Envío](/docs/user/manual/en/stock/delivery-note)
+* [Nota de Entrega](/docs/user/manual/en/stock/delivery-note)
 
 
 ## 2. Cómo crear una nueva Nota de Embalaje
@@ -32,18 +32,18 @@ La mayoría de estos detalles se obtendrán automáticamente si se genera la Not
 <img class="screenshot" alt="Packing Slip" src="{{docs_base_url}}/assets/img/stock/packing-slip.png">
 
 
-### 1.1 Opciones Adicionales al Crear una Nota de Embalaje
+### 2.1 Opciones Adicionales al Crear una Nota de Embalaje
 **Número de Paquete**: Si hay muchos paquetes del mismo tipo en el envío entonces conviene configurar los Números de Paquete Desde y Hasta. Por ejemplo, los números de paquete del 1 al 5 en una Nota de Embalaje, luego los números de paquete del 6 al 10 y así sucesivamente.  Esto se verá al imprimir la Nota de Embalaje. Tener en cuenta que esto sólo funcionará si el Envío contiene toda esa cantidad de Productos.
 
-## 2. Características
+## 3. Características
 
-### 2.1 Tabla de Productos
+### 3.1 Tabla de Productos
 
 * Si es un Producto en Lote, es necesario seleccionar el Número de Lote.
 * La Cantidad, Unidad de Medida, Peso Neto y Peso en UdM se obtendrán de la Nota de Envío.
 * Salto de Página creará un salto de página justo antes de este producto al imprimir.
 
-### 2.2 Detalles de peso del paquete
+### 3.2 Detalles de peso del paquete
 
 Estos detalles se verán al imprimir la Nota de Embalaje.
 
@@ -51,10 +51,10 @@ Estos detalles se verán al imprimir la Nota de Embalaje.
 **Peso Bruto**: Este es el peso final total, incluye el peso de los materiales de embalaje utilizados. 
 **Peso Bruto UdM**: Aquí puede configurarse una UdM para el peso final del producto.
 
-### 2.3 Papel membretado
+### 3.3 Papel membretado
 Se puede imprimir la Nota de Embalaje en papel con el membrete de la empresa. Saber más [aquí](/docs/user/manual/en/setting-up/print/letter-head).
 
 
-### 2. Temas Relacionados
+### 4. Temas Relacionados
 1. [Inspección de Calidad](/docs/user/manual/en/stock/quality-inspection)
-1. [Nota de Envío](/docs/user/manual/en/stock/delivery-note)
+1. [Nota de Entrega](/docs/user/manual/en/stock/delivery-note)
