@@ -50,6 +50,6 @@ El número aproximado de días que el producto tardará en llegar al depósito. 
 ### 2.6 Observaciones
 En este campo se puede añadir cualquier obsevación respecto al Precio de Producto. 
 
-### 4. Temas relacionados
+### 3. Temas relacionados
 1. [Producto](/docs/user/manual/en/stock/item)
 1. [Aplicar descuento](/docs/user/manual/en/selling/articles/applying-discount)
