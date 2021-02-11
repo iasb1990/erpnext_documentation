@@ -8,7 +8,7 @@ Proveedor. Esto puede suceder por un número de razones como productos defectuos
 problemas de calidad, comprador que no necesita los productos, etc.
 
 ## 1. Prerrequisitos
-Antes de crear y utilizar una Devoluación de Compra, se aconseja crear lo siguiente: 
+Antes de crear y utilizar una Devolución de Compra, se aconseja crear lo siguiente: 
 
 * [Producto](/docs/user/manual/en/stock/item)
 * [Factura de Compra](/docs/user/manual/en/accounts/purchase-invoice)
