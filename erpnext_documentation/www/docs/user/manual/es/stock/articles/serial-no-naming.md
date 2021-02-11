@@ -1,13 +1,13 @@
 <!-- add-breadcrumbs -->
-#Nombrar usando Número de Serie
+# Nombrar usando Número de Serie
 
-Los Números de Serie son valor únicos asignados a cada unidad de un producto. Los Número de Serie ayudan a rastrar los detalles de garantia y vencimiento de un producto. Genralmente los productos seriados son de gran valor como máquinas, computadoras y equipos costos.. 
+Los Números de Serie son valor únicos asignados a cada unidad de un producto. Los Número de Serie ayudan a rastrar los detalles de garantia y vencimiento de un producto. Genralmente los productos seriados son de gran valor como máquinas, computadoras y equipos costos.
 
 Para que un artículo sea Seriado, ir a la función de producto y hacer click en la casillas **Tiene Número de Serie**.
 
 Hay dos formas de generar un Número de Serie en ERPNext.
 
-###1. Seriar productos de compra
+### 1. Seriar productos de compra
 
 Si los productos comprados son recibidos con Números de Serie aplicados por OEM (Fabricante de Equipo Original), se puede seguir el mismo Número de serie en ERPNext. Al crear el Recibo de Compra, se debe escanear o ingresar de forma manual el Número de Serie para un producto. Al enviar el Recibo de Compra, los Números de Serie serán creados en la base de datos como Números de Serie proporcionados para un producto.  Si se utiliza el Número de Serie OEM, entonces en la función producto, el Prefijo no debería ser mencionado para seriar. En el caso de este escenario, el campo Prefijo debería ser dejado en blanco. 
 
@@ -21,17 +21,17 @@ Los números de serie generados serán actualizados para cada producto
 
 <img alt="Serial Nos Created" class="screenshot" src="{{docs_base_url}}/assets/img/articles/serial-naming-2.png">
 
-###2. Seriar productos manufacturados
+### 2. Seriar productos manufacturados
 
 Para seriar productos manufacturados, se pueden definir Series para la generación de Números de Serie en la función Producto. Siguiendo a esas series, el sistema creará nuevos Números de Serie por producto cuando se realice una entrada de su Produccion. 
 
-####2.1 Serie de Números de Serie
+#### 2.1 Serie de Números de Serie
 
 Cuando un producto está configurado como seriado, permitirá mencionar una Serie para el mismo
 
 <img alt="Serial Nos Created" class="screenshot" src="{{docs_base_url}}/assets/img/articles/serial-naming-3.png">
 
-####2.2 Entrada de Produccion para Producto Seriado
+#### 2.2 Entrada de Produccion para Producto Seriado
 
 Al enviar una entrada de producción para fabricar un producto, el sistema generará automáticamente Números de Serie, siguiendo las Series especificadas en la función Producto. 
 
