@@ -19,7 +19,7 @@ Refleja el mismo valor ingresado en el campo *Precio* del documento.
 
 * **Tarifa de Valoración**: Se calcula de acuerdo con el método de valoración seleccionado.
 
-Aquí es como el Informe de Inventario de Existencias representa un **Registro de Inventario** de tipo *Recepción de Material*.
+Aquí es como el Informe de Inventario de Existencias representa un **Entrada de Inventario** de tipo *Recepción de Material*.
 
 ![Stock Ledger Report](/docs/assets/img/stock/stock-ledger.png)
 
@@ -32,7 +32,7 @@ Los Inventarios de Existencias son generados desde las siguientes transacciones:
 -   Factura de Venta, Factura de Compra (con *Actualizar Existencias* habilitado)
 -   Nota de Envío
 -   Recibo de Compra
--   Registro de Inventario
+-   Entrada de Inventario
 -   Conciliación de Inventario
 
 Se pueden añadir campos de los Tipos de Documento previamente mencionados, haciendo click en Menú > Añadir Columna.
