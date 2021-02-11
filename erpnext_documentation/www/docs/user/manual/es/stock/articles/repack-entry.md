@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Entrada para Volver a Embalar
+# Entrada para Volver a Embalar
 
 La entrada para Volver a Embalar se crea para aquellos productos comprados al por mayor que deben ser embalados en paquetes mas chicos. Por ejemplo, un producto comprado en toneladas puede volver a embalarse en kilos.
 
@@ -13,7 +13,7 @@ Asumamos que estamos comprando cajas de pintura en aerosol de un color específi
 
 #### 1. Nuevo Ingreso de Existencias
 
-`Existencias > Documentos > Ingreso de Existencias > Nuevo Ingreso de Existencias
+> Existencias > Documentos > Ingreso de Existencias > Nuevo Ingreso de Existencias
 
 #### 2. Ingresar Productos
 
