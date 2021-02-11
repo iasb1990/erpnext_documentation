@@ -22,8 +22,8 @@ Utilizando la conciliación de inventario se puede actualizar el número de prod
 También se pueden añadir Productos en el inventario que tengan Números de Serie y de Lote. 
 
 1. Ir al listado de Conciliación de Inventario y hacer click en Nuevo.
-1. Seleccionar el Objetivo como "Exitencias Iniciales". Se puede editar la fecha y hora de publicación. S
-1. Seleccionar Código de Producto, Depósito, Cantidad y Tarifa de Valoración. Si hay Número de Serie y Lote añadirlo. S
+1. Seleccionar el Objetivo como "Exitencias Iniciales". Se puede editar la fecha y hora de publicación.
+1. Seleccionar Código de Producto, Depósito, Cantidad y Tarifa de Valoración. Si hay Número de Serie y Lote añadirlo.
 1. Si se desea generar automáticamente Números de Serie y Lote entonces mantener esos campos en blanco. 
     * Para generar automáticamente Números de Serie se debe configurar "Serie de Números de Serie" en la función Producto. 
     * Para generación automática de Número de Lote, se debe habilitar la casilla "Crear Nuevo Lote Automáticamente" en la función producto.
@@ -102,18 +102,6 @@ Se realiza la Conciliación de Inventario el 12 de enero para configurar el bala
 
 El Inventario de Existencias se verá como se muestra a continuación:
 <html>
-<style>
-    td {
-    padding:5px 10px 5px 5px;
-    };
-    img {
-    align:center;
-    };
-    table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    }
-</style>
  <table border="1" cellspacing="0px">
             <tbody>
                 <tr align="center" bgcolor="#EEE">
@@ -207,16 +195,9 @@ La conciliación de inventario para productos en lote será utilizada para añad
 Informe de Historial de Balance en base a Lote, luego del envío de la conciliación de inventario:
 <img class="screenshot" alt="Stock Reconciliation" src="{{docs_base_url}}/assets/img/stock/batchwise_balance_history_after_stock_reco_submission.png">
 
-## 5. Video
-
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/nlHX0ZZ84Lw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
-
-### 6. Temas Relacionados
-1. [Registro de Inventario](/docs/user/manual/en/stock/stock-entry)
+## 5. Temas Relacionados
+1. [Entrada de Inventario](/docs/user/manual/en/stock/stock-entry)
 1. [Contabilidad de Existencias en Inventario](/docs/user/manual/en/stock/accounting-of-inventory-stock)
 
 
-{siguiente}
+{next}
