@@ -154,10 +154,10 @@ Al recibir una Factura del proveedor, para el Recibo de Compra de más arriba, s
 Aquí la cuenta "Productos Recibidos Pero No Facturados" es debitada y anulada por
 efecto del Recibo de Compra.
 
-#### 2.4 Nota de Envío
+#### 2.4 Nota de Entrega
 
 Digamos que se tiene una orden de "Utah Automation Services" para enviar 5 unidades del producto "RM0001"
-a $300. A continuación los detalles de la Nota de Envío:
+a $300. A continuación los detalles de la Nota de Entrega:
 
 **Cliente:** Utah Automation Services
 
@@ -232,9 +232,9 @@ método de valoración elegido (FIFO / Promedio Móvil) o al costo real de los p
 
 ### 2.5 Facturas de Venta con Actualización de Existencias 
 
-Digamos que no se realizó una Nota de Envío desde la orden anterior sino que
+Digamos que no se realizó una Nota de Entrega desde la orden anterior sino que
 se generó una Factura de Venta directamente con la opción "Actualizar Existencias". Los detalles
-de la Factura de Venta son los mismos que los de la Nota de Envío mostrada más arriba. 
+de la Factura de Venta son los mismos que los de la Nota de Entrega mostrada más arriba. 
 
 **Inventario de Existencias**
 
