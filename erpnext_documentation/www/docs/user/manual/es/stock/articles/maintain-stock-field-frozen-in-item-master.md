@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Campo "Mantener Existencias" Congelado en la Función Producto
+# Campo "Mantener Existencias" Congelado en la Función Producto
 
 En la función producto, se podrá verificar que los siguientes campos están congelados.
 
