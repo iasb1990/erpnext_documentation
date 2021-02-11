@@ -11,7 +11,7 @@ Se puede configurar si una UdM particular puede tener valor en decimales o no. D
 
 Para acceder al listado UdM ir a:
 
-> Existencias > Configuración > UdM`
+> Existencias > Configuración > UdM
 
 Del listado de UdM seleccionar aquella a la que se le restringirá el uso de decimales. Asumamos que esa UdM es Números. 
 
