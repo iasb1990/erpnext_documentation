@@ -35,7 +35,7 @@ Para crear un Recibo de Compra de forma _manual_ (no recomendado), seguir los si
 
     <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/assets/img/stock/purchase-receipt.png">
 
-También se puede sumar una "Nota de Envío del Proveedor" al Recibo de Compra si el Proveedor agregó algunas observaciones.
+También se puede sumar una "Nota de Entrega del Proveedor" al Recibo de Compra si el Proveedor agregó algunas observaciones.
 Utilizando la casilla "Editar Fecha y Hora de Registro" se puede editar la fecha y hora del Recibo de Compra. De forma predeterminada, la fecha y hora se establecerán cuando se hace click en el botón Nuevo. 
 
 Es Devolución: Hacer click en esta casilla si se están devolviendo Productos que no fueron aceptados en el Depósito. 
