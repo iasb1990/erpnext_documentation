@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Permitir Sobre Facturación/Envío
+# Permitir Sobre Facturación/Envío
 
 Al crear una Nota de Envío, el sistema valida si la cantidad de producto es la misma que en la Orden de Venta. Si la cantidad de producto aumentó, se recibirá un mensaje de validación de sobre-envío o recepción. 
 
