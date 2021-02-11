@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Entrada de Existencias Inciales para Productos Seriados y en Lote 
+# Entrada de Existencias Inciales para Productos Seriados y en Lote 
 
 Para aquellos Productos que cuentan con Número de Serie y Número de Lote, la entrada de existencias iniciales debe ser realizada a través de una actualización via Ingreso de Existencias. [Click aquí para aprender como se administra el inventario seriado en ERPNext](/docs/user/manual/en/stock/serial-no.html).
 
@@ -13,7 +13,7 @@ A continuación se detallan los pasos para crear una entrada de balance inicial 
 
 #### Paso 1: Nuevo Ingreso de Existencias
 
-`Existencias > Ingreso de Existencias > Nuevo
+> Existencias > Ingreso de Existencias > Nuevo
 
 #### Paso 2: Seleccionar el objetivo
 
@@ -39,7 +39,7 @@ Para el producto seriado, mencionar Números de Serie equivalentes a su Cantidad
 
 Para un producto en lote, proveer la ID del Lote en el cual se actualizará el balance inicial. Preparar la función lote y actualizarla para el producto en Lote. Para crear nuevo Lote ir a: 
 
-`Existencias > Configuración > Lote > Nuevo
+> Existencias > Configuración > Lote > Nuevo
 
 [Click aquí para aprender más respecto a cómo se administra el inventario en base a Lotes en ERPNext.](/docs/user/manual/en/stock/articles/managing-batch-wise-inventory.html)
 
@@ -56,13 +56,5 @@ Al tratarse de un sistema de inventario continuo, se crea una entrada contable p
 #### Paso 9: Guardar y Enviar Ingreso de Existencias
 
 Al enviar un Ingreso de Existencias, se realizará una publicación del inventario de existencias, y el balance inicial será actualizado para los productos en la Fecha de Publicación dada.
-
-
-<div>
-    <div class="embed-container">
-        <iframe src="https://www.youtube.com/embed/nlHX0ZZ84Lw?start=120" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-        </iframe>
-    </div>
-</div>
 
 <!-- markdown -->
