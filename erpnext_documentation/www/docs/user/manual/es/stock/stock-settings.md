@@ -1,8 +1,7 @@
 <!-- add-breadcrumbs -->
-# Configuraciones de Existencias
+# Configuraciones de Inventario
 
-Se pueden establecer configuraciones predeterminadas para las transacciones de existencias desde la página Configuraciones de Existencias.
-
+Se pueden establecer configuraciones predeterminadas para las transacciones de existencias desde la página Configuraciones de Inventario.
 
 ## 1. Nombre de Producto de acuerdo a
 
@@ -16,15 +15,15 @@ De forma predeterminada, el nombre del Producto se establece de acuerdo al Códi
 ### 2.1 Grupo de Productos Predeterminado
 Este será el grupo de productos predeterminado al cual se asignará un nuevo producto. Los Grupos de Productos son últiles para clasificar y configurar propiedades para todo el grupo. Para saber más, visitar la página [Grupo de Productos](/docs/user/manual/en/stock/item-group).
 
-### 2.2 UdM de Existencias Predeterminada
+### 2.2 UdM de Inventario Predeterminada
 La unidad de medida predeterminada para las existencias es Números, puede ser modificada desde este campo. 
 
-### 2.3 Depósito Predeterminado
-Configurar el Depósito predeterminado desde donde se realizan las transacciones de existencias. Este campo será tomado para el Depósito Predeterminado en la función Producto: 
+### 2.3 Almacén Predeterminado
+Configurar el Almacén predeterminado desde donde se realizan las transacciones de existencias. Este campo será tomado para el Almacén Predeterminado en la función Producto: 
     ![Stock Settings](/docs/assets/img/stock/stock-settings-def.png)
 
-### 2.4 Depósito de Muestras de Reserva 
-Este es el Depósito en el cual se almacenan las muestras de reserva. Para saber más visitar [esta página](/docs/user/manual/en/stock/retain-sample-stock).
+### 2.4 Almacén de Muestras de Reserva 
+Este es el Almacén en el cual se almacenan las muestras de reserva. Para saber más visitar [esta página](/docs/user/manual/en/stock/retain-sample-stock).
 
 ### 2.5 Método de Valoración Predeterminado
 FIFO - Primero que Entra Primero que Sale o Valoración por Promedio Móvil para los productos. El método predeterminado es FIFO. Si se selecciona Promedio Móvil, los Productos nuevos serán valuados de acuerdo al método Promedio Móvil. Se puede cambiar esto al crear nuevos Productos en el formulario de Productos. Una vez que se guarda el producto, el Método de Valoración no puede ser modificado. Leer más [aquí](https://frappe.io/blog/erpnext-features/inventory-valuation-method-fifo-vs-moving-average).
@@ -38,7 +37,7 @@ Un campo para ingresar detalles de Código de Barras para un producto. Si este c
 ## 5. Convertir Descripción de Producto para Volver a HTML Base 
 Generalmente, las descripciones de producto son copie y pegue de un sitio web o un Word/PDF y contienen muchos estilos integrados. Esto estropea la vista de Impresión de las facturas o cotizaciones. 
 
-Para mejorar esto, se puede hacer click en la casilla "Convertir Descripción de Producto para Volver a HTML Base" en la Configuración de Existencias. Esto permitirá que, cuando se guarden los Productos, sus descripciones serán depuradas. 
+Para mejorar esto, se puede hacer click en la casilla "Convertir Descripción de Producto para Volver a HTML Base" en la Configuración de Inventario. Esto permitirá que, cuando se guarden los Productos, sus descripciones serán depuradas. 
 
 Se puede deshabilitar esta propiedad si se desea controlar las descripciones, vistas y permitir que se integren HTML.
 
@@ -56,7 +55,7 @@ Si esta casilla está desactivada, el "Precio de Venta Estándar" configurado pa
 ### 6.2 Configurar Números de Serie Automáticamente de acuerdo a FIFO 
 Los Números de Serie para las existencias se configurarán automáticamente de acuerdo con los Productos ingresados en base al sistema: primero que entra, primero que sale. Los Números de Serie serán configurados automáticamente en transacciones como Facturas de Compra/Venta, Notas de Envío, etc. 
 
-## 7. Permitir Existencias Negativas
+## 7. Permitir Inventario Negativas
 Esto permitirá que las existencias de productos se muestren en valores negativos. El uso de esta opción depende del caso de uso. Por ejemplo, los asientos de transacciones de existencias son ingresados a fin de semana o fin de mes. En este caso, las existencias negativas deben ser habilitadas para que se puede continuar con los asientos de transacciones de compra/venta.
 
 ## 8. Configurar Cantidades en las Transacciones de acuerdo a los Números de Serie
@@ -74,29 +73,29 @@ Un [Pedido de Materiales](/docs/user/manual/en/stock/material-request) se genera
 ### 9.2 Notificar por Email al generar un Pedido de Materiales automático 
 Se enviará un email al usuario con el rol de "Gerente de Compras" cuando se genere un Pedido de Materiales automático. 
 
-## 10. Configuraciones de Transferencias entre Depósitos
+## 10. Configuraciones de Transferencias entre Almacenes
 
 <img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/inter-warehouse.png">
 
-### 10.1 Habilitar depósito de cliente para transferencias de materiales desde Nota de Envío y Factura de Ventas. 
+### 10.1 Habilitar depósito de cliente para transferencias de materiales desde Nota de Entrega y Factura de Ventas. 
 
-Esta opción resulta útil cuando se debe presentar una transferencia de materiales como Nota de Envío. Por ejemplo, si hay requerimientos estatutarios donde donde deben aplicarse impuestos a cada transferencia de Materiales. Es más facil administrar una situación como esta en una transacción como Nota de Envío, que en Ingreso de Existencias. 
+Esta opción resulta útil cuando se debe presentar una transferencia de materiales como Nota de Entrega. Por ejemplo, si hay requerimientos estatutarios donde donde deben aplicarse impuestos a cada transferencia de Materiales. Es más facil administrar una situación como esta en una transacción como Nota de Entrega, que en Ingreso de Inventario. 
 
 ### 10.2 Habilitar depósito de proveedor para transferencias de materiales desde Recibo de Compra y Factura de Compra 
 
 Similar a la opción anterior, esta opción es útil cuando se debe presentar una transferencia de materiales como Recibo de Compra. 
 
-Para saber más respecto a transferencias de materiales entre depósitos a través de Nota de Envío y Factura de Compra por favor ver el siguiente artículo: [Transferencia de Material desde Nota de Envío y Factura de Compra](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
+Para saber más respecto a transferencias de materiales entre depósitos a través de Nota de Entrega y Factura de Compra por favor ver el siguiente artículo: [Transferencia de Material desde Nota de Entrega y Factura de Compra](/docs/user/manual/en/stock/articles/material-transfer-from-delivery-note)
 
-## 11. Congelar Ingresos de Existencias
+## 11. Congelar Ingresos de Inventario
 
-Pasada esta fecha, el usuario no tendrá permitido realizar registros de existencias.
+Pasada esta fecha, el usuario no tendrá permitido realizar entradas de existencias.
 
 ![Stock Settings](/docs/assets/img/stock/stock-settings-4.png)
 
-* **Existencias Congeladas Hasta**: Una fecha límite hasta la cual las existencias estarán congeladas. 
-* **Congelar Existencias de más de [Días]**: Transcurridos una x cantidad de días, las existencias serán congeladas. Esto se calcula en base a la fecha de creación del producto. 
-* **Rol con Permiso para Editar las Existencias Congeladas**: El rol seleccionado en este campo, tendrá permiso para editar las existencias congeladas.
+* **Inventario Congeladas Hasta**: Una fecha límite hasta la cual las existencias estarán congeladas. 
+* **Congelar Inventario de más de [Días]**: Transcurridos una x cantidad de días, las existencias serán congeladas. Esto se calcula en base a la fecha de creación del producto. 
+* **Rol con Permiso para Editar las Inventario Congeladas**: El rol seleccionado en este campo, tendrá permiso para editar las existencias congeladas.
 
 ## 12. Identificación de Lote
 Configuraciones generales para lotes de existencias a ser identificados por [Nombres en Serie](/docs/user/manual/en/setting-up/settings/naming-series). Se puede anular esto en el DocType de Producto.
