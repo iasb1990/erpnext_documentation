@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Creación Automática de Pedido de Material
+# Creación Automática de Pedido de Material
 
 Para prevernir faltantes de existencias se puede registrar un nivel de pedido. Cuando el nivel de existencias esta por debajo del nivel de pedido, el gerente de compras es notificado y recibe instrucciones para iniciar el proceso de compra para el producto.
 
