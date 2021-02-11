@@ -21,4 +21,4 @@ También se puede ver el Informe de Balance de Inventario haciendo click en "Inf
 
 ### 2. Temas Relacionados
 1. [Informe de Nivel de Existencias](/docs/user/manual/en/stock/stock-level-report)
-1. [Registro de Inventario](/docs/user/manual/en/stock/stock-entry)
+1. [Entrada de Inventario](/docs/user/manual/en/stock/stock-entry)
