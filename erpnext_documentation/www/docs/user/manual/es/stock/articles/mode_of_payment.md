@@ -1,4 +1,4 @@
-#Método de Pago
+# Método de Pago
 
 En las transaccioens de compra y venta hay muchas opciones para realizar el pago. Se puede hacer en efectivo, por transferencia bancaria, o con un cupón promocional, entre otras. En ERPNext, se pueden crear todos los Métodos de Pago que se requiera. En la Entrada de Pago, se puede seleccionar el Método de Pago aplicable. 
 
