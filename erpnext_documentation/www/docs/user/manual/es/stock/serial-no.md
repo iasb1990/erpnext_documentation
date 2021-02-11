@@ -51,10 +51,10 @@ set.
 
 ### 2.1 Notas Respecto a Números de Serie
 
-* El Estado se configura en base al Registro de Inventario.
+* El Estado se configura en base a la Entrada de Inventario.
 * Solo los Números de Serie con el estado "Disponible" pueden ser enviados.
-* Los Números de Serie pueden ser creados automáticamente desde un Registro de Inventario o Recibo de Compra. Si se mencionan Números de Serie en la Columna de Números de Serie, se crearán automáticamente esos Números de Serie.  
-* Si en la Función Producto se mencionan Series de Números de Serie, se puede dejar la columna en blanco en un Registro de Inventario/Recibo de Compra. Los Números de Serie serán configurados automáticamente desde esa serie. 
+* Los Números de Serie pueden ser creados automáticamente desde una Entrada de Inventario o Recibo de Compra. Si se mencionan Números de Serie en la Columna de Números de Serie, se crearán automáticamente esos Números de Serie.  
+* Si en la Función Producto se mencionan Series de Números de Serie, se puede dejar la columna en blanco en una Entrada de Inventario/Recibo de Compra. Los Números de Serie serán configurados automáticamente desde esa serie. 
 
 ## 3. Características
 ### 3.1 Detalles de Compra/Fabricación
@@ -69,13 +69,7 @@ Si el Producto está bajo garantía o AMC (Contrato Anual de Mantenimiento), pue
 ### 3.4 Más Información
 Toda información adicional respecto a esta unidad específica de Producto puede configurarse en "Detalles de Número de Serie".
 
-## 4. Video
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/Q4tYKYTbVek" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
-
-### 5. Temas Relacionados
+## 4. Temas Relacionados
 1. [Codificación de Producto](/docs/user/manual/en/stock/articles/item-codification)
 1. [Variantes de Producto](/docs/user/manual/en/stock/item-variants)
 1. [Nombrar usando Número de Serie](/docs/user/manual/en/stock/articles/serial-no-naming)
