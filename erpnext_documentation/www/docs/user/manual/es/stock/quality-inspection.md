@@ -30,6 +30,6 @@ Antes de crear y utilizar una Inspección de Calidad, se recomienda crear lo sig
 ## 3. Temas Relacionados
 1. [Recibo de Compra](/docs/user/manual/en/stock/purchase-receipt)
 1. [Nota de Envío](/docs/user/manual/en/stock/delivery-note)
-1. [Registro de Inventario](/docs/user/manual/en/stock/stock-entry)
+1. [Entrada de Inventario](/docs/user/manual/en/stock/stock-entry)
 1. [Factura de Venta](/docs/user/manual/en/accounts/sales-invoice)
 1. [Factura de Compra](/docs/user/manual/en/accounts/purchase-invoice)
