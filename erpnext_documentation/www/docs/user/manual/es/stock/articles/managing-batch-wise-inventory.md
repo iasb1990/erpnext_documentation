@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-#Administrar Inventario en base a Lotes 
+# Administrar Inventario en base a Lotes 
 
 Un conjunto de productos que comparte las mismas propiedades y aributos puede agruparse en un solo Lote. Por ejemplo, los productos farmacéuticos son de lote, de forma tal que su fecha de fabricación y de vencimiento pueden rastrearse conjuntamente. 
 
@@ -9,7 +9,7 @@ Para mantener lotes de un producto determinado es necesario configurar el campo 
 
 Se puede crear un nuevo Lote desde:
 
-`Existencias > Documentos > Lote > Nuevo
+> Existencias > Documentos > Lote > Nuevo
 
 Para aprender más respecto a lotes click [aquí.](/docs/user/manual/en/stock/batch.html)
 
@@ -31,13 +31,9 @@ Definir el Lote en la tabla de Productos de la Nota de Envío. Si un producto en
 
 Para ver el informe de inventario en base a lotes ir a: 
 
-Existencias > Informes Generales > Historia de Inventarios en Base a Lotes
+> Existencias > Informes Generales > Historia de Inventarios en Base a Lotes
 
 <img alt="Batchwise Stock Balance" class="screenshot" src="{{docs_base_url}}/assets/img/articles/batchwise-stock-4.png">
 
-<div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/J0QKl7ABPKM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
-</div>
 
 {next}
