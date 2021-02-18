@@ -277,9 +277,11 @@ Se debe recordar que los Centros de costo indican la rentabilidad de las diferen
 ### Entradas contables (Balance general) de una venta:
 Al registrar una venta (aumento):
 
-* **Debe:** Cliente (total general)
-* **Haber:** Ingreso (total neto menos los impuestos de cada producto)
-* **Haber:** Impuestos (pasivos a pagar al gobierno)
+* **Debe:**
+  * Cliente (total general)
+* **Haber:**
+  * Ingreso (total neto menos los impuestos de cada producto)
+  * Impuestos (pasivos a pagar al gobierno)
 
  ![SI Ledger](/docs/assets/img/accounts/si-ledger.png)
 
