@@ -108,7 +108,7 @@ Explicación de los tipos de cuentas:
 * **Costo sobre ventas**: una cuenta de este tipo es utilizada para registrar el total acumulado de costos de manufactura/compra de un producto o servicio vendido por la compañía.
 * **Depreciaciones**: cuenta de gastos donde se registra la depreciación de activos fijos. Estas cuentas aparecen en el Estado de resultados.
 * **Patrimonio**: este tipo de cuentas representan transacciones con personas que son dueñas del negocio, por ejemplo, accionistas o los mismos dueños.
-* **Cuenta de gastos**: esta tipo de cuenta representa cualquier fuente de costos o gastos registrados por la compañía.
+* **Cuenta de gastos**: este tipo de cuenta representa cualquier fuente de costos o gastos registrados por la compañía.
 * **Gastos incluidos en la valoración de activos**: cuenta para registrar los gastos (aparte del costo directo de material de los activos) incluídos en el costo de un activo.
 * **Gastos de valoración**: cuenta donde se registran los gastos (aparte del costo directo de material) incluídos en el costo de un producto usado en el inventario perpetuo.
 * **Activo Fijo**: cuenta para guardar los costos de activos fijos.
