@@ -11,7 +11,7 @@ Se congelan las transacciones hasta la fecha especificada. Nadie puede crear/mod
 ## 2. Rol que permite definir cuentas congeladas y editar asientos congelados
 Los usuarios con este rol tienen permiso para congelar cuentas y crear/modificar entradas contables contra cuentas congeladas.
 
-## 3. Determinar la categoría de impuestos desde la dirección
+## 3. Determinar la categoría de impuestos de la dirección de
 La [Categoría de impuesto](/docs/user/manual/es/accounts/tax-category) puede establecerse en la dirección. Una dirección puede ser de envío o de facturación. En este campo se define desde qué tipo de dirección se tomará la Categoría de impuesto.
 
 ## 4. Porcentaje permitido de sobrefacturación
