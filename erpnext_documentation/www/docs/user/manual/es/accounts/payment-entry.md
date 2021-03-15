@@ -157,7 +157,7 @@ En esta tabla, las deducciones o pérdidas de los pagos pueden ser ajustadas com
 
 ![Payment Write Off]({{docs_base_url}}/assets/img/accounts/payment-write-off.png)
 
-### 3.5 Luego de validar
+### 3.7 Luego de validar
 Al validar la Entrada de pago, el monto pendiente será actualizado en las facturas.
 
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-8.png">
@@ -188,7 +188,7 @@ ERPNext permite facturar y llevar la contabilidad de la empresa en [múltiples d
 
 Al crear la Entrada de pago contra esa factura, el cambio de divisas correspondiente será traído, pero es posible seleccionar un cambio de divisas al momento de realizar el pago.
 
-Haciendo click en el botón **Set Exchange Gain/Loss** se agregará automáticamente una fila para cancelar el monto de la diferencia.
+Haciendo click en el botón **Ajustar ganancia/pérdida de cambio** se agregará automáticamente una fila para cancelar el monto de la diferencia.
 
 <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-6.png">
 
