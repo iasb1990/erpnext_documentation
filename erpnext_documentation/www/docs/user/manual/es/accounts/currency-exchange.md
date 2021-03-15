@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Cambio de divisas
 
-El Cambio de divisa en ERPNext almacena tasas de cambio generadas manualmente. Por defecto, ERPNext trae automáticamente los cambios de divisas actualizados del mercado. Sin embargo, se puede guardar y usar cambios de divisas fijos. Para esto se debe tildar la opción "Permitir Tipos de Cambio Obsoletos" en la Configuración de cuentas para poder utilizar tasas de cambio almacenadas en el Cambio de divisas.
+En ERPNext, mediante el Cambio de divisas se almacenan tasas de cambio generadas manualmente. Por defecto, el sistema trae automáticamente los cambios de divisas actualizados del mercado. Sin embargo, se pueden guardar y usar cambios de divisas fijos. Para esto se debe tildar la opción "Permitir Tipos de Cambio Obsoletos" en la Configuración de cuentas para poder utilizar tasas de cambio almacenadas en el Cambio de divisas.
 
 Para acceder a la lista de Cambios de divisa, ir a:
 > Inicio > Contabilidad > Multi moneda > Cambio de divisas
