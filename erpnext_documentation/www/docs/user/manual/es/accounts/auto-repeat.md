@@ -44,13 +44,13 @@ Si se desea notificar a ciertos contactos cuando los documentos son creados, se 
 - **Vista previa**: con este botón se podrá ver una vista preliminar del correo.
 - **Formatos de Impresión**: seleccionar un formato de impresión para definir el diseño del correo que se enviará al Cliente.
 
-> **Nota**: si el documento que se configura para Repetición automática necesita validación, asegurarse de tildar la opción "Permitir la impresión de borradores" en [Ajustes de impresión](/docs/user/manual/es/setting-up/print/print-settings) para poder realizar el envío por correo de la notificación. Si esta opción no está habilitada, se notificará sobre la creación pero sin el documento adjunto.
+> **Nota**: si el documento que se configura para Repetición automática necesita validación, asegurarse de tildar la opción "Permitir la impresión de borradores" en [Ajustes de impresión](/docs/user/manual/es/setting-up/print/print-settings) para poder realizar el envío por correo del documento. Si esta opción no está habilitada, se notificará sobre la creación pero sin el documento adjunto.
 
 ### 2.2 Repetir en un día específico
 Si la frecuencia es Mensual, Trimestral, Semestral o Anual, entonces se crearán documentos en el mismo día que la "Fecha de inicio" de la repetición. Si se desea crear documentos en otro día, se puede configurar siguiendo los siguientes pasos:
 
 - **Repetir el día**: día del mes en el cual se deberá crear el documento. Por ejemplo, si la frecuencia es mensual y en este campo se ingresa 7, entonces el documento se generará el día 7 de cada mes.
-- **Repetir el último día del mes**: esta opción está disponible ya que el último día de cada mes no siempre es el mismo. Por ejemplo, en año bisiesto el último ía de Febrero es el 29, cuando el resto del tiempo es el 28. Si se tilda esta opción, los documentos se crearán en el úlimo día correspondiente de cada mes.
+- **Repetir el último día del mes**: esta opción está disponible ya que el último día de cada mes no siempre es el mismo. Por ejemplo, en año bisiesto el último día de Febrero es el 29, cuando el resto del tiempo es el 28. Si se tilda esta opción, los documentos se crearán en el úlimo día correspondiente de cada mes.
 
 ### 2.3 Tablero
 Se puede ver el cronograma de repetición automática en el tablero de cada repetición. Si no se especifica una Fecha final el cronograma mostrará solo la próxima fecha.
