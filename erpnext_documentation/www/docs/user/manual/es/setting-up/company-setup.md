@@ -7,9 +7,9 @@ En ERPNext, la primera compañia es creada junto con la cuenta de ERPNext. Por c
 
 Si se tiene más de una compañía, es posible crearlas desde:
 
-> Inicio > Cuentas > Compañía
+> Inicio > Contabilidad > Compañía
 
-## 1. Cómo crear una nueva compañía
+## 1. Creación de una nueva compañía
 1. Ir al listado de Compañías, hacer click en Nuevo.
 1. Ingresar el nombre, abreviación y divisa/moneda predeterminada de la compañía.
 1. Guardar.
@@ -160,7 +160,7 @@ Con este botón se eliminarán todas las transacciones de la compañía. *Usar c
 
 Información como productos, cuentas, empleados, etc no es borrada.
 
-#### Qué se ve afectado?
+#### Efecto de la eliminación de transacciones
 
 * Ordenes de compra/venta, facturas, notas serán eliminadas
 * El historial de ventas y las ventas mensuales serán limpiados
