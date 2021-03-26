@@ -21,9 +21,9 @@ Una entrada de transacción bancaria no debería crearse de forma manual, sino q
 * Fecha
 * Estado:
     * Pendiente
-    * Settled
-    * Unreconciled
-    * Reconciled
+    * Saldado
+    * No conciliado
+    * Conciliado
 * **Cuenta bancaria**: cuenta bancaria desde la cual fueron hechas las transacciones.
 
 ## 3. Características/campos 
