@@ -10,7 +10,7 @@ En ERPNext las Facturas de venta pueden ser generadas desde el POS.
 Para acceder al POS, ir a:
 > Inicio > Retail > Punto de venta
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 Antes de crear y usar un Punto de venta, se recomienda crear lo siguiente:
 
 1. [Perfil de POS](/docs/user/manual/es/accounts/pos-profile)
