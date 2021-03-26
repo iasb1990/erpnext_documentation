@@ -9,7 +9,7 @@ El monto de la Nota de débito será igual al valor de los productos devueltos. 
 
 Se puede hacer una Nota de débito contra la Factura de compra o directamente desde la misma sin referencia.
 
-1. Ir a la Factura de compra correspondiente y hacer click en **Make > Retorno / Nota de Débito**.
+1. Ir a la Factura de compra correspondiente y hacer click en **Crear > Retorno / Nota de Débito**.
  ![Debit Note from Invoice](/docs/assets/img/accounts/debit-note-from-invoice.png)
 1. Los detalles del proveedor y del producto serán traídos desde la Factura.
 1. Si se había realizado el pago por la compra, ya sea de forma completa o parcial, se deberá generar una Entrada de pago contra la factura original.
