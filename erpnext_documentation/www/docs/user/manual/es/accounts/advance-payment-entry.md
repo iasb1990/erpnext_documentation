@@ -20,7 +20,7 @@ Para crear un pago adelantado, se necesita tener previamente creado lo siguiente
 ## 2. Creación de Pagos adelantados
 Una vez que se validan las Ordenes de venta o compra, aparece la opción para crear un Pago contra la misma. También se puede crear una nueva Entrada de pago y manualmente seleccionar los valores correspondientes (como entidad y cuentas de pago). A continuación se listan los pasos para la creación de Pagos adelantados contra Ordenes de venta.
 
-1. Ir a la Orden de venta y hacer click en **Make > Pago**.
+1. Ir a la Orden de venta y hacer click en **Crear > Pago**.
 1. Seleccionar/tildar las cuentas.
 1. Guardar y validar.
 
