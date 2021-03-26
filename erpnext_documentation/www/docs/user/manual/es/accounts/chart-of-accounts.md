@@ -22,7 +22,7 @@ El Plan de cuentas ayuda a responder preguntas como:
 Para quienes están a cargo de un negocio, es muy importante saber cuán bien le está yendo económicamente.
 
 Para acceder al Plan de cuentas, ingresar a:
-> Inicio > Cuentas > Maestros > Plan de cuentas
+> Inicio > Contabilidad > Maestros > Plan de cuentas
 
 ## 1. Creación y edición de cuentas
 ERPNext cuenta con un Plan de cuentas estándar por defecto. En lugar de crear/modificar cuentas, se puede utilizar el [Importador de Plan de cuentas](/docs/user/manual/en/setting-up/chart-of-accounts-importer). Tener en cuenta que el Plan de cuentas existente será sobrescrito al usar esta herramienta.
@@ -124,10 +124,10 @@ Explicación de los tipos de cuentas:
 
 > **Nota**: al realizar Entradas de pago, la cuenta de banco predeterminada (si está especificada) será tomada en el siguiente orden:
     
->       * de la Compañía
->       * del Método de pago
->       * del Cliente/Proveedor
->       * seleccionando manualmente una
+> * de la Compañía
+> * del Método de pago
+> * del Cliente/Proveedor
+> * seleccionando manualmente una
 
 ### 2.5 Estados financieros
 En ERPNext es posible visualizar facilmente estados financieros como Hoja de balance, Cuenta de pérdidas y ganancias y Flujo de fondos.
