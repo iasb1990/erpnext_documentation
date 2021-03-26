@@ -8,11 +8,11 @@ Si alguno de los productos tiene impuestos diferentes a los estándares asignado
 Por ejemplo, si el IVA en Impuestos y cargos es de 21%, entonces será aplicado a todos los productos de la Orden de venta. Sin embargo, si se necesita un valor diferente para algunos de los productos se deberá seguir los siguientes pasos:
 
 Para acceder a la lista de Plantillas de impuestos de productos ir a:
-> Inicio > Cuentas > Impuestos > Plantilla de impuesto de producto
+> Inicio > Contabilidad > Impuestos > Plantilla de impuesto de producto
 
 Puede darse un caso en el que se esté creando una Orden de venta y se tenga una [Plantilla de impuestos (ventas)](/docs/user/manual/es/selling/sales-taxes-and-charges-template) con IVA 21%; pero a uno de los productos de la Orden se le deba aplicar IVA 10,5% y otro sea exento de impuestos. Para esto se deberá seleccionar la cuenta del impuesto y su porcentaje.
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 Antes de crear y usar una Plantilla de impuesto de producto, se aconseja crear lo siguiente:
 
 1. [Producto](/docs/user/manual/es/stock/item)
