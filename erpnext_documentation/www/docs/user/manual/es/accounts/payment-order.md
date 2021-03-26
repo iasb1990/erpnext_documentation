@@ -9,7 +9,7 @@ La Orden de pago es la comunicación entre el Gestor de compras y el Contador me
 
 En ERPNext, usando la Orden de pago, se pueden agrupar múltiples Solicitudes de pago creadas contra un mismo Proveedor.
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 Antes de crear y usar la Orden de pago, se recomienda crear lo siguiente:
 
 1. [Orden de compra](/docs/user/manual/es/buying/purchase-order)
