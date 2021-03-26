@@ -29,7 +29,7 @@ Se puede dar permiso a usuarios con un rol específico para saltearse esta valid
 
 Para definir el rol de Controlador de créditos:
 
-1. Ir a: **Cuentas > Configuración > Configuración de cuentas**
+1. Ir a: **Contabilidad > Configuración > Configuración de cuentas**
 1. Seleccionar el rol deseado en el campo Controlador de créditos.
 
 <img class="screenshot" alt="Credit Limit" src="{{docs_base_url}}/assets/img/accounts/credit_controller_role.png">
@@ -52,7 +52,7 @@ Al definir este valor en la Compañía, todos los Clientes de la misma tendrán 
 
 Para establecer este límite por Compañía:
 
-1. Ir a **Cuentas > Empresa y Contabilidad > Compañía**.
+1. Ir a **Contabilidad > Empresa y Contabilidad > Compañía**.
 1. Abrir la Compañía y completar el campo Límite de Crédito.
 
 ### 3. Temas relacionados
