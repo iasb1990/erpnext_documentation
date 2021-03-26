@@ -9,7 +9,7 @@ La Nota de crédito se genera por el valor de los bienes devueltos por el Client
 
 Se puede hacer una Nota de Crédito contra la Factura de venta o directamente desde una factura de ventas nueva sin referencia. Tener en cuenta que para crear una Nota de Crédito la factura debe estar pagada mediante una [Entrada de pago](/docs/user/manual/es/accounts/payment-entry).
 
-1. Ir a la Factura de venta deseada y hacer click en **Make > Devolución/Nota de Crédito**.
+1. Ir a la Factura de venta deseada y hacer click en **Crear > Devolución/Nota de Crédito**.
     ![Credit Note from Invoice](/docs/assets/img/accounts/credit-note-from-invoice.png)
 1. Los detalles del Cliente y del Producto serán traídos de la Factura de Venta.
 1. Si el Cliente pagó, de forma parcial o completa, se debe hacer la Entrada de pago contra la factura original.
