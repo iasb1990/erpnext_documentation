@@ -6,7 +6,7 @@
 Para acceder la lista de Descuento de facturas, ir a:
 > Inicio > Contabilidad > Banco y pagos > Descuento de facturas
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 
 Se debe crear las siguientes cuentas para poder registrar transacciones de descuento de facturas.
 
