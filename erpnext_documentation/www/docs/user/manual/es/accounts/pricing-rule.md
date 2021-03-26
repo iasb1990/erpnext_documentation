@@ -20,7 +20,7 @@ Para aplicar automáticamente un Descuento o Tarifa a la Lista de precios de un 
 Para acceder a la lista de Reglas de precios, ir a:
 > Inicio > Contabilidad > Regla de precios
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 
 Antes de crear y usar una Regla de precios se recomienda crear lo siguiente:
 
