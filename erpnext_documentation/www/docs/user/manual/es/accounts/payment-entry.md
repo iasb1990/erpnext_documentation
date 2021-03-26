@@ -27,9 +27,9 @@ En compras:
 
 
 Para ingresar a la lista de Entradas de pago, ir a:
-> Inicio > Cuentas > Cuentas por cobrar/pagar > Entrada de pago
+> Inicio > Contabilidad > Cuentas por cobrar/pagar > Entrada de pago
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 Se pueden crear Entradas de pago directamente desde la lista para luego vincularlas a una orden o factura. Antes de crear y usar una Entrada de pago, se recomienda crear lo siguiente:
 
 1. [Cliente](/docs/user/manual/en/CRM/customer)
@@ -49,7 +49,7 @@ Configuración:
 1. [Compañía](/docs/user/manual/es/setting-up/company-setup) (cuentas predeterminadas)
 
 ## 2. Creación de una Entrada de pago
-Al validar un documento contra el cual se puede generar Entradas de pago, se encontrará la opción "Pago" debajo del botón **Make**.
+Al validar un documento contra el cual se puede generar Entradas de pago, se encontrará la opción "Pago" debajo del botón **Crear**.
 
 ![Payment Entry from SO]({{docs_base_url}}/assets/img/accounts/payment-entry-so.png)
 
@@ -128,7 +128,7 @@ Si se está creando una Entrada de pago para un Cliente, el monto pagado será a
 
  ![Outstanding Invoice]({{docs_base_url}}/assets/img/accounts/outstanding-pe.png)
 
-#### ¿Qué es el Monto sin asignar?
+#### Monto sin asignar
 Cuando se crea una Entrada de pago en ERPNext y la Cantidad pagada es mayor al monto total de las facturas, el excedente se almacena en la cuenta del Cliente/Proveedor. Por lo tanto este importe está actualmente "sin asignar" y puede ser usado luego contra facturas futuras.
 
 Por ejemplo, si se crea una Factura de venta por $1.000 y el Cliente paga $1.500. Al hacer otra factura para este cliente se podrán usar los $500 sobrantes del pago anterior.
@@ -243,9 +243,9 @@ El monto total pendiente contra una factura es la suma de todas las entradas con
 
 Para hacer un pago utilizando un Asiento contable se debe seguir los siguientes pasos:
 
-1. Activar la funcionalidad en **Cuentas > Configuración > Configuración de cuentas** tildando la opción "Realizar pago mediante asiento contable".
+1. Activar la funcionalidad en **Contabilidad > Configuración > Configuración de cuentas** tildando la opción "Realizar pago mediante asiento contable".
 
-2. Realizar el pago. Al validar un documento contra los cuales se puede generar Asientos contables, aparecerá la opción Pago debajo del botón **Make**.
+2. Realizar el pago. Al validar un documento contra los cuales se puede generar Asientos contables, aparecerá la opción Pago debajo del botón **Crear**.
 
  <img class="screenshot" alt="Making Payment" src="{{docs_base_url}}/assets/img/accounts/payment-entry-1.png">
 
