@@ -8,7 +8,7 @@ Los Asientos contables pueden ser usados para registrar gastos, entradas de aper
 > Nota: de la versión 13 en adelante existe un balance inalterable, por el cual cambia la forma en que funciona la cancelación de entradas en ERPNext. Más información al respecto [aquí](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
 
 Para acceder a la lista de Asientos contables, ir a:
-> Inicio > Cuentas > Balance general > Asiento contable
+> Inicio > Contabilidad > Balance general > Asiento contable
 
 ## 1. Creación de un asiento contable
 1. Ir a la lista de asientos contables y hacer click en Nuevo.
