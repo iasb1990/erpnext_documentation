@@ -8,7 +8,7 @@ Un Programa de lealtad es una iniciativa de marketing estructurada y a largo pla
 Para acceder a la lista de Programas de lealtad, ir a:
 > Inicio > Retail > Programa de lealtad > Programa de lealtad
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 Antes de crear y usar un Programa de lealtad, se recomienda crear lo siguiente:
 
 1. [Cliente](/docs/user/manual/es/CRM/customer)
