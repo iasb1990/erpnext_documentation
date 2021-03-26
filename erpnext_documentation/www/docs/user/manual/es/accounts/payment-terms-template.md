@@ -16,7 +16,7 @@ En la Plantilla de Términos de pago, se puede seleccionar todos los Términos d
 ## 1. Prerequisitos
 Antes de crear y usar una Plantilla de términos de pago, es aconsejable crear lo siguiente:
 
-1. [Payment Terms](/docs/user/manual/en/accounts/payment-terms)
+1. [Términos de pago](/docs/user/manual/en/accounts/payment-terms)
 
 ## 2. Creación de Plantilla de términos de pago
 La plantilla indica al sistema cómo generar la tabla en la sección "Términos de pago" del documento de compra/venta.
