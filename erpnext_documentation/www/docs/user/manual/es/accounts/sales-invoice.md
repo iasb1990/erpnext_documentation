@@ -6,7 +6,7 @@
 Las Facturas de venta son transacciones contables. Al validarlas, el sistema actualiza las cuentas a cobrar y registra el ingreso contra la cuenta del cliente.
 
 Para ingresar al listado de Facturas de venta, ir a:
-> Inicio > Cuentas > Facturación > Factura de venta
+> Inicio > Contabilidad > Facturación > Factura de venta
 
 ![SO Flow](/docs/assets/img/accounts/so-flow.png)
 
@@ -94,7 +94,7 @@ Se puede elegir la divisa en la cual se debe enviar la factura. Este dato puede 
 
 ### 3.6 Lista de precios
 
-Si se seleccionó una lista de precios, entonces el precio del producto será obtenido de dicha lista. Al tildar la opción "Ignorar la Regla Precios" ya no se tendrán en cuenta las [Reglas de precios](/docs/user/manual/es/accounts/pricing-rule) establecidas en Cuentas > Reglas de precios.
+Si se seleccionó una lista de precios, entonces el precio del producto será obtenido de dicha lista. Al tildar la opción "Ignorar la Regla Precios" ya no se tendrán en cuenta las [Reglas de precios](/docs/user/manual/es/accounts/pricing-rule) establecidas en Contabilidad > Reglas de precios.
 
 Para saber más sobre listas de precios, hacer click [aquí](/docs/user/manual/es/stock/price-lists).
 
