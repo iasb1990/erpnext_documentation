@@ -2,8 +2,6 @@
 
 # Procesamiento de Estados de cuentas
 
-> Introducido en la versión 13
-
 **Procesamiento de Estados de cuentas es una herramienta que ayuda a enviar Estados de cuentas (Balance general) y de Antigüedad (resumen de Cuentas por cobrar) en formato PDF a los Clientes de forma masiva por medio de correo electrónico de forma periódica ya sea manual o automáticamente.**
 
 Esta funcionalidad es útil si se desea enviar actualizaciones por correo electrónico a Clientes de forma periódica respecto a sus transaciciones (como Facturas de venta). El PDF adjunto que se envía para cada Cliente contiene detalles como la fecha de contabilidad de la factura, el número de la Factura de venta, detalles del débito y el crédito, etc. relevantes sobre su contabilidad.
@@ -14,7 +12,7 @@ Para acceder a la lista de **Procesamiento de Estados de cuentas** se puede busc
 
 > Inicio > Contabilidad > Herramientas > Procesamiento de Estados de cuentas
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 
 1. La herramienta utiliza las direcciones de correo de los clientes para enviarles los reportes. Si no se encuentra este dato en el Contacto del Cliente la herramienta no permitirá seleccionar dicho Cliente, por lo que es importante asegurarse de que los siguientes datos están completos.
 
