@@ -5,7 +5,7 @@ Antes de importar los activos corrientes, hay que asegurarse de que estén cread
 
 ## Importación de activos corrientes
 
-1. Ir a: **Cuentas > Empresa y Contabilidad > Asiento contable > Nuevo**.
+1. Ir a: **Contabilidad > Empresa y Contabilidad > Asiento contable > Nuevo**.
 1. Ingresar la Fecha de Contabilización.
 1. Seleccionar la cuenta de activo corriente correspondiente en la columna Cuenta e ingresar el valor en la columna Debe.
 1. Seleccionar la cuenta de "Apertura temporaria" en la columna Cuenta e ingresar el importe en la columna Haber.
