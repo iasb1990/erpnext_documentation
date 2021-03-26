@@ -4,7 +4,7 @@
 **En el Método de pago se define la información necesaria sobre la forma en que los pagos serán recibidos o realizados.**
 
 Para acceder a la lista de Método de pago ir a:
-> Inicio > Cuentas > Configuración > Método de pago
+> Inicio > Contabilidad > Configuración > Método de pago
 
 ## 1. Creación de un Método de pago
 1. Ir al listado de métodos de pago y hacer click en Nuevo.
@@ -21,10 +21,10 @@ Para acceder a la lista de Método de pago ir a:
 
 > **Nota**: al generar las Entradas de pago, la cuenta bancaria será traída en el siguiente orden:
 
->       * Compañía
->       * Cuenta predeterminada del Método de pago
->       * Cuenta de banco predeterminada del Cliente/Proveedor
->       * Cuenta seleccionada manualmente en la Entrada de pago
+>  * Compañía
+>  * Cuenta predeterminada del Método de pago
+>  * Cuenta de banco predeterminada del Cliente/Proveedor
+>  * Cuenta seleccionada manualmente en la Entrada de pago
 
 ## 2. Temas relacionados
 1. [Entrada de pago](/docs/user/manual/es/accounts/payment-entry)
