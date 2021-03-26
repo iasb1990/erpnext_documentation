@@ -1,10 +1,10 @@
 <!-- add-breadcrumbs -->
 # Actualización de cuentas a pagar
 
-**Las cuentas a pagar reflejan el monto que se les debe a los proveedores de las facturas que ya nos han enviado.**
+**Las cuentas a pagar reflejan el monto que se debe a los proveedores por las facturas que ya enviaron.**
 
 Los detalles de estas cuentas se pueden importar mediante la Herramienta de Apertura de Creación de Facturas. Para acceder a ella ingresar a:
-> Inicio > Cuentas > Apertura y cierre > Herramienta de Apertura de Creación de Facturas
+> Inicio > Contabilidad > Apertura y cierre > Herramienta de Apertura de Creación de Facturas
 
 ## Importación de facturas pendientes
 
