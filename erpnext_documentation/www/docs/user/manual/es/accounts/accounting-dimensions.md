@@ -1,18 +1,17 @@
 <!-- add-breadcrumbs -->
 # Dimensiones contables
 
-> Introducido en la Versión 12
 
-Utilizar dimensiones contables consiste en marcar cada transacción con su dimensión correspondiente como Sucursal, Unidad de negocios, etc. Esto permite mantener cada sección por separado, limitando el mantenimiento general en las cuentas del Balance general y sin alterar el Plan de cuentas.
+Utilizar dimensiones contables consiste en clasificar cada transacción con su dimensión correspondiente como Sucursal, Unidad de negocios, etc. Esto permite mantener cada sección por separado, limitando el mantenimiento general en las cuentas del Balance general y sin alterar el Plan de cuentas.
 
 Los Centros de costos y los Proyectos son tratados como dimensiones por defecto en ERPNext. Al configurar un campo en Dimensiones contables, el mismo será añadido en los reportes de transacciones cuando corresponda. 
 
 En ERPNext se pueden crear dimensiones contables configurables y utilizarlas en transacciones y reportes.
 
 Para acceder a la lista de dimensiones contables ir a:
-> Inicio > Cuentas > Configuración > Dimensiones contables
+> Inicio > Contabilidad > Configuración > Dimensiones contables
 
-## 1. Creación de dimensiones contables.
+## 1. Creación de dimensiones contables
 
 1. Ir a la lista de Dimensiones contables y hacer click en Nuevo.
 1. Seleccionar el tipo de Documento de referencia que se desea utilizar como dimensión personalizada. Por ejemplo, si se selecciona Departamento como Documento de referencia, entonces la dimensión se basará en el Depertamento.
@@ -29,7 +28,7 @@ Al crear la dimensión, se crearán automáticamente campos personalizados para 
 
 ### 2.1 Uso de dimensiones en las transacciones
 
-Para marcar una transacción con una dimensión se puede seleccionar la dimensión deseada en la sección correspondiente.
+Para clasificar una transacción con una dimensión se puede seleccionar la dimensión deseada en la sección correspondiente.
 
 <img alt="Create custom dimension" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/dimension-section.png">
 
@@ -37,7 +36,7 @@ Para marcar una transacción con una dimensión se puede seleccionar la dimensi�
 
 ### 2.2 Filtrado de reportes basados en dimensiones
 
-También se puede filtrar los diveros reportes fiscales como el de Estado de pérdidas y ganancias, Hoja de balance, Balance general haciendo uso de estas dimensiones.
+También se puede filtrar los diversos reportes fiscales como el de Estado de pérdidas y ganancias, Hoja de balance, Balance general haciendo uso de estas dimensiones.
 
 <img alt="Create custom dimension" class="screenshot" src="{{docs_base_url}}/assets/img/accounts/report-dimensions.png">
 
