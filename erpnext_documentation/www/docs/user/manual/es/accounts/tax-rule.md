@@ -8,7 +8,7 @@ Se puede definir qué [Plantilla de impuesto](/docs/user/manual/es/setting-up/se
 Para acceder a la lista de Reglas fiscales, ir a:
 > Inicio > Contabilidad > Taxes > Regla fiscal
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 Antes de crear y usar una Regla fiscal, se recomienda crear lo siguiente primero:
 
 1. [Plantilla de impuestos (ventas)](/docs/user/manual/es/selling/sales-taxes-and-charges-template)
