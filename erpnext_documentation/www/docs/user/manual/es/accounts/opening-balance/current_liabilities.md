@@ -1,11 +1,11 @@
 <!-- add-breadcrumbs -->
 # Actualización de pasivos corrientes
 
-Antes de importar los pasivos corrientes, hay que asegurarse de que estén creadas las cuentas necesarias dentro de Plan de cuentas > Pasivos > Pasivos Corrientes.
+Antes de importar los pasivos corrientes, hay que asegurarse de que estén creadas las cuentas necesarias dentro de **Plan de cuentas > Pasivos > Pasivos Corrientes**.
 
 ## Importación de pasivos corrientes
 
-1. Ir a: **Cuentas > Maestros y cuentas > Asiento contable > Nuevo**.
+1. Ir a: **Contabilidad > Maestros y cuentas > Asiento contable > Nuevo**.
 1. Ingresar Fecha de Contabilización.
 1. Seleccionar las cuentas de pasivo corriente correspondientes en la columna Cuenta e ingresar el valor en la columna Haber.
 1. Seleccionar la cuenta de "Apertura temporaria" en la columna Cuenta e ingresar el importe en la columna Debe.
