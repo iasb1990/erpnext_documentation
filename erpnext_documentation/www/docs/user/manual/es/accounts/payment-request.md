@@ -6,7 +6,7 @@
 La solicitud de pago es enviada por medio de correo electrónico y puede contener un enlace a una Pasarela de pago. Se puede crear solicitudes de pago desde Ordenes o Facturas de venta. Una solicitud de pago también puede ser creada contra una Orden o Factura de compra para registro interno. Luego, los pagos pueden ser procesados de forma masiva usando una [Orden de pago](/docs/user/manual/es/accounts/payment-order).
 
 Para acceder al listado de solicitudes de pago ir a:
-> Inicio > Cuentas > Facturación > Solicitud de pago
+> Inicio > Contabilidad > Facturación > Solicitud de pago
 
 ## 1. Prerequisitos
 Antes de crear y usar una solicitud de pago, se aconseja crear lo siguiente:
@@ -20,12 +20,12 @@ Antes de crear y usar una solicitud de pago, se aconseja crear lo siguiente:
 Una soliticud de pago no puede ser creada de forma manual, sino que se genera desde una Orden o Factura de venta/compra.
 
 ### 2.1 Creación desde Orden de venta
-En una Orden de venta hacer click en Make -> Solicitud de Pago.
+En una Orden de venta hacer click en Crear -> Solicitud de Pago.
 
 <img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-from-so.png">
 
 ### 2.2 Creación desde Factura de venta
-En una Factura de venta hacer click en Make -> Solicitud de Pago.
+En una Factura de venta hacer click en Crear -> Solicitud de Pago.
 
 <img class="screenshot" alt="Payment Request" src="{{docs_base_url}}/assets/img/accounts/pr-from-si.png">
 
