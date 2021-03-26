@@ -11,7 +11,7 @@ Por ejemplo, se puede crear una Factura de compra para una compañía "ABC", una
 ## 1. Creación de Facturas entre compañías
 
 ### 1.1 Configuración
-1. Ir a: **Cuentas > Maestros > Clientes**.
+1. Ir a: **Contabilidad > Maestros > Clientes**.
 1. Seleccionar el Cliente correspondiente.
 1. Tildar la opción **"Es Cliente Interno"**
 
@@ -21,7 +21,7 @@ Por ejemplo, se puede crear una Factura de compra para una compañía "ABC", una
 1. En la tabla **"Permitido para realizar transacciones con"** agregar la compañía para la cual se van a crear la facturas de compra (compañía "A"). 
 1. Al crear una factura de compra para la compañía A, esta se vinculará a la factura de venta para la compañía A creada usando este Cliente interno de la compañía B.
 1. A continuación se debe hacer algo similar para configurar el Proveedor.
-1. Ir a: **Cuentas > Maestros > *Seleccionar el Proveedor***
+1. Ir a: **Contabilidad > Maestros > *Seleccionar el Proveedor***
 1. Tildar la opción **"Es un Proveedor Interno"**.
 1. En el campo **"Representa a la Compañía"**, agregar la compañía que se seleccionó en la tabla **"Permitido para realizar transacciones con"** del Cliente.
 1. En la tabla **"Permitido para realizar transacciones con"** del Proveedor, seleccionar la compañía a la cual representa el Cliente. Esta es la compañía contra la cual se va a realizar la factura de compra.
@@ -41,7 +41,7 @@ Por ejemplo, se puede crear una Factura de compra para una compañía "ABC", una
     1. Tildar tanto la opción "Compras" como "Ventas" en esta nueva lista.
     1. Ir a **Compras > Proveedor > *Proveedor Interno***, en la sección Divisa y listas de precios, seleccionar la lista de precios recién creada.
     1. Hacer lo mismo para el Cliente interno.
-1. Al validar la factura, debajo del botón **Make** aparecerá **Factura entre compañías**. Al hacer click se redirigirá a una nueva Factura de compra.
+1. Al validar la factura, debajo del botón **Crear** aparecerá **Factura entre compañías**. Al hacer click se redirigirá a una nueva Factura de compra.
 1. Aquí, el proveedor y la compañía serán automáticamente traídos dependiendo de la compañía que se haya seleccionado en la factura de venta.
 > ***Recordar**: solo puede haber un único Cliente o Proveedor interno por compañía.*
 7. Al validar la factura, ambas quedan vinculadas entre sí. *Al cancelar alguna de las facturas se las desvinculará automáticamente.*
