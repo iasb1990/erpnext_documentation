@@ -4,7 +4,7 @@
 En ERPNext, las cuentas bancarias pueden crearse para una Compañía o para Clientes, Proveedores, etc. Hacer esto permite registrar correctamente todas las transacciones bancarias para un mayor control. Luego estas cuentas pueden elegirse en [Entradas de pago](/docs/user/manual/es/accounts/payment-entry) como [Método de pago](/docs/user/manual/es/accounts/mode-of-payment).
 
 Para acceder a Cuentas bancarias, ir a:
-> Inicio > Cuentas > Extracto Bancario > Banco
+> Inicio > Contabilidad > Extracto Bancario > Banco
 
 ![Bank Account](/docs/assets/img/accounts/bank-account.png)
 
