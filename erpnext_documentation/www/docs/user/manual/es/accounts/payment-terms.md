@@ -16,7 +16,7 @@ Se puede aplicar Términos de pago en los siguientes documentos:
 - Cotización
 
 Para acceder a los Términos de pago ir a:
-> Inicio > Cuentas > Facturación > Término de pago
+> Inicio > Contabilidad > Facturación > Término de pago
 
 Nótese que la introducción de Términos de pago hace innecesarios los campos "Días de crédito" y "Días de crédito basado en" del Cliente/Proveedor. El Término de pago contiene esta misma información y es más sencillo de usar.
 
