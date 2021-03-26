@@ -6,7 +6,7 @@
 La factura de compra es exactamente lo opuesto a la factura de venta. Aquí se contabilizan los gastos de proveedores. Hacer una factura de venta es muy similar a hacer una Orden de compra.
 
 Para acceder a la lista de Facturas de compra, ir a:
-> Inicio > Cuentas > Facturación > Factura de Compra
+> Inicio > Contabilidad > Facturación > Factura de Compra
 
 ![PI Flow](/docs/assets/img/accounts/pi-flow.png)
 
@@ -164,6 +164,7 @@ Cualquier descuento adicional hecho sobre el total de la factura puede ser asign
 Visitar la página [Aplicar un descuento](/docs/user/manual/es/selling/articles/applying-discount) para más detalles.
 
 ### 3.10 Pagos adelantados
+
 Para productos de costo elevado, el vendedor puede solicitar un pago adelantado antes de procesar la orden. El botón **Obtener anticipos recibidos** permite traer a la factura los pagos adelantados. Para saber más, visitar la página [Pagos adelantados](/docs/user/manual/es/accounts/advance-payment-entry).
 
 ### 3.11 Términos de pago
@@ -262,7 +263,7 @@ Existen dos formas de retener una factura de compra:
 #### Retención explícita
 De esta forma se retiene la factura de forma indefinida. Para hacer esto simplemente se debe tildar la opción "Retener la Factura". En el campo "Motivo de Poner en Espera" se puede especificar el motivo de dicha retención.
 
-Si se necesita retener una factura ya validada hacer click en el botón "Make > Bloquear factura". Además se puede agregar un comentario explicando por qué la factura se puso en espera.
+Si se necesita retener una factura ya validada hacer click en el botón "Crear > Bloquear factura". Además se puede agregar un comentario explicando por qué la factura se puso en espera.
 
 #### Retención por fecha
 De esta forma se retiene la factura hasta la fecha especificada. Para esto, luego de tildar la opción "Retener la Factura", completar el campo "Fecha de Lanzamiento".
