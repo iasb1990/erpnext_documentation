@@ -3,7 +3,7 @@
 
 Para poder importar los activos fijos primero es necesario crearlos y luego crear un Asiento contable para actualizar el Balance general.
 
-## 1. Creación del Activo
+## 1. Creación de un Activo
 
 Se debe crear un Activo por cada bien de la compañía que no esté totalmente amortizado.
 
@@ -29,7 +29,7 @@ Al crear un Activo con el tilde de "Es Activo Existente", el Balance general no 
 
 Para crear un nuevo Asiento contable:
 
-1. Ir a **Cuentas > Maestros y cuentas > Asiento contable > Nuevo**
+1. Ir a **Contabilidad > Maestros y cuentas > Asiento contable > Nuevo**
 1. Ingresar Fecha de Contabilización.
 1. Seleccionar las cuentas de activos fijos correspondientes en la columna Cuenta e ingresar el valor en la columna Debe.
 1. Seleccionar la cuenta de "Apertura temporaria" en la columna Cuenta e ingresar el importe en la columna Haber.
