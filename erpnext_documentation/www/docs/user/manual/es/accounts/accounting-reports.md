@@ -5,7 +5,7 @@ Algunos de los reportes más importantes son:
 
 ## 1. Compañía y cuentas
 ### Balance general
-Ir a: **Cuentas > Balance general > Balance general**.
+Ir a: **Contabilidad > Balance general > Balance general**.
 
 En el Balance general se detallan las cuentas de Débito y Crédito de cada una de las transacciones realizadas.
 
