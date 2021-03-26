@@ -41,7 +41,7 @@ En ese caso no se tendrá el gasto del envío para las ventas hechas en el local
 Así, cuando se analizan las ventas se llega a un mejor entendimiento sobre qué rama del negocio es más rentable. Ya que en ERPNext es posible tener múltiples compañías, se pueden crear Centros de costos para cada una de ellas y gestionarlos por separado.
 
 Para acceder al Árbol Centro de costos, ir a:
-> Inicio > Cuentas > Presupuesto y Centro de Costo > Centros de Costos
+> Inicio > Contabilidad > Presupuesto y Centro de Costo > Centros de Costos
 
 ## 2. Creación de Centros de Costos
 1. Ir a Árbol Centro de costos.
