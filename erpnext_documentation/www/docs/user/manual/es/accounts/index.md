@@ -74,10 +74,10 @@ En ERPNext, las operaciones contables consisten en 3 transacciones principales:
 1. [Reportes contables](/docs/user/manual/es/accounts/accounting-reports)
 
 ### 1.9 Avanzado
-1. [Contabilidad con múltiples divisas](/docs/user/manual/es/accounts/multi-currency-accounting)
 <!--1. [Ingresos diferidos](/docs/user/manual/es/accounts/deferred-revenue)
 1. [Gastos diferidos](/docs/user/manual/es/accounts/deferred-expense)
 1. [Procesamiento de contabilidad diferida](/docs/user/manual/es/accounts/process-deferred-accounting) -->
+1. [Contabilidad con múltiples divisas](/docs/user/manual/es/accounts/multi-currency-accounting)
 1. [Garantía bancaria](/docs/user/manual/es/accounts/bank-guarantee)
 1. [Programa de lealtad](/docs/user/manual/es/accounts/loyalty-program)
 1. [Presupuesto](/docs/user/manual/es/accounts/budgeting)
