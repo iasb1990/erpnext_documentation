@@ -5,7 +5,7 @@
 
 Para ingresar a Plantilla de asientos contables, ir a:
 
-> Inicio > Cuentas > Balance general > Plantilla de asientos contables
+> Inicio > Contabilidad > Balance general > Plantilla de asientos contables
 
 ## 1. Creación y utilización de Plantilla de asientos contables:
 
@@ -16,7 +16,7 @@ Para ingresar a Plantilla de asientos contables, ir a:
       * **Título de la plantilla**: será usado para seleccionar la plantilla en el asiento contable.
       * **Compañía**: por defecto se toma la compañía definida en Predeterminados globales. De cualquier forma se puede elegir cualquier otra compañía.
       * **Tipo de asiento**: se puede elegir de entre los tipos listados [aquí](/docs/user/manual/es/accounts/journal-entry#3-journal-entry-types). El valor por defecto es [Asiento contable](/docs/user/manual/es/accounts/journal-entry#31-journal-entry).
-        * Hay 3 tipos de asientos especiales:
+        Hay 3 tipos de asientos especiales:
           * [Asiento de apertura](/docs/user/manual/es/accounts/journal-entry#311-opening-entry): este tipo de asiento cargará todas las cuentas en la tabla. Para saber más visitar la página de [Apertura de cuentas](/docs/user/manual/es/accounts/opening-balance).
           * [Registro de banco](/docs/user/manual/es/accounts/journal-entry#33-bank-entry): con este tipo de asiento se cargará la cuenta bancaria predeterminada si está definida.
           * [Entrada de caja](/docs/user/manual/es/accounts/journal-entry#34-cash-entry): con este tipo de asiento se cargará la cuenta de efectivo predeterminada si está definida.
