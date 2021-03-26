@@ -65,7 +65,7 @@ Para acceder al reporte de Variación de Presupuesto, ir a:
 <img class="screenshot" alt="Budget Variance Report" src="{{docs_base_url}}/assets/img/accounts/budget-variance-report.png">
 
 
-## 5. Temas relacionados
+## 4. Temas relacionados
 1. [Centro de costos](/docs/user/manual/es/accounts/cost-center)
 1. [Factura de venta](/docs/user/manual/es/accounts/sales-invoice)
 1. [Factura de compra](/docs/user/manual/es/accounts/purchase-invoice)
