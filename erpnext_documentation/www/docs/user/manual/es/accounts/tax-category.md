@@ -7,7 +7,7 @@ Si se desea aplicar diferentes tipos de impuestos basados en Categorías, se deb
 
 > Inicio > Contabilidad > Impuestos > Categoría de impuestos
 
-## 1. Prerequisitos 
+## 1. Prerrequisitos 
 Antes de crear y usar Categorías de impuestos se recomienda crear lo siguiente:
 
 1. [Regla fiscal](/docs/user/manual/es/accounts/tax-rule)
