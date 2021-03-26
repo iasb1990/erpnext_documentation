@@ -8,7 +8,7 @@ Se pueden seleccionar las cuentas que se desea usar en la transacción. Un posib
 
 Antes de crear un Asiento contable entre compañías se necesita tener definido el Plan de cuentas.
 
-1. Ir a: **Cuentas > Empresa y Contabilidad > Plan de cuentas**.
+1. Ir a: **Contabilidad > Empresa y Contabilidad > Plan de cuentas**.
 1. Seleccionar la cuenta que se desea usar como cuenta interna en la transacción tildando el campo "Cuenta entre empresas". Se recomienda crear nuevas cuentas para este tipo de transacciones.
 
     <img class="screenshot" alt="Internal Account" src="{{docs_base_url}}/assets/img/accounts/internal-account.png">
@@ -19,9 +19,9 @@ En el caso de compañías padre-hijo, al crear una cuenta en la compañía padre
 
 Los Asientos contables entre compañías se crean por medio de un Asiento contable. Para acceder a la lista de Asientos contables, ir a:
 
-> Inicio > Cuentas > Empresa y Contabilidad > Asiento contable
+> Inicio > Contabilidad > Empresa y Contabilidad > Asiento contable
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 Antes de crear un Asientos contables entre compañías, se necesita lo siguiente:
 
 * Tener al menos dos [Compañías](/docs/user/manual/es/setting-up/company-setup)
@@ -36,7 +36,7 @@ Antes de crear un Asientos contables entre compañías, se necesita lo siguiente
   * la cuenta interna. 
   * el monto a debitar o acreditar.
   * el centro de costo (si es un ingreso o un gasto).
-1. Al validar el asiento, se encontrará un botón en la esquina superior derecha con el texto **Hacer el asiento contable entre compañías**.
+6. Al validar el asiento, se encontrará un botón en la esquina superior derecha con el texto **Hacer el asiento contable entre compañías**.
 
    <img class="screenshot" alt="Submitted Inter Company Journal Entry" src="{{docs_base_url}}/assets/img/accounts/inter-company-jv-submit.png">
 
