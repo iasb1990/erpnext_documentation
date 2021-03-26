@@ -4,7 +4,7 @@
 La Herramienta de Creación de Facturas de apertura permite importar en ERPNext los datos de Facturas de venta o compra pendientes. Esta herramienta es utilizada en reemplazo de la Importación de Datos para casos en los que la información del producto es irrelevante y se necesita importar en ERPNext los saldos pendientes con clientes/proveedores.
 
 Para acceder a la Herramienta de Creación de Facturas de apertura, ir a:
-> Inicio > Cuentas > Apertura y cierre > Herramienta de Creación de Facturas de apertura
+> Inicio > Contabilidad > Apertura y cierre > Herramienta de Creación de Facturas de apertura
 
 ## Importación de facturas de apertura
 1. Seleccionar la Compañía para la cual se desea importar los datos de apertura.
