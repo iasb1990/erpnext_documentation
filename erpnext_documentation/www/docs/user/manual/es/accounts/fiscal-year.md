@@ -12,7 +12,7 @@ Por lo general un año fiscal inicia cada cuarto de año calendario, es decir, e
 Por ejemplo, negocios estacionales pueden comenzar su año fiscal en Julio o en Octubre. Un negocio cuya mayoría de ingresos se generan en el otoño y la mayoría de los gastos en primavera podría elegir iniciar su año fiscal en Abril. De esa forma, se sabe cuál es el ingreso para ese año, y es posible ajustar los gastos para mantener el margen de ganancias deseado.
 
 Para acceder a la lista de Años fiscales, ir a:
-> Inicio > Cuentas > Configuración > Año Fiscal
+> Inicio > Contabilidad > Configuración > Año Fiscal
 
 ## 1. Creación de un año fiscal
 1. Ir a la lista de Año Fiscal.
