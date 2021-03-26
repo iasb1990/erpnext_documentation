@@ -4,7 +4,7 @@
 **Las cuentas a cobrar reflejan el monto que los clientes deben de las facturas de venta que ya les fueron enviadas.**
 
 Los detalles de estas cuentas se pueden importar mediante la Herramienta de Apertura de Creación de Facturas. Para acceder a ella ingresar a:
-> Inicio > Cuentas > Apertura y cierre > Herramienta de Apertura de Creación de Facturas
+> Inicio > Contabilidad > Apertura y cierre > Herramienta de Apertura de Creación de Facturas
 
 ## Importación de facturas pendientes
 
