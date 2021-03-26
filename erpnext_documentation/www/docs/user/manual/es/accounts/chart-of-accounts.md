@@ -59,7 +59,7 @@ A grandes rasgos las cuentas se clasifican en ingresos, egresos (gastos), activo
 
 ### 2.1 Cuentas de la Hoja de balance
 
-Las cuentas de la Hoja de balance son "Aplicación de fondos (Activos)" y "Fuentes de fondos (Pasivos)", lo cual representa el valor neto de la compañia en un momento determinado.
+Las cuentas de la Hoja de balance son "Aplicación de fondos (Activos)" y "Origen de fondos (Pasivo)", lo cual representa el valor neto de la compañia en un momento determinado.
 Cuando se inicia o finaliza un período financiero, la suma de los Activos debe ser igual a la suma de los asivos.
 
 > **Una nota de contabilidad**: si uno es nuevo en el tema, se puede llegar a preguntar "¿cómo pueden ser los Activos iguales a los Pasivos? Eso significaría que la compañía no posee nada." Bueno, eso es correcto. Toda la "inversión" hecha en la compañía para comprar activos (como terreno, mebles, máquinas) es realizada por los dueños. Los dueños son una "obligación" de la compañía ya que las ganancias les pertenencen.
