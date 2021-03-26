@@ -1,7 +1,5 @@
 # Esquema promocional
 
-> Introducido en la versión 12
-
 **Un esquema promocional es un descuento temporal aplicado sobre uno o más productos.**
 
 Los esquemas promocionales ayudan a los negocios a atraer clientes con sus precios bajos por tiempo limitado. En ERPNext pueden ser facilmente configurados y vinculandos a una regla de precios.
@@ -11,7 +9,7 @@ Al crear un esquema promocional, el sistema genera una [Regla de precios](/docs/
 Para acceder a la lista de Esquemas promocionales, ir a:
 > Inicio > Ventas > Productos y Precios > Esquema promicional
 
-## 1. Prerequisitos
+## 1. Prerrequisitos
 Antes de crear y usar un Esquema promocional se recomienda crear lo siguiente:
 
 1. [Producto](/docs/user/manual/es/stock/item)
