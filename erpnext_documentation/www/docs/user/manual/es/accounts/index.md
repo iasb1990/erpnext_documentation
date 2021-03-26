@@ -18,7 +18,7 @@ En ERPNext, las operaciones contables consisten en 3 transacciones principales:
 1. [Plan de cuentas](/docs/user/manual/es/accounts/chart-of-accounts)
 1. [Apertura de cuentas](/docs/user/manual/es/accounts/opening-balance)
 1. [Centro de costos](/docs/user/manual/es/accounts/cost-center)
-1. [Centro de costos distribuidos](/docs/user/manual/es/accounts/distributed-cost-center)
+1. [Centro de costos distribuido](/docs/user/manual/es/accounts/distributed-cost-center)
 1. [Año fiscal](/docs/user/manual/es/accounts/fiscal-year)
 1. [Período contable](/docs/user/manual/es/accounts/accounting-period)
 1. [Libro de finanzas](/docs/user/manual/es/accounts/finance-book)
@@ -33,7 +33,7 @@ En ERPNext, las operaciones contables consisten en 3 transacciones principales:
 1. [Entrada de pago](/docs/user/manual/es/accounts/payment-entry)
 1. [Solicitud de pago](/docs/user/manual/es/accounts/payment-request)
 1. [Método de pago](/docs/user/manual/es/accounts/mode-of-payment)
-1. [Plazo de pago](/docs/user/manual/es/accounts/payment-terms)
+1. [Términos de pago](/docs/user/manual/es/accounts/payment-terms)
 1. [Plantilla de términos de Pago](/docs/user/manual/es/accounts/payment-terms-template)
 1. [Pagos adelantados](/docs/user/manual/es/accounts/advance-payment-entry)
 1. [Asiento contable entre compañías](/docs/user/manual/es/accounts/inter-company-journal-entry)
@@ -47,8 +47,7 @@ En ERPNext, las operaciones contables consisten en 3 transacciones principales:
 1. [Límite de crédito](/docs/user/manual/es/accounts/credit-limit)
 
 ### 1.4 Impuestos
-1. [Plantilla de impuesto](/docs/user/manual/es/accounts/item-tax-template)
-1. [Categoría de retención de impuestos](/docs/user/manual/es/accounts/tax-withholding-category)
+1. [Plantilla de impuesto de producto](/docs/user/manual/es/accounts/item-tax-template)
 1. [Regla fiscal](/docs/user/manual/es/accounts/tax-rule)
 1. [Categoría de impuesto](/docs/user/manual/es/accounts/tax-category)
 
@@ -69,18 +68,18 @@ En ERPNext, las operaciones contables consisten en 3 transacciones principales:
 1. [Conciliación de pagos](/docs/user/manual/es/accounts/payment-reconciliation)
 1. [Cierre de período](/docs/user/manual/es/accounts/period-closing-voucher)
 1. [Orden de pago](/docs/user/manual/es/accounts/payment-order)
-1. [Procesamiento de estado de cuentas](/docs/user/manual/es/accounts/process-statement-of-accounts)
+1. [Procesamiento de Estados de cuentas](/docs/user/manual/es/accounts/process-statement-of-accounts)
 
 ### 1.8 Reportes
 1. [Reportes contables](/docs/user/manual/es/accounts/accounting-reports)
 
 ### 1.9 Avanzado
 1. [Contabilidad con múltiples divisas](/docs/user/manual/es/accounts/multi-currency-accounting)
-1. [Ingresos diferidos](/docs/user/manual/es/accounts/deferred-revenue)
+<!--1. [Ingresos diferidos](/docs/user/manual/es/accounts/deferred-revenue)
 1. [Gastos diferidos](/docs/user/manual/es/accounts/deferred-expense)
-1. [Procesamiento de contabilidad diferida](/docs/user/manual/es/accounts/process-deferred-accounting)
+1. [Procesamiento de contabilidad diferida](/docs/user/manual/es/accounts/process-deferred-accounting) -->
 1. [Garantía bancaria](/docs/user/manual/es/accounts/bank-guarantee)
-1. [Programa de fidelidad](/docs/user/manual/es/accounts/loyalty-program)
+1. [Programa de lealtad](/docs/user/manual/es/accounts/loyalty-program)
 1. [Presupuesto](/docs/user/manual/es/accounts/budgeting)
 1. [Repetición automática](/docs/user/manual/es/automation/auto-repeat)
 1. [Descuento de facturas](/docs/user/manual/es/accounts/invoice_discounting)
@@ -90,7 +89,7 @@ En ERPNext, las operaciones contables consisten en 3 transacciones principales:
 1. [Plan de suscripción](/docs/user/manual/es/accounts/subscription-plan)
 1. [Configuración de suscripción](/docs/user/manual/es/accounts/subscription-settings)
 
-### 1.11 Gestión de accionistas
+<!-- ### 1.11 Gestión de accionistas
 1. [Accionista](/docs/user/manual/es/accounts/shareholder)
 1. [Transferencia de acciones](/docs/user/manual/es/accounts/share-transfer)
-1. [Reportes de acciones](/docs/user/manual/es/accounts/share-reports)
+1. [Reportes de acciones](/docs/user/manual/es/accounts/share-reports) -->
