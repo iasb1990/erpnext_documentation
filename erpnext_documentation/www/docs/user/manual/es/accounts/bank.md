@@ -4,7 +4,7 @@
 En ERPNext, crear diferentes bancos permite luego importar un archivo excel para vincular las transacciones con las cuentas. Estas transacciones se crean como Transacciones bancarias, y pueden ser usadas como referencia y en reportes. Esto se realiza utilizando la [Conciliación bancaria](/docs/user/manual/es/accounts/bank-reconciliation).
 
 Para acceder a Banco, ir a:
-> Inicio > Cuentas > Extracto Bancario > Banco
+> Inicio > Contabilidad > Extracto Bancario > Banco
 
 ![Bank](/docs/assets/img/accounts/bank.png)
 
