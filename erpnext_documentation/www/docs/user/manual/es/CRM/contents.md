@@ -23,7 +23,7 @@ El módulo CRM tiene las siguientes funcionalidades:
 1. [Tipo de Oportunidad](/docs/user/manual/es/CRM/opportunity_type)
 1. [Etapas de Venta](/docs/user/manual/es/CRM/sales_stage)
 1. [Vendedor](/docs/user/manual/es/CRM/sales-person)
-1. [Grupo de Clientes](/docs/user/manual/es/CRM/customer-group)
+1. [Categoría de Clientes](/docs/user/manual/es/CRM/customer-group)
 1. [Grupo de Email](/docs/user/manual/es/CRM/email_group)
 1. [Contrato](/docs/user/manual/es/CRM/contract)
 1. [Configuraciones de Reserva de Turno](/docs/user/manual/es/CRM/appointment-booking-settings)
