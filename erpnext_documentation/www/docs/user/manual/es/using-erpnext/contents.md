@@ -37,7 +37,7 @@ Estas herramientas se encuentran integradas en todos los aspectos del producto, 
 1. [Creación Automática de Tareas](/docs/user/manual/es/using-erpnext/articles/todo-auto-creation)
 1. [Versionado de Documentos](/docs/user/manual/es/using-erpnext/document-versioning)
 1. [Eliminar y Restaurar Documentos](/docs/user/manual/es/using-erpnext/restore-deleted-docs)
-1. [Adjuntar Archivos](/docs/user/manual/es/using-erpnext/articles/attachment-of-files)
+1. [Adjuntar Archivos](/docs/user/manual/es/using-erpnext/attachment-of-files)
 1. [Renombrar en Grupo](/docs/user/manual/es/using-erpnext/articles/bulk-rename)
 1. [Renombrar Documentos](/docs/user/manual/es/using-erpnext/articles/renaming-documents)
 1. [Renombrar Funciones con Estructura de Árbol](/docs/user/manual/es/using-erpnext/articles/tree-master-renaming)
