@@ -3,7 +3,7 @@
 
 **El Tablero Kanban es una herramienta que otorga un diseño descriptivo de los datos en ERPNext de acuerdo con estados y un tablero virtual.**
 
-Este tablero está formado por tarjetas que representan los distintos Documentos enlistados en un Tipo de Documento en particular. Los mismos están alineados de acuerdo con la etapa de operación de las transacciones, representada por las Columnas de Estado. El estado de la tarjeta puede cambiarse facilmente arrastrando y soltando las cartas a lo largo del tablero.  
+Este tablero está formado por tarjetas que representan los distintos Documentos enlistados en un Tipo de Documento en particular. Los mismos están alineados de acuerdo con la etapa de operación de las transacciones, representada por las Columnas de Estado. El estado de la tarjeta puede cambiarse facilmente arrastrando y soltando las tarjetas a lo largo del tablero.  
 
 Un Tablero Kanban ayuda a visualizar, controlar y optimizar el flujo de trabajo al colaborar con todo el equipo en tiempo real. 
 
@@ -15,7 +15,7 @@ Para crear un Tablero Kanban en ERPNext, hacer click en el menú desplegable Kan
 
 ## Añadir nueva Tarjeta/Documento
 
-Para añadir Tarjetas al Tablero Kanban hacer click en Agregar Tareas. Se pueden editar los detalles de carta haciendo click en la misma, lo cual llevará al Doctype de Tarea donde se pueden agregar o editar los detalles de la tarjeta. 
+Para añadir Tarjetas al Tablero Kanban hacer click en Agregar Tareas. Se pueden editar los detalles de la tarjeta haciendo click en la misma, lo cual llevará al Doctype de Tarea donde se pueden agregar o editar los detalles de la tarjeta. 
 
 <img class="screenshot" alt="Add card in Kanban Board" src="{{docs_base_url}}/assets/img/customize/customize erpnext-kanban-board-1.gif">
 
