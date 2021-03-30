@@ -42,6 +42,4 @@ Estas herramientas se encuentran integradas en todos los aspectos del producto, 
 1. [Renombrar Documentos](/docs/user/manual/es/using-erpnext/articles/renaming-documents)
 1. [Renombrar Funciones con Estructura de Árbol](/docs/user/manual/es/using-erpnext/articles/tree-master-renaming)
 1. [Membrete de la Empresa en el Informe](/docs/user/manual/es/using-erpnext/articles/letter-head-in-the-report)
-1. [Copiar y Pegar Más de un Registro desde Excel](/docs/user/manual/es/using-erpnext/articles/copy-pasting-multiple-records-from-excel)
-1. [Añadir Adjuntos a Mensajes Enviados](/docs/user/manual/es/using-erpnext/articles/adding-attachments-to-outgoing-messages)
 1. [Comentarios](/docs/user/manual/es/using-erpnext/articles/comments)
