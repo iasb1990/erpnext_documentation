@@ -34,7 +34,7 @@ Al crear una lista de Tareas, el usuario al cual la misma ha sido asignada será
 2. **Prioridad**: Se puede definir la Prioridad de esta tarea como Baja, Media o Alta. 
 3. **Color**: Se puede asignar un color a cada una de las Tareas. Por ejemplo, al crear una Tarea como recordatorio semanal para enviar informes, se le puede asignar el color Violeta, mientras que a todas las Tareas personales se les puede asignar el color Amarillo. 
 4. **Fecha de Vencimiento**: Se puede ingresar una Fecha de Vencimiento a todas las Tareas. 
-5. **Asignada a**: Se puede usar este campo en los casos en que se asignen Tareas a otros usuarios de ERPNext.
+5. **Asignado a**: Se puede usar este campo en los casos en que se asignen Tareas a otros usuarios de ERPNext.
 
  ![ToDo](/docs/assets/img/using-erpnext/using-to-do-3.png)
 
@@ -49,7 +49,7 @@ Cada Documento en ERPNext tiene una opción denominada "Asignar A" en la barra l
  ![ToDo](/docs/assets/img/using-erpnext/using-to-do-4.png)
 
 ## 2. Estados de Tareas
-Las Tareas tiene 3 estados, cada uno describe el estado actual de una tarea.
+Las Tareas tienen 3 estados, cada uno describe el estado actual de una tarea.
 
 * **Abierta**: Una lista de Tareas, al ser creada, es configurada de forma predeterminada como Abierta.
 * **Cerrada**: Cuando se completa una actividad, la lista de Tareas puede ser marcada como "Cerrada", "Resuelta" o "Completa". A su vez, en condiciones como Asunto Resuelto o Tarea Completa, la lista de Tareas es cerrada de forma automática. También puede ser Reabierta de ser necesario.  
