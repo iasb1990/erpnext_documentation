@@ -12,7 +12,7 @@ Los Registros de Acceso se crean en los siguientes casos:
 
 En ERPNext, el Registro de Acceso está disponible para Administradores del Sistema y puede ser accedido a través de la Búsqueda Global o de: 
 
-> Inicio > Usuarios y Permisos > Registros > Registros de Acceso
+> Inicio > Usuarios > Registros > Registros de Acceso
 
 ![Access Log](/docs/assets/img/using-erpnext/using-access-log-3.png)
 
