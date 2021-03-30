@@ -19,10 +19,6 @@ Para el campo, se requerirá poner un valor. En el campo 'basado en' se pueden d
 
 ![Search Filter](/docs/assets/img/using-erpnext/using-search-filter-2.png)
 
-Las diferentes condiciones en las cuáles se basan los filtros son: 
-
-* '=' : 
-* 
 
 #### Valor
 
@@ -34,7 +30,7 @@ De esta forma, se creará un algoritmo o una ecuación que buscará en los docum
 
 ![Search Filter](/docs/assets/img/using-erpnext/using-search-filter.gif)
 
-También se pueden aplicar múltiples filtros de una vez. Para eliminar un filtro específico, simplemente se debe hacer click en el signo 'x'del mismo.
+También se pueden aplicar múltiples filtros de una vez. Para eliminar un filtro específico, simplemente se debe hacer click en el signo 'x' del mismo.
 
 ## Filtros Predeterminados
 
