@@ -5,7 +5,7 @@ En los informes se toma el membrete de la Compañía.
 
 Para que el membrete de la empresa sea el correcto en el informe, es necesario asegurarse de haber actualizado el Membrete predeterminado en la Compañía.  
 
-> Inicio > Contabilidad > Empresa
+> Inicio > Contabilidad > Compañía
 
 ![Letter Head](/docs/assets/img/using-erpnext/using-print-format.png)
 
