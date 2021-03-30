@@ -5,17 +5,17 @@
 
 A continuación se encuentran las herramientas presentes en cada documento, a través de las cuales se puede colaborar con otros Usuarios en una cuenta ERPNext.
 
-### Asignado A
+### Asignado a
 
 Si un Documento requiere algún tipo de acción de un usuario en particular, se puede asignar ese documento al mismo. Al ser asignado, el usuario será notificado vía correo electrónico. Hacer click [aquí](docs/user/manual/es/using-erpnext/assignment.html) para aprender más respecto a esta función.
 
-Por ejemplo, un nuevo [Iniciativa](/docs/user/manual/es/CRM/lead) puede ser asignado a un usuario en particular para asegurar que el mismo está siendo atendido por él. 
+Por ejemplo, una nueva [Iniciativa](/docs/user/manual/es/CRM/lead) puede ser asignada a un usuario en particular para asegurar que la misma está siendo atendida por él. 
 
 ![Collaborating Around Forms](/docs/assets/img/using-erpnext/using-assignment-1.png)
 
 ### Comentarios
 
-Para muchos Documentos, puede haber información que no es parte de la transacción. Para registrar dicha información, la función 'Comentarios' es una excelente alternativa. Ver [Comentarios](/docs/user/manual/es/using-erpnext/articles/comments) para más información.
+Para muchos Documentos, puede haber información que no es parte de la transacción. Para registrar dicha información, la función "Comentarios" es una excelente alternativa. Ver [Comentarios](/docs/user/manual/es/using-erpnext/articles/comments) para más información.
 
 ![Collaborating Around Forms](/docs/assets/img/using-erpnext/using-collaborating-2.png)
 
