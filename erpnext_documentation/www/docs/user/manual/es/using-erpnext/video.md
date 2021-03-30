@@ -7,7 +7,7 @@ Se pueden añadir videos con sus respectivas URL, descripciones, miniaturas, etc
 
 Para acceder a Videos, ir a:
 
-> Inicio > Herramientas > Video
+> Inicio > Utilidades > Video
 
 ## 1. Creación de un Video
 
@@ -32,7 +32,7 @@ También se puede ver el video en el Documento luego de guardarlo.
 Las estadísticas de Video de YouTube pueden rastrearse y analizarse. Esto es útil para conocer el conteo de espectadores y su participación en un Video que se haya publicado. 
 
 Para esto, primero se debe habilitar el Seguimiento de YouTube en **Configuraciones de Video**:
-> Configuraciones de Video > Permitir Seguimiento de YouTube 
+> Ajustes de video > Habilitar el seguimiento de YouTube 
 
 Una vez habilitado esto, se harán visibles los campos **Clave de API** y **Frecuencia**.
 ![Video](/docs/assets/img/education/video-settings.png)
