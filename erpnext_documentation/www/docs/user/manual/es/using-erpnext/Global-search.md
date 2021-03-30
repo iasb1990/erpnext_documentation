@@ -5,7 +5,7 @@
 
 Para cada secuencia de una palabra particular o conjunto de caracteres, se obtendrá un resultado de búsqueda.
 
-### Utilizar la Barra Inteligente para Búsqueda Global.
+### Utilizar la Barra Inteligente para Búsqueda Global
 
 ![Tree Master Renaming](/docs/assets/img/using-erpnext/using-global-search-2.gif)
 
@@ -16,9 +16,9 @@ También se pueden ingresar muchas palabras claves separadas por & para encontra
 - La entrada "apple & iPod" puede devolver documentos con un campo que contenga Apple y otro que contenga iPod (Vendedor y producto).
 - La entrada "iPhone & iPod" puede devolver documentos que contengan ambos productos iPhone y iPod (tabla de productos secundarios).
 - La entrada "iPhone & negro" puede devolver un producto con una descripción que contenga ambas palabras (campo de texto largo).
-- La entrada 'foo & bar" puede devolver cualquier documento con etiquetas asignadas para foo y bar (campo de texto largo especial _etiquetasdeusuario).
+- La entrada "foo & bar" puede devolver cualquier documento con etiquetas asignadas para foo y bar (campo de texto largo especial _etiquetasdeusuario).
 
-### Habilitar Búsqueda Global para campos en un Doctype.
+### Habilitar Búsqueda Global para campos en un Doctype
 
 ![Tree Master Renaming](/docs/assets/img/using-erpnext/using-global-search-1.gif)
 
