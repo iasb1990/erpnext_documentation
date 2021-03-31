@@ -8,7 +8,7 @@ Al validar la Factura de Venta, se realizarán registros en las siguientes cuent
 - "Cuenta Receptora" (Deudores) será debitada por el monto de venta.
 -  La "Cuenta de Activos Fijos" será acreditada por el monto de compra del activo.
 -  La "Cuenta de Depreciación Acumulada" será debitada por el monto total de la depreciación hasta ahora. 
--  La "Cuenta de Ganancia/Pérdida por Cesión de Activos" será acreditada/debitada de acuerdo con el monto de ganancia/pérdida. La cuenta de Ganancia/Pérdida puede ser configurada en el registro de la Empresa.
+-  La "Cuenta de Ganancia/Pérdida por Cesión de Activos" será acreditada/debitada de acuerdo con el monto de ganancia/pérdida. Esta cuenta puede ser configurada en la Compañía.
 
 <img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/asset-sales.png">
 
