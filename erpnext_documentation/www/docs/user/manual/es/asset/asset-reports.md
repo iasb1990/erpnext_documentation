@@ -19,8 +19,8 @@ El registro de activos fijos provee una visión unificada de todos los detalles 
 
 Tipos de registros basados en la depreciación:
 
-* ** En Ubicación: Todos los activos que están actualmente en posesión de la compañía se encuentran en esta categoría. 
+* **En Ubicación**: Todos los activos que están actualmente en posesión de la compañía se encuentran en esta categoría. 
 
-* ** Eliminados: Todos los activos que han sido vendidos o desechados caen dentro de esta categoría.
+* **Eliminados**: Todos los activos que han sido vendidos o desechados caen dentro de esta categoría.
 
 <img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/fixed-asset-register.png">
