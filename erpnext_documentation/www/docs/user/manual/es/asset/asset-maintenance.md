@@ -21,8 +21,10 @@ Antes de crear y utilizar el Mantenimiento de Activos, se recomienda crear lo si
 
 1. [Activos](/docs/user/manual/es/asset/asset)
 1. Ir al Activo y tildar la opción "Requiere Mantenimiento", para habilitar el Mantenimiento de Activos.
+
 <img class="screenshot" alt="Asset" src="{{docs_base_url}}/assets/img/asset/maintenance_required.png">
-1. [Equipo de Mantenimiento de Activos](/docs/user/manual/es/asset/asset-maintenance-team)
+
+3. [Equipo de Mantenimiento de Activos](/docs/user/manual/es/asset/asset-maintenance-team)
 
 ## 2. Creación de un Mantenimiento de Activos
 Para cada activo se debe crear un registro de Mantenimiento de Activos realizando una lista de todas las tareas de mantenimiento asociadas al mismo, el tipo de mantenimiento (Mantenimiento Preventivo o Calibración), la periodicidad, a quién está asignado y la fecha de inicio y fin del mantenimiento. De acuerdo con la fecha de inicio y la periodicidad se calculará automáticamente la próxima fecha y se creará una Tarea para el Asignado. 
