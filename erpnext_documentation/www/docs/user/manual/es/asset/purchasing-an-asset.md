@@ -8,7 +8,7 @@ Para comprar un nuevo activo:
 
   <img class="screenshot" alt="Purchasing Asset" src="{{docs_base_url}}/assets/img/asset/asset-auto-create-on-purchase.png">
 
-1. Luego, deberá seguirse el [ciclo de compra](/docs/user/manual/es/buying/purchase-order) para comprar un activo.
+4. Luego, deberá seguirse el [ciclo de compra](/docs/user/manual/es/buying/purchase-order) para comprar un activo.
 1. Ingresar la Ubicación del Activo en la tabla de Productos del [Recibo de Compra](/docs/user/manual/es/stock/purchase-receipt) o [Factura de Compra](/docs/user/manual/es/accounts/purchase-invoice) a través de la cual se recibe el producto.
 1. Al validar un Recibo de Compra, si está tildada la opción de creación automática, se crearán los registros de Activo automáticamente. Luego pueden ingresarse manualmente otros detalles en el Activo. 
 
