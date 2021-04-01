@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Proyectos
 
-Hay muchos negocios en los cuáles los productos no son tangibles. Un ejemplo son las empresas consultoras. Para mostrar su valor, esos negocios deben rastrear y actualizar cada uno de sus procesos para sostenerse y crecer en el sector. El módulo de Proyecto ayuda a una empresa a rastrear dichos productos y asegurar su finalización en tiempo y forma.
+Hay muchos negocios en los cuales los productos no son tangibles. Un ejemplo son las empresas consultoras. Para mostrar su valor, esos negocios deben rastrear y actualizar cada uno de sus procesos para sostenerse y crecer en el sector. El módulo de Proyecto ayuda a una empresa a rastrear dichos productos y asegurar su finalización en tiempo y forma.
 
 ERPNext ayuda a cualquier empresa a administrar de forma efectiva aspectos de negocios como administración de proyectos, atención al cliente, ventas, y administración de compras, entre otros. Se pueden ver estos temas luego de leer esta [introducción](/docs/user/manual/en/projects/introduction).
 
