@@ -5,6 +5,7 @@ Se puede facturar a un Cliente en base al número total de horas que ha trabajad
 
 **Puede generarse una factura de ventas desde cada Registro de horas validado por un empleado, la cual puede utilizarse para facturar al cliente.**
 
+
 <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/projects-sales-invoice-from-timesheet.png">
 
 ## 1. Creación de una Factura de Venta desde un Registro de horas
@@ -18,7 +19,7 @@ Se puede facturar a un Cliente en base al número total de horas que ha trabajad
   
 Para obtener los detalles de forma automática en una Factura de Venta, hacer click en el botón **Obtener Productos Desde**. Los detalles pueden ser obtenidos desde Orden de Venta, Nota de Entrega o Cotización. Los detalles como la OC del Cliente, su Dirección y Número de Contacto, la Moneda y la Lista de Precios, y los Productos se completarán automáticamente.  
 
-<img class="screenshot"alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/timesheet/timesheet-billing-to-sales-invoice.gif">
+<img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/project/timesheet/timesheet-billing-to-sales-invoice.gif">
 
 ## 2. Características
 
