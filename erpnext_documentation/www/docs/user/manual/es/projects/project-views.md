@@ -11,7 +11,7 @@ Un Gráfico de Gantt muestra cómo las tareas están vinculadas entre sí y mues
 
 ![Task - Gantt View](/docs/assets/img/project/task-gantt-chart.png)
 
-*Gantt Chart for Tasks*
+*Gráfico de Gantt por tareas*
 
 Se puede actualizar el rango del gráfico seleccionando Cuarto de Día, Medio Día, Día, Semana o Mes.
 
@@ -25,7 +25,7 @@ Kanban en japonés significa "cartel" o "letrero" y como método de administraci
 
 ![Task - Kanban View](/docs/assets/img/project/task-kanban.png)
 
-*ERPNext Kanban Board*
+*Tablero Kanban de ERPNext*
 
 ERPNext representa la vista Kanban para tareas de acuerdo con su estado. Se puede actualizar el estado de una tarea moviendo la tarjeta representativa de una columna a otra. También se pueden asignar colores a las columas como referencia visual. 
 
@@ -37,6 +37,6 @@ Como el gráfico de Gantt, la vista de calendario también muestra la tarea y el
 
 ![Task - Calendar View](/docs/assets/img/project/task-calendar.png)
 
-*Calendar View for Tasks*
+*Vista de calendario por tareas*
 
 {siguiente}
