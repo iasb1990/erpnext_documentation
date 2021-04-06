@@ -99,6 +99,6 @@ Reporte en PDF:
 <img class="screenshot" src="{{docs_base_url}}/assets/img/accounts/psoa-report.png">
 
 ## 4. Temas relacionados
-1. [Configuración de una cuenta de correo electrónico](/docs/user/manual/es/setting-up/email/email-account.md)
+1. [Configuración de una cuenta de correo electrónico](/docs/user/manual/es/setting-up/email/email-account)
 1. [Creación de Contacto de Cliente](/docs/user/manual/es/CRM/contact#1-how-to-create-a-contact)
-1. [Contacto](/docs/user/manual/es/CRM/contact.md)
+1. [Contacto](/docs/user/manual/es/CRM/contact)
