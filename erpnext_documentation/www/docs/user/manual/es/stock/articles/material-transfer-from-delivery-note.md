@@ -17,7 +17,7 @@ Considerando estas situaciones, es que sumó la posibilidad de Transferencia de 
 
 #### Habilitar Depósito de Cliente
 
-El documento Nota de Entrega tiene un campo escondido denominado Depósito de Cliente. Se puede habilitar desde [Configuración de Inventario](/docs/user/manual/en/stock/stock-settings.md) al activar "Permitir Transferencia de Material desde Nota de Entrega y Factura de Ventas". 
+El documento Nota de Entrega tiene un campo escondido denominado Depósito de Cliente. Se puede habilitar desde [Configuración de Inventario](/docs/user/manual/en/stock/stock-settings) al activar "Permitir Transferencia de Material desde Nota de Entrega y Factura de Ventas". 
 
 <img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/customer-warehouse.png">
 
@@ -43,7 +43,7 @@ A continuación se encuentran los pasos para utilizar un Recibo de Compra para c
 
 #### Habilitar Depósito de Proveedor
 
-Similar al Depósito de Cliente mencionado más arriba, el primer paso es habilitar el Depósito de Proveedor desde [Configuraciones de Inventario](/docs/user/manual/en/stock/stock-settings.md) como fue mostrado anteriormente. 
+Similar al Depósito de Cliente mencionado más arriba, el primer paso es habilitar el Depósito de Proveedor desde [Configuraciones de Inventario](/docs/user/manual/en/stock/stock-settings) como fue mostrado anteriormente. 
 
 <img class="screenshot" alt="Delivery Note Material Transfer" src="{{docs_base_url}}/assets/img/stock/supplier-warehouse-enable.png">
 
