@@ -5,7 +5,7 @@
 
 ![Save Filter](/docs/assets/img/using-erpnext/using-save-filter-1.png)
 
-Para aprender más respecto a filtros, ver [Buscar Filtro](/docs/user/manual/es/using-erpnext/articles/search-filter.md)
+Para aprender más respecto a filtros, ver [Buscar Filtro](/docs/user/manual/es/using-erpnext/articles/search-filter)
 
 Suponiendo que en Ordenes de compra se necesita buscar todas las que tienen Total General mayor a $10.000. Sin embargo, no hay filtro predeterminado para eso. 
 
