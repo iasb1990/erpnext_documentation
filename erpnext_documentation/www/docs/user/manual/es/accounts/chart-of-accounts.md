@@ -118,7 +118,7 @@ Explicación de los tipos de cuentas:
 * **Redondeos**: en muchas facturas puede haber un [redondeo](/docs/user/manual/en/accounts/articles/round-off-account-validation) aplicado al importe final. Para un seguimiento preciso, estos valores pueden ser registrados en este tipo de cuentas.
 * **Almacén**: grupo de cuentas dentro del cual serán creadas las [cuentas de almacén](/docs/user/manual/en/accounts/articles/warehouse-ledger-link). 
 * **Ajuste de existencias**: cuenta de gastos para registrar cualquier asiento de ajuste de stock/inventario. Generalmente se encuentra en el mismo nivel que Costo sobre ventas.
-* **Inventario entrante no facturado**: cuenta temporal de pasivo que almacena el valor de stock recibio pero no facturado aún usado en el inventario perpetuo.
+* **Inventario entrante no facturado**: cuenta temporal de pasivo que almacena el valor de stock recibido pero no facturado aún usado en el inventario perpetuo.
 * **Impuesto**: todas las cuentas de impuestos como IVA, entre otros.
 * **Temporal**: una cuenta temporal es útil para balancear ingresos y gastos.
 
