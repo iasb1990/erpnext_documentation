@@ -101,9 +101,9 @@ Explicación de los tipos de cuentas:
 
 * **Depreciación acumulada**: en esta cuenta se almacenará el acumulado de depreciaciones de la compañía. Esta cuenta aparece en la Hoja de balance.
 * **Activo recibido pero no facturado**: cuenta temporal de pasivo que almacena el valor de los activos recibidos pero todavía no facturados.
-* **Banco**: tipo de cuenta debajo de la cual se crearán las demás cuentas de banco. Debe haber al menos un grupo de cuentas de tipo Banco dentro del Plan de cuentas.
-* **Efectivo**: tipo de cuenta debajo de la cual se crearán las demás cuentas de efectivo. Debe haber al menos un grupo de cuentas de Efectivo en el Plan de cuentas.
-* **Devengable**: cargos adicionales aplicados de Productos pueden ser almacenados en cuentas de este tipo. Por ejemplo, "Cargos por flete y envío".
+* **Banco**: tipo de cuenta con el cual se crearán las demás cuentas de banco. Debe haber al menos un grupo de cuentas de tipo Banco dentro del Plan de cuentas.
+* **Efectivo**: tipo de cuenta que aplica para las demás cuentas de efectivo. Debe haber al menos un grupo de cuentas de Efectivo en el Plan de cuentas.
+* **Cargos imputables**: cargos adicionales imputables a Productos pueden ser almacenados en cuentas de este tipo. Por ejemplo, "Cargos por flete y envío".
 * **Capital de trabajo en progreso**: cargos generados al crear activos fijos son almacenados en estas cuentas. Por ejemplo, costos de construcción de un edificio. En ERPNext los activos son registrados contra este tipo de cuentas cuando todavía no están en uso. 
 * **Costo sobre ventas**: una cuenta de este tipo es utilizada para registrar el total acumulado de costos de manufactura/compra de un producto o servicio vendido por la compañía.
 * **Depreciación**: cuenta de gastos donde se registra la depreciación de activos fijos. Estas cuentas aparecen en el Estado de resultados.
@@ -118,9 +118,9 @@ Explicación de los tipos de cuentas:
 * **Redondeos**: en muchas facturas puede haber un [redondeo](/docs/user/manual/en/accounts/articles/round-off-account-validation) aplicado al importe final. Para un seguimiento preciso, estos valores pueden ser registrados en este tipo de cuentas.
 * **Almacén**: grupo de cuentas dentro del cual serán creadas las [cuentas de almacén](/docs/user/manual/en/accounts/articles/warehouse-ledger-link). 
 * **Ajuste de existencias**: cuenta de gastos para registrar cualquier asiento de ajuste de stock/inventario. Generalmente se encuentra en el mismo nivel que Costo sobre ventas.
-* **Inventario entrante no facturado**: cuenta temporal de pasivo que almacena el valor de stock recibido pero no facturado aún usado en el inventario perpetuo.
+* **Inventario entrante no facturado**: cuenta temporal de pasivo que almacena el valor de stock recibido pero no facturado.
 * **Impuesto**: todas las cuentas de impuestos como IVA, entre otros.
-* **Temporal**: una cuenta temporal es útil para balancear ingresos y gastos.
+* **Temporal**: una cuenta temporal es útil para balancear ingresos y gastos, quedando siempre en cero al finalizar el período.
 
 > **Nota**: al realizar Entradas de pago, la cuenta de banco predeterminada (si está especificada) será tomada en el siguiente orden:
     
