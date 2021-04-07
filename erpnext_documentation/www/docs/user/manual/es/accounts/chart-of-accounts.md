@@ -106,7 +106,7 @@ Explicación de los tipos de cuentas:
 * **Devengable**: cargos adicionales aplicados de Productos pueden ser almacenados en cuentas de este tipo. Por ejemplo, "Cargos por flete y envío".
 * **Capital de trabajo en progreso**: cargos generados al crear activos fijos son almacenados en estas cuentas. Por ejemplo, costos de construcción de un edificio. En ERPNext los activos son registrados contra este tipo de cuentas cuando todavía no están en uso. 
 * **Costo sobre ventas**: una cuenta de este tipo es utilizada para registrar el total acumulado de costos de manufactura/compra de un producto o servicio vendido por la compañía.
-* **Depreciaciones**: cuenta de gastos donde se registra la depreciación de activos fijos. Estas cuentas aparecen en el Estado de resultados.
+* **Depreciación**: cuenta de gastos donde se registra la depreciación de activos fijos. Estas cuentas aparecen en el Estado de resultados.
 * **Patrimonio**: este tipo de cuentas representan transacciones con personas que son dueñas del negocio, por ejemplo, accionistas o los mismos dueños.
 * **Cuenta de gastos**: este tipo de cuenta representa cualquier fuente de costos o gastos registrados por la compañía.
 * **Gastos incluidos en la valoración de activos**: cuenta para registrar los gastos (aparte del costo directo de material de los activos) incluídos en el costo de un activo.
