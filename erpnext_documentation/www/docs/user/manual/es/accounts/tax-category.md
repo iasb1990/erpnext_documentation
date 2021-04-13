@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Categoría de impuestos
 
-**Una Categoría permite aplicar uno o más Reglas fiscales a transacciones en función de varios criterios.**
+**Una Categoría permite aplicar una o más Reglas fiscales a transacciones en función de varios criterios.**
 
 Si se desea aplicar diferentes tipos de impuestos basados en Categorías, se deben crear las mismas desde:
 
