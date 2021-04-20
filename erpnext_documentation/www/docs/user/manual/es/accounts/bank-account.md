@@ -43,7 +43,3 @@ A modo informativo, ERPNext permite definir los siguientes datos sobre la cuenta
 * **Dirección**: un banco puede tener múltiples en la misma localidad. La dirección de la sucursal puede especificarse aquí.
 * **Contacto**: los bancos por lo general proporcionan un contacto para cuentas corporativas. Dicho dato puede agregarse aquí.
 * **Sitio Web**: aquí se puede guardar la URL del sitio web del banco.
-
-### 3.4 Detalles de la integración
-
-**Fecha de la última integración**: si el banco soporta [integración con Plaid](/docs/user/manual/en/erpnext_integration/plaid_integration), especificar una fecha aquí hará que se sincronicen los datos en dicha fecha. Esto creará entradas de transacciones bancarias.
