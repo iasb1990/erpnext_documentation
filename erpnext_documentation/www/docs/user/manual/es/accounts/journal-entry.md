@@ -5,8 +5,6 @@ Todas las entradas contables que no son transacciones de venta o compra se reali
 
 Los Asientos contables pueden ser usados para registrar gastos, entradas de apertura, contra-entradas, pagos bancarios, entradas de impuestos especiales, etc. Por ejemplo, el registro de gastos corrientes, gastos directos como combustible/transporte, gastos varios, entradas de ajuste y ajuste del importe de facturas.
 
-> Nota: de la versión 13 en adelante existe un balance inalterable, por el cual cambia la forma en que funciona la cancelación de entradas en ERPNext. Más información al respecto [aquí](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
-
 Para acceder a la lista de Asientos contables, ir a:
 > Inicio > Contabilidad > Balance general > Asiento contable
 
@@ -216,9 +214,6 @@ Cuando una compañía compra bienes a un proveedor, paga impuestos especiales so
   * Cuando una compañía vende productos con impuestos especiales:
     * Debe: cuenta de cliente.
   	* Haber: cuenta de venta, cuenta de impuesto especial.
-
-> Nota: aplica para India pero no para todos los países.
-
 
 ### 3.10 Diferencia de desajuste
 
