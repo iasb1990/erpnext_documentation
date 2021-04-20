@@ -7,7 +7,7 @@ Es posible tener múltiples libros de finanzas. Por ejemplo, uno para autoridade
 
 El Libro de finanzas **no** es de uso obligatorio. Pero, si se decide utilizarlos, se pueden crear Asientos contables para un libro en particular seleccionándolo en el campo "Libro de Finanzas". Si se crea un Asiento contable dejando ese campo vacío, entonces la entrada contable estará en todos los Libros de finanzas.
 
-Muchas veces, para la depreciación de activos fijos, se suelen usar diferentes métodos de depreciación (Línea recta / Valor anotado / Doble balance decreciente) para distintos libros de finanzas. También se pueden establecer [cronogramas de depreciación](/docs/user/manual/en/asset/asset-depreciation) para cada libro de finanzas. Entonces, las depreciaciones automáticas se registrarán contra el libro de finzanzas correspondiente según el cronograma.
+Muchas veces, para la depreciación de activos fijos, se suelen usar diferentes métodos de depreciación (Línea recta / Valor escrito / Saldo doblemente decreciente) para distintos libros de finanzas. También se pueden establecer [cronogramas de depreciación](/docs/user/manual/en/asset/asset-depreciation) para cada libro de finanzas. Entonces, las depreciaciones automáticas se registrarán contra el libro de finzanzas correspondiente según el cronograma.
 
 <img class="screenshot" alt="Finance Book" src="{{docs_base_url}}/assets/img/accounts/finance-book.png">
 
