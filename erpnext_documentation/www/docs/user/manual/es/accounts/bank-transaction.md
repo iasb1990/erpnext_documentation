@@ -10,11 +10,7 @@ Antes de usar una Entrada de Transacción Bancaria se recomienda crear lo siguie
 1. [Cuenta bancaria](/docs/user/manual/es/accounts/bank-account)
 
 ## 2. Uso de transacciones bancarias
-Una entrada de transacción bancaria no debería crearse de forma manual, sino que es creada automáticamente usando:
-
-1. [Conciliación bancaria](/docs/user/manual/es/accounts/bank-reconciliation)
-    o
-1. [Integración con Plaid](/docs/user/manual/en/erpnext_integration/plaid_integration) para sincronizarse con los Bancos
+Una entrada de transacción bancaria no debería crearse de forma manual, sino que es creada automáticamente usando [Conciliación bancaria](/docs/user/manual/es/accounts/bank-reconciliation)
 
 ### 2.1 Campos adicionales en transacciones bancarias
 
