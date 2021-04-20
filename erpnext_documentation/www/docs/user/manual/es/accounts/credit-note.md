@@ -26,9 +26,6 @@ Esta es la forma en que el balance general es afectado al registrarse el pago de
 
 Se encontrará más información en la página de [Facturas de venta](/docs/user/manual/es/accounts/sales-invoice).
 
-### 1.2 Factura de venta sin pago
-En el caso de que no se haya registrado pago alguno para la factura original, se puede cancelar la Factura de venta. Pero, si solo 5 de 10 productos de la factura son devueltos, crear una Nota de crédito es útil para actualizar el balance general.
-
 ## 2. Ejemplo
 
 Un cliente compró caños PVC por $3000 + impuestos, pero al recibir sus productos notó que estaban dañados. Al efectuarse la devolución de los mismos se debe generar en el sistema una Nota de crédito.
