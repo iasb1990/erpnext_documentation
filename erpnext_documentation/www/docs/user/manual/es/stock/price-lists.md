@@ -21,7 +21,7 @@ Para acceder al Listado de Precio ir a:
 
 * El Listado de Precios puede asignarse a países específicos. 
 
-* Para desactivar un Listado de Precios determinado, desmarcar la casilla de verificación "Habilitado". Los Listados de Precios desactivados no podrán ser seleccionados en las transacciones de Compra y Venta. .
+* Para desactivar un Listado de Precios determinado, desmarcar la casilla de verificación "Habilitado". Los Listados de Precios desactivados no podrán ser seleccionados en las transacciones de Compra y Venta.
 
 * **Precio no dependiente de la UdM**: Pensemos en un producto como tomates que se compra en Cajas y se vende en Kilos. 1 Caja = 10 kilos y el precio de compra de 1 Kilo es 10 dólares. Si esta casilla está desactivada y se selecciona una Caja en la transacción, el precio se mostrará para un Kilo, debido a que ese es el único precio guardado para el Producto. 
 
