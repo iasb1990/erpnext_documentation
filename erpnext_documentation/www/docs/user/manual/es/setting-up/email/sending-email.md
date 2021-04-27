@@ -21,7 +21,7 @@ Se encuentran disponibles las siguientes opciones al enviar un Correo Electróni
 * **Adjuntar impresión del documento**: Adjuntar PDF del documento que se está enviando. 
 * **Seleccionar adjuntos**: Cualquier otro archivo adjunto adicional puede ser añadido aquí.
 
-Los dos campos siguientes son los campos que aparecen en la pantalla de impresión: 
+Los dos campos siguientes aparecen en la pantalla de impresión: 
 
 ![Email Print Options](/docs/assets/img/setup/email/email-print-options.png)
 
