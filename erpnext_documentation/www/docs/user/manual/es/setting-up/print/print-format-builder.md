@@ -31,7 +31,7 @@ O a través de un documento.
 
   <img class="screenshot" alt="Send Email" src="{{docs_base_url}}/assets/img/setup/print/print-format-builder-1.gif">
 
-1. Para añadir un campo, arrastrarlo desde la barra lateral izquierda y añadirlo al diseño. Se puede editar el diseño en secciones o en campos individuales haciendo click en el ícono configuraciones <i class="octicon octicon-gear"></i>.
+2. Para añadir un campo, arrastrarlo desde la barra lateral izquierda y añadirlo al diseño. Se puede editar el diseño en secciones o en campos individuales haciendo click en el ícono configuraciones <i class="octicon octicon-gear"></i>.
 
 1. Para eliminar un campo, arrastrarlo nuevamente a la barra lateral de campos.
 
