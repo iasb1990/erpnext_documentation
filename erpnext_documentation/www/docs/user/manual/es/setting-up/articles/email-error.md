@@ -7,4 +7,4 @@ En ERPNext, se puede personalizar la Pasarela de Enlace de Entrada y Salida. Al 
 
 Esto indica que, utilizando las credenciales de inicio de sesión y otros detalles de la pasarela de enlace de email provistos en la Cuenta de Correo electrónico, ERPNext no puede conectarse con el servidor de email. En este punto es necesario asegurarse de haber ingresado credenciales de correo válidas para la Pasarela de Enlace de Email. Una vez configurada la Cuenta de Correo electrónico exitosamente, se deberá poder enviar y recibir emails sin problema desde la cuenta ERPNext.
 
-Observación: La cuenta ERPNext está conectada de forma predeterminada con un servidor de email de ERPNext. Si no se desea usar otro servidor de email, se pueden enviar emails utilizando el servidor de email de ERPNext, sin que se requiera ninguna configuración en la Cuenta de Correo electrónico. 
+Observación: La cuenta ERPNext está conectada de forma predeterminada con un servidor de correo de ERPNext. Si no se desea usar otro servidor, se pueden enviar correos utilizando el servidor de ERPNext, sin que se requiera ninguna configuración en la Cuenta de Correo electrónico. 
