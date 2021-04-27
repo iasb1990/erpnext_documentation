@@ -18,7 +18,7 @@ Los Reportes Automáticos por Correo Electrónico pueden encontrarse en:
 
  <img class="screenshot" alt="With Filters" src="{{docs_base_url}}/assets/img/setup/email/auto-email-2.png">
  
-1. Guardar.
+5. Guardar.
 
 Se puede probar el informe haciendo click en "Descargar" o "Enviar Ahora". Aquí hay un ejemplo del email que se recibirá para un informe de libro mayor:
 
