@@ -21,7 +21,7 @@ Para acceder al Formato de Impresión ir a:
 
   ![Print Format menu](/docs/assets/img/setup/print/print-format-menu.png)
 
-1. Guardar.
+4. Guardar.
 
 En Ajustes de Estilo están las opciones para modificar el diseño. Se puede cambiar la fuente, alinear las etiquetas a la izquierda o derecha, añadir encabezados para cada sección, etc.   
 
