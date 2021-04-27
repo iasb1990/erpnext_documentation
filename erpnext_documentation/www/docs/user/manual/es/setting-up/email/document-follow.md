@@ -15,7 +15,7 @@
 
 <img class="screenshot" alt="Defining Criteria" src="{{docs_base_url}}/assets/img/setup/email/document-follow-how-to-follow.png">
 
-1. Luego de seguir, también se puede dejar se seguir un documento.
+3. Luego de seguir, también se puede dejar se seguir un documento.
 
 1. Tener en cuenta que solo se pueden seguir documentos para los cuales se encuentra habilitada la opción de rastrear cambios.
 1. Para habilitar rastrear cambios, ir a **Menú > Personalizar > *tildar la opción Rastrear Cambios***.
