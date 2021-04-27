@@ -23,7 +23,7 @@ Para acceder a Membrete ir a:
   
   > Si se desea que este sea el Membrete predeterminado, hacer click en "Membrete Predeterminado".
 
-1. Luego de ingresar los valores en la sección Encabezado y Pie de Página, guardar el Membrete.
+5. Luego de ingresar los valores en la sección Encabezado y Pie de Página, guardar el Membrete.
 
 Se puede configurar el membrete en base a un HTML para poder realizarle cambios:
 
