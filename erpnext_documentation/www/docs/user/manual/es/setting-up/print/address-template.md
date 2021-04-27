@@ -10,7 +10,7 @@ Para acceder a Plantilla de Dirección ir a:
 
 Una Plantilla de Dirección predeterminada es creada cuando se configura el sistema. Se puede editar o crear una nueva plantilla. Esta plantilla predeterminada se aplicará a todos los países si no hay una plantilla específica.
 
-Consideremos un cliente de Estados Unidos donde el "Condado" es parte de la dirección. Si se configura condado en la plantilla de dirección para Estados Unidos, entonces se mostrará en el campo dirección y, por ende, en la vista de impresión. Campos como código PIN pueden ser cambiados para mostrarse como código ZIP y campos como condado pueden agregarse utilizando las Plantillas de Dirección. 
+Considérese un cliente de Estados Unidos donde el "Condado" es parte de la dirección. Si se configura condado en la plantilla de dirección para Estados Unidos, entonces se mostrará en el campo dirección y, por ende, en la vista de impresión. Campos como código PIN pueden ser cambiados para mostrarse como código ZIP y campos como condado pueden agregarse utilizando las Plantillas de Dirección. 
 
 > La Plantilla de Dirección verifica el campo "País" en la Dirección para aplicar diferentes plantillas a las transacciones.
 
