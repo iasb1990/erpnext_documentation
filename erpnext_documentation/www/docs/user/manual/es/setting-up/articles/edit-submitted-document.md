@@ -23,6 +23,6 @@ Al hacer click en el botón Corregir, el mismo documento se volverá editable nu
 
 <div class="well">Observación: Si el documento está vinculado con otros documentos, entonces también se deberá cancelar los documentos dependientes antes de cancelar los documentos principales.
 	
-Ejemplo: Si se creó una Nota de Envío y Factura de Venta desde una Orden de Venta que se debe corregir, entonces primero se deben cancelar la Nota de Envío y la Factura de Venta hechas para esa Orden de Venta. Luego, corregir la Orden de Venta, volver a guardarla y volver a validarla. 
+Ejemplo: Si se creó una Nota de Entrega y Factura de Venta desde una Orden de Venta que se debe corregir, entonces primero se deben cancelar la Nota de Entrega y la Factura de Venta hechas para esa Orden de Venta. Luego, corregir la Orden de Venta, volver a guardarla y volver a validarla. 
 </div>
 <!-- markdown -->
