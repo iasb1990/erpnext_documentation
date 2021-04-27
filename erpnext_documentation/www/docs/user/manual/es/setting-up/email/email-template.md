@@ -17,11 +17,11 @@ Para acceder al listado de Plantilla de Correo Electrónico ir a:
 
 **DocType Asociado:** (opcional) El DocType asociado con esta plantilla.
 
-### 1.1 Use de la Plantilla de Correo Electrónico
+### 1.1 Uso de la Plantilla de Correo Electrónico
 
 Se puede utilizar esta Plantilla de Correo Electrónico en los que se envían desde ERPNext en campo "CC, BCC & Plantilla de Correo Electrónico" de la sección correo del documento. ERPNext tomará el asunto y la respuesta de acuerdo con la plantilla seleccionada. 
 
-Se puede seleccionar una plantilla por defecto para cada document desde la [Personalizar formulario](/docs/user/manual/es/customize-erpnext/customize-form).
+Se puede seleccionar una plantilla por defecto para cada document desde [Personalizar formulario](/docs/user/manual/es/customize-erpnext/customize-form).
 
 ### 1.2 Obtención de los nombres de los campos
 
