@@ -96,4 +96,3 @@ Se puede habilitar la impresión en bruto y utilizar impresoras térmicas. Hacer
 1. [Formato de Impresión](/docs/user/manual/es/setting-up/print/print-format)
 1. [Estilo de Impresión](/docs/user/manual/es/setting-up/print/print-style)
 1. [Encabezado de Impresión](/docs/user/manual/es/setting-up/print/print-headings)
-1. [Personalizar Traducciones](/docs/user/manual/es/setting-up/print/custom-translations)
