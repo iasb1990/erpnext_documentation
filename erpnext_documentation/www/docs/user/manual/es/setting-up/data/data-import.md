@@ -39,7 +39,7 @@ La plantilla descargada se verá así:
 
 ![Blank Template](/docs/assets/img/setup/data-import/blank-template-file.png)
 
-Abrir la plantilla descargada en una aplicación de hoja de cálculo (cómo Excel, Numbers, o Libre Office) e ingresar los datos bajo los encabezados de columnas como se muestra a continuación: 
+Abrir la plantilla descargada en una aplicación de hoja de cálculo (como Excel, Numbers, o Libre Office) e ingresar los datos bajo los encabezados de columnas como se muestra a continuación: 
 
 ![Customer Template with Data](/docs/assets/img/setup/data-import/customer-template-with-data.png)
 
@@ -137,7 +137,7 @@ de hojas de cálculo como MS Excel u Open Office Spreadsheet puede ser guardado 
 
 Si se está utilizando Microsoft Excel y se están usando caracteres no ingleses, asegurarse de guardar el archivo codificado como UTF-8.
 
-Para versiones más antiguas de Excel, no hay una forma clara de guardar como UTF-8. Por ende, es necesario guardar el archivo como CSV, luego abrirlo en Block de Notas, y luego guardarlo como "UTF-8" (¡O actualizar la versión de Excel!)
+Para versiones más antiguas de Excel, no hay una forma clara de guardar como UTF-8. Por ende, es necesario guardar el archivo como CSV, luego abrirlo en Block de Notas, y luego guardarlo como "UTF-8" (O actualizar la versión de Excel)
 
 ## 6. Temas Relacionados
 
