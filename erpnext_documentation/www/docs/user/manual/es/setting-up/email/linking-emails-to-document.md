@@ -38,6 +38,3 @@ La Vinculación Automática de Correos Electrónicos relaciona un Correo al Docu
 1. [Reporte de Correo Electrónico Automático](/docs/user/manual/es/setting-up/email/auto-email-reports)
 1. [Enviar Correo Electrónico desde cualquier Documento](/docs/user/manual/es/setting-up/email/sending-email)
 1. [Seguimiento de Documento](/docs/user/manual/es/setting-up/email/document-follow)
-
-
-{siguiente}
