@@ -3,7 +3,7 @@
 
 **Los Boletines de Correo Electrónico permiten recibir actualizaciones regulares respecto a ventas, gastos y otros números críticos, directamente en la Bandeja de Entrada del Correo Electrónico.**
 
-Los Boletines de Correo Electrónico son una muy buena forma para que los gerentes generales puedan seguir el rastro de grandes números como "Ventas Registrados", "Monto Recaudado" o "Facturas Generadas", etc.
+Los Boletines de Correo Electrónico son una muy buena forma para que los gerentes generales puedan seguir el rastro de grandes números como "Ventas Registradas", "Monto Recaudado" o "Facturas Generadas", etc.
 
 Para configurar un Boletín de Correo Electrónico, ir a:
 
