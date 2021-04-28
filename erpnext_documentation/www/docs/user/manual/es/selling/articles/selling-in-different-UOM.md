@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Vender en Diferentes Unidades de Medida(UdM)
+# Vender en Diferentes Unidades de Medida (UdM)
  
 Una unidad de medida (UdM) de precio de venta es la UdM con la que se da un precio a los productos. Se puede tener muchas UdM de precio de venta por cualquier artículo en inventario. Sin embargo, para vender al cliente, la UdM para un artículo puede cambiar. 
  
