@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Administrar Nivel de Permisos en el Administrador de Permisos 
+# Administrar Niveles de Permisos 
 
 El Nivel de Permiso es una forma de reducir la cantidad de información visible o editable en un DocType específico para ciertos Grupos de Usuarios. Aunque se puede definir la visibilidad o editabilidad para cada DocType, personalizando la Pauta de Permisos del DocType. Con el Nivel de Permisos se puede cambiar esto para Secciones o Campos específicos. 
 
