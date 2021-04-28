@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Configurar Objetivos de Venta de la Compañía
+# Configuración de Objetivos de Venta de la Compañía
 
 **Definir y alcanzar objetivos de venta puede ayudar a la compañía a lograr nuevas metas o incrementar sus ingresos.**
 
