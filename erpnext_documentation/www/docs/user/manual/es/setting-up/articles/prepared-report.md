@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Utilización de Informes Preparados
+# Informes Preparados
 
 Muchas veces, al generar un informe que utiliza un gran volumen de datos, por ejemplo, un informe de Libro Mayor para todo el año, puede suceder que se reciba el siguiente mensaje de error: **Tiempo de espera agotado**. Esto ocurre cuando hay muchos datos a procesar y presentar en la página del informe, pero no hay suficientes recursos en el servidor, lo cual resulta en una desconexión.
 
