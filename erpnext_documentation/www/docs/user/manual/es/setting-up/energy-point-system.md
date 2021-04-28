@@ -75,5 +75,5 @@ La Tabla de Posiciones muestra la posición del usuario en la empresa.
 
 <img class="screenshot" src="/docs/assets/img/setup/energy-point-system/leaderboard.png">
 
-### 5. Temas Relacionados
+## 5. Temas Relacionados
 1. [Rastreador de Objetivos](/docs/user/manual/es/automation/milestone-tracker)
