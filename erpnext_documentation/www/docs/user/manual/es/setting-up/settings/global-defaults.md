@@ -23,7 +23,7 @@ Cada vez que se crea un nuevo documento, se utilizarán estos valores como prede
 * Desactivar redondeo
 * Desactivar en palabras
 
-La Unidad de Distancia Predeterminada se utiliza para calcular la distancia total en [Viajes de entrega](/docs/user/manual/es/stock/delivery-trip).
+La Unidad de Distancia Predeterminada se utiliza para calcular la distancia total en la [Hoja de ruta](/docs/user/manual/es/stock/delivery-trip).
 
 ### Temas Relacionados
 1. [Configuración del Sistema](/docs/user/manual/es/setting-up/settings/system-settings)
