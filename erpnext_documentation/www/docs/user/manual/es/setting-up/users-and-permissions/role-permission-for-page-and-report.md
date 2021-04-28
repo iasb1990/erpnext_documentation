@@ -24,7 +24,7 @@ Utilizando el botón "Restablecer Predeterminados", el usuario puede eliminar lo
 
 <img alt="Reset the default roles" class="screenshot" src="{{docs_base_url}}/assets/img/users-and-permissions/reset-roles-permission-for-page-report.png">
 
-### 3. Temas Relacionados
+## 2. Temas Relacionados
 1. [Rol y Perfil de Rol](/docs/user/manual/es/setting-up/users-and-permissions/role-and-role-profile)
 1. [Permisos Basados en Roles](/docs/user/manual/es/setting-up/users-and-permissions/role-based-permissions)
 1. [Permisos de Usuario](/docs/user/manual/es/setting-up/users-and-permissions/user-permissions)
