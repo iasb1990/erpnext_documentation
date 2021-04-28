@@ -1,6 +1,6 @@
 <!--add breadcrumbs-->
 
-# Herramienta de Importación de Datos
+# Importación de Datos
 
 **La Herramienta de Importación de Datos permite importar registros desde archivos CSV/Excel.**
 
