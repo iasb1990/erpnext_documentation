@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Configurar Impuestos
+# Configuración de Impuestos
 
 **Los Impuestos son contribuciones obligatorias a los ingresos del estado/país.**
 
