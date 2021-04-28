@@ -30,11 +30,11 @@ La venta es la comunicación que ocurre con el cliente antes y durante la venta.
 1. [Cerrar Orden de Venta](/docs/user/manual/es/selling/articles/close-sales-order)
 
 ### 2.2 Avanzado
-1. [Vender con UOM diferentes](/docs/user/manual/es/selling/articles/Selling-in-different-UOM)
+1. [Vender en Diferentes Unidades de Medida (UdM)](/docs/user/manual/es/selling/articles/Selling-in-different-UOM)
 1. [Añadir margen](/docs/user/manual/es/selling/articles/adding-margin)
-1. [Enmendar Órdenes de Venta luego de ser enviadas](/docs/user/manual/es/selling/articles/amending-sales-order-after-submit)
-1. [Envío directo](/docs/user/manual/es/selling/articles/drop-shipping)
+1. [Corregir Orden de Venta luego de ser validada](/docs/user/manual/es/selling/articles/amending-sales-order-after-submit)
+1. [Envío Triangulado](/docs/user/manual/es/selling/articles/drop-shipping)
 
 ### 2.3 Otros
 1. [ERPNext para empresas de servicios](/docs/user/manual/es/selling/articles/erpnext-for-services-organization)
-1. [Pauta de envío](/docs/user/manual/es/selling/articles/shipping-rule)
+1. [Regla de envío](/docs/user/manual/es/selling/articles/shipping-rule)
