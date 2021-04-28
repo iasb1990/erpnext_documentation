@@ -42,6 +42,6 @@ Para acceder al Importador de Plan de Cuentas ir a:
 
     <img class="screenshot" alt="COA Import" src="{{docs_base_url}}/assets/img/setup/coa-import.png">
 
-### 2. Temas Relacionados
+## 2. Temas Relacionados
 1. [Plan de Cuentas](/docs/user/manual/es/accounts/chart-of-accounts)
 
