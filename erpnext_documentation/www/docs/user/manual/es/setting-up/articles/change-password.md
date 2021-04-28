@@ -1,4 +1,4 @@
-# Cambiar Contraseña de Usuario
+# Cambiar Contraseña
 
 Cada usuario de ERPNext puede personalizar una contraseña para su cuenta de ERPNext. Además, el usuario con el rol de Administrador de Sistema, podrá resetear las contraseñas para él y para otros usuarios. 
 
