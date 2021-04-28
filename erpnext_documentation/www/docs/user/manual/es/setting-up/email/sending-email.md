@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Enviar un Correo Electrónico desde cualquier Documento
+# Envío de Correos Electrónicos desde cualquier Documento
 
 En ERPNext se puede enviar cualquier documento por correo (como adjunto en PDF), haciendo click en Menú > Correo Electrónico.
 
