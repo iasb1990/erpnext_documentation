@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Resolver Problemas de Errores de Permisos
+# Resolución de Problemas de Errores de Permisos
 
 **Problema:** El usuario tiene asignados roles como Usuario de Cuenta y Administrador de Cuenta. Sin embargo, al acceder al informe de Cuentas por Cobrar, el Usuario recibe un mensaje de error de no permisos en la función territorio. 
 
