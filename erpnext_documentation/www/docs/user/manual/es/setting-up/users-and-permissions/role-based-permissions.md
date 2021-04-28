@@ -74,7 +74,7 @@ Un Pedido de Licencia es un buen ejemplo que incluye todas las áreas del Sistem
 
 En caso de que se hayan asignado los roles correctamente pero se sigan recibiendo errores al acceder a los documentos, ir a [esta página](/docs/user/manual/es/setting-up/articles/report-permission-error).
 
-### 3. Temas Relacionados
+## 3. Temas Relacionados
 1. [Permisos Basados en Roles](/docs/user/manual/es/setting-up/users-and-permissions/role-based-permissions)
 1. [Permisos de Usuario](/docs/user/manual/es/setting-up/users-and-permissions/user-permissions)
 1. [Permisos de Rol Para Página y Reportes](/docs/user/manual/es/setting-up/users-and-permissions/role-permission-for-page-and-report)
