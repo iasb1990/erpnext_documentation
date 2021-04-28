@@ -26,5 +26,5 @@ Este pedido también está registrado en el DocType "Pedido de Descarga de Datos
 
 <img class="screenshot" alt="Personal Data Download Request Doctype" src="{{docs_base_url}}/assets/img/setup/personal-data-download-request/personal-data-download-request-doctype.png">
 
-### 3. Temas Relacionados
+## 3. Temas Relacionados
 1. [Eliminación de Datos Personales](/docs/user/manual/es/setting-up/personal-data-deletion)
