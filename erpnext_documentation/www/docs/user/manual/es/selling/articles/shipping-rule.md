@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Pauta de Envío
+# Regla de Envío
 
 La función Pauta de Envío ayuda a definir reglas bajo las cuales aplicar los gastos de envío en las transacciones de venta. 
 
