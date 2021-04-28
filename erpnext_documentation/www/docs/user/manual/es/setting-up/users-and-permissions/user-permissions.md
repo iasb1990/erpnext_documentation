@@ -79,7 +79,7 @@ Observación: Si no se puede acceder a Orden de Venta o cualquier otro tipo de d
 Por ejemplo, el Usuario Bruce está restringido para la Compañía Unico Plastics Inc.
 ![User restricted to Company](/docs/assets/img/users-and-permissions/user-perms/user-restricted-to-company.png)
 
-### 3. Temas Relacionados
+## 3. Temas Relacionados
 1. [Añadir Usuarios](/docs/user/manual/es/setting-up/users-and-permissions/adding-users)
 1. [Rol y Perfil de Rol](/docs/user/manual/es/setting-up/users-and-permissions/role-and-role-profile)
 1. [Permisos Basados en Roles](/docs/user/manual/es/setting-up/users-and-permissions/role-based-permissions)
