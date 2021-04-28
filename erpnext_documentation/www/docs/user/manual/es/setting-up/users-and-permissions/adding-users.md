@@ -64,20 +64,20 @@ Tildando la opción "Enviar notificaciones de documentos seguidos por mí" se pu
 * **Firma de correo electrónico**: la firma de correo electrónico ingresada aquí será la predeterminada para todos los correoes electrónicos salientes del usuario. Esto es diferente al pie de página, el cual es configurado desde la [Compañía](/docs/user/manual/es/setting-up/company-setup).
 * **Correos electrónicos del Usuario**: en esta tabla se puede suscribir al usuario a diferentes listas de correo electrónico de la empresa. Añadir una nueva fila y seleccionar la lista de correo electrónico que se quiere asignar al usuario. Por ejemplo, las listas de mails pueden ser trabajos, asistencia, ventas, etc. Para saber más respecto a Cuentas de correo electrónico, hacer click [aquí](/docs/user/manual/es/setting-up/email/email-inbox).
 
-### 2.7 Permitir Acceso a Módulos
+### 2.6 Permitir Acceso a Módulos
 
 Los usuarios tendrán acceso a todos los módulos para los cuáles tienen acceso de acuerdo con su rol. Si se desea restringir el acceso a ciertos módulos para este usuario, destildar los módulos desde este listado. 
 
 <img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/user-3.png" alt="User Block Module">
 
-### 2.7.1 Perfil de módulo
+### 2.6.1 Perfil de módulo
 
 Los perfiles de módulo actúan como una plantilla para determinar los módulos a los que se puede acceder. Se puede asignar uno de estos perfiles a cada usuario. Por ejemplo, un usuario de Recursos Humanos tendrá acceso al menos a los módulos de Recursos Humanos y Nóminas.
 
 <img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/module-profile.png" alt="Module Profile">
 
 
-### 2.8 Configuración de Seguridad
+### 2.7 Configuración de Seguridad
 
 * **Sesiones simultáneas**: cantidad de inicios de sesión simultáneos a los que el usuario está habilitado. Se puede utilizar el mismo conjunto de credenciales para muchos usuarios permitiendo más sesiones. Esto puede restringirse globalmente desde [Configuración del Sistema](/docs/user/manual/es/setting-up/settings/system-settings#15-security). Para cuentas en la nube, el número total de sesiones en simultáneo no puede exceder el número total de usuarios suscriptos.
 * **Tipo de Usuario**: Si el usuario tiene algún rol seleccionado que no sea Cliente, Proveedor, Paciente o Estudiante, automáticamente se convierte en Usuario de Sistema. Este campo es de solo lectura.
@@ -86,17 +86,17 @@ Los perfiles de módulo actúan como una plantilla para determinar los módulos 
 
 Esta sección también muestra otros detalles del usuario como Último Inicio de Sesión, Última IP y Última vez activo.
 
-### 2.9 Autenticación de Tercero
+### 2.8 Autenticación de Tercero
 
 Esto permitirá a los usuarios utilizar Facebook, Google, o GitHub para iniciar sesión. Para utilizar esta función, registrarse con una cuenta de programador en cualquiera de estas plataformas. Crear una aplicación en su consola, especificar el nombre de la aplicación, la URL de origen y la URL de finalización, copiar aquí el ID del cliente y la información secreta del cliente para comenzar a usarla. 
 
 Para más detalles ir a [esta página](https://frappe.io/docs/user/en/guides/deployment/how-to-enable-social-logins).
 
-### 2.10 Acceso API
+### 2.9 Acceso API
 
 Se pueden generar Claves secretas de API desde esta sección, utilizando el botón Generar Claves. Estas pueden utilizarse para acceder a los datos de la cuenta desde otra aplicación, por ejemplo un sistema POS fuera de línea.
 
-### 2.11 Luego de Guardar
+### 2.10 Luego de Guardar
 
 Luego de guardar un usuario, se verán estos botones en el tablero del mismo. 
 
@@ -109,12 +109,12 @@ Luego de guardar un usuario, se verán estos botones en el tablero del mismo.
 
 #### Contraseña
 
-* **Restablecer contraseña**: Se enviará al usuario un correo electrónico con instrucciones para cambiar la contraseña a su [Cuenta de Email](/docs/user/manual/es/setting-up/email/email-account).
+* **Restablecer contraseña**: Se enviará al usuario un correo electrónico con instrucciones para cambiar la contraseña a su [Cuenta de Correo electrónico](/docs/user/manual/es/setting-up/email/email-account).
 * **Restablecer clave secreta de OTP**: Restablecer clave para iniciar sesión a través de la Autenticación de Dos Factores.
 
 ### Crear correo electrónico de usuario
 
-Hacer click en este botón permitirá crear una [Cuenta de Email](/docs/user/manual/es/setting-up/email/email-account) para el usuario en base al correo electrónico ingresado.
+Hacer click en este botón permitirá crear una [Cuenta de Correo electrónico](/docs/user/manual/es/setting-up/email/email-account) para el usuario en base al correo ingresado.
 
 ### 3. Métodos de Inicio de Sesión
 
