@@ -51,6 +51,6 @@ Esto indica que el Administrador de Sistema ha hecho click en el botón "Elimina
 
 <img class="screenshot" alt="Deleted User" src="{{docs_base_url}}/assets/img/setup/personal-data-deletion-request/deleted-user.png">
 
-### 3. Temas Relacionados
+## 3. Temas Relacionados
 1. [Descarga de Datos Personales](/docs/user/manual/es/setting-up/personal-data-download)
 
