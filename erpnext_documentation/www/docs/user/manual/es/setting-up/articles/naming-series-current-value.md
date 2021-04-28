@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Configurar el Valor Actual para Nombres de Serie
+# Valor Actual de Secuencias e identificadores
 
 Secuencias e identificadores permite definir prefijos para nombrar documentos. Por ejemplo, si una Orden de Venta tiene prefijo "SO", entonces la serie será generada de la siguiente forma SO-00001, SO-00002... y así sucesivamente. Hacer click [aquí](/docs/user/manual/es/setting-up/settings/naming-series.html) para aprender a editar los Nombres de Serie para transacciones/documentos en ERPNext.
 
