@@ -21,12 +21,12 @@ Para Configurar una Notificación:
 
 1. Seleccionar el Tipo de Documento sobre el cual se desean recibir notificaciones de cambios.
 2. Definir qué eventos se quieren ver en el campo "Enviar alerta en". Los eventos son: 
-    1. Nuevo: Cuando se crea un nuevo documento del tipo seleccionado.
-    2. Guardar/Validar/Cancelar: Cuando un documento del tipo seleccionado es guardado, validado, o cancelado. 
-    4. Días Antes/Días Después: Activar esta alerta **Días antes o despues** de la **Fecha de Referencia**. Esto puede ser útil para recordar fechas de vencimiento por venir o para realizar seguimientos sobre ciertas iniciativas o cotizaciones. 
-    3. Cambios de Valor: Cuando cambia un valor en particular en el tipo de documento seleccionado.
-    1. Método: Envía notificaciones cuando se activa un método específico. Ejemplo: before_insert.
-    1. Personalizar: Envía una notificación a una [Cuenta de Correo Electrónico](/docs/user/manual/es/setting-up/email/email-account) seleccionada.
+    - Nuevo: Cuando se crea un nuevo documento del tipo seleccionado.
+    - Guardar/Validar/Cancelar: Cuando un documento del tipo seleccionado es guardado, validado, o cancelado. 
+    - Días Antes/Días Después: Activar esta alerta **Días antes o despues** de la **Fecha de Referencia**. Esto puede ser útil para recordar fechas de vencimiento por venir o para realizar seguimientos sobre ciertas iniciativas o cotizaciones. 
+    - Cambios de Valor: Cuando cambia un valor en particular en el tipo de documento seleccionado.
+    - Método: Envía notificaciones cuando se activa un método específico. Ejemplo: before_insert.
+    - Personalizar: Envía una notificación a una [Cuenta de Correo Electrónico](/docs/user/manual/es/setting-up/email/email-account) seleccionada.
 3. Configurar Condiciones adicionales de ser necesario.
 4. Definir los receptores del alerta. Pueden ser un campo en el documento o una lista de Direcciones de Correo Electrónico fijadas. 
 5. Redactar el mensaje.
@@ -188,6 +188,6 @@ Finalmente, se pueden enviar notificaciones por **SMS**:
 Para utilizar este canal, se deberán completar los [Ajustes de SMS](/docs/user/manual/es/setting-up/sms-setting).
 
 
-### 6. Temas Relacionados
+## 6. Temas Relacionados
 1. [Ajustes de SMS](/docs/user/manual/es/setting-up/sms-setting)
 1. [Seguimiento de Documento](/docs/user/manual/es/setting-up/email/document-follow)
