@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Error al Enviar o Recibir Correos electrónicos
+# Errores de Correo electrónico
 
 En ERPNext, se puede personalizar la Pasarela de Enlace de Entrada y Salida. Al guardar una Cuenta de Correo electrónico, ERPNext intenta establecer una conexión con la pasarela de enlace de email. Si la cuenta ERPNext logra conectarse, entonces la Cuenta de Correo electrónico se guarda exitosamente. Si no, puede ser que se reciba un error como se muestra a continuación.  
 
