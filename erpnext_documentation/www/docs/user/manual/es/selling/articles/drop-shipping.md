@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Envío Directo
+# Envío Triangulado
 
 El **Envío Directo** es una técnica de administración de la cadena de suministro en la cual el vendedor no mantiene existencias de los productos. En cambio, transfiere los pedidos de los clientes y los detalles de envío al fabricante, a otro vendedor o a un mayorista, quien se encarga de enviar directamente los bienes al cliente. 
 
