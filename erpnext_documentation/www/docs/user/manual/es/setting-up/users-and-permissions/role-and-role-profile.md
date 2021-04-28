@@ -34,7 +34,7 @@ Para acceder a Perfil de Rol ir a:
 
     ![Role Profile](/docs/assets/img/users-and-permissions/role-profile.png)
 
-### 3. Temas Relacionados
+## 3. Temas Relacionados
 1. [Permisos Basados en Rol](/docs/user/manual/es/setting-up/users-and-permissions/role-based-permissions)
 1. [Permisos de Usuario](/docs/user/manual/es/setting-up/users-and-permissions/user-permissions)
 1. [Permisos de Rol Para Página y Reportes](/docs/user/manual/es/setting-up/users-and-permissions/role-permission-for-page-and-report)
