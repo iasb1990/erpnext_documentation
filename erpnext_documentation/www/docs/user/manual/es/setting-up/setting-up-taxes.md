@@ -33,5 +33,5 @@ La Categoría de impuestosl ayuda a aplicar de forma automática las plantillas 
 Hacer click [aquí](/docs/user/manual/es/accounts/tax-category) para saber más sobre el tema.
 
 
-### 6. Temas Relacionados
+## 6. Temas Relacionados
 1. [Configuración de la Compañía](/docs/user/manual/es/setting-up/company-setup)
