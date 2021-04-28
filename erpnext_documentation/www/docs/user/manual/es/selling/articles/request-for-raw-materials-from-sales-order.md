@@ -1,4 +1,4 @@
-# Pedir Materias Primas desde Órdenes de Venta
+# Pedido de Materias Primas desde Ordenes de Venta
 
 El Plan de Producción ayuda a planificar la producción de acuerdo a las órdenes de venta y permite mejorar la planificación de Abastecimiento de Material para un producto determinado, de acuerdo a la cantidad del mismo a ser producido. 
 
