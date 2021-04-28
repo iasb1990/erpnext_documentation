@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Boletín de Correo Electrónico
+# Boletín por Correo Electrónico
 
 **Los Boletines de Correo Electrónico permiten recibir actualizaciones regulares respecto a ventas, gastos y otros números críticos, directamente en la Bandeja de Entrada del Correo Electrónico.**
 
