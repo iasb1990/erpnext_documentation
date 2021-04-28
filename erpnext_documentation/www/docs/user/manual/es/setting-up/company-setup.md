@@ -28,7 +28,7 @@ En ERPNext, la estructura de compañías puede ser paralela (compañías hermana
 
 Una compañía padre es una organización mayor que cuenta con una o más compañías hijas. Una compañía hija es subsidiaria de la compañía padre.
 
-La vista de árbol de compañías muestra la estructura general de las compañias creadas.
+La vista de árbol de compañías muestra la estructura general de las compañías creadas.
 
 <img class="screenshot" alt="Company Tree" src="{{docs_base_url}}/assets/img/accounts/company-tree.png">
 
@@ -170,7 +170,7 @@ Información como productos, cuentas, empleados, etc no es borrada.
 * Todas las secuencias serán reiniciadas
 * Entradas de inventario relacionadas a un almacén de la compañía serán eliminadas
 
-### 3. Temas relacionados
+## 3. Temas relacionados
 1. [Configuración de impuestos](/docs/user/manual/en/setting-up/setting-up-taxes)
 1. [Configuración del sistema](/docs/user/manual/en/setting-up/settings/system-settings)
 1. [Importador de Plan de cuentas](/docs/user/manual/en/setting-up/chart-of-accounts-importer)
