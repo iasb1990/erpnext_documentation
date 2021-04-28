@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Enmendar Orden de Venta luego de ser enviada
+# Corregir Orden de Venta luego de ser validada
 La Tarifa y la Cantidad de una Orden de Venta puede ser enmendada luego de haber sido enviada utilizando el botón `Actualizar Productos`.
 
 <img alt="Update Items" class="screenshot" src="{{docs_base_url}}/assets/img/articles/so-update-items.png">
