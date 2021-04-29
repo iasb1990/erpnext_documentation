@@ -124,13 +124,11 @@ Esto puede hacerse seleccionando **Encabezado de Impresión**. Para crear nuevos
 * **Cotización de Proveedor:** Una Cotización de Proveedor puede ser asociada a fin de poder compararla con la cotización actual al cliente. Al hacer eso, se puede tener una idea de la ganancia o pérdida de la venta. 
 
 ### 4. Validación de la Cotización
-Una Cotización es una transacción "enviable". Cuando se hace click en Guardar, se guarda un borrador, cuando se hace click en Enviar, se envía de forma definitiva. Como esta Cotización esta pensada para ser enviada a un Cliente o Potencial Cliente, la misma debe ser cerrada a fin de que no se puedan hacer cambios luego de su envío. 
+Una Cotización es una transacción "validable". Cuando se hace click en Guardar se guarda un borrador, cuando se hace click en Validar se guarda de forma definitiva. Como esta Cotización está pensada para ser enviada a un Cliente o Iniciativa, la misma debe ser cerrada a fin de que no se puedan hacer cambios luego de su envío. 
 
-Al enviarla, se puede crear una Orden de Venta o Suscripción desde la Cotización utilizando el botón Crear. En el panel que se encuentra en la parte de arriba, se puede ir a la Orden de Venta asociada a esa Cotización. En caso de que esto no funcione, se puede configurar la Cotización como perdida haciendo click en el boton Configurar como Perdida.
+Al validarla, se puede crear una Orden de Venta o Suscripción desde la Cotización utilizando el botón Crear. En el panel que se encuentra en la parte de arriba, se puede ir a la Orden de Venta asociada a esa Cotización. En caso de que la venta no se concrete, se puede configurar la Cotización como perdida haciendo click en el botón Establecer como perdido.
 
 <img class="screenshot" alt="Submitted Quotation" src="{{docs_base_url}}/assets/img/selling/submitted-quotation.png">
 
 ### 5. Temas relacionados
-1. [Aplicar descuentos](/docs/user/manual/en/selling/articles/applying-discount)
-
-{next}
+1. [Aplicar descuentos](/docs/user/manual/es/selling/articles/applying-discount)
