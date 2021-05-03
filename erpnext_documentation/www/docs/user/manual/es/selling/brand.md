@@ -9,9 +9,9 @@ En ERPNext, se pueden asignar Marcas a los Productos para identificar y asignar 
 
 Para acceder al listado de Marcas ir a: 
 
-> Inicio > Comercialización > Ventas > Marca
+> Inicio > Almacén > Configuración > Marca
 
-## 1. Como crear una Marca
+## 1. Creación de una Marca
 1. Ir al listado de Marcas y hacer click en Nueva.
 1. Ingresar el nombre de la Marca y su descripción si fuese necesario.
 1. Guardar.
@@ -29,7 +29,7 @@ Ahora esa Marca puede ser asociada a diferentes Productos.
 
 Para una Marca pueden establecerse las siguientes configuraciones predeterminadas. Al asignar esa Marca a un Producto, la configuración establecida se utilizará al realizar trasacciones de Compra/Venta con Productos pertenecientes a esa Marca. 
 
-* **Depósito predeterminado**: El Depósito desde el cual el Producto será obtenido o donde será almacenado, dependiendo de la transacción. 
+* **Almacén predeterminado**: El almacén desde el cual el Producto será obtenido o donde será almacenado, dependiendo de la transacción. 
 * **Lista de precios predeterminada**: La Lista de Precios configurada será utilizada al realizar transacciones de Compra/Venta. 
 
 #### Configuraciones de Compra
@@ -40,15 +40,15 @@ Al realizar transacciones de Compra como una Orden de Compra, Recibo de Compra, 
 * Cuenta de Gastos Preestablecida 
 
 #### Configuraciones de Venta
-Al realizar operaciones de Venta, como Orden de Venta, Orden de Envío, o Factura de Venta, se utilizarán las configuraciones establecidas en esta sección al seleccionar un Producto de esta Marca.
+Al realizar operaciones de Venta, como Orden de Venta, Nota de Entrega, o Factura de Venta, se utilizarán las configuraciones establecidas en esta sección al seleccionar un Producto de esta Marca.
 
 * Centro de Costo de Venta Preestablecido
 * Cuenta de Ingresos Preestablecida
 
 ## 3. Temas Relacionados
-1. [Orden de Compra](/docs/user/manual/en/buying/purchase-order)
-1. [Orden de Venta](/docs/user/manual/en/selling/sales-order)
-1. [Recibo de Compra](/docs/user/manual/en/stock/purchase-receipt)
-1. [Orden de Envío](/docs/user/manual/en/stock/delivery-note)
-1. [Factura de Venta](/docs/user/manual/en/accounts/sales-invoice)
-1. [Factura de Compra](/docs/user/manual/en/accounts/purchase-invoice)
+1. [Orden de Compra](/docs/user/manual/es/buying/purchase-order)
+1. [Orden de Venta](/docs/user/manual/es/selling/sales-order)
+1. [Recibo de Compra](/docs/user/manual/es/stock/purchase-receipt)
+1. [Nota de Entrega](/docs/user/manual/es/stock/delivery-note)
+1. [Factura de Venta](/docs/user/manual/es/accounts/sales-invoice)
+1. [Factura de Compra](/docs/user/manual/es/accounts/purchase-invoice)
