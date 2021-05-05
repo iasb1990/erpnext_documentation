@@ -7,11 +7,11 @@ Además de administrar a los Vendedores, ERPNext también permite asignar objeti
 
 ## 1. Vendedor - Asignación de Objetivos por Grupo de Productos 
 
-### 1.1 Abrir la Ventana de Vendedor 
+### 1.1 Ir al Vendedor 
 
 Para asignar un objetivo se debe abrir el perfil del Vendedor. 
 
-**Comercialización > Socios Comerciales y Territorio > Vendedor > Editar**
+**Ventas > Ventas > Vendedor > Editar**
 
 ### 1.2 Asignación de Objetivo por Grupo de Productos
 
