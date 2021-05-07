@@ -23,8 +23,8 @@ En ambos campos, la UdM de un producto será obtenida de forma preestablecida. S
 De acuerdo a la cantidad y al Factor de Conversión, la cantidad se calculará en la UdM de existencias de un producto. Si solo se vende una Caja, entonces la cantidad de acuerdo a la UdM de existencias será establecida como 10. 
  
  
-### Actualización del Libro de Existencias
+### Actualización del Mayor de Inventarios
  
-Sin respetar la UdM de Venta seleccionada en la Orden de Venta, la actualización del libro de existencias se realizará en la UdM predeterminada de un producto. Por ende, es importante que el factor de conversión sea ingresado correctamente al vender productos en diferentes UdM. 
+Sin importar la UdM de Venta seleccionada en la Orden de Venta, la actualización del Mayor de Inventarios se realizará en la UdM predeterminada de un producto. Por ende, es importante que el factor de conversión sea ingresado correctamente al vender productos en diferentes UdM. 
 
 <img class="screenshot" alt="Stock report in UOM" src="{{docs_base_url}}/assets/img/selling/stock ledger for as STOCK-UOM.png">
