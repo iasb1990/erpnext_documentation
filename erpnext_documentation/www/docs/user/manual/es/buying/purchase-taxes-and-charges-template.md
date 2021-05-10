@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Plantilla de Impuestos y Gastos de Compra
+# Plantilla de Impuestos (Compra)
 
 **Los Impuestos y Gastos de Venta pueden ser aplicados a cualquier producto que se compre.**
 
