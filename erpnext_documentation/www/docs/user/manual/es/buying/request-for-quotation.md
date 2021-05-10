@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Solicitud de Cotización
 
-**Una Solicitud de Cotización es un deocumento que envía una empresa a uno o más proveedores pidiendo una cotización para determinados productos.**
+**Una Solicitud de Cotización es un documento que envía una empresa a uno o más proveedores pidiendo una cotización para determinados productos.**
 
 ![Buying Flow](/docs/assets/img/buying/buying_flow_rfq.png)
 
