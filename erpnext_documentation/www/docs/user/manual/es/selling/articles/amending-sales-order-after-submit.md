@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Corregir Orden de Venta luego de ser validada
+# Corregir Orden de Venta validada
 El Precio y la Cantidad pueden ser modificados luego de validar la Orden de Venta utilizando el botón `Actualizar Productos`.
 
 <img alt="Update Items" class="screenshot" src="{{docs_base_url}}/assets/img/articles/so-update-items.png">
