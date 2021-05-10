@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Sistema de Puntuación de Proveedores
+# Calificación del Proveedor
 
 **Un Sistema de Puntuación de Proveedores es una herramienta de evaluación que se utiliza para analizar el desempeño de los proveedores.**
 
