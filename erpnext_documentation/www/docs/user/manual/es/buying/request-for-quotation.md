@@ -1,5 +1,5 @@
 <!-- add-breadcrumbs -->
-# Pedido de Cotización
+# Solicitud de Cotización
 
 **Un Pedido de Cotización es un deocumento que envía una empresa a uno o más proveedores pidiendo una cotización para determinados productos.**
 
