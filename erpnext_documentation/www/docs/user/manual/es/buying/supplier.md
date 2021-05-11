@@ -13,47 +13,46 @@ Para acceder al listado de Proveedor ir a:
 5. Guardar.
     <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-master.png">
 
-Las opciones de Avisar en Solicitudes de Cotización, Avisar en Ordenes de Compra, Prevenir Pedidos de Cotización y Órdenes de Compra estarán disponibles una vez que se cree el [Sistema de Puntuación de Proveedores](/docs/user/manual/en/buying/supplier-scorecard) y se realicen transacciones.
+Las opciones Avisar en Solicitudes de Cotización, Avisar en Ordenes de Compra, Evitar Solicitudes de Cotización y Evitar Ordenes de Compra estarán disponibles una vez que se cree la [Calificación del Proveedor](/docs/user/manual/es/buying/supplier-scorecard) y se realicen transacciones.
 
 ## 2. Características 
 
-En transacciones futuras, los campos se completarán automáticamente si se configuran las opciones predeterminadas como: Cuenta Bancaria Predeterminada, Plantilla Predeterminada de Condiciones de Pago, etc; en la sección Proveedor.
+En transacciones futuras, los campos se completarán automáticamente si se configuran las opciones predeterminadas como: Cuenta Bancaria Predeterminada, Plantilla Predeterminada de Condiciones de Pago, etc. en la sección Proveedor.
 
 ### 2.1 Detalles de Impuestos
 
 * **País**: Si el Proveedor es de otro país, se lo puede cambiar aquí.
-* **Identificación Impositiva**: Número de Identificación Fiscal del Proveedor.
-* **Categoría Fiscal**: Esto está vinculado a [Normas Fiscales](/docs/user/manual/en/accounts/tax-rule). Si se configura aquí una Categoría Impositiva, cuando se seleccione este proveedor, se aplicará la plantilla de Impuestos y Gastos de Compra correspondiente. Esta plantilla está vinculada a las Normas Fiscales y éstas últimas, a una Categoría Fiscal. La Categoría Fiscal puede utilizarse para agrupar proveedores a los cuáles se aplicarán los mismos impuestos. Por ejemplo: Gobierno, Comercial, etc. 
-* **Idioma de Impresión**: El idioma en el cuál se imprime el documento.
-* **Categoría de Retención Fiscal**: Al configurar una categoría aquí, la misma será ingresada en la [Factura de Compra](/docs/user/manual/en/accounts/purchase-invoice). Para más información, visitar la página [Categoría de Retención Fiscal](/docs/user/manual/en/accounts/tax-withholding-category).
-* **Deshabilitar**: Deshabilita al Proveedor, el cual no será mostrado en la Lista de Proveedores.
-* **Es Transportista**: Si el proveedor está vendiendo servicios de transporte, hacer click en esta casilla. El campo "Identificación GST del Transportista" será visible si la casilla fue seleccionada. 
-* **Proveedor interno**: Si el proveedor es de una empresa hermana o principal/subsidiaria, hacer click en este campo y seleccionar la empresa que representa.
+* **CUIT/CUIL**: Número de Identificación Fiscal del Proveedor.
+* **Categoría de impuestos**: Esto está vinculado a [Reglas fiscales](/docs/user/manual/es/accounts/tax-rule). Si se configura aquí una Categoría de impuestos, cuando se seleccione este proveedor, se aplicará la Plantilla de Impuestos (Compra) correspondiente. Esta plantilla está vinculada a las Reglas Fiscales y éstas últimas, a una Categoría de impuestos. La Categoría de impuestos puede utilizarse para agrupar proveedores a los cuáles se aplicarán los mismos impuestos. Por ejemplo: Gobierno, Comercial, etc. 
+* **Categoría de Retención de Impuestos**: Al configurar una categoría aquí, la misma será ingresada en la [Factura de Compra](/docs/user/manual/es/accounts/purchase-invoice). Para más información, visitar la página [Categoría de Retención de Impuestos](/docs/user/manual/es/accounts/tax-withholding-category).
+* **Deshabilitado**: Deshabilita al Proveedor, el cual no será mostrado en la Lista de Proveedores.
+* **Es Transportista**: Si el proveedor está vendiendo servicios de transporte, hacer click en esta casilla. 
+* **Es un Proveedor Interno**: Si el proveedor es de una empresa hermana o principal/subsidiaria, hacer click en este campo y seleccionar la empresa que representa.
 
 
 ### 2.2 Permitir la creación de Factura de Compra sin Orden de Compra y Recibo de Compra 
 
-Si la opción "Se Requiere Orden de Compra" o "Se Requiere Recibo de Compra" están configuradas como "Si", en las [Configuraciones de Compra](/docs/user/manual/en/buying/buying-settings), esto puede cambiarse para un proveedor particual usando "Permitir la creación de Factura de Compra sin Orden de Compra" o "Permitir la creación de Factura de Compra sin Recibo de Compra" en la función Proveedor. 
+Si la opción "Se requiere Orden de compra para la creación de Facturas y Recibos de compra" o "Se requiere Recibo de compra para la creación de Facturas de compra" están configuradas como "Si", en las [Configuración de Compras](/docs/user/manual/es/buying/buying-settings), esto puede cambiarse para un proveedor en particular tildando "Permitir la creación de facturas de compra sin orden de compra" o "Permitir la creación de facturas de compra sin recibo de compra" en el Proveedor. 
 
 <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-po-pr-required.png">
 
-### 2.3 Moneda y Lista de Precios
+### 2.3 Divisa y Lista de Precios
 **Moneda de Facturación**: La moneda del proveedor puede ser diferente que la del comprador. Si se elige un proveedor en Dólares, entonces la moneda será configurada como dólares y se mostrará la tasa de cambio para futuras transacciones de compra.
 
 ![Supplier Currency](/docs/assets/img/buying/supplier-currency.gif)
 
 Cada Proveedor puede tener una **Lista de Precios** predeterminada de forma que cada vez que se compre un nuevo producto de este proveedor a precios diferentes, se actualizará la lista de precios asociada a dicho proveedor. Dentro de la lista de precios se encuentra el precio de producto, se pueden ver los precios en Compras > Productos y Precio > Precio de Producto.
 
-Si se selecciona a este proveedor en particular, entonces, en transacciones de compra se obtendrá la Lista de Precios. 
+Si se selecciona a este proveedor en particular, entonces, en transacciones de compra se obtendrá esta Lista de Precios. 
 
-### 2.4 Límites de Crédito
+### 2.4 Límite de Crédito
 
-* **Plantilla Predeterminada de Condiciones de Pago**: Si se configura aquí una Plantilla de Condiciones de Pago, la misma será seleccionada automáticamente en futuras transacciones de compra. 
+* **Plantilla de Términos de Pago Predeterminados**: Si se configura aquí una Plantilla de Términos de Pago, la misma será seleccionada automáticamente en futuras transacciones de compra. 
 * **Bloquear Proveedor**: Se puede bloquear facturas, pagos o ambos de un proveedor hasta una fecha específica. Elegir el "Tipo de Pausa", si no se selecciona un tipo de pausa, ERPNext lo configurará como "Todos". Cuando un proveedor está bloqueado, su estado será mostrado como "En Pausa". 
 
     Los tipos de pausa son como se muestra a continuación:
-    - Facturas: ERPNext no permitirá que se creen Facturas de Compra u Órdenes de Compra para el proveedor. 
-    - Pagos ERPNext no permitirá que se creen Registros de Pago para el Proveedor.
+    - Facturas: ERPNext no permitirá que se creen Facturas de Compra u Ordenes de Compra para el proveedor. 
+    - Pagos: ERPNext no permitirá que se creen Entradas de Pago para el Proveedor.
     - Todos: ERPNext aplicará ambos tipos de pausa mencionados anteriormente.
 
     Si no se configura una fecha de finalización, ERPNext tendrá al Proveedor en pausa **indefinidamente**.
@@ -74,7 +73,9 @@ Si no se desea configurar la cuenta de pago, y operar con la cuenta predetermina
 Dependiendo del [plan](https://erpnext.com/pricing), se podrán ingresar muchas empresas en la cuenta ERPNext. Un Proveedor puede ser utilizado en muchas empresas. En este caso se deberá seleccionar una Cuenta de Pago para el Proveedor de acuerdo a la empresa en la tabla "Cuentas de Pago Predeterminadas", es decir, sumar muchsa filas.  
 
 ### 2.6 Más Información
-En esta sección, se puede ingresar el sitio web del proveedor y cualquier otro detalle adicional acerca del mismo. Si se congela un proveedor usando la opción "Está Congelado", los registros contables para el mismo serán congelados. En este caso, el único usuario cuyos registros podrán pasar por encima la restricción, es aquel con el "Rol con Permiso a Configurar Cuentas Congeladas y Editar Registros Congelados" en Contabilidad > Configuraciones > Configuraciones Contables. Esto resulta útil cuando el nombre del proveedor o los detalles del banco deben ser enmendados. 
+En esta sección, se puede ingresar el sitio web del proveedor y cualquier otro detalle adicional acerca del mismo. Si se congela un proveedor usando la opción "Está Congelado", los registros contables para el mismo serán congelados. En este caso, el único usuario cuyos registros podrán pasar por encima la restricción, es aquel con el "Rol con Permiso a Configurar Cuentas Congeladas y Editar Registros Congelados" en Contabilidad > Configuraciones > Configuraciones Contables. Esto resulta útil cuando el nombre del proveedor o los detalles del banco deben ser enmendados.
+
+* **Idioma de Impresión**: El idioma en el cuál se imprime el documento.
 
 ### 2.7 Dirección y Contacto
 En ERPNext Los Contactos y Direcciones son almacenados de forma separada a fin de poder crear muchos Contactos y Direcciones para un Proveedor. Una vez que el Proveedor es guardado, aparecerá la opción para crear Contacto y Dirección para ese Proveedor.  
