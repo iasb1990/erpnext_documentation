@@ -5,93 +5,100 @@
 
 Es similar a la Orden de Venta pero en vez de enviarla a un sujeto externo, se la mantiene para registros internos. 
 
-> Inicio > Adquisiciones > Compras > Orden de Compra
+> Inicio > Compras > Compras > Orden de Compra
 
 ![Buying Flow](/docs/assets/img/buying/buying_flow_po.png)
 
 ## 1. Prerrequisitos
-Antes de crear y utilizar una Orden de Compra es aconsejable crear lo siguiente:
+Antes de crear y utilizar una Orden de Compra se recomienda crear lo siguiente:
 
-* [Proveedor](/docs/user/manual/en/buying/supplier)
-* [Producto](/docs/user/manual/en/stock/item)
+* [Proveedor](/docs/user/manual/es/buying/supplier)
+* [Producto](/docs/user/manual/es/stock/item)
 
 
-## 2. Cómo Crear una Orden de Compra
+## 2. Creación de una Orden de Compra
 
-Una Orden de Compra puede crearse automáticamente desde un Pedido de Material o una Cotización de Proveedor.
+Una Orden de Compra puede crearse automáticamente desde una Solicitud de Material o una Cotización de Proveedor.
 
 1. Ir al listado de Orden de Compra y hacer click en Nuevo.
-1. Seleccionar el Proveedor, y la fecha en que se requieren los productos
+1. Seleccionar el Proveedor, y la fecha en que se requieren los productos.
 1. En la tabla de productos, seleccionar el producto por código, se puede cambiar el "pedido para fecha" para cada producto. 
-1. Configurar la cantidad y el precio será obtenido automáticamente si está configurado en la función Producto. 
-1. Configurar Impuestos
-1. Guardar y Enviar
+1. Configurar la cantidad y el precio será obtenido automáticamente si está configurado en el Producto. 
+1. Configurar Impuestos.
+1. Guardar y Validar.
     <img class="screenshot" alt="Purchase Order" src="{{docs_base_url}}/assets/img/buying/purchase-order.png">
 
-### 2.1 Configurar Depósitos
+### 2.1 Configurar Almacenes
 
-* **Configurar Depósito de Destino**: De forma opcional, se puede configurar un Depósito de destino predeterminado a donde se enviarán los Productos comprados. Esto será obtenido en las filas de la tabla de Productos.
+* **Configurar Almacén de Destino**: De forma opcional, se puede configurar un Almacén de destino predeterminado a donde se enviarán los Productos comprados. Esto será obtenido en las filas de la tabla de Productos.
 
-### 2.2 Obtener Productos desde Pedidos de Materiales Abiertos
-Los Productos pueden ser ingresados en la Orden de Compra automáticamente desde [Pedidos de Materiales](/docs/user/manual/en/stock/material-request) abiertos. Para que esto funcione se deben seguir los siguientes pasos:
+### 2.2 Obtener Productos desde Solicitudes de Material Abiertas
+
+Los Productos pueden ser ingresados en la Orden de Compra automáticamente desde [Solicitudes de Material](/docs/user/manual/es/stock/material-request) abiertas. Para que esto funcione se deben seguir los siguientes pasos:
 
 1. Seleccionar un Proveedor en la Orden de Compra.
-1. Configurar el Proveedor predeterminado en el formulario de Producto en el campo [Configuraciones Predetermidas de Producto](/docs/user/manual/en/stock/item#39-item-defaults).
-1. El [Pedido de Material](/docs/user/manual/en/stock/material-request) debe ser de tipo "Compra".
-1. Hacer click en el botón **Obtener Productos desde Pedidos de Material Abiertos** debajo del nombre del Proveedor. En ese momento aparecerá un diálogo con Pedidos de Materiales con Productos para los cuales el Proveedor predeerminado es el mismo que el seleccionado en la Orden de Compra. Al seleccionar el Pedido de Material y hacer click en **Obtener Productos**, los mismos serán tomados desde el Pedido de Material. 
+1. Configurar el Proveedor predeterminado en el Producto en el campo correspondiente dentro de [Valores Predeterminados de Ventas, Compras y Contabilidad](/docs/user/manual/es/stock/item#39-item-defaults).
+1. La [Solicitud de Material](/docs/user/manual/es/stock/material-request) debe ser de tipo "Compra".
+1. Hacer click en el botón **Obtener productos de solicitudes de materiales abiertas** debajo del nombre del Proveedor. En ese momento aparecerá un diálogo con Solicitudes de Materiales con Productos en los cuales el Proveedor predeterminado es el mismo que el seleccionado en la Orden de Compra. Al seleccionar la Solicitud de Material y hacer click en **Obtener Productos**, estos serán tomados desde la misma.
+ 
 <img class="screenshot" alt="Get Items from Open Material Requests" src="{{docs_base_url}}/assets/img/buying/get-items-from-open-mr.png">
 
-> **Observación:** El botón **Obtener Productos desde Pedidos de Material Abiertos** es visible siempre y cuando la tabla de Productos esté vacía. 
+> **Observación:** El botón **Obtener productos de solicitudes de materiales abiertas** es visible siempre y cuando la tabla de Productos esté vacía. 
 
 ## 3. Características
 
 ### 3.1 Dirección y Contacto
 
-* **Seleccionar Dirección de Proveedor**: La Dirección de Facturación del Proveedor.
-* **Seleccionar Dirección de Envío**: La dirección de envío del Proveedor desde la cuál estará enviando los productos. 
-* Dirección, Dirección de Envío, Contacto, Mail de Contacto serán obtenidas si se guardan en la función Proveedor.
+* **Dirección de proveedor**: La Dirección de Facturación del Proveedor.
+* **Dirección de Envío**: La dirección de envío del Proveedor desde la cual estará enviando los productos. 
+* Dirección, Dirección de Envío, Contacto, Correo electrónico de contacto serán obtenidas si se guardan en el Proveedor.
 
 
-### 3.2 Moneda y Listado de Precios
-Se puede seleccionar la moneda en la cual se almacenará la orden de compra. Si se configura un Listado de Precios, los precios de los productos serán obtenidos desde allí. Si se selecciona "Ignorar pautas de tarifas" las Pautas de tarifas configuradas en Cuentas > Pautas de tarifas, serán ignoradas.
+### 3.2 Divisa y Lista de Precios
 
-Para saber más sobre Listado de Precios, [click aquí](/docs/user/manual/en/stock/price-lists).
+Se puede seleccionar la moneda en la cual se guardará la orden de compra. Si se configura una Lista de Precios, los precios de los productos serán obtenidos desde allí. Si se selecciona "Ignorar reglas de precios" las Reglas de precios configuradas en Contabilidad > Reglas de precios, serán ignoradas.
 
-Para saber sobre manejo de transacciones en múltiples monedas, [click aquí](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
+Para saber más sobre Listas de Precios, hacer click [aquí](/docs/user/manual/es/stock/price-lists).
 
-### 3.3 Subcontratar o "Proveer Materias Primas". 
+Para saber sobre manejo de transacciones en múltiples monedas, hacer click [aquí](/docs/user/manual/es/accounts/articles/managing-transactions-in-multiple-currency).
 
-Configurar la opción "Proveer Materias Primas" es útil para subcontrataciones donde se provee las materias primas para fabricar un producto. Para saber más, visitar la [Página de Subcontratación](/docs/user/manual/en/manufacturing/subcontracting).
+### 3.3 Subcontratación o "Suministro de materia prima". 
+
+Configurar la opción "Suministro de materia prima" es útil para subcontrataciones donde se provee las materias primas para fabricar un producto. Para saber más, visitar la página [Subcontratación](/docs/user/manual/en/manufacturing/subcontracting).
 
 ### 3.4 Tabla de Productos
 
-* **Escanear Código de Barra**: Se pueden añadir Productos a la tabla de Productos al escanear sus códigos de barra si se cuenta con un lector de código de barra. Para aprender a rastrearlos click [aquí](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **Escanear Código de Barras**: Se pueden añadir Productos a la tabla de Productos al escanear sus códigos de barra si se cuenta con un lector de código de barra. Para aprender a rastrearlos hacer click [aquí](/docs/user/manual/es/stock/articles/track-items-using-barcode)
 
-* **Cantidad y Precio**: Al seleccionar el código de Producto, se obtendrán su nombre, descripción y UdM. El "Factor de Conversión UdM" se configurará de forma predeterminada en 1, se puede cambiar dependiendo de la UdM recibida del venedor, leer más en la próxima sección. 
+* **Cantidad y Precio**: Al seleccionar el código de Producto, se obtendrán su nombre, descripción y UdM. El "Factor de Conversión UdM" se configurará de forma predeterminada en 1, se puede cambiar dependiendo de la UdM recibida del vendedor (más información al respecto en la próxima sección). 
 
-    La 'Tarifa de Lista de Precio' será obtenida si se configura una tarifa de Compra Estándar. "Última Tarifa de Compra" muestra el precio del producto de la última Orden de Compra. Si fue configurado, el Precio se obtendrá desde la función producto. Se puede adjuntar una Plantilla de Impuestos de Producto para aplicar una tasa impositiva específica al producto. 
+    El "Precio de la lista de precios" será obtenido si se configura una tarifa de Compra Estándar. El "Precio de la última compra" muestra el precio del producto de la última Orden de Compra. Si fue configurado, el Precio se obtendrá desde el producto. Se puede adjuntar una Plantilla de Impuestos de Producto para aplicar una tasa impositiva específica al producto. 
 
-* **Pesos de Producto** se obtendrá si fue configurado en la función Producto, sino, se debe ingresar de forma manual. 
+* **Pesos del Producto** se obtendrá si fue configurado en el Producto, sino, se debe ingresar de forma manual. 
 
-* **Depósito**: El depósito a donde se entregarán los productos; será completado automáticamente si fue configurado en el campo "Configurar Depósito de Destino" en la Orden de Compra. A través de Pedido Abierto, puede vincularse un Pedido Abierto, para saber más [click aquí](/docs/user/manual/en/selling/blanket-order). También pueden vincularse un 'Proyecto' y una Lista de Materiales para rastrear su progreso. 
+* **Almacén**: El Almacén a donde se entregarán los productos; será completado automáticamente si fue configurado en el campo "Asignar Almacén Destino". Tildando la opción "Contra la Orden general" puede vinsularse a una determinada [Orden general](/docs/user/manual/es/selling/blanket-order). También pueden vincularse un "Proyecto" y una "Lista de Materiales" para rastrear su progreso. 
 
-* "Cantidad de acuerdo a la UdM predeterminada" mostrará las existencias actuales de acuerdo con la UdM configurada en la función Producto. La "Cantidad recibida"se acualizará cuando los productos sean facturados. 
+* "Cantidad de acuerdo a la UdM predeterminada" mostrará las existencias actuales de acuerdo con la UdM configurada en el producto. La "Cantidad recibida" se acualizará cuando los productos sean facturados. 
 
-* **Detalles Contables**: Esta sección se completa de forma automática para una Orden de compra. La "Cuenta de Gastos" es aquella contra la cual se factura la Orden de Compra y el Centro de Costo es la cuenta a la cual se carga la Orden de Compra.
+* **Detalles de Contabilidad**: Esta sección se completa de forma automática para una Orden de compra. La "Cuenta de Gastos" es aquella contra la cual se factura la Orden de Compra y el Centro de Costo es la cuenta a la cual se carga la Orden de Compra.
 
-Fecha "Requerido Para" en cada Producto: Si se esperan envíos por partes, el Proveedor sabrá cuanta cantidad enviar en cada fecha. Esto ayudará a prevenir un sobre abastecimiento. También ayudará a controlar que tanto cumple el Proveedor los plazos. 
-
-**Permitir Tarifa de Valoración 0**: Haciendo click en "Permitir Tarifa de Valoración 0" permitirá enviar el Recibo de Compra incluso si el valor del Producto es 0. Esto puede darse porque se trata de un producto de muestra o a un acuerdo con el Proveedor. T
+Fecha "Solicitado para" en cada Producto: Si se esperan envíos por partes, el Proveedor sabrá qué cantidad enviar en cada fecha. Esto ayudará a prevenir un sobre abastecimiento. También ayudará a controlar qué tanto cumple el Proveedor los plazos. 
 
 ### 3.6 Materias Primas Proveidas
 Esta sección aparece cuando el campo "Proveer Materias Primas" se configura como "Si". Esta sección muestra una tabla con los Productos a ser proveidos al Proveedor para el proceso de subcontratación. 
 
 * **Configurar Depósito de Reserva**: Al [Subcontratar](/docs/user/manual/en/manufacturing/subcontracting), las materias primas pueden ser reservadas en un Depósito separado. Al seleccionar el Depósito de Reserva aquí, el mismo se insertará en las filas de Productos de la lista de Materias Primas Proveídas.
 
-#### Tabla de Materias Primas Proveídas
+#### Materias Primas Suministradas
+
+Esta sección aparece si se selecciona "Sí" en el campo "Suministro de materia prima". En la tabla se deben seleccionar los Productos provistos al Proveedor para el proceso subcontratado.
+
+* **Establecer almacén de reserva**: en la [Subcontratación](/docs/user/manual/es/manufacturing/subcontracting), las materias primas se pueden reservar en un almacén diferente. Al seleccionarlo en este campo se lo usará para completar automáticamente las filas de Productos de la tabla de materias primas.
+
+### Tabla de materias primas
 
 * **Cantidad Pedida**: El número de Productos requerido para completar la subcontratación de la forma especificada en la [Lista de Materiales](/docs/user/manual/en/manufacturing/bill-of-materials).
-* **Cantidad Proveida**: Esto se actualizará cuando se creen los Registros de Inventario para transferir materiales al Depósito del Proveedor desde el Depósito de Reserva utilizando el botón **Transferir**.
+* **Cantidad Suministrada**: Esto se actualizará cuando se creen los Registros de Inventario para transferir materiales al Depósito del Proveedor desde el Depósito de Reserva utilizando el botón **Transferir**.
     ![Subcontract Transfer Material](/docs/assets/img/buying/subcontract-transfer-materials.gif)
 
 ### 3.7 Conversión de UdM de Compra y UdM de Inventario
