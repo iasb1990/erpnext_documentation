@@ -18,11 +18,11 @@ Antes de crear una nueva plantilla, es importante saber que ya hay plantillas cr
 1. Ir al listado de Plantilla de impuestos (ventas) y hacer click en Nueva.
 2. Ingresar el nombre del Impuesto.
 3. En "Tipo", configurar sobre qué va a ser calculado el impuesto y su tasa. Hay cinco opciones en esta sección según las cuales el impuesto puede ser calculado. 
-  1. Real: Ingresar un monto fijo del impuesto.
-  2. Sobre el total neto: Sobre el total neto de todos los productos.
-  3. Sobre la fila anterior: Esto es para generar gastos compuestos. Por ejemplo, aplicar un impuesto sobre el monto al cual ya se le aplicó otro impuesto en la fila anterior.
-  4. Sobre el total de la fila anterior: Igual que lo explicado anteriormente pero aplicado al total de la factura y no solo al monto de un producto.
-  5. Sobre cantidad de producto: El impuesto será calculado como Tasa del Impuesto * Cantidad de Producto. Por ejemplo, si la tasa del impuesto es 2% y el número de productos es 2, entonces la Tarifa del Impuesto será 4, si el número de productos es 5, la Tarifa será 10, y así sucesivamente.
+    1. Real: Ingresar un monto fijo del impuesto.
+    2. Sobre el total neto: Sobre el total neto de todos los productos.
+    3. Sobre la fila anterior: Esto es para generar gastos compuestos. Por ejemplo, aplicar un impuesto sobre el monto al cual ya se le aplicó otro impuesto en la fila anterior.
+    4. Sobre el total de la fila anterior: Igual que lo explicado anteriormente pero aplicado al total de la factura y no solo al monto de un producto.
+    5. Sobre cantidad de producto: El impuesto será calculado como Tasa del Impuesto * Cantidad de Producto. Por ejemplo, si la tasa del impuesto es 2% y el número de productos es 2, entonces la Tarifa del Impuesto será 4, si el número de productos es 5, la Tarifa será 10, y así sucesivamente.
 4. Seleccionar una cuenta principal que ya tenga las tasas impositivas predeterminadas, o crearla.
 5. Si se selecciona aplicar predeterminadamente, se aplicará esta plantilla de forma predeterminada para las nuevas transacciones de Venta. 
 6. Guardar.
