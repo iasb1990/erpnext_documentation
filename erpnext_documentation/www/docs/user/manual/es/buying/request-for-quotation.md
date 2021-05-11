@@ -36,7 +36,7 @@ Los productos en la tabla de productos pueden ser obtenidos desde otros document
 
 * **Posible Proveedor**: Seleccionar un Posible Proveedor. Entonces, si ya se tiene alguna Solicitud de Material realizada para este proveedor, los productos se obtendrán de allí. 
 
-### 3.2 Botón Obtener Proveedores
+### 3.2 Obtener Proveedores
 
 En vez de ingresar los proveedores en la tabla de forma manual, también se puede obtenerlos utilizando este botón. Cuando se hace click en el botón Obtener Proveedores, se verá un campo "Obtener Proveedores por". Hay dos opciones para obtener proveedores: por etiquetas o por grupos. 
 
@@ -46,15 +46,27 @@ En vez de ingresar los proveedores en la tabla de forma manual, también se pued
 
 En la tabla de Proveedores, al expandir una fila, se verá la opción "Descargar PDF" la cual abrirá el PDF de la Solicitud de Cotización. 
 
-### 3.3 Detalles de correo electrónico
+### 3.3 Enlace a solicitudes de material
 
-Ingresar en este campo cualquier mensaje adicional para el Proveedor. Este campo puede ser completado automáticamente utilizando una "Plantilla de Correo Electrónico".
+Al hacer click en **Herramientas > Enlace a solicitudes de material**, se vinculará la Solicitud de Cotización a Solicitudes de material disponibles. Los productos deberían ser los mismos en ambas solicitudes.
 
-### 3.4 Términos y Condiciones
+### 3.4 Vista previa del correo electrónico
+
+En la sección "Detalles de correo electrónico" de una Solicitud en borrador se puede armar y previsualizar el correo que se enviará al proveedor.
+
+![Email Details Section]({{docs_base_url}}/assets/img/buying/email-details-section.png)
+
+Ingresar cualquier mensaje adicional en el campo "Mensaje para los Proveedores". Esta campo puede ser autocompletado usando una "Plantilla de Correo Electrónico".
+
+También se puede agregar un saludo y el Asunto del correo. Al hacer click en el botón "Vista previa del correo electrónico" se podrá ver cómo será el correo que se enviará al proveedor.
+
+![Preview Email]({{docs_base_url}}/assets/img/buying/email-preview.png)
+
+### 3.5 Términos y Condiciones
 
 En operaciones de Compra/Venta puede haber ciertas bases y condiciones que rigen la forma en que el proveedor vende bienes o servicios al cliente. Se pueden aplicar los Términos y Condiciones a las transacciones y éstas aparecerán en el documento impreso. Para saber más respecto a Términos y Condiciones, [click aquí](/docs/user/manual/es/setting-up/print/terms-and-conditions)
 
-### 3.5 Ajustes de impresión
+### 3.6 Ajustes de impresión
 #### Membrete
 Se pueden imprimir los pedidos de cotización/orden de compra en papel con el [membrete](/docs/user/manual/es/setting-up/print/letter-head) de la empresa.
 
