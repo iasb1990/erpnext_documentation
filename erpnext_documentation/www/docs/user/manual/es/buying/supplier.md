@@ -4,16 +4,16 @@
 **Los Proveedores son empresas o individuos que proveen productos o servicios.**
 
 Para acceder al listado de Proveedor ir a:
-> Inicio > Adquisiciones > Proveedor > Proveedor
+> Inicio > Compras > Proveedor > Proveedor
 
-## 1. Cómo Crear un Proveedor
+## 1. Creación de un Proveedor
 1. Ir al listado de Proveedores y hacer click en Nuevo. 
 2. Ingresar un nombre para el proveedor.
-4. Seleccionar el grupo de proveedores como Farmaceúticos, Hardware, et. 
+4. Seleccionar el grupo de proveedores como Farmaceúticos, Hardware, etc. 
 5. Guardar.
     <img class="screenshot" alt="Supplier Master" src="{{docs_base_url}}/assets/img/buying/supplier-master.png">
 
-Las opciones para Alertar Pedido de Cotización, Órdenes de Compra, Prevenir Pedidos de Cotización y Órdenes de Compra estarán disponibles una vez que se cree el [Sistema de Puntuación de Proveedores](/docs/user/manual/en/buying/supplier-scorecard) y se realicen transacciones.
+Las opciones de Avisar en Solicitudes de Cotización, Avisar en Ordenes de Compra, Prevenir Pedidos de Cotización y Órdenes de Compra estarán disponibles una vez que se cree el [Sistema de Puntuación de Proveedores](/docs/user/manual/en/buying/supplier-scorecard) y se realicen transacciones.
 
 ## 2. Características 
 
