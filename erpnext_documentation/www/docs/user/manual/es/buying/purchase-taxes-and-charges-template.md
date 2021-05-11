@@ -10,7 +10,7 @@ Si se quiere usar Cuentas Fiscales en la plantilla de impuestos debe configurars
 Para acceder a la Plantilla de Impuestos (Compra) ir a: 
 > Inicio > Compras > Configuración > Plantilla de Impuestos (Compra)
 
-## 1. Añadir Impuestos/Gastos de Compra a través de una plantilla
+## 1. Añadir Impuestos de Compra a través de una plantilla
 Antes de crear una nueva plantilla, es importante saber que ya hay plantillas creadas para muchos de los impuestos comúnmente usados.
 
 1. Hacer click en Nuevo.
