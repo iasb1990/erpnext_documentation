@@ -4,23 +4,23 @@
 
 El término Producto también se aplica a materias primas o componentes de productos que todavía deben ser manufacturados (antes de poder ser vendidos a los clientes). ERPNext permite administrar todo tipo de productos como materias primas, sub-productos, productos finales, variantes de productos y servicios. 
 
-ERPNext esta optimizado para el manejo de ventas y compras a través de productos. Si se ofrecen servicios, se puede crear un Producto por cada servicio que se ofrece. Completar la sección de Producto es muy importante para una implementación exitosa de ERPNext.
+ERPNext está optimizado para el manejo de ventas y compras a través de productos. Si se ofrecen servicios, se puede crear un Producto por cada servicio que se ofrece. Completar la sección de Producto es muy importante para una implementación exitosa de ERPNext.
 
 Para acceder al listado de Producto ir a:
-> Inicio > Inventario > Productos y Precios > Producto
+> Inicio > Almacén > Productos y Precios > Producto
 
 ## 1. Prerrequisitos
-Antes de crear y utilizar un Producto, se recomienda crear lo siguiente: 
+Antes de crear y utilizar un Producto se recomienda crear lo siguiente: 
 
-* [Grupo de Productos](/docs/user/manual/en/stock/item-group)
-* [Depósito](/docs/user/manual/en/stock/warehouse)
+* [Grupo de Productos](/docs/user/manual/es/stock/item-group)
+* [Almacén](/docs/user/manual/es/stock/warehouse)
 * Se requiere una Unidad de Medida
 
-## 2. Cómo crear un Producto
+## 2. Creación de un Producto
 1. Ir al listado de Producto y hacer click en Nuevo.
 2. Ingresar un Código de Producto, el nombre se completará automáticamente con el Código de Producto al hacer click en el campo Nombre de Producto.
 3. Seleccionar un Grupo de Productos
-4. Ingresar las existencias iniciales y el precio estándar de venta.
+4. Ingresar el Stock de apertura y el Precio de venta estándar.
 5. Guardar.
   ![Producto Guardado](/docs/assets/img/stock/item-saved.png)
 
@@ -28,67 +28,67 @@ Antes de crear y utilizar un Producto, se recomienda crear lo siguiente:
 
   * **Nombre del Producto:** Es el nombre real del producto o servicio. 
   
-  * **Código del Producto:** El Código de Producto es una forma simple de identificar el Producto. Si hay pocos Productos, se recomienda que el Código de Producto y el Nombre sean el mismo. De esta forma los nuevos usuarios pueden reconocer y actualizar más facilmente los detalles de Productos en todas las transacciones. En caso de haber muchos productos con nombres largos y listas de cientos de productos, es aconsejable codificarlos. Para entender cómo codificar productos [Codificación de Productos](/docs/user/manual/en/stock/articles/item-codification). También se puede generar un Código de Producto en base a un [Número de serie](/docs/user/manual/en/setting-up/settings/naming-series) activando esta función en [Configuraciones de Existencias](/docs/user/manual/en/stock/stock-settings#1-item-naming-by).
+  * **Código del Producto:** El Código de Producto es una forma simple de identificar el Producto. Si hay pocos Productos, se recomienda que el Código de Producto y el Nombre sean el mismo. De esta forma los nuevos usuarios pueden reconocer y actualizar más facilmente los detalles de Productos en todas las transacciones. En caso de haber muchos productos con nombres largos y listas de cientos de productos, es aconsejable codificarlos. Para entender cómo codificar productos ir a [Codificación de Productos](/docs/user/manual/es/stock/articles/item-codification). También se puede generar un Código de Producto en base a una [Secuencia](/docs/user/manual/es/setting-up/settings/naming-series) seleccionando esta opción en [Configuración de inventarios](/docs/user/manual/es/stock/stock-settings#1-item-naming-by).
   
-  * **Grupo de Productos:** El Grupo de Productos se utiliza para clasificar un producto de acuerdo a diferentes criterios como productos, materias primas, servicios, sub-productos, bienes de consumo o todos los grupos de productos. Crear un Grupo de Productos predeterminado en el listado de Grupo de Productos en Configuración > Grupo de Productos y preseleccionar la opción mientras se completan los detalles del Nuevo Producto en  [Grupo de Productos](/docs/user/manual/en/stock/item-group). Los Grupos de Productos pueden ser sub-productos, materias primas, etc o también pueden basarse en lo que necesite el negocio. 
+  * **Grupo de Productos:** El Grupo de Productos se utiliza para clasificar un producto de acuerdo a diferentes criterios como productos, materias primas, servicios, subproductos, bienes de consumo o todos los grupos de productos. Crear un Grupo de Productos predeterminado en el listado de Grupo de Productos en Configuración > Grupo de Productos y preseleccionar la opción mientras se completan los detalles del Nuevo Producto en [Grupo de Productos](/docs/user/manual/es/stock/item-group). Los Grupos de Productos pueden ser subproductos, materias primas, etc o también pueden basarse en lo que necesite el negocio. 
   
-  * **Unidad de Medida predeterminada:** Estaa es la unidad de medida predeterminada que se utilizará para el producto. Puede ser unidades, kilos, metros, etc. Se pueden almacenar todas las Unidades de Medidas que necesite un producto en Configuración> Datos Principales > UDM. Estas pueden ser pre seleccionadas al completar el Nuevo Producto utilizando el signo % para que aparezca una ventana emergente con el listado de UDM. Para más detalles, visitar la página [UdM](/docs/user/manual/en/stock/uom).
+  * **Unidad de Medida predeterminada:** Esta es la unidad de medida predeterminada que se utilizará para el producto. Puede ser unidades, kilos, metros, etc. Se pueden almacenar todas las Unidades de Medidas que necesite un producto en Configuración > Datos Principales > UdM. Estas pueden ser preseleccionadas al completar el Nuevo Producto utilizando el signo % para que aparezca una ventana emergente con el listado de UdM. Para más detalles, visitar la página [UdM](/docs/user/manual/en/stock/uom).
 
 ### 2.2 Opciones al crear un Producto
-* **Desactivar**: Si se desactiva un Producto, este no podrá ser seleccionado en ninguna transacción.
+* **Deshabilitado**: Si se desactiva un Producto, este no podrá ser seleccionado en ninguna transacción.
 
-* **Permitir Producto Alternativo**: A veces, al fabricar un producto final, puede suceder que algunos materiales específicos no estén disponibles. Si se habilita esta opción, se puede crear y seleccionar un producto alternativo del listado de Productos Alternativos. Para saber más, visitar la página [Producto Alternativo](/docs/user/manual/en/manufacturing/item-alternative) page.
+* **Permitir Producto Alternativo**: A veces, al fabricar un producto final, puede suceder que algunos materiales específicos no estén disponibles. Si se habilita esta opción, se puede crear y seleccionar un producto alternativo del listado de Productos Alternativos. Para saber más, visitar la página [Producto Alternativo](/docs/user/manual/es/manufacturing/item-alternative).
 
-* **Mantener Existencias:** Si se mantienen existencias de este Producto en el Inventario, ERPNext realizará una entrada en el Inventario de Existencias para cada transacción de este producto. Asegurarse de no seleccionar esta opción cuando se crea un Producto sin Existencias (fabricación contra pedido/contruir) o un servicio.
+* **Mantener Stock:** Si se mantienen existencias de este Producto en el Inventario, ERPNext realizará una Entrada de Inventario para cada transacción de este producto. Asegurarse de no seleccionar esta opción cuando se crea un Producto sin stock (fabricación contra pedido/contruir) o un servicio.
 
-* **Incluir Producto en Fabricación**: Esto es para materias primas que serán utilizadas para crear productos finales. Si el Producto es un servicio adicional como "lavado" que será usado en la Lista de Materiales, deshabilitar esta opción. 
+* **Incluir producto en fabricación**: Esto es para materias primas que serán utilizadas para crear productos finales. Si el Producto es un servicio adicional como "lavado" que será usado en la Lista de Materiales, deshabilitar esta opción. 
 
-* **Valoración**: Hay dos opciones para valuar las existencias de productos. FIFO (Primero que ingresa - Primero que sale) y Promedio Móvil. Para entender en detalles esta seccion ir a [Valoración, FIFO y Promedio Móvil](/docs/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average).
+* **Tasa de valoración**: Hay dos opciones para valuar las existencias de productos. FIFO (Primero que ingresa - Primero que sale) y Promedio Móvil. Para entender en detalles esta seccion ir a [Valoración, FIFO y Promedio Móvil](/docs/user/manual/es/stock/articles/item-valuation-fifo-and-moving-average).
 
-* **Precio de Venta Estándar**: Al *crear* un Producto, ingresar un valor en este campo creará automáticamente un [Precio de Producto](/docs/user/manual/en/stock/item-price) en la base de datos. Ingresar un valor luego de que el Producto ha sido guardadó no funcionará. En este caso, el Precio de Producto será creado desde cualquier transacción con el producto. Es el valor al cual se venderá el producto. Será obtenido de las Órdenes de Venta y Facturas de Venta. 
+* **Precio de venta estándar**: Al *crear* un Producto, ingresar un valor en este campo creará automáticamente un [Precio de Producto](/docs/user/manual/es/stock/item-price) en la base de datos. Ingresar un valor luego de que el Producto ha sido guardado no funcionará. En este caso, el Precio de Producto será creado desde cualquier transacción con el producto. Es el valor al cual se venderá el producto. Será obtenido de las Ordenes de Venta y Facturas de Venta. 
 
-* **Es Activo Fijo**: Hacer click en esta casilla de verificación si este producto es un Activo de la empresa. Ver el [Módulo de Activos](/docs/user/manual/en/asset) para saber más. 
+* **Es Activo Fijo**: Hacer click en esta casilla de verificación si este producto es un Activo de la empresa. Ver el módulo de [Activos](/docs/user/manual/es/asset) para saber más. 
 
-* **Crear Automáticamente Activos en Compra**: Si un Producto es un Activo de la Empresa, hacer click en esta casilla si se desea crear un activo automáticamente al comprar este producto durante el [Ciclo de Compra](/docs/user/manual/en/buying/purchase-order). Para saber más ver la [Página de Activos](/docs/user/manual/en/asset/asset).
+* **Creación automática de activos en la compra**: Si un Producto es un Activo de la Empresa, tildar esta opción si se desea crear un activo automáticamente al comprar este producto durante el [Ciclo de Compra](/docs/user/manual/es/buying/purchase-order). Para saber más ver la Página de [Activos](/docs/user/manual/es/asset/asset).
 
-* **Porcentaje de Tolerancia**: Esta opción sólo estará disponible luego de crear y guardar el Producto. Este el porcentaje en el cuál se permitirá sobre facturar y sobre entregar este Producto. Si no es configurado, se seleccionará desde [Configuraciones de Existencias](/docs/user/manual/en/stock/stock-settings#3-limit-percent).
+* **Porcentajes de Tolerancia**: Estas opciones sólo estarán disponibles luego de crear y guardar el Producto. Son el porcentaje en el cual se permitirá sobre facturar y sobre entregar este Producto. Si no son configurados, se tomará desde [Configuraciones de Inventarios](/docs/user/manual/es/stock/stock-settings#3-limit-percent).
 
-* **Subir una Imagen**: Para subir una imagen al ícono que aparecerá en todas las transacciones, guardar el formulario completado parcialmente. Luego de guardar el archivo, aparecerá el botón "Cambiar" en el ícono de Imagen. Hacer click allí, luego hacer click en Subir y cargar la imagen.  
+* **Subir una Imagen**: Para subir una imagen como ícono que aparecerá en todas las transacciones, se debe guardar el formulario completado parcialmente. Luego de guardarlo, aparecerá el botón "Cambiar" en el ícono de Imagen. Hacer click allí, luego hacer click en Subir y cargar la imagen.  
 
 ## 3. Características
 
 ### 3.1 Marca y Descripción
 
-* **Marca**: Si hay más de una marca, guardarlas en Comercialización > Marca y preseleccionarlas cuando se completa un Nuevo Producto.
+* **Marca**: Si hay más de una marca, guardarlas en Almacén > Configuración > Marca y preseleccionarlas cuando se crea un Nuevo Producto.
 * **Descripción**: Descripción del Producto. De forma predeterminada se tomará el Código de Producto.
   ![Marca y Descripción del Producto](/docs/assets/img/stock/item-brand-description.png)
 
 ### 3.2 Código de Barras
 
-Pueden guardarse códigos de barra en los Productos para escanearlos y agregarlos con facilidad a las transacciones. En la tabla de Códigos de Barra se puede agregar el [código de barra escaneable](/docs/user/manual/en/stock/articles/track-items-using-barcode) de un producto. En ERPNext hay dos tipos de Código de Barra:
+Pueden guardarse códigos de barra en los Productos para escanearlos y agregarlos con facilidad a las transacciones. En la tabla de Códigos de Barra se puede agregar el [código de barra escaneable](/docs/user/manual/es/stock/articles/track-items-using-barcode) de un producto. En ERPNext hay dos tipos de Código de Barra:
 
 * **EAN**: El Número de Artículo Europeo, compuesto por 13 dígitos. El EAN es de uso internacional y es reconocido por la mayoria de los Sistemas TPV.
 * **UPC**: El Código Universal de Producto es un número compuesto por 12 dígitos. El UPC generalmente se usa solo en Estados Unidos y Canadá. 
 
 ### 3.3 Inventario
 
-* **Duración de un Producto en Días**: Esto es para un producto [Lote](/docs/user/manual/en/stock/batch). El número de días luego de los cuáles el lote de productos será inutilizable. Por ejemplo, medicamentos. 
-* **Fin de Vida Útil**: Para un solo Producto, la fecha luego de la cuál será completamente inutilizable. Es decir, no podrá usarse en transacciones y manufacturas. Por ejemplo, se utilizarán cristales de plástico para fabricar productos durante 5 años, luego de los cuáles se querrá utilizar gotas de plástico. 
-* **Garantía**: Para poder rastrear un período de garantía es necesario que el producto sea seriado. Cuando el Producto es entregado, la fecha de entrega y la de período de vencimiento se guarda en la sección de Número de Serie. A través de esa sección se puede rastrear el estado de la garantía. 
+* **Vida útil en Días**: Esto es para un producto de [Lote](/docs/user/manual/es/stock/batch). El número de días luego de los cuales el lote de productos será inutilizable. Por ejemplo, medicamentos. 
+* **Final de vida útil**: Para un solo Producto, la fecha luego de la cual será completamente inutilizable. Es decir, no podrá usarse en transacciones y manufacturas. Por ejemplo, se utilizarán cristales de plástico para fabricar productos durante 5 años, luego de los cuales se querrá utilizar gotas de plástico. 
+* **Período de garantía (en días)**: Para poder rastrear un período de garantía es necesario que el producto sea seriado. Cuando el Producto es entregado, la fecha de entrega y la de período de vencimiento se guarda en la sección de Número de Serie. A través de esa sección se puede rastrear el estado de la garantía. 
 
-  El período de garantía es un período de tiempo en el cuál el producto comprado puede ser devuelto o cambiado. 
+  El período de garantía es un período de tiempo en el cual el producto comprado puede ser devuelto o cambiado. 
 
   <img class="screenshot" alt="Item Warranty" src="{{docs_base_url}}/assets/img/stock/item-inventory.png">
 
-* **Peso UdM**: La Unidad de Medida para el Producto. Puede ser unidades, Kilos, etc. La UdM que se use internamente puede diferir de la UdM de compra. 
+* **Unidad de Medida (UdM)**: La Unidad de Medida para el Producto. Puede ser unidades, Kilos, etc. La UdM que se usa internamente puede diferir de la UdM de compra. 
 * **Peso por Unidad**: El peso real de cada unidad del producto. Ejemplo: 1 kilo de galletas o 10 galletas por paquete. 
-* **Tipo de Pedido de Material Predeterminado**: Cuando se cree un nuevo Pedido de Material, el campo establecido aquí será seleccionado de forma predeterminada en el Pedido de Material. Esto también es conocido como "pedido".
-* **Método de Valoración**: Seleccionar el Método de Valoración sea FIFO o Promedio Móvil. Para saber más sobre Métodos de Valoración [click aquí](/docs/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average).
+* **Tipo de Solicitud de Material predeterminado**: Cuando se cree una nueva Solicitud de Material, el campo establecido aquí será seleccionado de forma predeterminada.
+* **Método de Valoración**: Seleccionar el Método de Valoración sea FIFO o Promedio Móvil. Para saber más sobre Métodos de Valoración hacer click [aquí](/docs/user/manual/es/stock/articles/item-valuation-fifo-and-moving-average).
 
-### 3.4 Pedido Automático
-Cuando las existencias de un producto caen por debajo de una cierta cantidad se puede configurar un pedido automático en la sección "Pedido Automático". Esto debe ser habilitado en las [Configuraciones de Existencias](/docs/user/manual/en/stock/stock-settings#9-automatic-material-request). Esta función creará un [Pedido de Materiales](/docs/user/manual/en/stock/material-request) para el producto. El usuario que posea el rol de Administrador de Compras y Administrador de Existencias será **notificado** cuando se cree el Pedido de Material. 
+### 3.4 Ordenar Automáticamente
+Cuando las existencias de un producto caen por debajo de una cierta cantidad se puede configurar un pedido automático en la sección "Ordenar Automáticamente". Esto debe ser habilitado en la [Configuración de Inventarios](/docs/user/manual/es/stock/stock-settings#9-automatic-material-request). Esta función creará una [Solicitud de Materiales](/docs/user/manual/es/stock/material-request) para el producto. El usuario que posea el rol de Gerente de Compras y Gerente de Almacén será **notificado** cuando se cree la Solicitud de Material. 
 
-* **Revisar en (grupo)**: En que grupo de depósitos se revisará la cantidad del producto. 
+* **Registro (grupo)**: En que grupo de depósitos se revisará la cantidad del producto. 
 * **Pedir para**: Para que depósito se hace el pedido de producto. 
 * **Nivel de Pedido**: Cuando el producto llegue a esta cantidad, se dispara el pedido. El nivel de pedido puede ser determinado en base al tiempo de espera y el promedio de consumo diario. Por ejemplo, se puede establecer el nivel de pedido de una placa madre en 10. Cuando haya solo 10 placas madres en existencia, el sistema creará un Pedido de Material automáticamente en tu cuenta de ERPNext. 
 * **Cantidad a pedir**: El número de unidades a pedir de forma tal que la suma del costo de pedido y los costos de mantenimiento estén en su mínimo. La cantidad a pedir está basada en el "Pedido Mínimo" especificado por el proveedor y otros factores.
