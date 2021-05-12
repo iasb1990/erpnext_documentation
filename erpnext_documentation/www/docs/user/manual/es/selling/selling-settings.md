@@ -70,7 +70,7 @@ El sistema de forma predeterminada validará si el precio del producto cambia a 
 
 Se puede configurar en el campo "Acción si no se mantiene el mismo precio" la acción que el sistema deberá realizar si el precio no es el mismo:
 
-* Detener: ERPNext generará un mensaje de error que impedirá continuar con el cliclo de venta.
+* Detener: ERPNext generará un mensaje de error que impedirá continuar con el ciclo de venta.
 * Advertir: el sistema permitirá guardar la transacción pero mostrará un mensaje de advertencia.
 
 Si se seleccionó "Detener", se puede determinar un valor en el campo "Rol autorizado para anular la acción de detener", permitiendo solo a usuarios con este rol continuar con el ciclo de venta.
