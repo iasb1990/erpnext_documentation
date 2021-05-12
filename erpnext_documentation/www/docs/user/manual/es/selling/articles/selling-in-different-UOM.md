@@ -5,7 +5,7 @@ Una unidad de medida (UdM) de precio de venta es la UdM con la que se da un prec
  
 Por ejemplo, una lapicera puede guardarse en depósito en unidades, pero se vende en Cajas. Por ende se realizará la Orden de Venta por Lapiceras en Caja. 
  
-### Paso 1: En la función Productos, bajo la sección Unidad de Medida se pueden enumerar todas las posibles UdM para un producto, con su Factor de Conversión de UdM. Actualizar los Factores de Conversión de UdM. 
+### Paso 1: En los Productos, bajo la sección Unidad de Medida se pueden enumerar todas las posibles UdM para un producto, con su Factor de Conversión de UdM. Actualizar los Factores de Conversión de UdM. 
 Si en una caja hay 10 unidades de Lapiceras, entonces el Factor de Conversión de UdM es 10. 
 
 <img class="screenshot" alt="Item Unit of Measure" src="{{docs_base_url}}/assets/img/selling/Item-UOM.png">
