@@ -1,53 +1,50 @@
 <!-- add-breadcrumbs -->
 # Recibo de Compra
 
-**Los recibos de Compra se realizan cuando se aceptan Productos del Proveedor, generalmente desde una Orden de Compra.**
+**Los Recibos de Compra se realizan cuando se aceptan Productos del Proveedor, generalmente desde una Orden de Compra.**
 
-También se pueden aceptar los Recibos de Compra de forma directa sin necesidad de una Orden de Compra. Para hacer esto, configurar 
-el campo Orden de Compra Requerida como "No" en las Configuraciones de Compra. 
+También se pueden aceptar los Recibos de Compra de forma directa sin necesidad de una Orden de Compra. Para hacer esto, configurar el campo Orden de Compra Requerida como "No" en la Configuración de Compras. 
 
 Para acceder al listado de Recibo de Compra, ir a:
-> Inicio > Existencias > Transacciones de Existencias > Recibo de Compra
+> Inicio > Almacén > Transacciones de Inventario > Recibo de Compra
 
 ![Purchase Receipt flow](/docs/assets/img/stock/purchase-receipt-flow.png)
 
 ## 1. Prerrequisitos
-Antes de crear y utilizar un Recibo de Compra, se recomienda crear lo siguiente: 
+Antes de crear y utilizar un Recibo de Compra se recomienda crear lo siguiente: 
 
-* [Orden de Compra](/docs/user/manual/en/buying/purchase-order)
+* [Orden de Compra](/docs/user/manual/es/buying/purchase-order)
 
-> Observación: Desde la versión 13 en adelante se introdujeron libros contables inalterables lo cual cambia las reglas de cancelación de entradas de existencias y de registro de transacciones de existencias de fechas anteriores en ERPNext. [Leer más aquí](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
-
-
-## 2. Cómo Crear un Recibo de Compra
-Un Recibo de Compra es generalmente creado desde una [Orden de Compra](/docs/user/manual/en/buying/purchase-order). En la Orden de Compra, hacer click en Crear > Recibo de Compra.
+## 2. Creación de un Recibo de Compra
+Un Recibo de Compra es generalmente creado desde una [Orden de Compra](/docs/user/manual/es/buying/purchase-order). En la Orden de Compra, hacer click en Crear > Recibo de Compra.
 
 Para crear un Recibo de Compra de forma _manual_ (no recomendado), seguir los siguientes pasos:
 
 1. Ir al listado de Recibo de Compra y hacer click en Nuevo. 
-1. El nombre del Proveedor y los Productos pueden obtenerse desde la Orden de Compra haciendo click en "Tomar Productos Desde > Orden de Compra".
-1. Se puede configurar el Depósito Aceptado para todos los productos en este Recibo de Compra. Si esto está configurado en la Orden de Compra, se tomará desde allí. 
-1. En el caso de que algún Producto sea defectuoso, configurar el Depósito a donde se almacenarán esos Productos. 
-1. Seleccionar el Producto e ingresar la cantidad en la tabla de Productos.
-1. La tarifa será obtenida y el monto será calculado automáticamente.
-1. Se puede expandir la fila de productos para cambiar el Depósito de Aceptados para un Producto.
-1. Guardar y Enviar.
+1. El nombre del Proveedor y los Productos pueden obtenerse desde la Orden de Compra haciendo click en "Obtener productos de > Orden de Compra".
+1. Se puede configurar el Almacén Aceptado para todos los productos en este Recibo de Compra. Si esto está configurado en la Orden de Compra, se tomará desde allí. 
+1. En el caso de que algún Producto sea defectuoso, configurar el Almacén a donde se enviarán esos Productos. 
+1. Seleccionar el Producto e ingresar la cantidad en la tabla.
+1. El Precio será obtenido y el Importe será calculado automáticamente.
+1. Se puede expandir la fila de productos para cambiar el Almacén de Aceptados para un Producto.
+1. Guardar y Validar.
 
     <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/assets/img/stock/purchase-receipt.png">
 
-También se puede sumar una "Nota de Entrega del Proveedor" al Recibo de Compra si el Proveedor agregó algunas observaciones.
-Utilizando la casilla "Editar Fecha y Hora de Registro" se puede editar la fecha y hora del Recibo de Compra. De forma predeterminada, la fecha y hora se establecerán cuando se hace click en el botón Nuevo. 
+También se puede agregar una "Nota de Entrega del Proveedor" al Recibo de Compra si el Proveedor agregó algunas observaciones.
+Utilizando la opción "Editar fecha y hora de envío" se puede editar la fecha y hora del Recibo de Compra. De forma predeterminada, la fecha y hora se establecerán cuando se hace click en el botón Nuevo. 
 
-Es Devolución: Hacer click en esta casilla si se están devolviendo Productos que no fueron aceptados en el Depósito. 
+Es una devolución: tildar esta opción si se están devolviendo Productos que no fueron aceptados en el Almacén. 
 
 ### 2.1 Estados
 
 Estos son los Estados en que puede encontrarse un Recibo de Compra:
 
 * **Borrador**: Se guarda un borrador pero todavía no se envía al sistema.
-* **Pendiente de Facturación**: Pendiente de facturación a través de una [Factura de Compra](/docs/user/manual/en/accounts/purchase-invoice).
-* **Completo**: Enviada y con todos los Productos recibidos. 
-* **Cancelado**: Recibo de Compra cancelado
+* **Por Facturar**: Pendiente de facturación a través de una [Factura de Compra](/docs/user/manual/es/accounts/purchase-invoice).
+* **Completado**: Enviada y con todos los Productos recibidos.
+* **Devolución emitida**: Todos los productos fueron devueltos. 
+* **Cancelado**: Recibo de Compra cancelado.
 * **Cerrado**: El fin del Estado Cerrado es administrar el cierre definitivo del Recibo de Compra. Por ejemplo, se pidió 20 unidades de producto pero se cierra en 15. Por ende las otras 5 unidades no serán recibidas ni facturadas. 
 
 ## 3. Características
