@@ -51,7 +51,7 @@ Antes de crear y utilizar un Producto se recomienda crear lo siguiente:
 
 * **Creación automática de activos en la compra**: Si un Producto es un Activo de la Empresa, tildar esta opción si se desea crear un activo automáticamente al comprar este producto durante el [Ciclo de Compra](/docs/user/manual/es/buying/purchase-order). Para saber más ver la Página de [Activos](/docs/user/manual/es/asset/asset).
 
-* **Porcentajes de Tolerancia**: Estas opciones sólo estarán disponibles luego de crear y guardar el Producto. Son el porcentaje en el cual se permitirá sobre facturar y sobre entregar este Producto. Si no son configurados, se tomará desde [Configuraciones de Inventarios](/docs/user/manual/es/stock/stock-settings#3-limit-percent).
+* **Porcentajes de Tolerancia**: Estas opciones sólo estarán disponibles luego de guardar el Producto. Son el porcentaje en el cual se permitirá sobre facturar y sobre entregar este Producto. Si no son configurados, se tomarán desde [Configuración de cuentas](/docs/user/manual/es/accounts/accounts-settings) y [Configuración de Inventarios](/docs/user/manual/es/stock/stock-settings#3-limit-percent) respectivamente.
 
 * **Subir una Imagen**: Para subir una imagen como ícono que aparecerá en todas las transacciones, se debe guardar el formulario completado parcialmente. Luego de guardarlo, aparecerá el botón "Cambiar" en el ícono de Imagen. Hacer click allí, luego hacer click en Subir y cargar la imagen.  
 
@@ -83,7 +83,7 @@ Pueden guardarse códigos de barra en los Productos para escanearlos y agregarlo
 * **Unidad de Medida (UdM)**: La Unidad de Medida para el Producto. Puede ser unidades, Kilos, etc. La UdM que se usa internamente puede diferir de la UdM de compra. 
 * **Peso por Unidad**: El peso real de cada unidad del producto. Ejemplo: 1 kilo de galletas o 10 galletas por paquete. 
 * **Tipo de Solicitud de Material predeterminado**: Cuando se cree una nueva Solicitud de Material, el campo establecido aquí será seleccionado de forma predeterminada.
-* **Método de Valoración**: Seleccionar el Método de Valoración sea FIFO o Promedio Móvil. Para saber más sobre Métodos de Valoración hacer click [aquí](/docs/user/manual/es/stock/articles/item-valuation-fifo-and-moving-average).
+* **Método de Valoración**: Seleccionar el Método de Valoración ya sea FIFO o Promedio Móvil. Para saber más sobre Métodos de Valoración hacer click [aquí](/docs/user/manual/es/stock/articles/item-valuation-fifo-and-moving-average).
 
 ### 3.4 Ordenar Automáticamente
 
@@ -92,7 +92,7 @@ Cuando las existencias de un producto caen por debajo de una cierta cantidad se 
 * **Registro (grupo)**: En qué grupo de almacenes se revisará la cantidad del producto. 
 * **Solicitud para**: Para que almacén se hace la solicitud de producto. 
 * **Nivel mínimo de stock**: Cuando el producto llega a esta cantidad, se genera la solicitud. El nivel de pedido puede ser determinado en base al tiempo de espera y el promedio de consumo diario. Por ejemplo, se puede establecer el nivel de pedido de una placa madre en 10. Cuando haya solo 10 placas madres en existencia, el sistema creará una Solicitud de Material automáticamente en la cuenta de ERPNext. 
-* **Cantidad mínima para ordenar**: El número de unidades a pedir de forma tal que la suma del costo de pedido y los costos de mantenimiento estén en su mínimo. La cantidad a pedir está basada en el "Pedido Mínimo" especificado por el proveedor y otros factores.
+* **Cantidad mínima para ordenar**: El número de unidades a pedir de forma tal que la suma del costo de pedido y los costos de mantenimiento estén en su mínimo. La cantidad a pedir está basada en la "Cantidad mínima de la orden" especificada por el proveedor y otros factores.
 
   Por ejemplo, si el nivel de pedido es de 100 productos, la cantidad a pedir no necesariamente tiene que ser 100 productos. La cantidad a pedir puede ser mayor o igual al nivel de pedido. Puede depender del tiempo de espera, descuento, transporte y promedio de consumo diario. 
 
@@ -106,7 +106,7 @@ Cuando las existencias de un producto caen por debajo de una cierta cantidad se 
 
 Se puede contar con distintas Unidades de Medidas para un mismo Producto. Si la UdM de venta predeterminada es unidades pero se recibe la mercadería en kilos, se pueden establecer UdM adicionales con su respectivo factor de conversión. Por ejemplo, 500 unidades de destornilladores = 1 kilo; entonces es necesario seleccionar kilo/litro como UdM y configurar el factor de conversión como 500. Para saber más respecto a vender en diferentes UdM, visitar [esta página](/docs/user/manual/es/selling/articles/Selling-in-different-UOM).
 
-### 3.6 Número de serie
+### 3.6 Número de serie y lote
 
 Utilizando Números de Serie se pueden rastrear las garantías y las devoluciones. En caso de que un proveedor retire un Producto individual, el sistema de números ayuda a rastrear ese Producto individual. El sistema numérico también administra las fechas de vencimiento.
 
@@ -116,19 +116,17 @@ En ERPNext, se deberá mencionar los Números de Serie en algunas entradas conta
 
 <img alt="Serial No modal" class="screenshot" src="{{docs_base_url}}/assets/img/stock/serial_no_modal.gif">
 
-### 3.7 Lotes
-
-Un grupo de productos puede ser fabricado en lotes. Esto es util para movilizar el lote y asociar una fecha de vencimiento a cierto lote. 
+Por otro lado, un grupo de productos puede ser fabricado en lotes. Esto es útil para movilizar el lote y asociar una fecha de vencimiento a cierto lote. 
 
 * **Posee número de lote**: Si se tilda esta opción se mostrarán opciones como número de lote, fecha de vencimiento, y conservar muestra de existencias. No se puede activar esta opción si hay alguna transacción preexistente para este Producto. Si esta opción esta desactivada, se deberá ingresar manualmente los números de serie para cada transacción. 
 
-* **Serie de número de lote**: Prefijo que será aplicado a los números de lote. Si se configura 5x1SCR, entonces el primer lote será nombrado como 5x1SCR00001 en la primera transacción/fabricación.
+    * **Serie de número de lote**: Prefijo que será aplicado a los números de lote. Si se configura 5x1SCR, entonces el primer lote será nombrado como 5x1SCR00001 en la primera transacción/fabricación.
 
-* **Crear nuevo lote automáticamente**: Si el número de lote no se menciona en las transacciones, entonces será creado automáticamente siguiendo un formato como este AAAA.00001. Si se prefiere crear los números de lote de un producto de forma manual, entonces dejar este campo en blanco. Esta configuración sobreescribe lo establecido en la Configuración de Inventarios bajo el campo "Prefijo de la Serie de Nomenclatura". Los números de lote pueden configurarse para ser generados automáticamente si se fabrican los productos o para ingresarlos manualmente si los mismos provienen de un fabricante externo. 
+    * **Crear nuevo lote automáticamente**: Si el número de lote no se menciona en las transacciones, entonces será creado automáticamente siguiendo un formato como este AAAA.00001. Si se prefiere crear los números de lote de un producto de forma manual, entonces dejar este campo en blanco. Esta configuración sobreescribe lo establecido en la Configuración de Inventarios bajo el campo "Prefijo de la Serie de Nomenclatura". Los números de lote pueden configurarse para ser generados automáticamente si se fabrican los productos o para ingresarlos manualmente si los mismos provienen de un fabricante externo. 
 
-* **Tiene fecha de caducidad**: Si se tilda esta opción, el número de lote será creado de acuerdo a la fecha de caducidad. Las mismas pueden ser configuradas en el Lote. 
+    * **Tiene fecha de caducidad**: Si se tilda esta opción, el número de lote será creado de acuerdo a la fecha de caducidad. Las mismas pueden ser configuradas en el Lote. 
 
-* **Conservar muestra**: A fin de conservar un mínimo número de existencias de un producto en forma de muestra. Para hacer esto se debe configurar un Almacén de Retención de Muestras en la Configuración de Inventarios. Para saber más, hacer click [aquí](/docs/user/manual/es/stock/retain-sample-stock).
+    * **Conservar muestra**: A fin de conservar un mínimo número de existencias de un producto en forma de muestra. Para hacer esto se debe configurar un Almacén de Retención de Muestras en la Configuración de Inventarios. Para saber más, hacer click [aquí](/docs/user/manual/es/stock/retain-sample-stock).
 
 * **Posee número de serie**: Esto es similar al número de lote, será creado cuando se realicen transacciones o manufacturas. Si se configuran los números de serie como AA, entonces un número como AA00001 será creado en la primera transacción.
 
@@ -140,51 +138,52 @@ Un grupo de productos puede ser fabricado en lotes. Esto es util para movilizar 
 
 Para saber más visitar la página [Conciliación de Inventario](/docs/user/manual/es/stock/stock-reconciliation).
 
-### 3.8 Variantes
+### 3.7 Variantes
 Una Variante de Producto es una versión diferente del Producto. Para saber más respecto a la adminsitración de variantes ver [Variantes de Producto](/docs/user/manual/es/stock/item-variants).
 
-### 3.9 Valores Predeterminados de Ventas, Compras y Contabilidad
+### 3.8 Valores Predeterminados de Ventas, Compras y Contabilidad
 
 En esta sección se pueden definir configuraciones predeterminadas relacionadas a un producto para todas sus transacciones en toda la empresa. 
 
-* **Almacén por defecto:** Este es el Almacén que será seleccionado automáticamente en las transacciones para este Producto. 
-* **Lista de precios por defecto:** Tanto de venta como de compra. De la misma forma, se pueden configurar las cuentas predeterminadas de compra y venta. 
+* **Almacén predeterminado:** Este es el Almacén que será seleccionado automáticamente en las transacciones para este Producto. 
+* **Lista de precios predeterminada:** Tanto de venta como de compra. De la misma forma, se pueden configurar las cuentas predeterminadas de compra y venta. 
 * **Proveedor predeterminado**: Si se configura un proveedor predeterminado, el mismo será seleccionado para nuevas transacciones de compra. 
-* **Cuenta de gastos por defecto:** Es la cuenta de la cual será debitado el costo del Producto. 
+* **Cuenta de gastos predeterminada:** Es la cuenta de la cual será debitado el costo del Producto. 
 * **Cuenta de ingresos predeterminada:** Es la cuenta en la cual se acreditará el ingreso generado por vender el Producto. 
-* **Centro de costos por defecto:** Es utilizado para rastrear los gastos para este Producto.
+* **Centros de costos predeterminados:** Es utilizado para rastrear los gastos para este Producto.
 
   ![Item defaults](/docs/assets/img/stock/item-defaults.png)
 
 > Consejo: Se pueden añadir más filas para múltiples empresas.
 
-### 3.10 Detalles de compra y reabastecimiento 
+### 3.9 Detalles de compra y reabastecimiento 
 
 * **Es un producto para compra:** Si esta opción no está tildada, no se podrá usar este producto en operaciones de compra.
 * **Unidad de Medida de Compra Predeterminada**: La UdM predeterminada que será usada en las transacciones de compra. 
 * **Cantidad mínima de la orden**: La cantidad mínima requerida para transacciones de compra como Ordenes de Compra. Si esto se configura, el sistema no permitirá avanzar en la operación de compra si la cantidad de producto pedida es menor que la establecida en este campo. 
-* **Stock de seguridad**: El “Stock de seguridad” es utilizado en el informe "Nivel de pedido recomendado basado en Productos". De acuerdo con las Existencias Adecuadas, el consumo diario promedio y el tiempo de espera, el sistema sugiere el Nivel de Pedido de un producto.
-  Nivel de Pedido = Existencias Adecuadas + (Consumo Diario Promedio * Tiempo de Espera)
+* **Stock de seguridad**: El “Stock de seguridad” es utilizado en el informe "Nivel recomendado de reabastecimiento de producto". De acuerdo con el Stock de seguridad, el consumo diario promedio y el tiempo de espera, el sistema sugiere el Nivel de Pedido de un producto.
+
+  Nivel de Pedido = Stock de seguridad + (Consumo Diario Promedio * Tiempo de Espera)
 * **Precio de la última compra**: Aquí se mostrará el precio al cual se compró por última vez un producto utilizando una [Factura de Venta](/docs/user/manual/en/accounts/purchase-invoice).
-* **Es producto proveído por cliente:** tildar esta opción si el producto es provisto por un cliente y recibido a través de **Entrada de Inventario > Recepción de Materiales**. Si esta casilla esta seleccionada, el campo de **Cliente** es obligatorio como el Cliente predeterminado para **Solicitud de Materiales**. Para saber más, visitar [esta página](/docs/user/manual/es/manufacturing/articles/customer-provided-items).
-* **Plazo de entrega en días:** El tiempo de espera en días es el número de días que transcurren entre el pedido de producto y su llegada al Almacén.
+* **Es producto proveído por cliente:** tildar esta opción si el producto es provisto por un cliente y recibido a través de **Entrada de Inventario: Recepción de Materiales**. Si está tildada, el campo de **Cliente** es obligatorio como el Cliente predeterminado para **Solicitud de Materiales**. Para saber más, visitar [esta página](/docs/user/manual/es/manufacturing/articles/customer-provided-items).
+* **Plazo de entrega en días:** El tiempo de espera en días es el número de días que transcurren entre el pedido del producto y su llegada al Almacén.
 
   <img class="screenshot" alt="Purchase details" src="{{docs_base_url}}/assets/img/stock/item-purchase-details.png">
 
-### 3.11 Detalles de Proveedor
+### 3.10 Detalles del Proveedor
 
-* **Entregado por el Proveedor (Envío Triangulado)**: Si el producto será enviado directamente desde el proveedor al cliente hacer click en esta casilla. Leer más [aquí](/docs/user/manual/es/selling/articles/drop-shipping).
-* **Código de Proveedores:** Código de Rastreo del Producto definido por el Proveedor. En las transacciones de Compra al selecccionar un Producto, también se obtendrá el Número de pieza del proveedor. para referencia del mismo. Para leer más sobre esto click [aquí](/docs/user/manual/es/buying/articles/maintaining-suppliers-part-no-in-item).
+* **Entregado por el Proveedor (Envío Triangulado)**: Si el producto será enviado directamente desde el proveedor al cliente tildar esta opción. Leer más al respecto [aquí](/docs/user/manual/es/selling/articles/drop-shipping).
+* **Código de Proveedores:** Código de Rastreo del Producto definido por el Proveedor. En las transacciones de Compra al selecccionar un Producto, también se obtendrá el Número de pieza del proveedor, para referencia del mismo. Para leer más sobre esto click [aquí](/docs/user/manual/es/buying/articles/maintaining-suppliers-part-no-in-item).
 
   ![Detalles del Proveedor del Producto](/docs/assets/img/stock/item-supplier.png)
 
-### 3.12 Detalles de Comercio Exterior
+### 3.11 Detalles de Comercio Exterior
 Si se está obteniendo el producto de otro país, se pueden incluir los detalles en esta sección. 
 
 * **País de Origen**: El país desde donde se obtiene el producto. 
-* **Número de arancel aduanero**: Se puede crear un número de arancel aduanero con una descripción y utilizarlo como referencia y para compartir con organizaciones aduaneras. Más adelante puede ser usado en las Notas de Entrega.  
+* **Número de arancel aduanero**: Se puede crear un número de arancel aduanero con una descripción para utilizarlo como referencia y para compartir con organizaciones aduaneras. Más adelante puede ser usado en las Notas de Entrega.  
 
-### 3.13 Detalles de Venta
+### 3.12 Detalles de Venta
 
 * **Unidad de Medida de Ventas Predeterminada**: La UdM predeterminada que será utilizada en las transacciones de venta.
 * **Descuento máximo (%)**: Se puede definir el % máximo de descuento que puede aplicarse a un producto. Por ejemplo: si se configura un 20%, no puede venderse el mencionado producto con un descuento mayor al 20%.
@@ -192,7 +191,7 @@ Si se está obteniendo el producto de otro país, se pueden incluir los detalles
 
   ![Item Sales Details](/docs/assets/img/stock/item-sales.png)
 
-### 3.14 Ingresos y Gastos Diferidos
+### 3.13 Ingresos y Gastos Diferidos
 Se puede permitir un ingreso o gasto diferido para el producto. Una vez que tilda esta opción, se verán las opciones para configurar la Cuenta de Gastos Diferidos y el número de meses a través de los cuales el ingreso/gasto es distribuido. 
 
 Por ejemplo, considérese una membresía anual de un gimnasio, se paga por adelantado pero el servicio se otorga durante todo el año. Para el dueño del gimnasio es un ingreso diferido y para el cliente, un gasto diferido. 
@@ -201,7 +200,7 @@ Por ejemplo, considérese una membresía anual de un gimnasio, se paga por adela
 
 Ver las páginas respecto a [Ingreso Diferido](/docs/user/manual/es/accounts/deferred-revenue) para más detalles.
 
-### 3.15 Detalles del Cliente
+### 3.14 Detalles del Cliente
 
 El Cliente puede identificar un Producto con un Código de Producto diferente. Esto es similar al [Código de Proveedor](/docs/user/manual/es/stock/item#311-supplier-details). 
 
@@ -209,7 +208,7 @@ El Cliente puede identificar un Producto con un Código de Producto diferente. E
 * **Categoría de Cliente**: Este campo será tomado de acuerdo al Cliente seleccionado en el campo anterior. 
 * **Código de Referencia:** Un cliente puede identificar este producto con un número distinto. Se puede rastrear el Código de Producto asignado por el Cliente a este producto. Cuando se crea una Orden de Venta, se mostrará el Código de Referencia del Cliente para este Producto. 
 
-### 3.16 Impuestos del Producto
+### 3.15 Impuestos del Producto
 
 Esta configuración solo es necesaria si un Producto en particular tiene una tasa de impuesto diferente a la definida en la cuenta estándar de impuestos. 
 
@@ -220,16 +219,16 @@ Se deberá crear una nueva "Plantilla de Impuesto de Producto" o elegir una exis
 También se puede configurar una [Categoría de impuesto](/docs/user/manual/es/accounts/tax-category) para este producto.
 
 
-### 3.17 Criterios de Inspección
+### 3.16 Criterios de Inspección
 
 * **Plantilla de Inspección de Calidad**: Si se prepara una Inspección de Calidad para el Producto, se actualizará automáticamente esta plantilla de criterios en la tabla correspondiente. Ejemplos de estos criterios son: Peso, Largo, Terminación, etc.
 La Inspección de Calidad puede hacerse con Vista Rápida y no es necesario ir a una página diferente para actualizar los detalles de la inspección en ERPNext.
-* **Inspección requerida antes de la compra**: Si es obligatoria la realización de una inspección antes de que el producto sea comprado, es decir, antes de generar el Recibo de Compra, seleccionar esta casilla. 
-* **Inspección requerida antes de la entrega**: Si en el momento de la entrega del producto por parte del Proveedor es obligatorio realizar una inspección, tildar esta casilla. Es decir, antes de crear la Nota de Entrega.  
+* **Inspección requerida antes de la compra**: Si es obligatoria la realización de una inspección antes de que el producto sea comprado, es decir, antes de generar el Recibo de Compra, tildar esta opción. 
+* **Inspección requerida antes de la entrega**: Si en el momento de la entrega del producto por parte del Proveedor, es decir, antes de crear la Nota de Entrega, es obligatorio realizar una inspección, tildar esta casilla.  
 
 Para saber más respecto a Inspección de Calidad, hacer click [aquí](/docs/user/manual/es/stock/quality-inspection).
 
-### 3.18 Manufactura
+### 3.17 Manufactura
 
 * **Lista de Materiales Predeterminada**: La [Lista de Materiales](/docs/user/manual/es/manufacturing/bill-of-materials) predeterminada que se utiliza para fabricar este Producto.
 * **Suministro de materia prima para la compra**: Si se está tercerizando a un vendedor, se puede elegir proveerlos con las materias primas para fabricar el producto utilizando la Lista de Materiales predeterminada. 
@@ -238,7 +237,7 @@ Para saber más respecto a Inspección de Calidad, hacer click [aquí](/docs/use
 
   ![Item Manufacturing](/docs/assets/img/stock/item-manufacturing.png)
 
-* Los detalles del fabricante solo aparecerán luego de haber creado un "Fabricante de Producto" desde el panel y seleccionado ese registro como predeterminado. Aquí añadir detalles para:
+* Los detalles del fabricante solo aparecerán luego de haber creado un "Fabricante de Producto" desde el panel y seleccionado ese registro como predeterminado. Añadir aquí detalles para:
   * Código de Producto
   * Ingresar el nombre del Fabricante
   * Ingresar el Número de Pieza que el Fabricante utiliza para identificar este producto
@@ -246,7 +245,7 @@ Para saber más respecto a Inspección de Calidad, hacer click [aquí](/docs/use
 
   ![Item Manufacturer](/docs/assets/img/stock/item-manufacturer.png)
 
-### 3.19  Sitio Web
+### 3.18 Sitio Web
 
 * **Mostrar en sitio web**: Seleccionar si se quiere mostrar este Producto en el Sitio Web. Una vez que se selecciona esta opción, aparecerán opciones adicionales para configurar el producto en el sitio web. Para ver el producto en el sitio web hacer click en el link "Ver en Sitio Web" arriba a la izquierda justo por encima de la imagen del producto. Visitar el [Módulo de Sitio Web](/docs/user/manual/es/website) para saber más.
 
@@ -257,11 +256,11 @@ Para saber más respecto a Inspección de Calidad, hacer click [aquí](/docs/use
 * **Imagen del sitio web**: Se puede adjuntar una imagen en vez de una presentación de diapositivas.
 * **Almacén para el Sitio Web**: Seleccionar un Almacén existente o crear uno nuevo para transacciones en el Sitio Web. Este Almacén será diferente de los Almacenes fuera de línea. Las existencias para cualquier transacción en línea serán deducidas de los Almacenes configurados como Almacén de Sitio Web. 
 * **Grupos de productos en el sitio web**: En esta tabla se pueden seleccionar [Grupos de Productos](/docs/user/manual/es/stock/item-group) existentes o crear nuevos para clasificar productos en el sitio web.
-* **Establecer Meta-Etiquetas**: Las meta-etiquetas ayudan con las estrategias de SEO. Ver [Página Web](/docs/user/manual/es/website/web-page) para saber cómo utilizarlas.
+* **Establecer meta-etiquetas**: Las meta-etiquetas ayudan con las estrategias de SEO. Ver [Página Web](/docs/user/manual/en/website/web-page) para saber cómo utilizarlas.
 
-Visitar [Sitio Web](/docs/user/manual/es/website) para entender estos temas en detalle. 
+Visitar [Sitio Web](/docs/user/manual/en/website) para entender estos temas en detalle. 
 
-### 3.20 Especificaciones de Sito Web
+### 3.19 Especificaciones del Sito Web
 Esta sección es para configurar otros detalles del Producto
 
 * **Copiar desde Grupo:** Los detalles de "Especificaciones del Sitio Web" serán obtenidos de la configuración de un Grupo de Productos específico configurado en la sección anterior (2.17).
@@ -269,11 +268,11 @@ Esta sección es para configurar otros detalles del Producto
 * **Descripción del Sitio Web**: Esto aparecerá en la página del producto.
 * **Contenido del sitio Web**: Se pueden crear diseños adicionales, etc. Utilizar Bootstrap 4 para mostrar en la página del producto. 
 
-### 3.21 Detalles de publicación del Hub
+### 3.20 Detalles de publicación del Hub
 
-Hub es un mercado gratuito en línea donde los Clientes y Proveedores pueden realizar transacciones. Si ambas partes están en ERPNext, las transacciones se dan de forma fluida. Se puede visitar hub en: https://hubmarket.org.
+Hub es un mercado gratuito en línea donde los Clientes y Proveedores pueden realizar transacciones. Si ambas partes están en ERPNext, las transacciones se dan de forma fluida. Por ejemplo, al crear una Orden de Compra, una Orden de Venta será creada para el Proveedor. Se puede visitar hub en: https://hubmarket.org.
 
-* **Publicar en el Hub**: Elegir si se desea publicar el producto en https://hubmarket.org/. Es un mercado gratuito. Si el proveedor/cliente también está en ERPNext, las transacciones se darán fluidamente. Por ejemplo, al crear una Orden de Compra, una Orden de Venta será creada para el Proveedor. 
+* **Publicar en el Hub**: Elegir si se desea publicar el producto en Hub. 
 * **Almacén del Hub**: Este es un Almacén separado donde guardar las existencias para las transacciones realizadas en hub.
 * **Sincronizado con Hub**: Sincronizar el producto y otros detalles con hub cuando se realizan transacciones.
 
@@ -292,6 +291,6 @@ Hub es un mercado gratuito en línea donde los Clientes y Proveedores pueden rea
 11. [Rastrear Productos utilizando Código de Barras](/docs/user/manual/es/stock/articles/track-items-using-barcode)
 12. [Crear Amortización para Producto](/docs/user/manual/es/stock/articles/creating-depreciation-for-item)
 13. [Nombrar usando Número de Serie](/docs/user/manual/es/stock/articles/serial-no-naming)
-14. [Entrada de Existencias Inciales para Productos Seriados y en Lote ](/docs/user/manual/es/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
+14. [Saldo de apertura de stock para Productos seriados y en lote](/docs/user/manual/es/stock/articles/opening-stock-balance-entry-for-serialized-and-batch-item)
 15. [Número de Serie](/docs/user/manual/es/stock/serial-no)
 16. [Nombrar usando Número de serie](/docs/user/manual/es/stock/articles/serial-no-naming)
