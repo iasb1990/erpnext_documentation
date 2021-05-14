@@ -1,19 +1,19 @@
 <!-- add-breadcrumbs -->
-# Nota de Embalaje
+# Lista de Embalaje
 
-**Una nota de embalaje es un documento que enumera los productos que se encuentran en un envío.**
+**Una Lista de embalaje es un documento que enumera los productos que se encuentran en un envío.**
 
 Por lo general se la adjunta a los bienes enviados.
 
-Desde una Nota de Envío pueden crearse muchas Notas de Embalaje. Esto es útil cuando el envío está empaquetado en cajas diferentes. Cada caja puede tener el peso y número de Productos que contiene. Por ejemplo, si se envían 20 sillas en 4 cajas, cada caja contiene 5 sillas con diferentes Notas de Embalaje para cada caja. 
+Desde una Nota de Envío pueden crearse muchas Listas de Embalaje. Esto es útil cuando el envío está empaquetado en cajas diferentes. Cada caja puede tener el peso y número de Productos que contiene. Por ejemplo, si se envían 20 sillas en 4 cajas, cada caja contiene 5 sillas con diferentes Listas de Embalaje para cada caja. 
 
-Para acceder al listado de Nota de Embalaje ir a::
-> Inicio > Inventario > Herramientas > Nota de Embalaje
+Para acceder al listado de Lista de Embalaje ir a::
+> Inicio > Almacén > Herramientas > Lista de Embalaje
 
-> Observación: Para crear Notas de Embalaje desde una Nota de Envio, la Nota de Envío debe estar en etapa de Borrador.  
+> Observación: Para crear Listas de Embalaje desde una Lista de Envio, la Nota de Envío debe estar en etapa de Borrador.  
 
 ## 1. Prerrequisitos
-Antes de crear y utilizar una Nota de Embalaje se recomienda crear primero lo siguiente:
+Antes de crear y utilizar una Lista de Embalaje se recomienda crear primero lo siguiente:
 
 * [Nota de Entrega](/docs/user/manual/en/stock/delivery-note)
 
