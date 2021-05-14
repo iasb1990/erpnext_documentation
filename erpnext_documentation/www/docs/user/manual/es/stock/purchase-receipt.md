@@ -38,52 +38,52 @@ Es una devolución: tildar esta opción si se están devolviendo Productos que n
 
 ### 2.1 Estados
 
-Estos son los Estados en que puede encontrarse un Recibo de Compra:
+Estos son los estados en que puede encontrarse un Recibo de Compra:
 
 * **Borrador**: Se guarda un borrador pero todavía no se envía al sistema.
 * **Por Facturar**: Pendiente de facturación a través de una [Factura de Compra](/docs/user/manual/es/accounts/purchase-invoice).
 * **Completado**: Enviada y con todos los Productos recibidos.
 * **Devolución emitida**: Todos los productos fueron devueltos. 
 * **Cancelado**: Recibo de Compra cancelado.
-* **Cerrado**: El fin del Estado Cerrado es administrar el cierre definitivo del Recibo de Compra. Por ejemplo, se pidió 20 unidades de producto pero se cierra en 15. Por ende las otras 5 unidades no serán recibidas ni facturadas. 
+* **Cerrado**: El fin del estado Cerrado es administrar el cierre definitivo del Recibo de Compra. Por ejemplo, se pidió 20 unidades de producto pero se cierra en 15. Por ende las otras 5 unidades no serán recibidas ni facturadas. 
 
 ## 3. Características
-### 3.1 Moneda y Listado de Precios
-En esta sección se muestra la moneda del Recibo de Compra, la cual se obtiene de la Orden de Compra. Los precios de los productos serán obtenidos del Listado de Precios. Si se selecciona "Ignorar pautas de tarifas", las Pautas de tarifas establecidas en Cuentas > Pautas de tarifas, serán ignoradas.
+### 3.1 Divisa y Lista de Precios
+En esta sección se muestra la moneda del Recibo de Compra, la cual se obtiene de la Orden de Compra. Los precios de los productos serán obtenidos de la Lista de Precios. Si se selecciona "Ignorar la Regla de precios", las reglas establecidas en Contabilidad > Regla de precios, no se tendrán en consideración.
 
-Como el Producto que ingresa afecta el valor del inventario, es importante convertirlo a la moneda de base si es que se pidió en otra moneda. Para esto, se deberá actualizar la Tasa de Conversión de Monedas. 
+Como el Producto que ingresa afecta el valor del inventario, es importante convertirlo a la moneda de base si es que se pidió en otra moneda. Para esto, se deberá actualizar el  Cambio de Divisa. 
 
-Para saber más sobre Listado de Precios, [click aquí](/docs/user/manual/en/stock/price-lists).
+Para saber más sobre Listas de Precios, hacer click [aquí](/docs/user/manual/es/stock/price-lists).
 
-### 3.2 Detalles de Depósito
-Los siguientes Depósitos configurados se aplicarán a todos los Productos de la tabla de Productos del Recibo de Compra. Se pueden cambiar los Depósitos para Productos individuales a través de la tabla. 
+### 3.2 Detalles de Almacén
+Los siguientes Almacenes configurados se aplicarán a todos los Productos de la tabla de Productos del Recibo de Compra. Se pueden cambiar los Almacenes para Productos individuales a través de la tabla. 
 
-* **Depósito de Aceptados**: Este es el Depósito en el cual se aceptarán y almacenarán los productos entrantes. Usualmente, se trata de el Depósito de "Almacenamiento". 
-* **Depósito de Rechazados:** Este es el Depósito en el que se guardarán los Productos rechazados que eran defectuosos o no cumplían con los estándares de calidad. 
+* **Almacén de Aceptados**: Este es el Almacén en el cual se aceptarán y guardarán los productos entrantes. Usualmente, se trata del Almacén de "Almacenamiento". 
+* **Almacén de Rechazados:** Este es el Almacén en el que se guardarán los Productos rechazados que eran defectuosos o no cumplían con los estándares de calidad. 
 
-#### Subcontratar
+#### Subcontratación
 
-* **Materias Primas Consumidas**: En caso de subcontratar, seleccionar "Si" para consumir las Materias Primas del proveedor. Para saber más respecto a subcontrataciones [click aquí](/docs/user/manual/en/manufacturing/subcontracting).
+* **Materias primas consumidas**: En caso de subcontratar, seleccionar "Si" para consumir las Materias Primas del proveedor. Para saber más respecto a subcontrataciones [click aquí](/docs/user/manual/en/manufacturing/subcontracting).
 
 ### 3.3 Tabla de Productos
 
-* **Código de Barra**: Se puede rastrear Productos utilizando [códigos de barra](/docs/user/manual/en/stock/articles/track-items-using-barcode).
+* **Código de Barra**: Se puede rastrear Productos utilizando [códigos de barra](/docs/user/manual/es/stock/articles/track-items-using-barcode).
 
-* **Escanear Código de Barra**: Se pueden añadir Productos a la tabla de Productos al escanear sus códigos de barra si se cuenta con un lector de código de barra. Para aprender a rastrearlos click [aquí](/docs/user/manual/en/stock/articles/track-items-using-barcode)
+* **Escanear Código de Barra**: Se pueden añadir Productos a la tabla de Productos al escanear sus códigos de barra si se cuenta con un lector de código de barra. Para aprender a rastrearlos click [aquí](/docs/user/manual/es/stock/articles/track-items-using-barcode)
 
-* El Código de Producto, el nombre, descripción, Imagen y Fabricante serán obtenidos desde la función Producto.
+* El Código de Producto, el nombre, descripción, Imagen y Fabricante serán obtenidos desde el Producto.
 
-* **Recibido y Aceptado**: Configurar la cantidad recibida, aceptada y rechazada. La UdM se obtiene desde la función Producto. Se deberá actualizar el "Factor de Conversión de UdM" si la Orden de Compra para un Producto está en una Unidad de Medida (UdM) diferente que la de almacenamiento (UdM de existencias). 
+* **Recibidos y Aceptados**: Configurar la cantidad recibida, aceptada y rechazada. La UdM se obtiene desde el Producto. Se deberá actualizar el "Factor de Conversión de UdM" si la Orden de Compra para un Producto está en una Unidad de Medida (UdM) diferente que la de almacenamiento (UdM de existencias). 
 
     ![Purchase Receipt Items table](/docs/assets/img/stock/purchase-receipt-item.png)
 
-* **Precio**: El Precio será tomado desde el [Listado de Precios](/docs/user/manual/en/stock/price-lists), si se hubiere configurado ahí, y se calculará el Monto total.  
+* **Precio**: El Precio será tomado desde la [Lista de Precios](/docs/user/manual/es/stock/price-lists), si se hubiere configurado ahí, y se calculará el Importe total.  
 
-* **Plantilla de Impuesto de Producto**: Se puede configurar una Plantilla de Impuesto de Producto para aplicar un Impuesto específico a este Producto en particular. Para saber más, visitar [esta página](/docs/user/manual/en/accounts/item-tax-template).
+* **Plantilla de Impuesto de Producto**: Se puede configurar una Plantilla de Impuesto de Producto para aplicar un Impuesto específico a este Producto en particular. Para saber más, visitar [esta página](/docs/user/manual/es/accounts/item-tax-template).
 
-* Si hubiesen sido configurados allí, los Detalles de Peso del Producto por unidad y Peso en UdM serán tomados de la función Producto.
+* Si hubiesen sido configurados allí, los Detalles de Peso del Producto por unidad y Peso en UdM serán tomados del Producto.
 
-* **Depósito y Referencia**: Se pueden configurar los Depósitos para productos aceptados y rechazados, así como también sumar una Inspección de Calidad. Ver la sección siguiente. 
+* **Añmacén y Referencia**: Se pueden configurar los Depósitos para productos aceptados y rechazados, así como también sumar una Inspección de Calidad. Ver la sección siguiente. 
 
 * **Número de Serie, Número de Lote y Lista de Materiales**: Si el Producto es seriado o está en lotes, se deberá introducir el Número de serie 
 y el Número de Lote en la tabla de Productos.  Se pueden ingresar múltiples Números de Serie 
