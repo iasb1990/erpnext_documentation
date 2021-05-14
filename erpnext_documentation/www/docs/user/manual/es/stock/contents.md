@@ -92,6 +92,6 @@ El módulo de Almacén está profundamente integrado con los módulos de Compra,
 1. [Casos de Devoluciones de Venta](/docs/user/manual/es/stock/articles/sales-return-use-cases)
 1. [Administrar Fracciones en UdM](/docs/user/manual/es/stock/articles/managing-fractions-in-uom)
 1. [Entrada de inventario reempacar](/docs/user/manual/es/stock/articles/repack-entry)
-1. [Transferencia de Material desde Nota de Entrega y Factura de Compra](/docs/user/manual/es/stock/articles/material-transfer-from-delivery-note)
+1. [Transferencia de Material desde Nota de Entrega](/docs/user/manual/es/stock/articles/material-transfer-from-delivery-note)
 1. [Método de Pago](/docs/user/manual/es/stock/articles/mode_of_payment)
 1. [Migrar a Inventario Perpetuo](/docs/user/manual/es/stock/articles/migrate-to-perpetual-inventory)
