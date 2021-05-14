@@ -83,32 +83,28 @@ Los siguientes Almacenes configurados se aplicarán a todos los Productos de la 
 
 * Si hubiesen sido configurados allí, los Detalles de Peso del Producto por unidad y Peso en UdM serán tomados del Producto.
 
-* **Añmacén y Referencia**: Se pueden configurar los Depósitos para productos aceptados y rechazados, así como también sumar una Inspección de Calidad. Ver la sección siguiente. 
+* **Almacén y Referencia**: Se pueden configurar los Almacenes para productos aceptados y rechazados, así como también añadir una Inspección de Calidad. Ver la sección siguiente. 
 
-* **Número de Serie, Número de Lote y Lista de Materiales**: Si el Producto es seriado o está en lotes, se deberá introducir el Número de serie 
-y el Número de Lote en la tabla de Productos.  Se pueden ingresar múltiples Números de Serie 
-en un sola fila (cada uno en una línea distinta) y se deberá ingresar tantas veces el
-Números de Serie como la cantidad de producto a comprar/vender. 
+* **Número de Serie, Número de Lote y Lista de Materiales (BOM)**: Si el Producto es seriado o está en lotes, se deberá introducir el Número de serie y el Número de Lote en la tabla de Productos.  Se pueden ingresar múltiples Números de Serie en un sola fila (cada uno en una línea distinta) y se deberá ingresar tantas veces el Números de Serie como la cantidad de producto a comprar/vender. 
 
     Hay campos separados para ingresar los Números de Serie de Productos aceptados y rechazados. El Número de Lote también puede configurarse si, por ejemplo, se está almacenando un lote de fármacos.
 
-    Al seleccionar la casilla "Permitir una Valor de 0" permitirá enviar el Recibo de Compra inclusive si el Valor del producto es 0. Esto puede deberse a que el producto sea una muestra o a un acuerdo mutuo con el Proveedor. 
+    El tildar la opción "Permitir tasa de valoración cero" permitirá enviar el Recibo de Compra inclusive si el Valor del producto es 0. Esto puede deberse a que el producto es una muestra o a un acuerdo mutuo con el Proveedor. 
 
-* En esta parte se puede relacionar el pedido a una Lista de Materiales si el producto está siendo [subcontratado](/docs/user/manual/en/manufacturing/subcontracting). Al relacionar la Lista de Materiales se afectará la Cuenta de Inventario, es decir: las existencias de materias primas serán deducidas del Depósito del Proveedor. 
+* En esta parte se puede relacionar el pedido a una Lista de Materiales si el producto está siendo [subcontratado](/docs/user/manual/en/manufacturing/subcontracting). Al relacionar la Lista de Materiales se afectará la Cuenta de Inventario, es decir: las existencias de materias primas serán deducidas del Almacén del Proveedor. 
 
     **Observación**: El Producto debe estar seriado o en lote para que estas características funcionen. Si el Producto esta seriado, aparecerá una ventana emergente donde se pueden ingresar los Números de Serie. 
 
-* Las Dimensiones Contables ayudan a identificar cada transaccion con diferentes Dimensiones sin la necesidad de crear nuevos Centros de Costos. Para esto, primero se deben crear las Dimensiones Contables, para saber más, visitar [esta página](/docs/user/manual/en/accounts/accounting-dimensions).
+* Las Dimensiones Contables ayudan a identificar cada transacción con diferentes Dimensiones sin la necesidad de crear nuevos Centros de Costos. Para esto, primero se deben crear las [Dimensiones Contables](/docs/user/manual/es/accounts/accounting-dimensions).
 
 * Salto de Página creará un salto de página justo antes de este producto al imprimir.
 
 ### 3.4 Registrar Inspecciones de Calidad
-Si para algunos Productos es obligatorio registrar Operaciones de Calidad (si esto fue establecido en la función Producto), se deberá actualizar el campo "Inspección de Calidad". El sistema solo permitirá enviar el Recibo de Compra si se actualiza 
-la "Inspección de Calidad". 
+Si para algunos Productos es obligatorio registrar Operaciones de Calidad (si esto fue establecido en el Producto), se deberá actualizar el campo "Inspección de Calidad". El sistema solo permitirá validar el Recibo de Compra si se actualiza la "Inspección de Calidad". 
 
-Luego de habilitar los Criterios de Inspección para Compra en el [Formulario de Producto](/docs/user/manual/en/stock/item#216-inspection-criteria) y de adjuntar allí una Plantilla de Inspección de Calidad, las Inspecciones de Calidad pueden ser registradas en Recibos de Compra.
+Luego de habilitar los Criterios de Inspección para Compra en el [Formulario de Producto](/docs/user/manual/es/stock/item#216-inspection-criteria) y de adjuntar allí una Plantilla de Inspección de Calidad, las Inspecciones de Calidad pueden ser registradas en Recibos de Compra.
 
-Para saber más visitar la página [Inspección de Calidad](/docs/user/manual/en/stock/quality-inspection).
+Para saber más visitar la página [Inspección de Calidad](/docs/user/manual/es/stock/quality-inspection).
 
 ![Quality Inspection](/docs/assets/img/stock/quality-inspection.png)
 
@@ -118,74 +114,68 @@ Para saber más visitar la página [Inspección de Calidad](/docs/user/manual/en
 * El botón **Ver Existencias Actuales** tomará las existencias actuales de Productos Consumidos desde el Depósito del Proveedor.
     <img class="screenshot" alt="Purchase Receipt" src="{{docs_base_url}}/assets/img/stock/purchase-receipt-consumed-items.png">
 
-### 3.6 Impuestos y Valoración
-Los Impuestos y Gastos serán tomados desde la [Orden de Compra](/docs/user/manual/en/buying/purchase-order).
+### 3.6 Impuestos y cargos sobre compras
+Los Impuestos y cargos serán tomados desde la [Orden de Compra](/docs/user/manual/es/buying/purchase-order).
 
-Visitar la página de [Plantilla de Impuestos y Gastos de Compra](/docs/user/manual/en/buying/purchase-taxes-and-charges-template) para saber más de impuestos.
+Visitar la página de [Plantilla de Impuestos (Compra)](/docs/user/manual/es/buying/purchase-taxes-and-charges-template) para saber más sobre impuestos.
 
-El total de gastos e impuestos será mostrado debajo de la tabla. 
+El total de Impuestos y cargos será mostrado debajo de la tabla. 
 
-Para añadir impuestos de forma automática a través de una Categoría Impositiva, visitar [esta página](/docs/user/manual/en/accounts/tax-category).
+Para añadir impuestos de forma automática a través de una Categoría de Impuesto, visitar [esta página](/docs/user/manual/es/accounts/tax-category).
 
-Asegurarse de anotar correctamente todos los impuestos en la tabla de Impuestos y Gastos para una valoración precisa. 
+Asegurarse de añadir correctamente todos los impuestos en la tabla de Impuestos y cargos para una valoración precisa. 
 
 #### Regla de Envío
-Una Regla de Envío ayuda a determinar el costo de enviar un producto. El costo tenderá a aumentar a medida que la distancia de envío sea mayor. Para saber más, vistar la sección [Regla de Envío](/docs/user/manual/en/selling/shipping-rule).
+Una Regla de Envío ayuda a determinar el costo de enviar un producto. El costo tenderá a aumentar a medida que la distancia de envío sea mayor. Para saber más, vistar la sección [Regla de Envío](/docs/user/manual/es/selling/shipping-rule).
 
 
 ### 3.7 Descuentos Adicionales
 En esta sección puede configurarse cualquier descuento adicional a aplicar a toda la orden. 
-Leer [Aplicar Descuento](/docs/user/manual/en/selling/articles/applying-discount) para más detalles.
+Leer [Aplicar Descuento](/docs/user/manual/es/selling/articles/applying-discount) para más detalles.
 
 ### 3.8 Más información
-El Estado del Recibo de Compra se muestra aquí y en la parte de arriba. Los distintos estados son: Borrador, Pendiente de Facturar, Completo, Cancelado y Cerrado. Esta sección también muestra el % de Monto Facturado, es decir, el porcentaje de monto para el cual se han creado [Facturas de Venta](/docs/user/manual/en/accounts/sales-invoice).
+El estado del Recibo de Compra se muestra aquí y en la partesuperior del documento. Los distintos estados son: Borrador, Pendiente de Facturar, Completo, Cancelado y Cerrado. Esta sección también muestra el Procentaje facturado, es decir, el porcentaje del monto para el cual se han creado [Facturas de Venta](/docs/user/manual/es/accounts/sales-invoice).
 
-### 3.9 Configuración de Impresión
+### 3.9 Ajustes de Impresión
 
-#### Papel membretado
-Se pueden imprimir los Recibos de Compra en papel con el membrete de la empresa. Saber más [aquí](/docs/user/manual/en/setting-up/print/letter-head).
+#### Membrete
+Se pueden imprimir los Recibos de Compra en papel con el membrete de la empresa. Saber más [aquí](/docs/user/manual/es/setting-up/print/letter-head).
 
 "Agrupar productos iguales", agrupará los productos iguales que se hayan sumado muchas veces a la tabla de Producto. Esto puede verse al imprimir.
 
-#### Encabezados de Impresión
-Los encabezados de los Recibos de Compra pueden ser modificados al imprimir el documento. Se puede hacer esto seleccionando **Encabezado de Impresión**. Para crear nuevos Encabezados de Impresión ir a: Inicio > Configuraciones > Impresión > Encabezados de Impresión. Leer más [aquí](/docs/user/manual/en/setting-up/print/print-headings).
+#### Encabezado
+Los encabezados de los Recibos de Compra pueden ser modificados al imprimir el documento seleccionando el correspondiente en **Encabezado**. Para crear nuevos Encabezados ir a: Inicio > Configuraciones > Impresión > Encabezados. Leer más [aquí](/docs/user/manual/es/setting-up/print/print-headings).
 
-### 3.10 Luego de Enviar
+### 3.10 Luego de Validar
 
-Se crea un ingreso a la Cuenta de Inventario por cada Producto, agregando el mismo al Depósito 
-por la "Cantidad Aceptada". Si hay productos rechazados, se creará también un ingreso a la Cuenta de Inventario por 
-cada Rechazo. La "Cantidad Pendiente" es actualizada en la Orden
+Se crea un ingreso a la Cuenta de Inventario por cada Producto, agregando el mismo al Almacén por la "Cantidad Aceptada". Si hay productos rechazados, se creará también un ingreso a la Cuenta de Inventario por cada Rechazo. La "Cantidad Pendiente" es actualizada en la Orden
 de Compra.
 
-Luego de enviar el Recibo de Compra, pueden crearse los siguientes documentos:
+Luego de validar el Recibo de Compra, pueden crearse los siguientes documentos:
 
-* [Devolución de Compra](/docs/user/manual/en/stock/purchase-return)
-* [Ingreso de Existencias](/docs/user/manual/en/stock/stock-entry)
-* [Factura de Compra](/docs/user/manual/en/accounts/purchase-invoice)
-* [Retener Productos de Muestra](/docs/user/manual/en/stock/retain-sample-stock)
+* [Devolución de Compra](/docs/user/manual/es/stock/purchase-return)
+* [Entrada de Inventario](/docs/user/manual/es/stock/stock-entry)
+* [Factura de Compra](/docs/user/manual/es/accounts/purchase-invoice)
+* [Retener Stock de Muestra](/docs/user/manual/es/stock/retain-sample-stock)
 
 ![Purchase Receipt submit](/docs/assets/img/stock/purchase-receipt-submit.png)
 
 ### 3.11 Devolver una Orden de Compra
-Una vez recibida la Orden de Compra utilizando un Recibo de Compra, se puede crear una devolución en caso de que deban devolverse Productos al  [Proveedor](/docs/user/manual/en/buying/supplier). Para saber más, visitar la página [Devolución de Compra](/docs/user/manual/en/stock/purchase-return).
+Una vez recibida la Orden de Compra utilizando un Recibo de Compra, se puede crear una devolución en caso de que deban devolverse Productos al [Proveedor](/docs/user/manual/es/buying/supplier). Para saber más, visitar la página [Devolución de Compra](/docs/user/manual/es/stock/purchase-return).
 
 ### 3.12 Saltear Recibo de Compra
 
-Si no se quiere crear un Recibo de Compra luego de realizada una Orden de Compra, y se desea pasar directamente a una Factura de Compra, habilitar esta opción en [Configuraciones de Compra](/docs/user/manual/en/buying/buying-settings#23-purchase-receipt-required).
+Si no se quiere crear un Recibo de Compra luego de realizada una Orden de Compra, y se desea pasar directamente a una Factura de Compra, habilitar esta opción en [Configuración de Compras](/docs/user/manual/es/buying/buying-settings#23-purchase-receipt-required).
 
 * * *
 
 #### Cambiar el valor de los Productos luego del Recibo de Compra:
 
-A veces algunos gastos que suman al total de los Productos comprados se conocen
-luego de un tiempo. Un ejemplo común de esto es, si los Productos son Importados, solo se 
-conocerán los Aranceles Aduaneros y otros gastos cuando el "Despachante de Aduana" envíe
-su factura. Si se quiere sumar estos costos a los bienes Compradas se debe 
-utilizar el [Comprobante de Costo en Destino](/docs/user/manual/en/stock/landed-cost-voucher) ¿Por qué "Costo en Destino"? Porque representa los gastos que se pagan cuando los Productos llegan a su destino. 
+A veces algunos gastos que suman al total de los Productos comprados se conocen luego de un tiempo. Un ejemplo común de esto es, si los Productos son importados, solo se conocerán los Aranceles Aduaneros y otros gastos cuando el "Despachante de Aduana" envíe su factura. Si se quiere sumar estos costos a los bienes comprados se debe utilizar el [Comprobante de Costo en Destino](/docs/user/manual/es/stock/landed-cost-voucher), ya que representa los gastos que se pagan cuando los Productos llegan a su destino. 
 
 ## 4. Temas Relacionados
-1. [Nota de Entrega](/docs/user/manual/en/stock/delivery-note)
-1. [Orden de Compra](/docs/user/manual/en/buying/purchase-order)
-1. [Factura de Compra](/docs/user/manual/en/accounts/purchase-invoice)
-1. [Proveedor](/docs/user/manual/en/buying/supplier)
-1. [Comprobante de Costo en Destino](/docs/user/manual/en/stock/landed-cost-voucher)
+1. [Nota de Entrega](/docs/user/manual/es/stock/delivery-note)
+1. [Orden de Compra](/docs/user/manual/es/buying/purchase-order)
+1. [Factura de Compra](/docs/user/manual/es/accounts/purchase-invoice)
+1. [Proveedor](/docs/user/manual/es/buying/supplier)
+1. [Comprobante de Costo en Destino](/docs/user/manual/es/stock/landed-cost-voucher)
