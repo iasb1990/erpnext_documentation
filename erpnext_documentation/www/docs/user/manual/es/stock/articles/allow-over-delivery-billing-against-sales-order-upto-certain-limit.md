@@ -1,9 +1,9 @@
 <!-- add-breadcrumbs -->
-# Permitir Sobre Facturación/Envío
+# Permitir Sobre Facturación/Entrega
 
-Al crear una Nota de Envío, el sistema valida si la cantidad de producto es la misma que en la Orden de Venta. Si la cantidad de producto aumentó, se recibirá un mensaje de validación de sobre-envío o recepción. 
+Al crear una Nota de Entrega, el sistema valida si la cantidad de producto es la misma que en la Orden de Venta. Si la cantidad de producto es mayor, se recibirá un mensaje de validación de sobre-envío o recepción. 
 
-En el caso de ventas, si se quiere enviar más productos que los mencionados en la Orden de Venta, se debe actualizar el campo "Permitir sobre envío o recepción hasta este porcentaje" en la función Producto.
+En el caso de ventas, si se quiere enviar más productos que los mencionados en la Orden de Venta, se debe actualizar el campo "Permitir sobre envío o recepción hasta este porcentaje" en el Producto.
 
 <img alt="Itemised Limit Percentage" class="screenshot" src="{{docs_base_url}}/assets/img/articles/limit-1.png">
 
