@@ -1,36 +1,36 @@
 <!-- add-breadcrumbs -->
 
-# Informe de Inventario de Existencias
+# Mayor de Inventarios
 
-**Un Informe de Inventario de Existencias es un informe detallado que registra todos los movimientos de existencias de una empresa.**
+**El Mayor de Inventarios es un informe detallado que registra todos los movimientos de inventario de una empresa.**
 
-Las transacciones hacia adentro o hacia afuera relacionadas a Fabricación, Compras, Ventas y Transferencias de Existencias son registradas en el Inventario de Existencias que luego se refleja en el Informe de Inventario de Existencias. 
+Las transacciones hacia adentro o hacia afuera relacionadas a Fabricación, Compras, Ventas y Transferencias de stock son registradas en el Mayor de Inventarios que luego se refleja en el Reporte de Mayor de Inventarios. 
 
-Refleja la cantidad y el valor de las existencias **enviadas, recibidas, o transferidas** junto con los productos en inventario y sus detalles de depósito.
+Refleja la cantidad y el valor de las existencias **enviadas, recibidas, o transferidas** junto con los productos en inventario y sus detalles de almacén.
 
-Puede ser referido cuando está habilitado el sistema de **Inventario Permanente**, ya que este informe refleja la historia de todas las transacciones de existencias. Presenta una visión más detallada de las transacciones de existencias.
+Puede ser referido cuando está habilitado el sistema de **Inventario Perpetuo**, ya que este informe refleja la historia de todas las transacciones de inventario. Presenta una visión más detallada de las transacciones de inventario.
 
-## Atributos del Informe de Inventario de Existencias
+## Atributos del Reporte de Mayor de Inventarios
 
-* **Precio de Ingreso**: Refleja el valor real de las existencias, al cuál fueron traídas a inventario. 
+* **Tasa entrante**: Refleja el valor real de las existencias, al cual fueron traídas a inventario. 
 Refleja el mismo valor ingresado en el campo *Precio* del documento.
 
-* **Balance de Valor**: Representa el valor total de las existencias remanentes en inventorio. Es el producto de la Tarifa de Valoración y el Cantidad en Balance de un producto. 
+* **Valor de Balance**: Representa el valor total de las existencias remanentes en inventario. Es el producto de la Tarifa de Valoración y el Cantidad en Balance de un producto. 
 
-* **Tarifa de Valoración**: Se calcula de acuerdo con el método de valoración seleccionado.
+* **Tasa de Valoración**: Se calcula de acuerdo con el método de valoración seleccionado.
 
-Aquí es como el Informe de Inventario de Existencias representa un **Entrada de Inventario** de tipo *Recepción de Material*.
+Así es como el Reporte de Mayor de Inventarios representa una **Entrada de Inventario** de tipo *Recepción de Material*.
 
 ![Stock Ledger Report](/docs/assets/img/stock/stock-ledger.png)
 
-Refleja un producto **Silla** de cantidad *1000 unidades* con un Precio de Ingreso (Precio Básico) de *3000* recibido en el depósito *Tiendas - L* además de calcular la Tarifa de Valoración y el Balance de Valor. 
+Refleja un producto **Silla** de cantidad *1000 unidades* con una Tasa entrante (Precio Básico) de *3000* recibido en el almacén *Tiendas - L* además de calcular la Tasa de Valoración y el Valor de Balance. 
 
-Se puede hacer click en **Voucher #** para abrir el documento desde donde fue creada esta transacción. 
+Se puede hacer click en **Comprobante #** para abrir el documento desde donde fue creada esta transacción. 
 
-Los Inventarios de Existencias son generados desde las siguientes transacciones:
+Los Mayores de Inventarios son generados desde las siguientes transacciones:
 
--   Factura de Venta, Factura de Compra (con *Actualizar Existencias* habilitado)
--   Nota de Envío
+-   Factura de Venta, Factura de Compra (con *Actualizar Stock* habilitado)
+-   Nota de Entregs
 -   Recibo de Compra
 -   Entrada de Inventario
 -   Conciliación de Inventario
