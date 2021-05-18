@@ -74,7 +74,7 @@ El módulo de Almacén está profundamente integrado con los módulos de Compra,
 1. [Inventario recibido pero no facturado](/docs/user/manual/es/stock/articles/stock-received-but-not-billed)
 
 ### 2.2 Administrar Productos
-1. [Tasa de Valoración de Productos en Transacciones](/docs/user/manual/es/stock/articles/item-valuation-transactions)
+1. [Métodos de Valoración de Productos y Transacciones](/docs/user/manual/es/stock/articles/item-valuation-transactions)
 1. [Bloquear campo "Mantener Stock" en el Producto](/docs/user/manual/es/stock/articles/maintain-stock-field-frozen-in-item-master)
 1. [Administrar Productos Finales Rechazados](/docs/user/manual/es/stock/articles/managing-rejected-finished-goods-items)
 1. [Devolver Productos Rechazados](/docs/user/manual/es/stock/articles/return-rejected-item)
