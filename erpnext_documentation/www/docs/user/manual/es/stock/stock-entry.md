@@ -15,7 +15,7 @@ Pueden realizarse Entradas de Inventario con los siguientes objetivos:
 * **Consumo de Material para Fabricación**: Puede haber muchos registros de consumo de existencias generadas desde una Orden de Trabajo para fabricación. Para más detalles, hacer click [aquí](/docs/user/manual/en/manufacturing/articles/material_consumption).
 * **Manufactura**: Si el Material se recibe desde una Operación de Fabricación/Producción. 
 * **Reempaque**: Si el producto/s original/es se vuelve/n a empacar generando producto/s nuevo/s. 
-* **Subcontratado**: Si el Material es enviado para una actividad de sub contratación. Este registro se realiza desde una Orden de Compra. Para saber más visitar la página [subcontratación](/docs/user/manual/en/manufacturing/subcontracting).
+* **Enviar al subcontratista**: Si el Material es enviado para una actividad de subcontratación. Este registro se realiza desde una Orden de Compra. Para saber más visitar la página [subcontratación](/docs/user/manual/en/manufacturing/subcontracting).
 * **Almacén de Envío**: Este documento se selecciona en la Entrada de Inventario con tipo "Almacén de Recepción", a fin de confirmar cuántos productos fueron recibidos, en caso de que el Material se envíe a un Almacén y necesite confirmación en la recepción. El estado será "Bienes en Tránsito" hasta que los mismos sean recibidos, luego de lo cual el estado cambiará a "Bienes Transferidos". 
 * **Almacén de Recepción**: Si el Material se recibe en un Almacén, se seleccionará la Entrada de Inventario con tipo "Almacén de Envío" y allí se actualizará el número de bienes recibidos. 
 
