@@ -1,32 +1,33 @@
 <!-- add-breadcrumbs -->
 # Administrar Productos Finales Rechazados
 
-Puede suceder que algunos productos manufacturados no pases las pruebas de calidad y sean rechazados.
+Puede suceder que algunos productos manufacturados no pasen las pruebas de calidad y sean rechazados.
 
-El proceso de fabricación estándar en ERPNext no cubre la administración de productos rechazados. Por ende se deberían crear entradas de productos finales tanto para los productos aceptados como para los rechazados. Con esto, los productos rechazados serán recibidos también en el depósito de productos finales. 
+El proceso de fabricación estándar en ERPNext no cubre la administración de productos rechazados. Por ende se deberían crear entradas de productos finales tanto para los productos aceptados como para los rechazados. Con esto, los productos rechazados serán recibidos también en el almacén de productos finales. 
 
-Para mover los productos rechazados desde ese depósito, se debería crear una entrada de Transferencia de Material. Debajo se encuentran los pasos para crear dicha entrada.
+Para mover los productos rechazados desde ese almacén, se debería crear una entrada de Transferencia de Material. Debajo se encuentran los pasos para crear dicha entrada.
 
-#### Paso 1: Nuevo Ingreso de Existencia
+#### Paso 1: Nuevo Entrada de Inventario
 
-> Existencias > Documentos > Ingreso de Existencia > Nuevo
+> Almacén > Transacciones de Inventario > Entrada de Inventario > Nuevo
 
-#### Paso 2: Finalidad
+#### Paso 2: Objetivo
 
-Finalidad = Transferencia de Material
+Tipo de entrada de stock = Transferencia de Material
 
-#### Paso 3: Depósito
+#### Paso 3: Almacén
 
-Depósito de Origen = Depósito de Productos Finales
-Depósito Objetivo = Depósito de Productos Rechazados
+Almacén de Origen = Almacén de Productos Finales
+
+Almacén Objetivo = Almacén de Productos Rechazados
 
 #### Paso 4: Productos
 
 Seleccionar los productos que no hayan pasado la prueba de calidad e ingresar el total de productos rechazados en el campo Cantidad. 
 
-#### Paso 5: Enviar el Ingreso de Existencias
+#### Paso 5: Validar el Entrada de Inventario
 
-Al Guardar y Enviar el Ingreso de Existencias, las existencias de productos rechazados serán movidas desde el Depósito de Productos Finales hacia el Depósito de Productos Rechazados. 
+Al Guardar y Validar la Entrada de Inventario, las existencias de productos rechazados serán movidas desde el Almacén de Productos Finales hacia el Almacén de Productos Rechazados. 
 
 
 <!-- markdown -->
