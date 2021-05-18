@@ -67,7 +67,7 @@ El módulo de Almacén está profundamente integrado con los módulos de Compra,
 
 ## 2. Artículos
 ### 2.1 Transacciones de Inventario
-1. [Permitir sobre facturación/envío sobre Orden de Venta hasta un cierto límite](/docs/user/manual/es/stock/articles/allow-over-delivery-billing-against-sales-order-upto-certain-limit)
+1. [Límite de sobre facturación/entrega contra Orden de Venta](/docs/user/manual/es/stock/articles/allow-over-delivery-billing-against-sales-order-upto-certain-limit)
 1. [Creación automática de Solicitud de Material](/docs/user/manual/es/stock/articles/auto-creation-of-material-request)
 1. [Error de Inventario en Nota de Entrega](/docs/user/manual/es/stock/articles/delivery-note-stock-error)
 1. [Objetivo de la Entrada de Inventario](/docs/user/manual/es/stock/articles/stock-entry-purpose)
