@@ -1,7 +1,7 @@
 <!-- add-breadcrumbs -->
 # Factura de venta
 
-**Una Factura de venta es un recibo que se envía a los Clientes contra el cual se realizará el pago.**
+**Una Factura de venta es un documento que se envía a los Clientes contra el cual se realizará el pago.**
 
 Las Facturas de venta son transacciones contables. Al validarlas, el sistema actualiza las cuentas a cobrar y registra el ingreso contra la cuenta del cliente.
 
@@ -15,30 +15,34 @@ Antes de crear y usar facturas de venta, se recomienda crear lo siguiente:
 
 * [Producto](/docs/user/manual/es/stock/item)
 * [Cliente](/docs/user/manual/es/CRM/customer)
+* [Punto de Venta](doc nuestra)
 
 Opcional:
  * [Orden de venta](/docs/user/manual/es/selling/sales-order)
  * [Nota de entrega](/docs/user/manual/es/stock/delivery-note)
 
 ## 2. Creación de facturas de venta
-Una Factura de venta es generalmente creada desde Ordenes de venta o Notas de entrega. Los detalles del producto serán traídos de forma automática a la factura. Sin embargo, también se puede crear facturas de venta directamente, por ejemplo, una factura de POS.
+Una Factura de venta es generalmente creada desde Ordenes de venta o Notas de entrega. Los detalles del producto serán traídos de forma automática a la factura. Sin embargo, también se pueden crear facturas de venta de manera independiente.
 
 Para traer los detalles de otros documentos a la factura, hacer click en **Obtener artículos de**. Los detalles pueden ser traídos de Ordenes de venta, Notas de entrega o Cotizaciones.
 
 Para la creación manual, se debe seguir los siguientes pasos:
 
 1. Ir al listado de Facturas de venta y hacer click en Nuevo.
-1. Seleccionar el Cliente.
-1. Definir la Fecha de pago.
-1. En la tabla de Producto, añadir los que correspondan y especificar las cantidades.
-1. Los precios serán traídos automáticamente si exite el correspondiente [Precio de Producto](/docs/user/manual/es/stock/item-price), sino se debe agregar en la tabla.
-1. La fecha y hora de contabilización serán completadas por defecto con los datos actuales, aunque se pueden editar luego de tildar la opción "Editar fecha y hora de envío".
-1. Guardar y validar.
+2. Seleccionar el Punto de Venta.
+3. Seleccionar el Cliente.
+4. Seleccionar la Secuencia.
+5. Seleccionar el Concepto Incluído.  
+6. Definir la Fecha de pago.
+7. Seleccionar la opción de transmisión (especialmente importante bajo el régimen MiPyme). 
+8. En la tabla de Producto, añadir los que correspondan y especificar las cantidades.
+9. Los precios serán traídos automáticamente si exite el correspondiente [Precio de Producto](/docs/user/manual/es/stock/item-price), sino se debe agregar en la tabla.
+10. La fecha y hora de contabilización serán completadas por defecto con los datos actuales, aunque se pueden editar luego de tildar la opción "Editar fecha y hora de envío".
+11. Guardar y validar.
  ![SI](/docs/assets/img/accounts/sales-invoice-1.png)
 
 ### 2.1 Opciones adicionales
 
-* **Incluir Pago (POS)**: si la factura es de una venta minorista o un punto de venta. [Más información](/docs/user/manual/es/accounts/sales-invoice#324-pos-invoices).
 * **Es Devolución (Nota de Crédito)**: tildar esta opción si el cliente devolvió los productos. Para más detalles, visitar la página de [Nota de crédito](/docs/user/manual/es/accounts/credit-note).
 
 <img class="screenshot" alt="Sales Invoice" src="{{docs_base_url}}/assets/img/accounts/sales-invoice.png">
@@ -52,13 +56,25 @@ Estos son los estados que se asignan automáticamente a las facturas de venta:
 * **Pagado**: el Cliente realizó el pago y la [Entrada de pago](/docs/user/manual/es/accounts/payment-entry) fue validada.
 * **Impagado**: la factura fue generada pero el pago está pendiente.
 * **Atrasado**: el pago está pendiente pasada la fecha de vencimiento.
-* **Cancelado**: la factura fue cancelada. Al cancelarla, se deshace el impacto que haya tenido en las cuentas y el inventario.
+* **Cancelado**: la factura fue cancelada. Al cancelarla, se deshace el impacto que haya tenido en las cuentas y el inventario (en caso de que lo haya tenido).
 * **Nota de Crédito emitida**: el producto fue devuelto por el Cliente y se crea una [Nota de crédito](/docs/user/manual/es/accounts/credit-note) contra esta factura.
 * **Retornar**: es asignado a una Nota de crédito creada contra la factura original. Aunque también se pueden crear Notas de crédito independientes.
 * **Impaga y descontada**: el pago está pendiente y cualquier suscripción en curso fue descontada usando un [Descuento de facturas](/docs/user/manual/es/accounts/invoice_discounting).
 * **Atrasada y descontada**: el pago está pendiente pasada la fecha de vencimiento y cualquier suscripción en curso fue descontada usando un [Descuento de facturas](/docs/user/manual/es/accounts/invoice_discounting).
 
 ## 3. Características
+
+### 3.1 Aspectos Fiscales
+
+* **Punto de Venta**: debe crearse previamente, cargando los datos de AFIP, según corresponda. Para más información, clickear [aquí](documentación de punto de venta). 
+
+* **Secuencia**: dependiendo del punto de venta y del cliente seleccionados se desplegarán posibles opciones de secuencia conforme los diferentes documentos que se puedan emitir. Las opciones dependerán de aspectos impositivos (particularmente, las categorías frente al IVA) de la compañía y del cliente.
+
+* **Concepto incluído**: debe seleccionarse alguno de los conceptos incluídos en el desplegable. En el caso de que se trate de 'servicios', deberá colocarse la fecha de prestación de los mismos. Es solicitado por AFIP para la validación de la factura.
+
+* **Opción de transmisión**: debe seleccionarse alguna de las opciones de transmisión 
+
+
 ### 3.1 Fechas
 
 * **Fecha de contabilización**: fecha en la cual la factura de venta afectará la contabilidad de la organización, por ejemplo, en el Balance general. Esto afectará todos los balances en ese período contable.
