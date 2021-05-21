@@ -21,6 +21,8 @@ Opcional:
  * [Orden de venta](/docs/user/manual/es/selling/sales-order)
  * [Nota de entrega](/docs/user/manual/es/stock/delivery-note)
 
+Se recomienda tener cargado el CBU y Alias CBU de la empresa en Configuración de la Compañía, en particular, si se encuadra dentro del régimen MiPyme. Para ciertas transacciones, AFIP solicita esta información, y si la misma no se encuentra el sistema arrojará error.
+
 ## 2. Creación de facturas de venta
 Una Factura de venta es generalmente creada desde Ordenes de venta o Notas de entrega. Los detalles del producto serán traídos de forma automática a la factura. Sin embargo, también se pueden crear facturas de venta de manera independiente.
 
@@ -72,7 +74,7 @@ Estos son los estados que se asignan automáticamente a las facturas de venta:
 
 * **Concepto incluído**: debe seleccionarse alguno de los conceptos incluídos en el desplegable. En el caso de que se trate de 'servicios', deberá colocarse la fecha de prestación de los mismos. Es solicitado por AFIP para la validación de la factura.
 
-* **Opción de transmisión**: debe seleccionarse alguna de las opciones de transmisión que aparecen en el desplegable, de acuerdo a la información que el contador le brinde. La opción de transmisión es obligatoria, según normativa de AFIP. 
+* **Opción de transmisión**: debe seleccionarse alguna de las opciones de transmisión que aparecen en el desplegable, de acuerdo a la información que el contador le brinde. La opción de transmisión es obligatoria para clientes MiPyme, según normativa de AFIP. 
 
 * **Posición fiscal**: Debe completarse sólo cuando se trate de alguna de las operaciones comprendidas en el desplegable (no alcanzado, operaciones de canje, no gravado, operaciones exentas, operaciones al exterior, operaciones a zona franca). 
 
