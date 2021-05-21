@@ -72,50 +72,57 @@ Estos son los estados que se asignan automáticamente a las facturas de venta:
 
 * **Concepto incluído**: debe seleccionarse alguno de los conceptos incluídos en el desplegable. En el caso de que se trate de 'servicios', deberá colocarse la fecha de prestación de los mismos. Es solicitado por AFIP para la validación de la factura.
 
-* **Opción de transmisión**: debe seleccionarse alguna de las opciones de transmisión 
+* **Opción de transmisión**: debe seleccionarse alguna de las opciones de transmisión que aparecen en el desplegable, de acuerdo a la información que el contador le brinde. La opción de transmisión es obligatoria, según normativa de AFIP. 
 
+* **Posición fiscal**: Debe completarse sólo cuando se trate de alguna de las operaciones comprendidas en el desplegable (no alcanzado, operaciones de canje, no gravado, operaciones exentas, operaciones al exterior, operaciones a zona franca). 
 
-### 3.1 Fechas
+* **Comprobante asociado**: Si se trata de una nota de crédito/débito debe completar el comprobante asociado con la factura sobre la cual impacta la transacción. Además, en caso de una nota de crédito, debe tildar el checkbox *Es devolución*. 
+
+### 3.2 Fechas
 
 * **Fecha de contabilización**: fecha en la cual la factura de venta afectará la contabilidad de la organización, por ejemplo, en el Balance general. Esto afectará todos los balances en ese período contable.
 
 * **Fecha de pago**: fecha de vencimiento del pago (si se vendió con un método de pago que admite crédito).
 El límite de crédito puede establecerse desde el [Cliente](/docs/user/manual/en/CRM/customer#24-credit-limit-and-payment-terms) mismo.
 
-### 3.2 Dimensiones contables
+### 3.3 Exportación
+
+* **Inconterms**: Deberá completarse sólo en el caso de que se trate de una factura por exportación de bienes. 
+
+### 3.4 Dimensiones contables
 Las dimensiones contables permiten diferenciar las transacciones basándose en un aspecto específico, como territorio, sucursal, cliente, etc. Esto ayuda a visualizar estados financieros por separado en base a la dimensión seleccionada. Para saber más, visitar la sección [Dimensiones contables](/docs/user/manual/es/accounts/accounting-dimensions).
 
 > Nota: Proyecto y Centro de costos son tratados como dimensiones por defecto.
 
-### 3.3 Detalles de la Orden de compra del cliente
+### 3.5 Detalles de la Orden de compra del cliente
 
 * **Ordenes de compra de clientes**: rastrear el número de la orden de compra del cliente, principalmente para prevenir la creación de ordenes o facturas de venta duplicadas para la misma orden. Se pueden configurar más aspectos relacionados con la validación de las ordenes de compra del cliente en [Configuración de Ventas](/docs/user/manual/es/selling/selling-settings#44-allow-multiple-sales-orders-against-a-customers-purchase-order)
 * **Fecha de pedido de compra del cliente**: la fecha en la que el cliente generó la orden de compra.
 
  ![Customer Address](/docs/assets/img/accounts/si-customer.png)
 
-### 3.4 Dirección y contacto
+### 3.6 Dirección y contacto
 
 * **Dirección del cliente:** dirección de facturación del cliente.
 * **Persona de contacto**: si el cliente es una compañía, la persona que se contactará es traída a este campo si está definida en el [Cliente](/docs/user/manual/es/CRM/customer).
-* **Territorio:** el [Territorio](/docs/user/manual/es/selling/territory) es la región a la cual pertenece el Cliente. El valor por defecto es "Todos los territorios".
-* **Dirección:** dirección a la cual se enviarán los productos.
+* **Territorio**: el [Territorio](/docs/user/manual/es/selling/territory) es la región a la cual pertenece el Cliente. El valor por defecto es "Todos los territorios".
+* **Dirección**: dirección a la cual se enviarán los productos.
 
 
-### 3.5 Divisa
+### 3.7 Divisa
 Se puede elegir la divisa en la cual se debe enviar la factura. Este dato puede ser tomado del Cliente o de transacciones anteriores como Ordenes de venta.
 
 * Si bien se puede usar la divisa especificada en el Cliente para la factura, el registro contable se hará solo en la moneda de la compañía. Para saber más visitar el siguiente [artículo](/docs/user/manual/en/accounts/articles/managing-transactions-in-multiple-currency).
 * Mantener cuentas a cobrar separadas en la divisa del cliente. El cobro de la factura deberá ser registrado en esa misma moneda. Hacer click [aquí](/docs/user/manual/es/accounts/multi-currency-accounting) para aprender más sobre Contabilidad con múltiples divisas.
 
-### 3.6 Lista de precios
+### 3.8 Lista de precios
 
 Si se seleccionó una lista de precios, entonces el precio del producto será obtenido de dicha lista. Al tildar la opción "Ignorar la Regla Precios" ya no se tendrán en cuenta las [Reglas de precios](/docs/user/manual/es/accounts/pricing-rule) establecidas en Contabilidad > Reglas de precios.
 
 Para saber más sobre listas de precios, hacer click [aquí](/docs/user/manual/es/stock/price-lists).
 
 
-### 3.7 Tabla de productos
+### 3.9 Tabla de productos
 
 > Nota: desde la versión 13 se implementó el balance inmutable el cual cambia las reglas de cancelación de entradas de inventario y registro de transacciones de stock con fecha anterior. Más información [aquí](/docs/user/manual/en/accounts/articles/immutable-ledger-in-erpnext).
 
@@ -150,7 +157,7 @@ Tildando esta opción se actualizará el Mayor de Inventarios al validar la Fact
 
 * **Salto de página** creará un salto de página justo antes de este producto en la impresión.
 
-### 3.8 Hoja de tiempo
+### 3.10 Hoja de tiempo
 
 Si se desea facturar las horas trabajadas por los empleados (según contrato), se pueden completar Registros de hora. Al hacer una nueva Factura de venta, se debe seleccionar el proyecto para el cual se realizará la facturación, y el Registro de hora correspondientes al proyecto serán traídas automáticamente.
 
@@ -160,7 +167,7 @@ Si los empleados de la compañía están trabajando en una determinada ubicació
 
 Para saber más, visitar la [página](/docs/user/manual/es/projects/sales-invoice-from-timesheet).
 
-### 3.9 Impuestos y cargos
+### 3.11 Impuestos y cargos
 Los Impuestos y cargos son traídos desde la [Orden de venta](/docs/user/manual/es/selling/sales-order) o de la [Nota de entrega](/docs/user/manual/es/stock/delivery-note).
 
 Visitar la página [Plantilla de Impuestos y Gastos](/docs/user/manual/es/selling/sales-taxes-and-charges-template) para saber más sobre impuestos.
@@ -176,29 +183,29 @@ Es importante seleccionar todos los impuestos de forma correcta para una factura
 #### Regla de envío
 Una Regla de envío ayuda a calcular el costo del envío de un producto. Este incrementará con la distancia del envío. Para saber más, visitar la página [Regla de envío](/docs/user/manual/en/selling/shipping-rule).
 
-### 3.10 Redención de puntos de lealtad
+### 3.12 Redención de puntos de lealtad
 
 Si el cliente forma parte de algún programa de lealtad, se puede elegir canjear los puntos obtenidos. Para saber más, visitar la página [Programa de lealtad](/docs/user/manual/es/accounts/loyalty-program).
 
-### 3.11 Descuento adicional
+### 3.13 Descuento adicional
 Cualquier descuento adicional aplicado al total de la factura puede ser especificado en esta sección. El descuento puede calcularse en base al Total (después de sumarle los impuestos y cargos) o sobre el Total Neto. El descuento adicional puede definirse en porcentaje o ser un monto fijo.
 Visitar la página [Aplicar un descuento](/docs/user/manual/es/selling/articles/applying-discount) para más detalles.
 
 ![SI Add Discount](/docs/assets/img/accounts/si-add-discount.png)
 
-### 3.12 Pago adelantado
+### 3.14 Pago adelantado
 Para productos de costo elevado, el vendedor puede solicitar un pago adelantado antes de procesar la orden. El botón **Obtener anticipos recibidos** permite traer a la factura los pagos adelantados. Para saber más, visitar la página [Pagos adelantados](/docs/user/manual/es/accounts/advance-payment-entry).
 
-### 3.13 Términos de pago
+### 3.15 Términos de pago
 El pago de una factura puede realizarse en partes dependiendo de lo acordado con el proveedor. Esto es traído desde la Orden de venta si se lo definió ahí. Para saber más, visitar la página [Términos de pago](/docs/user/manual/es/accounts/payment-terms).
 
-### 3.14 Desajuste
+### 3.16 Desajuste
 El desajuste ocurre cuando el Cliente paga un importe menor al total de la factura. Puede ser una diferencia mínima de $0,50. Si ocurre en muchas ordenes, puede sumar una cifra mucho mayor. Para precisión contable esta diferencia es "anulada". Para saber más, visitar la página [Entrada de pago](/docs/user/manual/es/accounts/payment-entry#25-deductions-or-loss).
 
-### 3.15 Términos y condiciones
+### 3.17 Términos y condiciones
 Puede haber ciertos términos y condiciones respecto al producto que se está vendiendo, los cuales pueden ser definidos en esta sección. Para saber más sobre agregar Términos y condiciones hacer click [aquí](/docs/user/manual/es/setting-up/print/terms-and-conditions).
 
-### 3.16 Información del transporte
+### 3.18 Información del transporte
 
 Si se subcontrata el transporte de los productos, los detalles de la entidad encargada de esto pueden agregarse en esta sección. Esto no es lo mismo que [envío triangulado](/docs/user/manual/es/selling/articles/drop-shipping).
 
@@ -214,7 +221,7 @@ Se pueden registrar los siguientes detalles:
 * Distancia en km
 * Medio de transporte ya sea ruta, aire, ferrocarril o barco.
 
-### 3.17 Ajustes de impresión
+### 3.19 Ajustes de impresión
 
 #### Membrete
 Se puede imprimir la factura utilizando el membrete de la compañía. Más información [aquí](/docs/user/manual/es/setting-up/print/letter-head).
@@ -226,7 +233,7 @@ El encabezado de las facturas también puede ser seleccionado al imprimir el doc
 
 Existen ajustes adicionales para la impresión de Facturas de venta sin el importe, esto puede ser útil para productos con precio elevado.
 
-### 3.18 Más información
+### 3.20 Más información
 Se pueden registrar los siguientes detalles de ventas:
 
 * **Campaña**: si esta factura es parte de una campaña de venta en curso, la misma puede ser vinculda aquí. Para saber más, visitar la página [Campaña](/docs/user/manual/es/CRM/campaign).
@@ -234,7 +241,7 @@ Se pueden registrar los siguientes detalles de ventas:
 
  ![SI More info](/docs/assets/img/accounts/si-more-info.png)
 
-### 3.19 Detalles de contabilidad
+### 3.21 Detalles de contabilidad
 
 * **Debitar a**: cuenta contra la cual se registrará lo cobrado al Cliente.
 * **Es una entrada de apertura**: si esta es una entrada de apertura seleccionar "Sí". Ej: si se está migrando desde otro sistema a ERPNext, se necesitará usar un Asiento de apertura para actualizar los balances en ERPNext.
@@ -242,30 +249,22 @@ Se pueden registrar los siguientes detalles de ventas:
 
  ![SI Accounting Details](/docs/assets/img/accounts/si-acc-details.png)
 
-### 3.20 Comisión
+### 3.22 Comisión
 
 Si la venta fue realizada por uno de los Socios de ventas de la empresa, se puede agregar un detalle sobre su comisión. Generalmente esto se trae desde la Orden de venta o la Nota de entrega.
 
-### 3.21 Equipo de ventas
+### 3.23 Equipo de ventas
 
 **Vendedor:** ERPNext permite asignar los distintos vendedores que hayan estado involucrados en la venta. Esto también es traído desde la Orden de venta o la Nota de entrega.
 
-### 3.22 Obtención automática de números de lote de artículos
+### 3.24 Obtención automática de números de lote de artículos
 
 Si se está vendiendo un producto desde un [Lote](/docs/user/manual/es/stock/batch),
 ERPNext traerá automáticamente el número de lote si está tildada la opción "Actualizar el Inventario". El número de lote será traído usando la regla Primero en expirar primero en salir (FEFO). Esta es una variante de FIFO (primero en entrar primero en salir) que da la mayor prioridad al que está más cerca de expirar.
 
 Se debe tener en cuenta que si el primer lote en la fila no es suficiente para hacer el pedido, se seleccionará el siguiente lote con los productos necesarios. Si ningún lote posee la cantidad necesaria, ERPNext no seleccionará ningún lote de forma automática.
 
-### 3.23 Facturas POS
-
-En el caso de ventas minoristas, se puede tildar la opción "Incluir Pago (POS)" y seleccionar el "Perfil de POS" correspondiente, mediante el cual se puede definir el método de pago, entre otros detalles.
-
-Además, se puede tildar la opción **Actualizar el Inventario**, este se modificará automáticamente, sin necesidad de generar la Nota de entrega.
-
-<img class="screenshot" alt="POS Invoice" src="{{docs_base_url}}/assets/img/accounts/pos-sales-invoice.png">
-
-### 3.24 Luego de validar
+### 3.25 Luego de validar
 
 Al validar la factura, se pueden crear los siguentes documentos contra la misma:
 
@@ -277,8 +276,10 @@ Al validar la factura, se pueden crear los siguentes documentos contra la misma:
 
 ![SI Submit](/docs/assets/img/accounts/si-submit.png)
 
+## 4. Datos AFIP
+De acuerdo a la normativa vigente en Argentina, al emitir la factura, se generará un código QR que se encontrará en esta sección. Para mayor información hacer click [aquí](https://www.afip.gob.ar/fe/qr/conceptos-generales.asp). 
 
-## 4. Más
+## 5. Más
 ### Impacto contable
 
 Todas las ventas se registran contra una "Cuenta de ingreso", es decir, una cuenta de la sección INGRESOS del Plan de cuentas. Es una buena práctica clasificar los ingresos por tipo (producto, servicio, etc). Esta cuenta debe definirse para cada fila de la tabla de productos.
@@ -303,7 +304,7 @@ Al registrar una venta (aumento):
 
 > Para ver las entradas de la factura luego de validar, hacer click en "Ver - Libro de contabilidad".
 
-## 5. Temas relacionados
+## 6. Temas relacionados
 1. [Centro de costos](/docs/user/manual/es/accounts/cost-center)
 1. [Asiento contable](/docs/user/manual/es/accounts/journal-entry)
 1. [Entrada de pago](/docs/user/manual/es/accounts/payment-entry)
